@@ -49,6 +49,14 @@
 						src: ['**'],
 						dest: 'build/img/'
 					}]
+				},
+				js_lib: {
+					files: [{
+						expand: true,
+						cwd: 'src/js/lib/',
+						src: ['**'],
+						dest: 'build/js'
+					}]
 				}
 			},
 			watch: {
@@ -60,13 +68,17 @@
 					files: ['src/js/scripts.js'],
 					tasks: ['uglify']
 				},
+				js_lib: {
+					files: ['src/js/lib/*.js'],
+					tasks: ['copy:js_lib']
+				},
 				html: {
 					files: ['src/layouts/*.hbs', 'src/pages/*.hbs', 'src/partials/*.hbs', 'src/data/*.json'],
 					tasks: ['assemble']
 				},
 				img: {
 					files: ['src/img/*'],
-					tasks: ['copy']
+					tasks: ['copy:img_build']
 				}
 			}
 		});
