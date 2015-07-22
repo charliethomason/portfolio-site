@@ -1,0 +1,14 @@
+{{#worklist}}
+<div class="work-list">
+	<h2>{{page-name}}</h2>
+	<ul class="work-samples">
+		{{#each samples}}
+		<li class="sample-item">
+			<a href="{{url}}" class="sample-thumb" target="_blank"><img src="img/{{img-src}}.jpg" alt="{{sample-name}}"></a>
+			<h3><a href="{{url}}" target="_blank">{{sample-name}}</a></h3>
+			<p class="description">{{description}}</p>
+		</li>
+		{{/each}}
+	</ul>
+</div>
+{{/worklist}}

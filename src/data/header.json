@@ -1,0 +1,18 @@
+{
+	"header": {
+		"links": [
+			{
+				"url": "index",
+				"name": "Home"
+			},
+			{
+				"url": "about",
+				"name": "About"
+			},
+			{
+				"url": "art",
+				"name": "Art"
+			}
+		]
+	}
+}

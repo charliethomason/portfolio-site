@@ -1,0 +1,238 @@
+body {
+	background:$offwhite;
+}
+#header {
+	background: #000;
+	width:100%;
+	.headwrap {
+		margin:0 auto;
+		padding:15px 0 10px;
+		width:800px;
+		@include mobile {
+			max-width:600px;
+			padding-bottom: 0;
+			width:100%;
+		}
+	}
+	h1 {
+		font-weight:normal;
+		line-height:1;
+		margin:0 auto;
+		text-align:center;
+		text-indent:-9999px;
+		a {
+			@include nounderline;
+			background:url('../img/ct-logo-02.png') no-repeat scroll 0 0 transparent;
+			display:block;
+			height:72px;
+			margin:0 auto;
+			width:500px;
+			@include retina {
+				background-image:url('../img/ct-logo-02-2x.png');
+				background-size:500px 72px;
+			}
+			@include mobile {
+				background-image:url('../img/ct-logo-02-mobile.png');
+				background-size:300px 43px;
+				height:43px;
+				width:300px;
+				@include retina {
+					background-image:url('../img/ct-logo-02-mobile2x.png');
+				}
+			}
+		}
+	}
+}
+#main-nav {
+	padding:5px 0 0;
+	text-align:center;
+	width:100%;
+	ul {
+		li {
+			display:inline-block;
+			margin-left: 2px;
+			vertical-align: middle;
+			&:first-child {
+				margin-left:0;
+				a {
+					padding-left:0;
+				}
+			}
+			a {
+				@include imfell;
+				color:$offwhite;
+				font-size:28px;
+				line-height:1;
+				outline: none;
+				padding:0 10px;
+				text-decoration: none;
+				text-transform:lowercase;
+				&:hover,
+				&:focus {
+					color:$red;
+					text-decoration: line-through;
+				}
+			}
+			&.social-icon {
+				margin-left: 5px;
+				a {
+					@include imgReplace;
+					border: medium none;
+					display:block;
+					padding:0;
+					&:hover {
+					}
+				}
+			}
+			&.active {
+				a {
+					color:$teal;
+					&:hover,
+					&:focus {
+						color: $red;
+					}
+				}
+			}
+			&#social-twitter {
+				a {
+					background: url('../img/twitter01.png') no-repeat scroll left bottom transparent;
+					height: 24px;
+					width: 30px;
+					@include retina {
+						background-image: url('../img/twitter01-48.png');
+						background-size: 30px 24px;
+					}
+				}
+			}
+			&#social-instagram {
+				margin-left:10px;
+				a {
+					background: url('../img/instagram01.png') no-repeat scroll left bottom transparent;
+					height: 24px;
+					width: 24px;	
+					@include retina {
+						background-image: url('../img/instagram01-48.png');
+						background-size: 24px 24px;
+					}
+				}
+			}
+		}
+	}
+	@include mobile {
+		position:relative;
+		padding: 0;
+		ul {
+			background-color: #000;
+			overflow:hidden;
+			position:absolute;
+			left:-9999px;
+			top:-9999px;
+			text-align:center;
+			width:100%;
+			&.shown {
+				left:0;
+				top:100%;
+			}
+			li {
+				display:block;
+				margin-left:0;
+				a {
+					border: medium none;
+					border-radius: 0;
+					display:block;
+				}
+				&.social-icon {
+					display:inline-block;
+					margin: 10px;
+				}
+			}
+		}
+	}
+}
+#hamburger {
+	@include sans;
+	@include nounderline;
+	color: $offwhite;
+	display:none;
+	font-size:18px;
+	font-weight:bold;
+	line-height:1;
+	outline: none;
+	padding:10px 0;
+	text-transform:uppercase;
+	span {
+		background: url('../img/hamburger01-25.png') no-repeat scroll 0 0 transparent;
+		display:inline-block;
+		margin-right: 10px;
+		height: 25px;
+		width: 39px;
+		vertical-align: middle;
+		@include retina {
+			background-image: url('../img/hamburger01-50.png');
+			background-size: 39px 25px;
+		}
+	}
+	&:hover {
+		background-color: $red;
+	}
+	@include mobile {
+		display:block;
+	}
+}
+#main {
+	@include serif;
+	margin:0 auto;
+	width:800px;
+	@include mobile {
+		max-width:640px;
+		padding:0 20px;
+		width:100%;
+	}
+}
+#content {
+	background:#fff;
+	border-color: $slate;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	padding:20px 0 0;
+	width:100%;
+}
+#footer {
+	color:$medgray;
+	font-size:12px;
+	line-height:16px;
+	margin:10px auto;
+	max-width:320px;
+	text-align:center;
+}
+a {
+	color:$red;
+	&.btn {
+		@include sans;
+		@include nounderline;
+		background-color:$medgray;
+		border:1px solid $darkgray;
+		border-radius:4px;
+		color:#fff;
+		display:inline-block;
+		font-size:16px;
+		font-weight:bold;
+		line-height:1;
+		padding:8px 10px 6px;
+		&.blue {
+			background-color:$twitterblue;
+			img {
+				height:16px;
+				vertical-align: top;
+				width:20px;
+			}
+		}
+		&:hover, &:focus {
+			background-color:$red;
+			color:#fff;
+		}
+	}
+	&:hover, &:focus {
+		color:$medgray;
+	}
+}
