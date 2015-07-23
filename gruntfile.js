@@ -59,6 +59,15 @@
 					}]
 				}
 			},
+			connect: {
+        server: {
+            options: {
+                port: 9000,
+                base: 'build',
+                hostname: '*'
+            }
+        }
+			},
 			watch: {
 				css: {
 					files: ['src/scss/*.scss'],
@@ -88,12 +97,14 @@
 		grunt.loadNpmTasks('grunt-contrib-uglify');
 		grunt.loadNpmTasks('assemble');
 		grunt.loadNpmTasks('grunt-contrib-watch');
+		grunt.loadNpmTasks('grunt-contrib-connect');
 
 		grunt.registerTask('default', [
 			'sass',
 			'assemble',
 			'uglify',
 			'copy',
+			'connect',
 			'watch'
 		]);
 	};
