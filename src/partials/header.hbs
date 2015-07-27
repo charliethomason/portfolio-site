@@ -8,12 +8,12 @@
 		<nav id="main-nav" role="navigation">
 			<a href="#" id="hamburger"><span> </span>Menu</a>
 			<ul>
+				<li><a href="http://charliethomason.tumblr.com">Blog</a></li>
 				{{#each links}}
-				<li{{#is ../../page.class url}} class="active"{{/is}}>
+				<li{{#is ../../modified.class active}} class="active"{{/is}}>
 					<a href="{{url}}.html">{{name}}</a>
 				</li>
 				{{/each}}
-				<li><a href="http://charliethomason.tumblr.com">Blog</a></li>
 				<li class="social-icon" id="social-twitter"><a href="http://twitter.com/charliethomason" alt="Twitter" rel="nofollow" target="_blank" title="Twitter">Twitter</a></li>
 				<li class="social-icon" id="social-instagram"><a href="http://instagram.com/charliethomason" alt="Instagram" rel="nofollow" target="_blank" title="Instagram">Instagram</a></li>
 			</ul>
