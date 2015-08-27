@@ -2,12 +2,17 @@
 	"header": {
 		"links": [
 			{
+				"url": "index",
+				"active": "index",
+				"name": "Home"
+			},
+			{
 				"url": "about",
 				"active": "about",
 				"name": "About"
 			},
 			{
-				"url": "index",
+				"url": "art",
 				"active": "art",
 				"name": "Art"
 			}
