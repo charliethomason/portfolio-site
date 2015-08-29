@@ -1,0 +1,39 @@
+.gallery {
+  .info {
+    @include safeHide;
+  }
+  ul {
+    @include clearfix;
+  }
+  li {
+    display:block;
+    float:left;
+    max-width:250px;
+    width:33.3333%;
+    a {
+      display:block;
+      position:relative;
+      &:after {
+        background-color:rgba(207,0,0,0.5);
+        content:"";
+        display:none;
+        height:100%;
+        left:0;
+        position:absolute;
+        top:0;
+        width:100%;
+      }
+      &:hover,
+      &:focus {
+        &:after {
+          display:block;
+        }
+      }
+      img {
+        display:block;
+        height:auto;
+        max-width:100%;
+      }
+    }
+  }
+}

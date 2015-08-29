@@ -3,18 +3,19 @@
 		"links": [
 			{
 				"url": "index",
-				"active": "index",
 				"name": "Home"
 			},
 			{
 				"url": "about",
-				"active": "about",
 				"name": "About"
 			},
 			{
 				"url": "art",
-				"active": "art",
 				"name": "Art"
+			},
+			{
+				"url": "photos",
+				"name": "Photos"
 			}
 		]
 	}

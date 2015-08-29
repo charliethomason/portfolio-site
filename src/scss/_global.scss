@@ -184,17 +184,30 @@ body {
 	width:800px;
 	@include mobile {
 		max-width:640px;
-		padding:0 20px;
+		padding:0 10px;
 		width:100%;
 	}
 }
 #content {
 	background:#fff;
-	border-color: $slate;
-	border-style: solid;
-	border-width: 0 1px 1px;
-	padding:20px 0 0;
+	padding:25px;
 	width:100%;
+	@include mobile {
+		padding:10px;
+	}
+	h1 {
+		@include oswald;
+		color:$darkgray;
+		font-size:28px;
+		line-height:40px;
+		margin-bottom:25px;
+		text-align:center;
+		@include mobile {
+			font-size:20px;
+			line-height:28px;
+			margin-bottom:10px;
+		}
+	}
 }
 #footer {
 	color:$medgray;

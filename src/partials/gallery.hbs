@@ -1,0 +1,19 @@
+{{#gallery}}
+<section class="gallery">
+  <ul>
+    {{#each works}}
+    <li>
+      <a href="img/works/{{imgFile}}.jpg" title="{{imgTitle}}">
+        <img src="img/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
+      </a>
+      <div class="info">
+        <h2 class="title">{{imgTitle}}</h2>
+        <p class="year">{{year}}</p>
+        <p class="medium">{{medium}}</p>
+        <p class="description">{{description}}</p>
+      </div>
+    </li>
+    {{/each}}
+  </ul>
+</section>
+{{/gallery}}

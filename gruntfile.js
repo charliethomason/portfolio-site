@@ -46,7 +46,7 @@
 					files: [{
 						expand: true,
 						cwd: 'src/img/',
-						src: ['**'],
+						src: ['**/*'],
 						dest: 'build/img/'
 					}]
 				},
