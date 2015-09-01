@@ -15,7 +15,7 @@
 <header id="header">
 	<div class="headwrap">
 		<div class="logo">
-			<a href="#" role="banner">Charlie Thomason</a>
+			<a href="index.html" role="banner">Charlie Thomason</a>
 		</div>
 
 		<nav id="main-nav" role="navigation">
@@ -56,10 +56,11 @@
 <h1>Art Gallery</h1>
 
 <section class="gallery">
-  <ul>
+
+  <ul class="grid">
     
     <li>
-      <a href="img/works/bluejaydesert.jpg" title="Blue Jay in the Desert" class="galleryImg" id="img-bluejaydesert">
+      <a href="img/works/bluejaydesert.jpg" title="Blue Jay in the Desert" class="galleryImg" data-id="bluejaydesert">
         <img src="img/thumbs/bluejaydesert-250.jpg" alt="Blue Jay in the Desert">
       </a>
       <div class="info">
@@ -71,7 +72,7 @@
     </li>
     
     <li>
-      <a href="img/works/cormanandpoe.jpg" title="Corman and Poe" class="galleryImg" id="img-cormanandpoe">
+      <a href="img/works/cormanandpoe.jpg" title="Corman and Poe" class="galleryImg" data-id="cormanandpoe">
         <img src="img/thumbs/cormanandpoe-250.jpg" alt="Corman and Poe">
       </a>
       <div class="info">
@@ -83,7 +84,7 @@
     </li>
     
     <li>
-      <a href="img/works/jimclark.jpg" title="Jim Clark Driving The Lotus 49" class="galleryImg" id="img-jimclark">
+      <a href="img/works/jimclark.jpg" title="Jim Clark Driving The Lotus 49" class="galleryImg" data-id="jimclark">
         <img src="img/thumbs/jimclark-250.jpg" alt="Jim Clark Driving The Lotus 49">
       </a>
       <div class="info">
@@ -95,7 +96,7 @@
     </li>
     
     <li>
-      <a href="img/works/screechowl.jpg" title="Eastern Screech Owl" class="galleryImg" id="img-screechowl">
+      <a href="img/works/screechowl.jpg" title="Eastern Screech Owl" class="galleryImg" data-id="screechowl">
         <img src="img/thumbs/screechowl-250.jpg" alt="Eastern Screech Owl">
       </a>
       <div class="info">
@@ -107,7 +108,7 @@
     </li>
     
     <li>
-      <a href="img/works/swampthing.jpg" title="Swamp Thing" class="galleryImg" id="img-swampthing">
+      <a href="img/works/swampthing.jpg" title="Swamp Thing" class="galleryImg" data-id="swampthing">
         <img src="img/thumbs/swampthing-250.jpg" alt="Swamp Thing">
       </a>
       <div class="info">
@@ -119,7 +120,7 @@
     </li>
     
     <li>
-      <a href="img/works/vincentprice.jpg" title="Vincent Price in His Laboratory" class="galleryImg" id="img-vincentprice">
+      <a href="img/works/vincentprice.jpg" title="Vincent Price in His Laboratory" class="galleryImg" data-id="vincentprice">
         <img src="img/thumbs/vincentprice-250.jpg" alt="Vincent Price in His Laboratory">
       </a>
       <div class="info">
@@ -131,13 +132,14 @@
     </li>
     
   </ul>
+
   <div class="lightbox">
-    <div class="lightbox-box">
-      <div class="lightbox-nav">
-        <a href="#" class="prev-btn">Previous</a>
-        <a href="#" class="close-btn">View All</a>
-        <a href="#" class="next-btn">Next</a>
-      </div>
+    <div class="lightbox-nav">
+      <a href="#" class="prev-btn">Previous</a>
+      <a href="#" class="close-btn">View All</a>
+      <a href="#" class="next-btn">Next</a>
+    </div>
+    <div class="lightbox-content">
       <div class="lightbox-img">
         <img src="" alt="">
       </div>
@@ -150,6 +152,9 @@
       </div>
     </div>
   </div>
+
+  <div class="lightbox-loading">Loading...</div>
+
 </section>
 
 
@@ -169,6 +174,7 @@
 
 
   <script src="js/jquery.min.js"></script>
+  <script src="js/imagesloaded.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

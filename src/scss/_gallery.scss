@@ -39,7 +39,7 @@
 }
 .lightbox {
   display:none;
-  .lightbox-box {
+  .lightbox-content {
     width:100%;
   }
   .lightbox-nav {
@@ -55,7 +55,7 @@
       padding:10px;
       text-align:center;
       width:33.3333%;
-      &:hover, &:focus {
+      &:hover {
         background-color:$teal;
         text-decoration:none;
       }
@@ -74,6 +74,11 @@
       max-width:100%;
     }
   }
+  .lightbox-info {
+    @include mobile {
+      padding:0 10px 10px;
+    }
+  }
   .lightbox-title {
     @include oswald;
     color:$darkgray;
@@ -81,10 +86,6 @@
     line-height:28px;
     margin-bottom:5px;
     margin-top:10px;
-    @include mobile {
-      font-size:18px;
-      line-height:24px;
-    }
   }
   .lightbox-meta {
     @include sans;
@@ -92,18 +93,23 @@
     font-size:16px;
     line-height:22px;
     margin-bottom:10px;
-    @include mobile {
-      font-size:14px;
-      line-height:20px;
-      margin-bottom:5px;
-    }
   }
   .lightbox-description {
     font-size:16px;
     line-height:22px;
-    @include mobile {
-      font-size:14px;
-      line-height:20px;
-    }
   }
+}
+.lightbox-loading {
+  @include oswald;
+  background-color:$darkgray;
+  border-radius:25px;
+  color:#fff;
+  display:none;
+  font-size:20px;
+  letter-spacing:3px;
+  margin:30px auto 60px;
+  padding:10px;
+  text-align:center;
+  text-transform:uppercase;
+  width:280px;
 }

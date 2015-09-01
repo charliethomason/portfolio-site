@@ -1,9 +1,10 @@
 {{#gallery}}
 <section class="gallery">
-  <ul>
+
+  <ul class="grid">
     {{#each works}}
     <li>
-      <a href="img/works/{{imgFile}}.jpg" title="{{imgTitle}}" class="galleryImg" id="img-{{imgFile}}">
+      <a href="img/works/{{imgFile}}.jpg" title="{{imgTitle}}" class="galleryImg" data-id="{{imgFile}}">
         <img src="img/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
       </a>
       <div class="info">
@@ -15,13 +16,14 @@
     </li>
     {{/each}}
   </ul>
+
   <div class="lightbox">
-    <div class="lightbox-box">
-      <div class="lightbox-nav">
-        <a href="#" class="prev-btn">Previous</a>
-        <a href="#" class="close-btn">View All</a>
-        <a href="#" class="next-btn">Next</a>
-      </div>
+    <div class="lightbox-nav">
+      <a href="#" class="prev-btn">Previous</a>
+      <a href="#" class="close-btn">View All</a>
+      <a href="#" class="next-btn">Next</a>
+    </div>
+    <div class="lightbox-content">
       <div class="lightbox-img">
         <img src="" alt="">
       </div>
@@ -34,5 +36,8 @@
       </div>
     </div>
   </div>
+
+  <div class="lightbox-loading">Loading...</div>
+
 </section>
 {{/gallery}}

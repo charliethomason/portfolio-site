@@ -7,10 +7,13 @@ body {
 		margin:0 auto;
 		padding:15px 0 10px;
 		width:800px;
-		@include mobile {
-			max-width:600px;
-			padding-bottom: 0;
+		@include tablet {
+			max-width:640px;
+			padding:15px 10px 10px;
 			width:100%;
+		}
+		@include mobile {
+			padding:15px 0 0;
 		}
 	}
 	.logo {
@@ -123,11 +126,13 @@ body {
 		ul {
 			background-color: #000;
 			overflow:hidden;
+			padding:5px 0;
 			position:absolute;
 			left:-9999px;
 			top:-9999px;
 			text-align:center;
 			width:100%;
+			z-index:1;
 			&.shown {
 				left:0;
 				top:100%;
@@ -139,7 +144,9 @@ body {
 					border: medium none;
 					border-radius: 0;
 					display:block;
+					padding:5px;
 				}
+				&:first-child a {padding-left:5px;}
 				&.social-icon {
 					display:inline-block;
 					margin: 10px;
@@ -182,18 +189,24 @@ body {
 	@include serif;
 	margin:0 auto;
 	width:800px;
-	@include mobile {
+	@include tablet {
 		max-width:640px;
 		padding:0 10px;
 		width:100%;
+	}
+	@include mobile {
+		padding:0;
 	}
 }
 #content {
 	background:#fff;
 	padding:25px;
 	width:100%;
-	@include mobile {
+	@include tablet {
 		padding:10px;
+	}
+	@include mobile {
+		padding:10px 0;
 	}
 	h1 {
 		@include oswald;

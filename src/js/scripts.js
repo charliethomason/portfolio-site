@@ -16,13 +16,14 @@ charlie.basics = function() {
 charlie.gallery = function() {
 
   var $lightbox = $('.lightbox'),
-      $lightboxContent = $lightbox.find('.lightbox-box');
+      $lightboxContent = $lightbox.find('.lightbox-content');
       $lightboxImg = $lightbox.find('.lightbox-img img'),
       $lightboxTitle = $lightbox.find('.lightbox-title'),
       $lightboxYear = $lightbox.find('.lightbox-year'),
       $lightboxMedium = $lightbox.find('.lightbox-medium'),
       $lightboxDescription = $lightbox.find('.lightbox-description'),
-      $gallery = $('.gallery > ul');
+      $loading = $('.lightbox-loading'),
+      $gallery = $('.grid');
 
   function clickEvents() {
     $('.galleryImg').click(function(e) {
@@ -35,18 +36,24 @@ charlie.gallery = function() {
     });
     $('.prev-btn').click(function(e) {
       e.preventDefault();
-      var $currentImg = $('#' + $lightbox.attr('data-id')),
+      var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
           prevImg = $currentImg.parent('li').prev('li').find('.galleryImg');
       if (prevImg.length) {
-        loadImageData(prevImg);
+        loadImageData(prevImg,openLightbox);
+      } else {
+        var lastImg = $('.galleryImg:last');
+        loadImageData(lastImg,openLightbox);
       }
     });
     $('.next-btn').click(function(e) {
       e.preventDefault();
-      var $currentImg = $('#' + $lightbox.attr('data-id')),
+      var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
           nextImg = $currentImg.parent('li').next('li').find('.galleryImg');
       if (nextImg.length) {
-        loadImageData(nextImg);
+        loadImageData(nextImg,openLightbox);
+      } else {
+        var firstImg = $('.galleryImg:first');
+        loadImageData(firstImg,openLightbox);
       }
     });
   }
@@ -54,26 +61,34 @@ charlie.gallery = function() {
   function loadImageData(img,callback) {
     var $image = $(img),
         imgFile = $image.attr('href'),
+        imgID = $image.attr('data-id'),
         $info = $image.siblings('.info'),
         imgTitle = $info.find('.title').text(),
         year = $info.find('.year').text(),
         medium = $info.find('.medium').text(),
-        description = $info.find('.description').text(),
-        imgID = $image.attr('id');
+        description = $info.find('.description').text();
+    $('.grid:visible').hide();
+    $lightboxContent.hide();
+    $loading.show();
     $lightboxImg.attr('src',imgFile);
+    $lightboxImg.attr('alt',imgTitle);
     $lightboxTitle.text(imgTitle);
     $lightboxYear.text(year);
     $lightboxMedium.text(medium);
     $lightboxDescription.text(description);
     $lightbox.attr('data-id',imgID);
+    location.href = '#' + imgID;
     if (callback) {
       callback();
     }
   }
 
   function openLightbox() {
-    $gallery.hide();
-    $lightbox.show();
+    $lightbox.imagesLoaded(function() {
+      $loading.hide();
+      $lightboxContent.show();
+      $('.lightbox:hidden').show();
+    });
   }
 
   function closeLightbox() {
@@ -84,11 +99,21 @@ charlie.gallery = function() {
     $lightboxYear.text('');
     $lightboxMedium.text('');
     $lightboxDescription.text('');
+    location.href = '#';
     $gallery.show();
+  }
+
+  function hashOpen() {
+    if (window.location.hash) {
+      var imgHash = window.location.hash.replace('#',''),
+          img = $('.galleryImg[data-id="' + imgHash + '"]');
+      loadImageData(img,openLightbox);
+    }
   }
 
   function init() {
     clickEvents();
+    hashOpen();
   }
   init();
 
