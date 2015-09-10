@@ -1,3 +1,13 @@
+#content.art,
+#content.photo {
+  padding:25px;
+  @include tablet {
+    padding:10px;
+  }
+  @include mobile {
+    padding:10px 0;
+  }
+}
 .gallery {
   .info {
     @include safeHide;

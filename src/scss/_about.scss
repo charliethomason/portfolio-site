@@ -1,0 +1,44 @@
+#content.about {
+  .about-wrap {
+    @include mid500;
+    padding:25px;
+    @include mobile {
+      padding:10px;
+    }
+    h1 {
+      margin-bottom:10px;
+      @include mobile {
+        margin-bottom:5px;
+      }
+    }
+    p {
+      line-height:24px;
+      padding:10px 0;
+      @include mobile {
+        padding:5px 0;
+      }
+    }
+    h2 {
+      @include oswald;
+      border-top:1px solid $litegray;
+      font-size:20px;
+      line-height:28px;
+      margin-top:10px;
+      padding:20px 0 10px;
+      @include mobile {
+        font-size:18px;
+        line-height:24px;
+        margin-top:5px;
+        padding:10px 0 5px;
+      }
+    }
+    ul {
+      list-style-type:disc;
+      margin:0 0 0 15px;
+      li {
+        line-height:24px;
+        padding:0 0 10px;
+      }
+    }
+  }
+}

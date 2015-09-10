@@ -200,14 +200,7 @@ body {
 }
 #content {
 	background:#fff;
-	padding:25px;
 	width:100%;
-	@include tablet {
-		padding:10px;
-	}
-	@include mobile {
-		padding:10px 0;
-	}
 	h1 {
 		@include oswald;
 		color:$darkgray;
@@ -260,4 +253,22 @@ a {
 	&:hover, &:focus {
 		color:$medgray;
 	}
+}
+.hero {
+  img {
+    display:block;
+    height:auto;
+    max-width:100%;
+    &.desktop {
+      @include tablet {
+        display:none;
+      }
+    }
+    &.mobile {
+      display:none;
+      @include tablet {
+        display:block;
+      }
+    }
+  }
 }
