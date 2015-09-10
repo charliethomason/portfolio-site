@@ -56,7 +56,8 @@
       text-align:center;
       width:33.3333%;
       &:hover {
-        background-color:$teal;
+        background-color:$green;
+        color:$darkgray;
         text-decoration:none;
       }
       &:first-child {

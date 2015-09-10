@@ -57,7 +57,8 @@
         border-right:1px solid #fff;
       }
       &:hover {
-        background-color:$teal;
+        background-color:$green;
+        color:$darkgray;
         text-decoration:none;
       }
       @include mobile {
