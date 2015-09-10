@@ -1,3 +1,13 @@
+$offwhite: #f1f1f1;
+$teal: #0c9;
+$red: #cf0000;
+$darkgray: #222;
+$medgray: #666;
+$litegray: #aaa;
+$slate: #ccc;
+$xlitegray: #e6e6e6;
+$twitterblue: #55acee;
+
 @mixin serif {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -53,13 +63,3 @@
 		@content;
 	}
 }
-
-$offwhite: #f1f1f1;
-$teal: #0c9;
-$red: #cf0000;
-$darkgray: #222;
-$medgray: #666;
-$litegray: #aaa;
-$slate: #ccc;
-$xlitegray: #e6e6e6;
-$twitterblue: #55acee;

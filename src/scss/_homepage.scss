@@ -1,0 +1,68 @@
+#content.index {
+  background-color:$offwhite;
+  padding:0 0 10px;
+  .hero {
+    img {
+      display:block;
+      height:auto;
+      max-width:100%;
+      &.desktop {
+        @include tablet {
+          display:none;
+        }
+      }
+      &.mobile {
+        display:none;
+        @include tablet {
+          display:block;
+        }
+      }
+    }
+  }
+  .homepage {
+    padding:0 20px;
+    position:relative;
+    top:-20px;
+  }
+  .home-box {
+    @include mid500;
+    background-color:#fff;
+    border:1px solid $darkgray;
+    h1 {
+      background-color:$darkgray;
+      color:#fff;
+      margin:0;
+      padding:5px;
+      text-align:center;
+      text-shadow:0 2px 0 $red;
+    }
+    p {
+      line-height:24px;
+      padding:10px;
+    }
+  }
+  .btns {
+    @include clearfix;
+    > a {
+      @include sans;
+      background-color:$red;
+      color:#fff;
+      display:block;
+      float:left;
+      font-weight:bold;
+      padding:10px;
+      text-align:center;
+      width:50%;
+      &:first-child {
+        border-right:1px solid #fff;
+      }
+      &:hover {
+        background-color:$teal;
+        text-decoration:none;
+      }
+      @include mobile {
+        font-size:14px;
+      }
+    }
+  }
+}
