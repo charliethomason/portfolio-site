@@ -25,12 +25,18 @@ charlie.gallery = function() {
       $lightboxLocationWrap = $lightbox.find('.lightbox-location-wrap'),
       $lightboxLocation = $lightboxLocationWrap.find('.lightbox-location'),
       $loading = $('.lightbox-loading'),
-      $gallery = $('.grid');
+      $sort = $('.sort-method'),
+      $grid = $('.grid');
 
   function clickEvents() {
     $('.galleryImg').click(function(e) {
       e.preventDefault();
       loadImageData(this,openLightbox);
+    });
+    $('.info').click(function(e) {
+      e.preventDefault();
+      var img = $(this).siblings('.galleryImg');
+      loadImageData(img,openLightbox);
     });
     $('.close-btn').click(function(e) {
       e.preventDefault();
@@ -38,25 +44,15 @@ charlie.gallery = function() {
     });
     $('.prev-btn').click(function(e) {
       e.preventDefault();
-      var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
-          prevImg = $currentImg.parent('li').prev('li').find('.galleryImg');
-      if (prevImg.length) {
-        loadImageData(prevImg,openLightbox);
-      } else {
-        var lastImg = $('.galleryImg:last');
-        loadImageData(lastImg,openLightbox);
-      }
+      loadPrevImg();
     });
     $('.next-btn').click(function(e) {
       e.preventDefault();
-      var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
-          nextImg = $currentImg.parent('li').next('li').find('.galleryImg');
-      if (nextImg.length) {
-        loadImageData(nextImg,openLightbox);
-      } else {
-        var firstImg = $('.galleryImg:first');
-        loadImageData(firstImg,openLightbox);
-      }
+      loadNextImg();
+    });
+    $('.sort-method a').click(function(e) {
+      e.preventDefault();
+      gallerySort(this);
     });
   }
 
@@ -70,6 +66,7 @@ charlie.gallery = function() {
         medium = $info.find('.medium').text(),
         description = $info.find('.description').text();
     $('.grid:visible').hide();
+    $('.sort-method:visible').hide();
     $lightboxContent.hide();
     $loading.show();
     $lightboxImg.attr('src',imgFile);
@@ -112,7 +109,30 @@ charlie.gallery = function() {
     $lightboxLocation.attr('href','http://maps.google.com/maps?q=');
     $lightboxLocationWrap.hide();
     location.href = '#';
-    $gallery.show();
+    $sort.show();
+    $grid.show();
+  }
+
+  function loadPrevImg() {
+    var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
+        prevImg = $currentImg.parent('li').prev('li').find('.galleryImg');
+    if (prevImg.length) {
+      loadImageData(prevImg,openLightbox);
+    } else {
+      var lastImg = $('.galleryImg:last');
+      loadImageData(lastImg,openLightbox);
+    }
+  }
+
+  function loadNextImg() {
+    var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
+        nextImg = $currentImg.parent('li').next('li').find('.galleryImg');
+    if (nextImg.length) {
+      loadImageData(nextImg,openLightbox);
+    } else {
+      var firstImg = $('.galleryImg:first');
+      loadImageData(firstImg,openLightbox);
+    }
   }
 
   function hashOpen() {
@@ -127,6 +147,23 @@ charlie.gallery = function() {
     }
   }
 
+  function keyboardNav() {
+    $(document).keypress(function(e) {
+      if ($lightbox.is(':visible')) {
+        switch(e.keyCode) {
+          case 37:
+            e.preventDefault();
+            loadPrevImg();
+            break;
+          case 39:
+            e.preventDefault();
+            loadNextImg();
+            break;
+        }
+      }
+    });
+  }
+
   function randomArt() {
     var max = $('.galleryImg').length,
         min = 0,
@@ -135,9 +172,50 @@ charlie.gallery = function() {
     loadImageData(img,openLightbox);
   }
 
+  function gallerySort(link) {
+    if (!$(link).hasClass('active')) {
+
+      var method = $(link).attr('id'),
+          $imgLi = $grid.children('li.img-li');
+
+      $sort.find('.active').removeClass('active');
+      $(link).addClass('active');
+
+      $imgLi.sort(function(a,b) {
+        switch(method) {
+          case 'sort-title':
+            var an = a.getAttribute('data-id'),
+                bn = b.getAttribute('data-id');
+            return an - bn;
+            break;
+          case 'sort-newest':
+            var an = a.getAttribute('data-year'),
+                bn = b.getAttribute('data-year');
+            return bn - an;
+            break;
+          case 'sort-oldest':
+            var an = a.getAttribute('data-year'),
+                bn = b.getAttribute('data-year');
+            break;
+        }
+        if (an > bn) {
+          return 1;
+        }
+        if (an < bn) {
+          return -1;
+        }
+        return 0;
+      });
+
+      $imgLi.detach().appendTo($grid);
+
+    }
+  }
+
   function init() {
     clickEvents();
     hashOpen();
+    keyboardNav();
   }
   init();
 

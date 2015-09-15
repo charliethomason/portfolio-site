@@ -8,10 +8,41 @@
     padding:10px 0;
   }
 }
-.gallery {
-  .info {
-    @include safeHide;
+.sort-method {
+  @include clearfix;
+  text-align:center;
+  > a {
+    @include sans;
+    background-color:$red;
+    border-left:1px solid #fff;
+    color:#fff;
+    display:block;
+    float:left;
+    font-weight:bold;
+    padding:10px;
+    text-align:center;
+    width:33.3333%;
+    &:first-child {
+      border-left:none;
+    }
+    &:hover, &:focus {
+      background-color:$green;
+      color:$darkgray;
+      text-decoration:none;
+    }
+    &.active {
+      background-color:$medgray;
+      color:#fff;
+      cursor:default;
+      &:hover, &:focus {
+        background-color:$medgray;
+        color:#fff;
+        text-decoration:none;
+      }
+    }
   }
+}
+.gallery {
   ul {
     @include clearfix;
   }
@@ -19,33 +50,52 @@
     display:block;
     float:left;
     max-width:250px;
+    position:relative;
     width:33.3333%;
     a {
       display:block;
-      position:relative;
-      &:after {
-        border:10px solid $green;
-        content:"";
-        display:none;
-        height:100%;
-        left:0;
-        position:absolute;
-        top:0;
-        width:100%;
-        @include mobile {
-          border-width:5px;
-        }
-      }
-      &:hover,
-      &:focus {
-        &:after {
-          display:block;
-        }
-      }
       img {
         display:block;
         height:auto;
         max-width:100%;
+      }
+    }
+    &:hover, &:focus {
+      cursor:pointer;
+      .info {
+        left:0;
+        top:0;
+      }
+    }
+    .info {
+      @include safeHide();
+      background-color:rgba(153,204,51,0.7);
+      height:100%;
+      text-align:center;
+      width:100%;
+      z-index:1;
+      .title {
+        @include oswald;
+        color:#000;
+        font-size:18px;
+        line-height:24px;
+        padding:10px 5px 0;
+        @include mobile {
+          font-size:14px;
+          line-height:18px;
+          padding:5px 5px 0;
+        }
+      }
+      .year {
+        @include sans;
+        color:#000;
+        font-size:14px;
+        font-weight:bold;
+        line-height:1;
+        padding:5px 0 0;
+      }
+      .medium, .location, .description {
+        display:none;
       }
     }
   }

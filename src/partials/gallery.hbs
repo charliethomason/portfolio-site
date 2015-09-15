@@ -1,9 +1,15 @@
 {{#gallery}}
 <section class="gallery">
 
+  <div class="sort-method">
+    <a href="#" id="sort-title" class="active">Title</a>
+    <a href="#" id="sort-newest">Newest</a>
+    <a href="#" id="sort-oldest">Oldest</a>
+  </div>
+
   <ul class="grid">
     {{#each works}}
-    <li>
+    <li class="img-li" data-id="{{@index}}" data-year="{{year}}">
       <a href="img/{{../type}}/{{imgFile}}.jpg" title="{{imgTitle}}" class="galleryImg" data-id="{{imgFile}}">
         <img src="img/{{../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
       </a>
