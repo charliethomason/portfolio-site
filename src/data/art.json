@@ -1,6 +1,7 @@
 {
   "page-name": "Art Gallery",
   "gallery": {
+    "type": "art",
     "works": [
       {
         "imgTitle": "Blue Jay in the Desert",
@@ -31,11 +32,11 @@
         "description": "Although this Screech Owl painting will appear in my forthcoming bird painting book, it was completed months before I even had the idea to do such a book. In fact, the success it found on Instagram was part of what inspired me to further pursue birds as a subject matter for my art. The painting is all India Ink on watercolor paper, and I think it works quite well with such high-contrast values and no color. It was given as a present to my Mother and now hangs in their living room."
       },
       {
-        "imgTitle": "Swamp Thing",
-        "imgFile": "swampthing",
-        "year": "2014",
+        "imgTitle": "Frederic Chopin",
+        "imgFile": "chopin",
+        "year": "2012",
         "medium": "Ink & Watercolor on Paper",
-        "description": "Swamp Thing is easily one of the most powerful comic book characters — able to control all plant life on Earth and regenerate his body at will. When I painted this, I was going through a big comic book phase and reading all of Alan Moore's amazing Swamp Thing comics from the 1980s. This is based on Stephen Bissette's version of Swampy, who penciled the Alan Moore Swamp Thing comics."
+        "description": "Description coming soon"
       },
       {
         "imgTitle": "Vincent Price in His Laboratory",
@@ -43,6 +44,69 @@
         "year": "2006",
         "medium": "Ink on Paper",
         "description": "It seems fitting that the best ink portrait I did during my undergraduate years (in my opinion) was of my favorite actor, Vincent Price. Of all the portraits I’ve ever painted, I still feel that this is the best likeness. I feel that the way I controlled the gray values and colors here is among my best. The background the portrait is original, but loosely based on Tim Burton’s “Edward Scissorhands” (Price’s last film). I sold this drawing to a college roommate of mine in 2007."
+      },
+      {
+        "imgTitle": "Eternal Sunshine",
+        "imgFile": "eternalsunshine",
+        "year": "2012",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Eastern Meadowlark",
+        "imgFile": "meadowlark",
+        "year": "2014",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "The Murder of Mingo Jack, book cover",
+        "imgFile": "mingojack",
+        "year": "2010",
+        "medium": "Oil on Wood",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "The Melting Doge",
+        "imgFile": "meltingdoge",
+        "year": "2011",
+        "medium": "Oil on Paper",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "French Quarter Motorcycle Guitarist",
+        "imgFile": "fqmg",
+        "year": "2011",
+        "medium": "Oil on Paper",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Nine to Five",
+        "imgFile": "ninetofive",
+        "year": "2007",
+        "medium": "Oil on Wood, Triptych",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Quanah Park, Last Chief of the Comanches",
+        "imgFile": "quanahparker",
+        "year": "2012",
+        "medium": "Gel-Ink Pen on Paper",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Frank and the Cellar Door",
+        "imgFile": "frankcellardoor",
+        "year": "2012",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Swamp Thing",
+        "imgFile": "swampthing",
+        "year": "2014",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "Swamp Thing is easily one of the most powerful comic book characters — able to control all plant life on Earth and regenerate his body at will. When I painted this, I was going through a big comic book phase and reading all of Alan Moore's amazing Swamp Thing comics from the 1980s. This is based on Stephen Bissette's version of Swampy, who penciled the Alan Moore Swamp Thing comics."
       }
     ]
   }

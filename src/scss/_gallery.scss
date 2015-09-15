@@ -1,5 +1,5 @@
 #content.art,
-#content.photo {
+#content.photos {
   padding:25px;
   @include tablet {
     padding:10px;
@@ -24,7 +24,7 @@
       display:block;
       position:relative;
       &:after {
-        background-color:rgba(207,0,0,0.5);
+        border:10px solid $green;
         content:"";
         display:none;
         height:100%;
@@ -32,6 +32,9 @@
         position:absolute;
         top:0;
         width:100%;
+        @include mobile {
+          border-width:5px;
+        }
       }
       &:hover,
       &:focus {
@@ -65,7 +68,8 @@
       padding:10px;
       text-align:center;
       width:33.3333%;
-      &:hover {
+      &:hover,
+      &:focus {
         background-color:$green;
         color:$darkgray;
         text-decoration:none;
@@ -79,9 +83,11 @@
     }
   }
   .lightbox-img {
+    background:#000;
     img {
       display:block;
       height:auto;
+      margin:auto;
       max-width:100%;
     }
   }
@@ -104,6 +110,12 @@
     font-size:16px;
     line-height:22px;
     margin-bottom:10px;
+  }
+  .lightbox-location-wrap {
+    display:none;
+    .lightbox-location {
+      outline:0 none;
+    }
   }
   .lightbox-description {
     font-size:16px;

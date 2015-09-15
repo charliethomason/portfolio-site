@@ -1,3 +1,176 @@
 {
-  "page-name": "Photo Gallery"
+  "page-name": "Photo Gallery",
+  "gallery": {
+    "type": "photo",
+    "works": [
+      {
+        "imgTitle": "Emerald Isle, NC: Sunrise",
+        "imgFile": "ei-sunrise",
+        "year": "2015",
+        "medium": "iPhone Photography",
+        "location": "Emerald Isle, NC",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Formula E Long Beach ePrix 2015",
+        "imgFile": "formulae-longbeach",
+        "year": "2015",
+        "medium": "iPhone Photography",
+        "location": "Long Beach, CA",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Sundance 2015: Evening on Main Street",
+        "imgFile": "sundance-mainst",
+        "year": "2015",
+        "medium": "Digital Photography",
+        "location": "Park City, UT",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Curtis Island Lighthouse from aboard Schooner Olad",
+        "imgFile": "camdenlighthouse",
+        "year": "2014",
+        "medium": "Digital Photography",
+        "location": "Camden, Maine",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Monadnock Staircase",
+        "imgFile": "monadnock",
+        "year": "2012",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Monadnock Building, Chicago, IL",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Saddleback Mesa (book cover)",
+        "imgFile": "openrange-saddleback",
+        "year": "2011",
+        "medium": "Digital Photography",
+        "location": "Monument Valley, AZ",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Hidden Skull in Monument Valley",
+        "imgFile": "openrange-skull",
+        "year": "2011",
+        "medium": "35mm Film Photography",
+        "location": "Monument Valley, AZ",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Lee's Ferry, Colorado River",
+        "imgFile": "openrange-leesferry",
+        "year": "2011",
+        "medium": "Digital Photography",
+        "location": "Lee's Ferry, Marble Canyon, AZ",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Navajo National Monument",
+        "imgFile": "openrange-navajomonument",
+        "year": "2011",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Navajo National Monument, Shonto, AZ",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Joshua Tree",
+        "imgFile": "openrange-joshuatree",
+        "year": "2011",
+        "medium": "Digital Photography",
+        "location": "Joshua Tree National Park, CA",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: On The Road",
+        "imgFile": "openrange-ontheroad",
+        "year": "2011",
+        "medium": "Polaroid Film Photography",
+        "location": "Arizona",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Grand Canyon",
+        "imgFile": "openrange-grandcanyon",
+        "year": "2011",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Grand Canyon National Park, AZ",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Kayaking Lake Powell",
+        "imgFile": "openrange-lakepowell",
+        "year": "2011",
+        "medium": "Digital Photography",
+        "location": "Lake Powell, AZ",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Reframing Ruin: Bloomingdale Trail Twilight",
+        "imgFile": "bloomingdale",
+        "year": "2011",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Bloomingdale Trail, Chicago, IL",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Frozen Bench at Promontory Point",
+        "imgFile": "frozenpromontory",
+        "year": "2010",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Promontory Point, Chicago, IL",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Notte a Venezia",
+        "imgFile": "nottevenezia",
+        "year": "2010",
+        "medium": "Digital Photography",
+        "location": "Venice, Italy",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Lugano, Switzerland",
+        "imgFile": "lugano",
+        "year": "2010",
+        "medium": "Digital Photography",
+        "location": "Lugano, Switzerland",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Wahkeena Falls, Oregon",
+        "imgFile": "wahkeena",
+        "year": "2009",
+        "medium": "Digital Photography",
+        "location": "Wahkeena Falls, Multnomah County, OR",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "English Portfolio: Liverpool",
+        "imgFile": "england-liverpool",
+        "year": "2008",
+        "medium": "35mm Film Photography",
+        "location": "Liverpool, Merseyside, UK",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "English Portfolio: High Bradfield",
+        "imgFile": "england-bradfield",
+        "year": "2008",
+        "medium": "35mm Film Photography",
+        "location": "High Bradfield, South Yorkshire, UK",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Emerald Isle, NC: Under the Bogue Inlet Pier",
+        "imgFile": "ei-bogueinletpier",
+        "year": "2007",
+        "medium": "35mm Film Photography",
+        "location": "Emerald Isle, NC",
+        "description": "Description coming soon"
+      }
+    ]
+  }
 }

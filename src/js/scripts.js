@@ -22,6 +22,8 @@ charlie.gallery = function() {
       $lightboxYear = $lightbox.find('.lightbox-year'),
       $lightboxMedium = $lightbox.find('.lightbox-medium'),
       $lightboxDescription = $lightbox.find('.lightbox-description'),
+      $lightboxLocationWrap = $lightbox.find('.lightbox-location-wrap'),
+      $lightboxLocation = $lightboxLocationWrap.find('.lightbox-location'),
       $loading = $('.lightbox-loading'),
       $gallery = $('.grid');
 
@@ -77,6 +79,13 @@ charlie.gallery = function() {
     $lightboxMedium.text(medium);
     $lightboxDescription.text(description);
     $lightbox.attr('data-id',imgID);
+    if ($info.find('.location').length) {
+      var imgLocation = $info.find('.location').text();
+      $lightboxLocation.text(imgLocation);
+      $lightboxLocation.attr('href','http://maps.google.com/maps?q='+imgLocation);
+      http://maps.google.com/maps?q=
+      $lightboxLocationWrap.show();
+    }
     location.href = '#' + imgID;
     if (callback) {
       callback();
@@ -95,10 +104,14 @@ charlie.gallery = function() {
     $lightbox.hide();
     $lightbox.attr('data-id','');
     $lightboxImg.attr('src','');
+    $lightboxImg.attr('alt','');
     $lightboxTitle.text('');
     $lightboxYear.text('');
     $lightboxMedium.text('');
     $lightboxDescription.text('');
+    $lightboxLocation.text('');
+    $lightboxLocation.attr('href','http://maps.google.com/maps?q=');
+    $lightboxLocationWrap.hide();
     location.href = '#';
     $gallery.show();
   }

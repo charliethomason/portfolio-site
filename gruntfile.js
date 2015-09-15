@@ -86,7 +86,7 @@
 					tasks: ['assemble']
 				},
 				img: {
-					files: ['src/img/*'],
+					files: ['src/img/**/*'],
 					tasks: ['copy:img_build']
 				}
 			}
