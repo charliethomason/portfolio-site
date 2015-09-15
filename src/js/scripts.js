@@ -83,7 +83,6 @@ charlie.gallery = function() {
       var imgLocation = $info.find('.location').text();
       $lightboxLocation.text(imgLocation);
       $lightboxLocation.attr('href','http://maps.google.com/maps?q='+imgLocation);
-      http://maps.google.com/maps?q=
       $lightboxLocationWrap.show();
     }
     location.href = '#' + imgID;
@@ -118,10 +117,22 @@ charlie.gallery = function() {
 
   function hashOpen() {
     if (window.location.hash) {
-      var imgHash = window.location.hash.replace('#',''),
-          img = $('.galleryImg[data-id="' + imgHash + '"]');
-      loadImageData(img,openLightbox);
+      var urlHash = window.location.hash.replace('#','');
+      if (urlHash === 'random') {
+        randomArt();
+      } else {
+        var img = $('.galleryImg[data-id="' + urlHash + '"]');
+        loadImageData(img,openLightbox);
+      }
     }
+  }
+
+  function randomArt() {
+    var max = $('.galleryImg').length,
+        min = 0,
+        imageNum = Math.round(Math.random() * (max - min)) + min;
+        img = $('.galleryImg').eq(imageNum);
+    loadImageData(img,openLightbox);
   }
 
   function init() {
