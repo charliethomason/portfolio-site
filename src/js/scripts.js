@@ -148,7 +148,7 @@ charlie.gallery = function() {
   }
 
   function keyboardNav() {
-    $(document).keypress(function(e) {
+    $(document).keydown(function(e) {
       if ($lightbox.is(':visible')) {
         switch(e.keyCode) {
           case 37:
