@@ -64,7 +64,7 @@ charlie.gallery = function() {
         imgTitle = $info.find('.title').text(),
         year = $info.find('.year').text(),
         medium = $info.find('.medium').text(),
-        description = $info.find('.description').text();
+        description = $info.find('.description').html();
     $('.grid:visible').hide();
     $('.sort-method:visible').hide();
     $lightboxContent.hide();
@@ -74,7 +74,7 @@ charlie.gallery = function() {
     $lightboxTitle.text(imgTitle);
     $lightboxYear.text(year);
     $lightboxMedium.text(medium);
-    $lightboxDescription.text(description);
+    $lightboxDescription.html(description);
     $lightbox.attr('data-id',imgID);
     if ($info.find('.location').length) {
       var imgLocation = $info.find('.location').text();
