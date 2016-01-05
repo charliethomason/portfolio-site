@@ -4,6 +4,27 @@
     "type": "art",
     "works": [
       {
+        "imgTitle": "Amanda (Pelecanus Venezia)",
+        "imgFile": "pelicanvenice",
+        "year": "2016",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "My fiancé Amanda's favorite bird is a Brown Pelican, and her favorite place is Venice, Italy. So, in way, this is sort-of a portrait of her. I gave this to her as a (late) Christmas present in January 2016 and now hangs in our living room. Venice was one of the most challenging places I've ever painted — due to the colors, lighting, small details, and different building heights. Also, the Pelican is one of the most most challenging birds I've painted — due to its colors and strange body shape. This image could never happen in real life, because there are no Brown Pelicans in Italy (there are some other types of pelicans, but they're very rare). Also, this image will not appear in my forthcoming Chicago bird art book, because there are no pelicans in Chicago either."
+      },
+      {
+        "imgTitle": "Pileated Woodpecker",
+        "imgFile": "pileatedwoodpecker",
+        "year": "2015",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "This painting from my forthcoming Chicago bird art book is set at Starved Rock State Park in LaSalle County, IL. The bridge is meant to be a specific one near the LaSalle and Tonti Canyons. I've always loved the Pileated Woodpecker, but have only ever seen one in the wild once. I wanted to make the background as green as possible, to create a strong contrast against the red of the Woodpecker. This is part of a series of 4 paintings set at Starved Rock, which show the park in each season."
+      },
+      {
+        "imgTitle": "Osprey & Kingfisher",
+        "imgFile": "ospreykingfisher",
+        "year": "2015",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "This was given to my Dad as a Christmas 2015 gift. Growing up in New Jersey, my Dad and I would go to a nearby pond where we'd see ospreys and kingfishers. I love the size contrast between these two birds, and yet how similar they are. They both eat fish, yet obviously not the same size fish, so they can live peacefully near each other. It was also a lot of fun to paint the Belted Kingfisher's head, which sort-of resembles a mohawk (this being the female Kingfisher). In the future, I plan to do a larger portrait of a kingfisher."
+      },
+      {
         "imgTitle": "Blue Jay in the Desert",
         "imgFile": "bluejaydesert",
         "year": "2012",
