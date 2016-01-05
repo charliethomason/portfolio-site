@@ -54,6 +54,10 @@ charlie.gallery = function() {
       e.preventDefault();
       gallerySort(this);
     });
+    $('.lightbox-img').click(function(e) {
+      e.preventDefault();
+      fixedLightbox();
+    });
   }
 
   function loadImageData(img,callback) {
@@ -210,6 +214,10 @@ charlie.gallery = function() {
       $imgLi.detach().appendTo($grid);
 
     }
+  }
+
+  function fixedLightbox() {
+    $('.lightbox-img').toggleClass('fixed-lightbox');
   }
 
   function init() {
