@@ -165,6 +165,10 @@ charlie.gallery = function() {
             break;
         }
       }
+      if ($('.lightbox-img').hasClass('fixed-lightbox') && e.keyCode == 27) {
+        e.preventDefault();
+        fixedLightbox();
+      }
     });
   }
 
