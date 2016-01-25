@@ -4,33 +4,253 @@
     "type": "photo",
     "works": [
       {
-        "imgTitle": "Curtis Island Lighthouse from aboard Schooner Olad",
-        "imgFile": "camdenlighthouse",
-        "year": "2014",
-        "medium": "Digital Photography",
-        "location": "Camden, Maine",
-        "description": "In July 2014, Amanda and I took a road trip up through the New England area, starting in Boston and ending in Camden, Maine. I had been to nearby Rockport once before—in Summer 2007 for a cinematography workshop—and fell in love with the quaint, seaside fishing town of Camden. Amanda and I stayed at the Historic Whitehall Inn, and one day sailed out into West Penobscot Bay aboard the Schooner Olad. While on the historic sailing ship, we got an amazing view of Curtis Island and its Lighthouse. The weather was a typical Maine summer day: 70 degree temps, partly cloudy, and fairly windy. Using my Nikon D7000 with Tokina 11-16mm f/2.8 wide-angle lens, I was able to get some great shots of the Bay, Island, town, and distant hills. Maine became one of my favorite places in the U.S., and I could imagine myself retiring there some day."
+        "imgTitle": "F1 U.S. Grand Prix: Standing on the Track",
+        "imgFile": "2015usgp-track",
+        "year": "2015",
+        "month": "10",
+        "medium": "iPhone Photography",
+        "location": "Circuit of the Americas, Austin, TX",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "F1 U.S. Grand Prix: Race Start",
+        "imgFile": "2015usgp-start",
+        "year": "2015",
+        "month": "10",
+        "medium": "iPhone Photography",
+        "location": "Circuit of the Americas, Austin, TX",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "Hyde Park Autumn Bike Ride",
+        "imgFile": "hydeparkbikeride",
+        "year": "2015",
+        "month": "09",
+        "medium": "iPhone Photography",
+        "location": "Midway Plaisance, Chicago, IL",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "Nascar Chicagoland Speedway Race Start",
+        "imgFile": "nascarchicago-start",
+        "year": "2015",
+        "month": "09",
+        "medium": "iPhone Photography",
+        "location": "Chicagoland Speedway, Joliet, IL",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "Flying Over Chicago",
+        "imgFile": "flyingoverchicago",
+        "year": "2015",
+        "month": "09",
+        "medium": "iPhone Photography",
+        "location": "Chicago, IL",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "Waterfall at Blackwater Falls State Park",
+        "imgFile": "blackwaterfalls",
+        "year": "2015",
+        "month": "09",
+        "medium": "iPhone Photography",
+        "location": "Blackwater Falls State Park, Davis, WV",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "Montoya Penske IndyCar at Mid-Ohio",
+        "imgFile": "montoyaindycar-midohio",
+        "year": "2015",
+        "month": "08",
+        "medium": "iPhone Photography",
+        "location": "Mid-Ohio Sports Car Course, Lexington, OH",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "Navy Pier Cormorant and Old Ferris Wheel",
+        "imgFile": "navypiercomorant-ferris",
+        "year": "2015",
+        "month": "07",
+        "medium": "iPhone Photography",
+        "location": "Navy Pier, Chicago, IL",
+        "description": "Description coming soon."
+      },
+      {
+        "imgTitle": "Fort Macon, NC Self-Portrait",
+        "imgFile": "fortmaconself",
+        "year": "2015",
+        "month": "06",
+        "medium": "iPhone Photography",
+        "location": "Fort Macon, Atlantic Beach, NC",
+        "description": "Description coming soon."
       },
       {
         "imgTitle": "Emerald Isle, NC: Sunrise",
         "imgFile": "ei-sunrise",
         "year": "2015",
+        "month": "06",
         "medium": "iPhone Photography",
         "location": "Emerald Isle, NC",
         "description": "Growing up, my mother's family would go to Emerald Isle, North Carolina every summer (1990-1999, 2004, and 2007). We unfortunately stopped going as a family afer 2007, but in 2013 my parents, girlfriend, and I resurrected the tradition on a smaller scale. We came back again in 2014 and 2015, and the above photo was taken with my iPhone 6 on the last morning of our stay in 2015. The beautiful glow of the early morning sun on the sand and water is something that cannot be fully captured in a photo, but I feel this photo conveys the warmth and heavenly nature of this special place."
       },
       {
-        "imgTitle": "Emerald Isle, NC: Under the Bogue Inlet Pier",
-        "imgFile": "ei-bogueinletpier",
-        "year": "2007",
+        "imgTitle": "Formula E Long Beach ePrix 2015",
+        "imgFile": "formulae-longbeach",
+        "year": "2015",
+        "month": "04",
+        "medium": "iPhone Photography",
+        "location": "Long Beach, CA",
+        "description": "I grew up watching Formula 1 races with my Dad, and in April 2015 got to experience the first-ever season of Formula-E racing. My Dad and I spent a long weekend watching these all-electric open-wheel cars zip around the streets of Long Beach, California. While most forms of auto racing don't allow fans to get very close to the track, I was amazed at how close to the action we could get at the Formula-E race. The above photo was taken with my iPhone 6 on lap 1 of the ePrix, at a small, raised viewing stand near turn 3, at the corner of Pine Ave and Shoreline Dr. You can see, from left to right, Jarno Trulli for his Trulli team, Bruno Senna for the Mahindra team, Stéphane Sarrazin for the Venturi team, and Jérôme d'Ambrosio for the Dragon Racing team. The cars didn't make much noise, nor did they go super fast like F1, but the race was quite thrilling and we witnessed motorsport history."
+      },
+      {
+        "imgTitle": "Sundance 2015: Evening on Main Street",
+        "imgFile": "sundance-mainst",
+        "year": "2015",
+        "month": "01",
+        "medium": "Digital Photography",
+        "location": "Park City, UT",
+        "description": "In January 2015, Amanda and I returned to the Sundance Film Festival for the 4th time. We originally met in Park City, UT at the 2009 festival, returned again in 2010 and 2011, and were engaged to be married at Sundance 2015. There is such an exciting, energetic atmosphere on Park City's Main Street during Sundance — even during inclement weather. This photo was taken near the end of the festival, when things had died down a bit, and I was able to get a great view of the famous Egyptian Theatre. I love all the lights strung across the road and along the buildings, and can't wait to go back again someday."
+      },
+      {
+        "imgTitle": "Curtis Island Lighthouse from aboard Schooner Olad",
+        "imgFile": "camdenlighthouse",
+        "year": "2014",
+        "month": "07",
+        "medium": "Digital Photography",
+        "location": "Camden, Maine",
+        "description": "In July 2014, Amanda and I took a road trip up through the New England area, starting in Boston and ending in Camden, Maine. I had been to nearby Rockport once before—in Summer 2007 for a cinematography workshop—and fell in love with the quaint, seaside fishing town of Camden. Amanda and I stayed at the Historic Whitehall Inn, and one day sailed out into West Penobscot Bay aboard the Schooner Olad. While on the historic sailing ship, we got an amazing view of Curtis Island and its Lighthouse. The weather was a typical Maine summer day: 70 degree temps, partly cloudy, and fairly windy. Using my Nikon D7000 with Tokina 11-16mm f/2.8 wide-angle lens, I was able to get some great shots of the Bay, Island, town, and distant hills. Maine became one of my favorite places in the U.S., and I could imagine myself retiring there some day."
+      },
+      {
+        "imgTitle": "Monadnock Staircase",
+        "imgFile": "monadnock",
+        "year": "2012",
+        "month": "01",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Monadnock Building, Chicago, IL",
+        "description": "The Monadnock Building was built between 1891 and 1893 in the historic neighborhood of Printer’s Row. It is an incredibly large and heavy load-bearing masonry building, designed by both Burnham & Root and Holabird & Roche—2 of Chicago's most famous architectural firms. The grand staircases found throughout the building represent the first use of aluminum in building construction. This high-dynamic range (HDR) photograph was created with 5 photos at incremental exposure settings."
+      },
+      {
+        "imgTitle": "Open Range: Joshua Tree",
+        "imgFile": "openrange-joshuatree",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography",
+        "location": "Joshua Tree National Park, CA",
+        "description": "For this chapter in my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>, my girlfriend Amanda and I were staying at the Ace Hotel & Swim Club in Palm Springs, CA and took a long drive out to Joshua Tree. It was my 27th birthday and, on the drive there, John Lennon's \"Imagine\" came on the radio. It was brutally hot in the middle of summer and there were many large insects everywhere, but it was one of the most amazing places I've ever been. The area is massive and filled with some of the most unique trees, cacti, and flora I've ever seen. I unfortunately only had my Panasonic G1 dSLR on me during this part of the trip, but I think capturing the landscape in its truest-to-life, most realistic colors helps illustrate the surreal atmosphere of this area between the Mojave and Colorado Deserts. I chose to highlight the above photograph with the \"No Trespassing\" sign as it illustrates the strange suggestion that, within a National Park, people can look but not touch."
+      },
+      {
+        "imgTitle": "Open Range: Grand Canyon",
+        "imgFile": "openrange-grandcanyon",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Grand Canyon National Park, AZ",
+        "description": "The Grand Canyon chapter of my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a> was uniquely challenging for 3 reasons. First, it was never originally supposed to be a part of the book at all; we ended up stopping there spontaneously after we left Monument Valley. Second, it is perhaps one of the most-photographed and popular destinations in the world. And lastly, we didn't have as much to spend there as at the other spots in my book. Nevertheless, it's hard to take a bad photo of the Grand Canyon. This particular photo is a high-dynamic range image that I captured by wandering down a steep, narrow path near one of the main overlooks. I like to think I captured the timeless beauty of this American wonder."
+      },
+      {
+        "imgTitle": "Open Range: On The Road",
+        "imgFile": "openrange-ontheroad",
+        "year": "2011",
+        "month": "06",
+        "medium": "Polaroid Film Photography",
+        "location": "Arizona",
+        "description": "Some of the most beautiful sights I saw while shooting my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a> were found not within a National Park but just along the side of the road as we traveled through the deserts of Arizona and Utah. For this reason, I decided to create a special chapter of random photos that wouldn't fit in any of the other chapters. I of course borrowed the chapter's name from the title of Jack Kerouac's most famous book. Some of these photos were taken out the car window while driving; others were taken by just pulling over to the side of the road. I also took several Polaroid photos using my Dad's old Polaroid Sun 600 and actual Polaroid film I saved from before they stopped producing it. The above Polaroid photo has some red dust on the outer edges, which is from when I opened the car door and several of the Polaroids blew out of the car and tried to escape into the desert. After finally catching all the Polaroids, I opted to keep the red sand on them, for added authenticity and artistic effect."
+      },
+      {
+        "imgTitle": "Open Range: Navajo National Monument",
+        "imgFile": "openrange-navajomonument",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Navajo National Monument, Shonto, AZ",
+        "description": "This photo was featured in my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. Although both the Navajo National Monument and Monument Valley are located in the Navajo Nation, these two places are quite different. The Navajo National Monument consists of 3 ancient Anasazi cliff dwellings from the 13th century, located within the Tsegi Canyon in northern Arizona. As opposed to the barren rocks and desert grass of Monument Valley, the Navajo National Monument is filled with a broad variety of trees, birds, and reptiles. I found that the wide range of values and high contrast produced by the high-dynamic range (HDR) process was perfect for bringing out the detail in these trees and ruins."
+      },
+      {
+        "imgTitle": "Open Range: Hidden Skull in Monument Valley",
+        "imgFile": "openrange-skull",
+        "year": "2011",
+        "month": "06",
         "medium": "35mm Film Photography",
-        "location": "Emerald Isle, NC",
-        "description": "Growing up, my mother's family would go to Emerald Isle, North Carolina every summer (1990-1999, 2004, and 2007). These photos were taken in 2007, which was the last year we all went there as a family. I took this photo with my 35mm film SLR camera, and used it for one of my undergraduate classes the following Fall semester. It was taken underneath the Bogue Inlet Fishing Pier, which is always a popular destination on the island. The pier has been partially destroyed by hurricanes and rebuilt a few times since this was taken."
+        "location": "Monument Valley, AZ",
+        "description": "The time I spent in Monument Valley, on the Navajo Reservation, was the most rewarding part of my first photography book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. I had learned of this special place in my college film classes, as the setting for many of John Ford's films. I was overwhelmed by the beauty, peacefulness, quietness, and spiritual holiness of the place and tried to be respectful of the land and of the Navajo people while I was there. The above 35mm film photo shows a rock formation that someone later told me looks like a skull. I also love this particular image because it captures the interesting hard shadows created as the sun goes down over the Valley. Deserts can be very beautiful in the day, but also very dark and mysterious at night."
+      },
+      {
+        "imgTitle": "Open Range: Saddleback Mesa (book cover)",
+        "imgFile": "openrange-saddleback",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography",
+        "location": "Monument Valley, AZ",
+        "description": "I used this photo for the cover of my first book, <em>Open Range: From Monument Valley to the Mojave Desert</em>. The rock formation in the photo is called Saddleback Mesa. I took this photo just after midnight on the outskirts of Monument Valley. I chose this photo as the cover of the book because of its compositional symmetry and color balance. I also named the book \"Open Range\" because of the road sign in the photo."
+      },
+      {
+        "imgTitle": "Open Range: Lee's Ferry, Colorado River",
+        "imgFile": "openrange-leesferry",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography",
+        "location": "Lee's Ferry, Marble Canyon, AZ",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Open Range: Kayaking Lake Powell",
+        "imgFile": "openrange-lakepowell",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography",
+        "location": "Lake Powell, AZ",
+        "description": "People are often surprised to learn that I'm an avid kayaker. Sometimes kayaking allows me to capture photos I could never dream of taking on land. Such was the case in shooting the Lake Powell chapter of my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. Given that it's the second-largest man-made body of water in the U.S. (after Lake Mead), I thought I could get a more intimate portrayal of this unique landscape by traveling through its canyons and canals by kayak. The iridescent blue water, contrasted against the hot red landscape, is made more vivid by the compositions the kayak allowed. Plus, I feel like so much desert photography makes the landscape look very Martian and devoid of human life; I wanted my own photos to show that this was a journey that I personally took through Lake Powell. A photo of a lake shows only a lake, but a photo of someone exploring a lake can tell a story."
+      },
+      {
+        "imgTitle": "Reframing Ruin: Bloomingdale Trail Twilight",
+        "imgFile": "bloomingdale",
+        "year": "2011",
+        "month": "05",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Bloomingdale Trail, Chicago, IL",
+        "description": "The Bloomingdale Trail in Chicago was an old, abandoned, elevated train line that has been converted to a 3-mile long park, bike path, and art installation called <a href=\"http://the606.org/\" target=\"_blank\">The 606</a>. This photo was one of two entries accepted into an exhibit called \"<a href=\"https://reframingruin.wordpress.com/\" target=\"_blank\">Reframing Ruin: A Prelude to the Bloomingdale Trail</a>\", which was part of the 2011 Milwaukee Ave Arts Festival. The 2 images were shown again at the Center for Neighborhood Technology from February to August 2013, and are now part of a permanent collection held by the Friends of the Bloomingdale Trail. This image was created with high-dynamic range (HDR) editing."
+      },
+      {
+        "imgTitle": "Frozen Bench at Promontory Point",
+        "imgFile": "frozenpromontory",
+        "year": "2010",
+        "month": "12",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Promontory Point, Chicago, IL",
+        "description": "This was the first HDR image I ever created. At the time, I was working for the University of Chicago and one freezing cold winter day I walked out to Promontory Point. I had been wanting to experiment with HDR and had seen it used with great results on photos of snow and ice. Since I first posted this image to Flickr, it has consistently been one of my most highly-viewed photos."
+      },
+      {
+        "imgTitle": "Notte a Venezia (Night in Venice)",
+        "imgFile": "nottevenezia",
+        "year": "2010",
+        "month": "09",
+        "medium": "Digital Photography",
+        "location": "Venice, Italy",
+        "description": "In September 2010, I went to Venice, Italy for the first time with Amanda and my parents. It was the most amazing place I had ever been, but took on a whole new life at night. Using my Panasonic DMC-G1, I took some long exposures on a late night walk through Venice. I love the way they captured the serene, yet slightly mysterious nature of Venice at night. The water appears so calm and the buildings, bridges, and boats seem to rise out of the shadows."
+      },
+      {
+        "imgTitle": "Lugano, Switzerland",
+        "imgFile": "lugano",
+        "year": "2010",
+        "month": "09",
+        "medium": "Digital Photography",
+        "location": "Lugano, Switzerland",
+        "description": "Description coming soon"
+      },
+      {
+        "imgTitle": "Wahkeena Falls, Oregon",
+        "imgFile": "wahkeena",
+        "year": "2009",
+        "month": "07",
+        "medium": "Digital Photography",
+        "location": "Wahkeena Falls, Multnomah County, OR",
+        "description": "This is one of my favorite photos I've ever taken. In Summer 2008, Amanda and I were driving from Portland, OR to Multnomah Falls, but decided to stop along the way at Wahkeena Falls. We ended up liking it better than Multnomah; even though it's smaller, it's less touristy and has some great hiking trails. This rocky bridge that goes by the falls looks great against the greenery and cool, rushing water. This was the closest I could get without my camera getting wet, but is framed nicely and captures the peacefulness of the place."
       },
       {
         "imgTitle": "English Portfolio: High Bradfield",
         "imgFile": "england-bradfield",
         "year": "2008",
+        "month": "01",
         "medium": "35mm Film Photography",
         "location": "High Bradfield, South Yorkshire, UK",
         "description": "In early 2008, right after finishing my BFA degree, I took a trip to England with my Dad, to take 35mm film photos for a solo exhibition. I wanted to capture what I called \"the real England,\" rather than the touristy London I had seen a few years earlier. One essential part of this was, of course, to visit the beautiful English countryside. So one day, we took a bus from Sheffield way out into the countryside of South Yorkshire, eventually arriving in the villages of High Bradfield and Low Bradfield (which are, as their names suggest, at the top and bottom of a hill, respectively). At that time, it was the most serene, lush, and peaceful place I had ever been (and this was in late winter). High Bradfield is home to the fifteenth century Church of St. Nicholas, where this photo was taken. The surrounding graveyard was full of headstones and grave markers that dated back to medieval times, and allowed for some fantastic photographs. When I returned from the trip, I developed my film and prints in the University of Kentucky darkroom and held a one-month exhibit of my best work, entitled \"The English Portfolio,\" at the Kentucky Theatre in Lexington."
@@ -39,137 +259,19 @@
         "imgTitle": "English Portfolio: Liverpool",
         "imgFile": "england-liverpool",
         "year": "2008",
+        "month": "01",
         "medium": "35mm Film Photography",
         "location": "Liverpool, Merseyside, UK",
         "description": "In early 2008, right after finishing my BFA degree, I took a trip to England with my Dad, to take 35mm film photos for a solo exhibition. I wanted to capture what I called \"the real England,\" rather than the touristy London I had seen a few years earlier. One essential part of this was, of course, to visit Liverpool—which is not only the home of my favorite band, the Beatles, but also a perfect example of working-class English culture. In the heart of the city is the Liverpool Anglican Cathedral, which is the longest cathedral in the world, and the fifth-largest overall. For the above photo, I wanted to show this epic cathedral silhouetted in the background, with an old cobblestone street and middle class buildings in the foreground. The photo was taken near sundown, which allowed for some wonderful hard shadows. When I returned from the trip, I developed my film and prints in the University of Kentucky darkroom and held a one-month exhibit of my best work, entitled \"The English Portfolio,\" at the Kentucky Theatre in Lexington."
       },
       {
-        "imgTitle": "Formula E Long Beach ePrix 2015",
-        "imgFile": "formulae-longbeach",
-        "year": "2015",
-        "medium": "iPhone Photography",
-        "location": "Long Beach, CA",
-        "description": "I grew up watching Formula 1 races with my Dad, and in April 2015 got to experience the first-ever season of Formula-E racing. My Dad and I spent a long weekend watching these all-electric open-wheel cars zip around the streets of Long Beach, California. While most forms of auto racing don't allow fans to get very close to the track, I was amazed at how close to the action we could get at the Formula-E race. The above photo was taken with my iPhone 6 on lap 1 of the ePrix, at a small, raised viewing stand near turn 3, at the corner of Pine Ave and Shoreline Dr. You can see, from left to right, Jarno Trulli for his Trulli team, Bruno Senna for the Mahindra team, Stéphane Sarrazin for the Venturi team, and Jérôme d'Ambrosio for the Dragon Racing team. The cars didn't make much noise, nor did they go super fast like F1, but the race was quite thrilling and we witnessed motorsport history."
-      },
-      {
-        "imgTitle": "Frozen Bench at Promontory Point",
-        "imgFile": "frozenpromontory",
-        "year": "2010",
-        "medium": "Digital Photography, HDR Imaging",
-        "location": "Promontory Point, Chicago, IL",
-        "description": "This was the first HDR image I ever created. At the time, I was working for the University of Chicago and one freezing cold winter day I walked out to Promontory Point. I had been wanting to experiment with HDR and had seen it used with great results on photos of snow and ice. Since I first posted this image to Flickr, it has consistently been one of my most highly-viewed photos."
-      },
-      {
-        "imgTitle": "Lugano, Switzerland",
-        "imgFile": "lugano",
-        "year": "2010",
-        "medium": "Digital Photography",
-        "location": "Lugano, Switzerland",
-        "description": "Description coming soon"
-      },
-      {
-        "imgTitle": "Monadnock Staircase",
-        "imgFile": "monadnock",
-        "year": "2012",
-        "medium": "Digital Photography, HDR Imaging",
-        "location": "Monadnock Building, Chicago, IL",
-        "description": "The Monadnock Building was built between 1891 and 1893 in the historic neighborhood of Printer’s Row. It is an incredibly large and heavy load-bearing masonry building, designed by both Burnham & Root and Holabird & Roche—2 of Chicago's most famous architectural firms. The grand staircases found throughout the building represent the first use of aluminum in building construction. This high-dynamic range (HDR) photograph was created with 5 photos at incremental exposure settings."
-      },
-      {
-        "imgTitle": "Notte a Venezia (Night in Venice)",
-        "imgFile": "nottevenezia",
-        "year": "2010",
-        "medium": "Digital Photography",
-        "location": "Venice, Italy",
-        "description": "In September 2010, I went to Venice, Italy for the first time with Amanda and my parents. It was the most amazing place I had ever been, but took on a whole new life at night. Using my Panasonic DMC-G1, I took some long exposures on a late night walk through Venice. I love the way they captured the serene, yet slightly mysterious nature of Venice at night. The water appears so calm and the buildings, bridges, and boats seem to rise out of the shadows."
-      },
-      {
-        "imgTitle": "Open Range: Grand Canyon",
-        "imgFile": "openrange-grandcanyon",
-        "year": "2011",
-        "medium": "Digital Photography, HDR Imaging",
-        "location": "Grand Canyon National Park, AZ",
-        "description": "The Grand Canyon chapter of my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a> was uniquely challenging for 3 reasons. First, it was never originally supposed to be a part of the book at all; we ended up stopping there spontaneously after we left Monument Valley. Second, it is perhaps one of the most-photographed and popular destinations in the world. And lastly, we didn't have as much to spend there as at the other spots in my book. Nevertheless, it's hard to take a bad photo of the Grand Canyon. This particular photo is a high-dynamic range image that I captured by wandering down a steep, narrow path near one of the main overlooks. I like to think I captured the timeless beauty of this American wonder."
-      },
-      {
-        "imgTitle": "Open Range: Hidden Skull in Monument Valley",
-        "imgFile": "openrange-skull",
-        "year": "2011",
+        "imgTitle": "Emerald Isle, NC: Under the Bogue Inlet Pier",
+        "imgFile": "ei-bogueinletpier",
+        "year": "2007",
+        "month": "07",
         "medium": "35mm Film Photography",
-        "location": "Monument Valley, AZ",
-        "description": "The time I spent in Monument Valley, on the Navajo Reservation, was the most rewarding part of my first photography book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. I had learned of this special place in my college film classes, as the setting for many of John Ford's films. I was overwhelmed by the beauty, peacefulness, quietness, and spiritual holiness of the place and tried to be respectful of the land and of the Navajo people while I was there. The above 35mm film photo shows a rock formation that someone later told me looks like a skull. I also love this particular image because it captures the interesting hard shadows created as the sun goes down over the Valley. Deserts can be very beautiful in the day, but also very dark and mysterious at night."
-      },
-      {
-        "imgTitle": "Open Range: Joshua Tree",
-        "imgFile": "openrange-joshuatree",
-        "year": "2011",
-        "medium": "Digital Photography",
-        "location": "Joshua Tree National Park, CA",
-        "description": "For this chapter in my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>, my girlfriend Amanda and I were staying at the Ace Hotel & Swim Club in Palm Springs, CA and took a long drive out to Joshua Tree. It was my 27th birthday and, on the drive there, John Lennon's \"Imagine\" came on the radio. It was brutally hot in the middle of summer and there were many large insects everywhere, but it was one of the most amazing places I've ever been. The area is massive and filled with some of the most unique trees, cacti, and flora I've ever seen. I unfortunately only had my Panasonic G1 dSLR on me during this part of the trip, but I think capturing the landscape in its truest-to-life, most realistic colors helps illustrate the surreal atmosphere of this area between the Mojave and Colorado Deserts. I chose to highlight the above photograph with the \"No Trespassing\" sign as it illustrates the strange suggestion that, within a National Park, people can look but not touch."
-      },
-      {
-        "imgTitle": "Open Range: Kayaking Lake Powell",
-        "imgFile": "openrange-lakepowell",
-        "year": "2011",
-        "medium": "Digital Photography",
-        "location": "Lake Powell, AZ",
-        "description": "People are often surprised to learn that I'm an avid kayaker. Sometimes kayaking allows me to capture photos I could never dream of taking on land. Such was the case in shooting the Lake Powell chapter of my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. Given that it's the second-largest man-made body of water in the U.S. (after Lake Mead), I thought I could get a more intimate portrayal of this unique landscape by traveling through its canyons and canals by kayak. The iridescent blue water, contrasted against the hot red landscape, is made more vivid by the compositions the kayak allowed. Plus, I feel like so much desert photography makes the landscape look very Martian and devoid of human life; I wanted my own photos to show that this was a journey that I personally took through Lake Powell. A photo of a lake shows only a lake, but a photo of someone exploring a lake can tell a story."
-      },
-      {
-        "imgTitle": "Open Range: Lee's Ferry, Colorado River",
-        "imgFile": "openrange-leesferry",
-        "year": "2011",
-        "medium": "Digital Photography",
-        "location": "Lee's Ferry, Marble Canyon, AZ",
-        "description": "Description coming soon"
-      },
-      {
-        "imgTitle": "Open Range: Navajo National Monument",
-        "imgFile": "openrange-navajomonument",
-        "year": "2011",
-        "medium": "Digital Photography, HDR Imaging",
-        "location": "Navajo National Monument, Shonto, AZ",
-        "description": "This photo was featured in my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. Although both the Navajo National Monument and Monument Valley are located in the Navajo Nation, these two places are quite different. The Navajo National Monument consists of 3 ancient Anasazi cliff dwellings from the 13th century, located within the Tsegi Canyon in northern Arizona. As opposed to the barren rocks and desert grass of Monument Valley, the Navajo National Monument is filled with a broad variety of trees, birds, and reptiles. I found that the wide range of values and high contrast produced by the high-dynamic range (HDR) process was perfect for bringing out the detail in these trees and ruins."
-      },
-      {
-        "imgTitle": "Open Range: On The Road",
-        "imgFile": "openrange-ontheroad",
-        "year": "2011",
-        "medium": "Polaroid Film Photography",
-        "location": "Arizona",
-        "description": "Some of the most beautiful sights I saw while shooting my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a> were found not within a National Park but just along the side of the road as we traveled through the deserts of Arizona and Utah. For this reason, I decided to create a special chapter of random photos that wouldn't fit in any of the other chapters. I of course borrowed the chapter's name from the title of Jack Kerouac's most famous book. Some of these photos were taken out the car window while driving; others were taken by just pulling over to the side of the road. I also took several Polaroid photos using my Dad's old Polaroid Sun 600 and actual Polaroid film I saved from before they stopped producing it. The above Polaroid photo has some red dust on the outer edges, which is from when I opened the car door and several of the Polaroids blew out of the car and tried to escape into the desert. After finally catching all the Polaroids, I opted to keep the red sand on them, for added authenticity and artistic effect."
-      },
-      {
-        "imgTitle": "Open Range: Saddleback Mesa (book cover)",
-        "imgFile": "openrange-saddleback",
-        "year": "2011",
-        "medium": "Digital Photography",
-        "location": "Monument Valley, AZ",
-        "description": "I used this photo for the cover of my first book, <em>Open Range: From Monument Valley to the Mojave Desert</em>. The rock formation in the photo is called Saddleback Mesa. I took this photo just after midnight on the outskirts of Monument Valley. I chose this photo as the cover of the book because of its compositional symmetry and color balance. I also named the book \"Open Range\" because of the road sign in the photo."
-      },
-      {
-        "imgTitle": "Reframing Ruin: Bloomingdale Trail Twilight",
-        "imgFile": "bloomingdale",
-        "year": "2011",
-        "medium": "Digital Photography, HDR Imaging",
-        "location": "Bloomingdale Trail, Chicago, IL",
-        "description": "The Bloomingdale Trail in Chicago was an old, abandoned, elevated train line that has been converted to a 3-mile long park, bike path, and art installation called <a href=\"http://the606.org/\" target=\"_blank\">The 606</a>. This photo was one of two entries accepted into an exhibit called \"<a href=\"https://reframingruin.wordpress.com/\" target=\"_blank\">Reframing Ruin: A Prelude to the Bloomingdale Trail</a>\", which was part of the 2011 Milwaukee Ave Arts Festival. The 2 images were shown again at the Center for Neighborhood Technology from February to August 2013, and are now part of a permanent collection held by the Friends of the Bloomingdale Trail. This image was created with high-dynamic range (HDR) editing."
-      },
-      {
-        "imgTitle": "Sundance 2015: Evening on Main Street",
-        "imgFile": "sundance-mainst",
-        "year": "2015",
-        "medium": "Digital Photography",
-        "location": "Park City, UT",
-        "description": "In January 2015, Amanda and I returned to the Sundance Film Festival for the 4th time. We originally met in Park City, UT at the 2009 festival, returned again in 2010 and 2011, and were engaged to be married at Sundance 2015. There is such an exciting, energetic atmosphere on Park City's Main Street during Sundance — even during inclement weather. This photo was taken near the end of the festival, when things had died down a bit, and I was able to get a great view of the famous Egyptian Theatre. I love all the lights strung across the road and along the buildings, and can't wait to go back again someday."
-      },
-      {
-        "imgTitle": "Wahkeena Falls, Oregon",
-        "imgFile": "wahkeena",
-        "year": "2009",
-        "medium": "Digital Photography",
-        "location": "Wahkeena Falls, Multnomah County, OR",
-        "description": "This is one of my favorite photos I've ever taken. In Summer 2008, Amanda and I were driving from Portland, OR to Multnomah Falls, but decided to stop along the way at Wahkeena Falls. We ended up liking it better than Multnomah; even though it's smaller, it's less touristy and has some great hiking trails. This rocky bridge that goes by the falls looks great against the greenery and cool, rushing water. This was the closest I could get without my camera getting wet, but is framed nicely and captures the peacefulness of the place."
+        "location": "Emerald Isle, NC",
+        "description": "Growing up, my mother's family would go to Emerald Isle, North Carolina every summer (1990-1999, 2004, and 2007). These photos were taken in 2007, which was the last year we all went there as a family. I took this photo with my 35mm film SLR camera, and used it for one of my undergraduate classes the following Fall semester. It was taken underneath the Bogue Inlet Fishing Pier, which is always a popular destination on the island. The pier has been partially destroyed by hurricanes and rebuilt a few times since this was taken."
       }
     ]
   }

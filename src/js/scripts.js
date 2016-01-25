@@ -192,14 +192,15 @@ charlie.gallery = function() {
       $imgLi.sort(function(a,b) {
         switch(method) {
           case 'sort-title':
-            var an = a.getAttribute('data-id'),
-                bn = b.getAttribute('data-id');
-            return an - bn;
+            var an = $(a).find('.title').text();
+                bn = $(b).find('.title').text();
+            // return an - bn;
+            console.log(an,bn);
             break;
           case 'sort-newest':
-            var an = a.getAttribute('data-year'),
-                bn = b.getAttribute('data-year');
-            return bn - an;
+            var bn = a.getAttribute('data-year'),
+                an = b.getAttribute('data-year');
+            // return an - bn;
             break;
           case 'sort-oldest':
             var an = a.getAttribute('data-year'),

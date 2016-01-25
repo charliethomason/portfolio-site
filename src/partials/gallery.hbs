@@ -4,15 +4,15 @@
   <div class="sort-method">
     <p>Sort by:</p>
     <div>
-      <a href="#" id="sort-title" class="active">Title</a>
-      <a href="#" id="sort-newest">Newest</a>
+      <a href="#" id="sort-newest" class="active">Newest</a>
       <a href="#" id="sort-oldest">Oldest</a>
+      <a href="#" id="sort-title">Title</a>
     </div>
   </div>
 
   <ul class="grid">
     {{#each works}}
-    <li class="img-li" data-id="{{@index}}" data-year="{{year}}">
+    <li class="img-li" data-id="{{@index}}" data-year="{{year}}{{#if month}}-{{month}}{{/if}}">
       <a href="img/{{../type}}/{{imgFile}}.jpg" title="{{imgTitle}}" class="galleryImg" data-id="{{imgFile}}">
         <img src="img/{{../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
       </a>
