@@ -125,12 +125,11 @@
       font-weight:bold;
       padding:10px;
       text-align:center;
+      text-decoration:none;
       width:33.3333%;
-      &:hover,
-      &:focus {
+      &:hover {
         background-color:$green;
         color:$darkgray;
-        text-decoration:none;
       }
       &:first-child {
         border-left:none;
