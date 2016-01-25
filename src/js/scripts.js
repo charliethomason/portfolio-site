@@ -194,13 +194,10 @@ charlie.gallery = function() {
           case 'sort-title':
             var an = $(a).find('.title').text();
                 bn = $(b).find('.title').text();
-            // return an - bn;
-            console.log(an,bn);
             break;
           case 'sort-newest':
             var bn = a.getAttribute('data-year'),
                 an = b.getAttribute('data-year');
-            // return an - bn;
             break;
           case 'sort-oldest':
             var an = a.getAttribute('data-year'),
