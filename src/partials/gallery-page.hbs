@@ -1,0 +1,28 @@
+{{#gallery-page}}
+<div class="gallery-page">
+
+{{#each works}}
+  <section class="img-section">
+    <div class="img-inpage">
+      <img src="img/{{../folder}}/{{imgFile}}.jpg" alt="{{imgTitle}}">
+      <h2>{{imgTitle}}</h2>
+    </div>
+    <div class="img-desc">
+      <p>{{description}}</p>
+    </div>
+    <div class="img-info">
+      <ul class="img-meta">
+        {{#if location}}<li><strong>Location:</strong> <a href="http://maps.google.com/maps?q={{location}}" target="_blank">{{location}}</a></li>{{/if}}
+        {{#if date}}<li><strong>Date Taken:</strong> {{date}}</li>{{/if}}
+        {{#if camera}}<li><strong>Camera:</strong> {{camera}}</li>{{/if}}
+        {{#if lens}}<li><strong>Lens:</strong> {{lens}}</li>{{/if}}
+        {{#if iso}}<li><strong>ISO:</strong> {{iso}}</li>{{/if}}
+        {{#if aperture}}<li><strong>Aperture:</strong> {{aperture}}</li>{{/if}}
+        {{#if shutter}}<li><strong>Shutter Speed:</strong> {{shutter}}</li>{{/if}}
+      </ul>
+    </div>
+  </section>
+{{/each}}
+
+</div>
+{{/gallery-page}}

@@ -34,9 +34,13 @@ charlie.gallery = function() {
       loadImageData(this,openLightbox);
     });
     $('.info').click(function(e) {
-      e.preventDefault();
-      var img = $(this).siblings('.galleryImg');
-      loadImageData(img,openLightbox);
+      if ($(this).siblings('.galleryImg').length) {
+        var img = $(this).siblings('.galleryImg');
+        loadImageData(img,openLightbox);
+      } else if ($(this).siblings('.galleryPage').length) {
+        var page = $(this).siblings('.galleryPage').attr('href');
+        window.open(page,'_self');
+      }
     });
     $('.close-btn').click(function(e) {
       e.preventDefault();
@@ -119,7 +123,7 @@ charlie.gallery = function() {
 
   function loadPrevImg() {
     var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
-        prevImg = $currentImg.parent('li').prev('li').find('.galleryImg');
+        prevImg = $currentImg.parent('li').prev('li.galleryImg-li').find('.galleryImg');
     if (prevImg.length) {
       loadImageData(prevImg,openLightbox);
     } else {
@@ -130,7 +134,7 @@ charlie.gallery = function() {
 
   function loadNextImg() {
     var $currentImg = $('.galleryImg[data-id="' + $lightbox.attr('data-id') + '"]'),
-        nextImg = $currentImg.parent('li').next('li').find('.galleryImg');
+        nextImg = $currentImg.parent('li').next('li.galleryImg-li').find('.galleryImg');
     if (nextImg.length) {
       loadImageData(nextImg,openLightbox);
     } else {
@@ -231,9 +235,37 @@ charlie.gallery = function() {
 
 }
 
+charlie.galleryPage = function() {
+  function clickEvents() {
+    $('.img-inpage').click(function(e) {
+      e.preventDefault();
+      fixedLightbox(this);
+    });
+  }
+  function fixedLightbox(target) {
+    $('.img-inpage').toggleClass('fixed-lightbox');
+  }
+  function keyboardNav() {
+    $(document).keydown(function(e) {
+      if ($('.img-inpage').hasClass('fixed-lightbox') && e.keyCode == 27) {
+        e.preventDefault();
+        fixedLightbox();
+      }
+    });
+  }
+  function init() {
+    clickEvents();
+    keyboardNav();
+  }
+  init();
+}
+
 $(document).ready(function() {
   charlie.basics();
   if ($('.gallery').length) {
     charlie.gallery();
+  }
+  if ($('.gallery-page').length) {
+    charlie.galleryPage();
   }
 });

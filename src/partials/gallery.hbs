@@ -12,18 +12,30 @@
 
   <ul class="grid">
     {{#each works}}
-    <li class="img-li" data-id="{{@index}}" data-year="{{year}}{{#if month}}-{{month}}{{/if}}">
-      <a href="img/{{../type}}/{{imgFile}}.jpg" title="{{imgTitle}}" class="galleryImg" data-id="{{imgFile}}">
-        <img src="img/{{../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
-      </a>
-      <div class="info">
-        <h2 class="title">{{imgTitle}}</h2>
-        <p class="year">{{year}}</p>
-        <p class="medium">{{medium}}</p>
-        {{#if location}}<p class="location">{{location}}</p>{{/if}}
-        <p class="description">{{{description}}}</p>
-      </div>
-    </li>
+      {{#if gallery}}
+        <li class="img-li">
+          <a href="gallery-{{imgFile}}.html" class="galleryPage">
+            <img src="img/{{../../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{gallery}}">
+          </a>
+          <div class="info">
+            <h2 class="title">{{gallery}}</h2>
+            <p class="year">{{year}}</p>
+          </div>
+        </li>
+      {{else}}
+        <li class="img-li galleryImg-li" data-id="{{@index}}" data-year="{{year}}{{#if month}}-{{month}}{{/if}}">
+          <a href="img/{{../../type}}/{{imgFile}}.jpg" title="{{imgTitle}}" class="galleryImg" data-id="{{imgFile}}">
+            <img src="img/{{../../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
+          </a>
+          <div class="info">
+            <h2 class="title">{{imgTitle}}</h2>
+            <p class="year">{{year}}</p>
+            <p class="medium">{{medium}}</p>
+            {{#if location}}<p class="location">{{location}}</p>{{/if}}
+            <p class="description">{{{description}}}</p>
+          </div>
+        </li>
+      {{/if}}
     {{/each}}
   </ul>
 
