@@ -239,41 +239,62 @@ charlie.galleryPage = function() {
   function clickEvents() {
     $('.img-inpage').click(function(e) {
       e.preventDefault();
-      fixedLightbox(this);
+      toggleLightbox(this);
+    });
+    $('.img-close').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleLightbox($(this).parents('.img-section').find('.img-inpage'));
+    });
+    $('.img-prev').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      loadPrevImg($(this).parents('.img-section').find('.img-inpage'))
+    });
+    $('.img-next').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      loadNextImg($(this).parents('.img-section').find('.img-inpage'));
     });
   }
-  function fixedLightbox(target) {
+  function toggleLightbox(target) {
     $(target).toggleClass('fixed-lightbox');
+  }
+  function loadPrevImg($current) {
+    var $prev = $current.parent('.img-section').prev('.img-section').find('.img-inpage');
+    $current.removeClass('fixed-lightbox');
+    if ($prev.length) {
+      $prev.addClass('fixed-lightbox');
+    } else {
+      var $last = $('.img-inpage:last');
+      $last.addClass('fixed-lightbox');
+    }
+  }
+  function loadNextImg($current) {
+    var $next = $current.parent('.img-section').next('.img-section').find('.img-inpage');
+    $current.removeClass('fixed-lightbox');
+    if ($next.length) {
+      $next.addClass('fixed-lightbox');
+    } else {
+      var $first = $('.img-inpage:first');
+      $first.addClass('fixed-lightbox');
+    }
   }
   function keyboardNav() {
     $(document).keydown(function(e) {
       if ($('.fixed-lightbox').length) {
-        e.preventDefault();
         var $current = $('.img-inpage.fixed-lightbox');
-
         if (e.keyCode == 27) {
-          fixedLightbox($current);
+          e.preventDefault();
+          toggleLightbox($current);
         }
         if (e.keyCode == 37) {
-          var $prev = $current.parent('.img-section').prev('.img-section').find('.img-inpage');
-          $current.removeClass('fixed-lightbox');
-          if ($prev.length) {
-            $prev.addClass('fixed-lightbox');
-          } else {
-            var $last = $('.img-inpage:last');
-            $last.addClass('fixed-lightbox');
-          }
+          e.preventDefault();
+          loadPrevImg($current);
         }
         if (e.keyCode == 39) {
-          var $next = $current.parent('.img-section').next('.img-section').find('.img-inpage');
-          $current.removeClass('fixed-lightbox');
-          if ($next.length) {
-            $next.addClass('fixed-lightbox');
-          } else {
-            var $first = $('.img-inpage:first');
-            $first.addClass('fixed-lightbox');
-          }
-          
+          e.preventDefault();
+          loadNextImg($current);
         }
       }
     });
