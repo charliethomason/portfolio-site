@@ -8,6 +8,9 @@
   .img-inpage {
     border-top:1px solid #000;
     margin:0 -25px;
+    @include tablet {
+      margin:0 -10px;
+    }
     @include mobile {
       margin:0;
     }
@@ -129,6 +132,32 @@
       float:none;
       padding:0 10px 20px;
       width:auto;
+    }
+  }
+}
+.gallery-nav {
+  margin-bottom:25px;
+  @include mobile {
+    padding:0 10px;
+  }
+  a {
+    @include sans;
+    background-color:$medgray;
+    border-left:1px solid #fff;
+    color:#fff;
+    display:inline-block;
+    font-size:14px;
+    font-weight:bold;
+    line-height:1;
+    padding:10px;
+    text-align:center;
+    &:hover, &:focus {
+      background-color:$green;
+      color:$darkgray;
+      text-decoration:none;
+    }
+    + a {
+      margin-left:6px;
     }
   }
 }

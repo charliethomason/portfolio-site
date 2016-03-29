@@ -18,7 +18,8 @@ charlie.gallery = function() {
   var $lightbox = $('.lightbox'),
       $lightboxContent = $lightbox.find('.lightbox-content');
       $lightboxImg = $lightbox.find('.lightbox-img img'),
-      $lightboxTitle = $lightbox.find('.lightbox-title'),
+      $lightboxTitle = $('h1'),
+      defaultTitle = $lightboxTitle.text(),
       $lightboxYear = $lightbox.find('.lightbox-year'),
       $lightboxMedium = $lightbox.find('.lightbox-medium'),
       $lightboxDescription = $lightbox.find('.lightbox-description'),
@@ -26,7 +27,8 @@ charlie.gallery = function() {
       $lightboxLocation = $lightboxLocationWrap.find('.lightbox-location'),
       $loading = $('.lightbox-loading'),
       $sort = $('.sort-method'),
-      $grid = $('.grid');
+      $grid = $('.grid'),
+      monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
   function clickEvents() {
     $('.galleryImg').click(function(e) {
@@ -80,7 +82,6 @@ charlie.gallery = function() {
     $lightboxImg.attr('src',imgFile);
     $lightboxImg.attr('alt',imgTitle);
     $lightboxTitle.text(imgTitle);
-    $lightboxYear.text(year);
     $lightboxMedium.text(medium);
     $lightboxDescription.html(description);
     $lightbox.attr('data-id',imgID);
@@ -89,6 +90,13 @@ charlie.gallery = function() {
       $lightboxLocation.text(imgLocation);
       $lightboxLocation.attr('href','http://maps.google.com/maps?q='+imgLocation);
       $lightboxLocationWrap.show();
+    }
+    if ($info.find('.month').length) {
+      var month = $info.find('.month').text();
+      var monthName = monthNames[(month - 1)];
+      $lightboxYear.text(monthName + ' ' + year);
+    } else {
+      $lightboxYear.text(year);
     }
     location.href = '#' + imgID;
     if (callback) {
@@ -109,7 +117,7 @@ charlie.gallery = function() {
     $lightbox.attr('data-id','');
     $lightboxImg.attr('src','');
     $lightboxImg.attr('alt','');
-    $lightboxTitle.text('');
+    $lightboxTitle.text(defaultTitle);
     $lightboxYear.text('');
     $lightboxMedium.text('');
     $lightboxDescription.text('');
@@ -255,6 +263,10 @@ charlie.galleryPage = function() {
       e.preventDefault();
       e.stopPropagation();
       loadNextImg($(this).parents('.img-section').find('.img-inpage'));
+    });
+    $('.trigger-lightbox').click(function(e) {
+      e.preventDefault();
+      toggleLightbox($('.img-inpage:first'));
     });
   }
   function toggleLightbox(target) {

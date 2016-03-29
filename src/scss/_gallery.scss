@@ -51,10 +51,10 @@
   }
 }
 .gallery {
-  ul {
+  ul.grid {
     @include clearfix;
   }
-  li {
+  li.img-li {
     display:block;
     float:left;
     max-width:250px;
@@ -102,7 +102,7 @@
         line-height:1;
         padding:5px 0 0;
       }
-      .medium, .location, .description {
+      .month, .medium, .location, .description {
         display:none;
       }
     }
@@ -115,6 +115,13 @@
   }
   .lightbox-nav {
     @include clearfix;
+    margin:0 -25px;
+    @include tablet {
+      margin:0 -10px;
+    }
+    @include mobile {
+      margin:0;
+    }
     > a {
       @include sans;
       background-color:$red;
@@ -142,6 +149,13 @@
   .lightbox-img {
     background:#000;
     cursor:pointer;
+    margin:0 -25px;
+    @include tablet {
+      margin:0 -10px;
+    }
+    @include mobile {
+      margin:0;
+    }
     img {
       display:block;
       height:auto;
@@ -150,8 +164,10 @@
     }
   }
   .lightbox-info {
+    padding:25px 0;
+    @include clearfix;
     @include mobile {
-      padding:0 10px 10px;
+      padding:10px 0;
     }
   }
   .lightbox-title {
@@ -164,10 +180,26 @@
   }
   .lightbox-meta {
     @include sans;
-    color:$medgray;
-    font-size:16px;
-    line-height:22px;
-    margin-bottom:10px;
+    font-size:14px;
+    line-height:18px;
+    border:1px solid $slate;
+    float:right;
+    width:33.33%;
+    @include mobile {
+      float:none;
+      margin:0 10px;
+      width:auto;
+    }
+    li {
+      @include sans;
+      font-size:14px;
+      line-height:20px;
+      display:block;
+      padding:5px;
+      &:nth-child(odd) {
+        background:$slate;
+      }
+    }
   }
   .lightbox-location-wrap {
     display:none;
@@ -176,8 +208,18 @@
     }
   }
   .lightbox-description {
+    float:left;
     font-size:16px;
     line-height:22px;
+    margin-top:-5px;
+    padding-right:25px;
+    width:66.67%;
+    @include mobile {
+      float:none;
+      margin-top:0;
+      padding:0 10px 20px;
+      width:auto;
+    }
   }
   .subgallery-lightbox {
     .lightbox-year,

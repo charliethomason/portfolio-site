@@ -30,6 +30,7 @@
           <div class="info">
             <h2 class="title">{{imgTitle}}</h2>
             <p class="year">{{year}}</p>
+            {{#if month}}<p class="month">{{month}}</p>{{/if}}
             <p class="medium">{{medium}}</p>
             {{#if location}}<p class="location">{{location}}</p>{{/if}}
             <p class="description">{{{description}}}</p>
@@ -50,12 +51,14 @@
         <img src="" alt="">
       </div>
       <div class="lightbox-info">
-        <h2 class="lightbox-title"></h2>
-        <div class="lightbox-meta">
-          <span class="lightbox-year"></span> &bull; <span class="lightbox-medium"></span>
-          <span class="lightbox-location-wrap"> &bull; <a href="http://maps.google.com/maps?q=" class="lightbox-location" target="_blank"></a></span>
-        </div>
         <p class="lightbox-description"></p>
+        <ul class="lightbox-meta">
+          <li class="lightbox-year"></li>
+          <li class="lightbox-location-wrap">
+            <a href="http://maps.google.com/maps?q=" class="lightbox-location" target="_blank"></a>
+          </li>
+          <li class="lightbox-medium"></li>
+        </div>
       </div>
     </div>
   </div>
