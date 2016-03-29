@@ -1,8 +1,12 @@
 .gallery-page {
+  .img-section {
+    margin-bottom:25px;
+  }
   .img-info {
     @include clearfix;
   }
   .img-inpage {
+    border-top:1px solid #000;
     margin:0 -25px;
     @include mobile {
       margin:0;
@@ -31,14 +35,16 @@
     color:#fff;
     font-size:18px;
     margin:0 0 10px;
-    padding:5px 25px;
+    padding:10px 25px;
     text-align:center;
   }
   ul.img-meta {
+    border:1px solid $slate;
     float:right;
     width:33.33%;
     @include mobile {
       float:none;
+      margin:0 10px;
       width:auto;
     }
     li {
@@ -51,11 +57,13 @@
   }
   .img-desc {
     float:left;
+    font-size:16px;
+    line-height:22px;
     padding-right:25px;
     width:66.67%;
     @include mobile {
       float:none;
-      padding:0 0 20px;
+      padding:0 10px 20px;
       width:auto;
     }
   }

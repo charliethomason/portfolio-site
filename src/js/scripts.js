@@ -243,13 +243,38 @@ charlie.galleryPage = function() {
     });
   }
   function fixedLightbox(target) {
-    $('.img-inpage').toggleClass('fixed-lightbox');
+    $(target).toggleClass('fixed-lightbox');
   }
   function keyboardNav() {
     $(document).keydown(function(e) {
-      if ($('.img-inpage').hasClass('fixed-lightbox') && e.keyCode == 27) {
+      if ($('.fixed-lightbox').length) {
         e.preventDefault();
-        fixedLightbox();
+        var $current = $('.img-inpage.fixed-lightbox');
+
+        if (e.keyCode == 27) {
+          fixedLightbox($current);
+        }
+        if (e.keyCode == 37) {
+          var $prev = $current.parent('.img-section').prev('.img-section').find('.img-inpage');
+          $current.removeClass('fixed-lightbox');
+          if ($prev.length) {
+            $prev.addClass('fixed-lightbox');
+          } else {
+            var $last = $('.img-inpage:last');
+            $last.addClass('fixed-lightbox');
+          }
+        }
+        if (e.keyCode == 39) {
+          var $next = $current.parent('.img-section').next('.img-section').find('.img-inpage');
+          $current.removeClass('fixed-lightbox');
+          if ($next.length) {
+            $next.addClass('fixed-lightbox');
+          } else {
+            var $first = $('.img-inpage:first');
+            $first.addClass('fixed-lightbox');
+          }
+          
+        }
       }
     });
   }
