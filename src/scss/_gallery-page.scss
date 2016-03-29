@@ -30,7 +30,19 @@
         max-width:95%;
       }
       h2 {
-        display:none;
+        @include sans;
+        background:rgb(0,0,0);
+        background:rgba(0,0,0,0.6);
+        bottom:2.5%;
+        display:inline-block;
+        font-size:16px;
+        line-height:1;
+        left:50%;
+        margin:0 0 0 -140px;
+        padding:5px 10px;
+        position:absolute;
+        right:0;
+        width:280px;
       }
       .img-controls {
         display:block;
@@ -99,6 +111,8 @@
     }
     li {
       @include sans;
+      font-size:14px;
+      line-height:20px;
       padding:5px;
       &:nth-child(odd) {
         background:$slate;
