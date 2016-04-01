@@ -94,13 +94,18 @@
           padding:5px 5px 0;
         }
       }
-      .year {
+      .year, .count {
         @include sans;
         color:#000;
         font-size:14px;
         font-weight:bold;
         line-height:1;
         padding:5px 0 0;
+      }
+      .count {
+        @include mobile {
+          display:none;
+        }
       }
       .month, .medium, .location, .description {
         display:none;

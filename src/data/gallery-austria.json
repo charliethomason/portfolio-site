@@ -15,6 +15,15 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
+        "imgTitle": "Colorful houses along the Inn River",
+        "imgFile": "innsbruck-10",
+        "location": "Inn River, Innsbruck, Austria",
+        "date": "March 13, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
         "imgTitle": "Walking the trail in Rum near my parents' house",
         "imgFile": "innsbruck-3",
         "location": "Rum, Austria",
@@ -37,6 +46,15 @@
         "imgFile": "innsbruck-5",
         "location": "Goldenes Dachl, Innsbruck, Austria",
         "date": "March 10, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Schloss Ambras",
+        "imgFile": "innsbruck-9",
+        "location": "Schloss Ambras, Innsbruck, Austria",
+        "date": "March 11, 2016",
         "camera": "Panasonic Lumix DMC-GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -69,17 +87,26 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
-        "imgTitle": "Schloss Ambras",
-        "imgFile": "innsbruck-9",
-        "location": "Schloss Ambras, Innsbruck, Austria",
-        "date": "March 11, 2016",
+        "imgTitle": "Passing Ost-Friedhof Cemetery on the light-rail street tram",
+        "imgFile": "innsbruck-11",
+        "location": "Ost-Friedhof, Innsbruck, Austria",
+        "date": "March 13, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Church of St. Oswald in Seefeld",
+        "imgFile": "seefeld-5",
+        "location": "Church of St. Oswald, Seefeld, Austria",
+        "date": "March 13, 2016",
         "camera": "Panasonic Lumix DMC-GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "imgTitle": "Seefeld Easter Market in Dorfplatz",
-        "imgFile": "innsbruck-10",
+        "imgFile": "seefeld-1",
         "location": "Dorfplatz, Seefeld, Austria",
         "date": "March 12, 2016",
         "camera": "Panasonic Lumix DMC-GF1",
@@ -87,8 +114,35 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
+        "imgTitle": "Hiking through Seefeld",
+        "imgFile": "seefeld-2",
+        "location": "Seefeld, Austria",
+        "date": "March 13, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Cross-country skiers near Seekirchl Chapel in Seefeld",
+        "imgFile": "seefeld-3",
+        "location": "Seekirchl, Seefeld, Austria",
+        "date": "March 13, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Ferienhotel Kaltschmid in Seefeld",
+        "imgFile": "seefeld-4",
+        "location": "Ferienhotel Kaltschmid, Seefeld, Austria",
+        "date": "March 13, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
         "imgTitle": "Salzburg from Makartsteg Bridge",
-        "imgFile": "innsbruck-11",
+        "imgFile": "salzburg-1",
         "location": "Makartsteg Bridge, Salzburg, Austria",
         "date": "March 14, 2016",
         "camera": "Panasonic Lumix DMC-GF1",
@@ -96,16 +150,66 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
+        "imgTitle": "Nonnberg Abbey in Salzburg",
+        "imgFile": "salzburg-4",
+        "location": "Nonnberg Abbey, Salzburg, Austria",
+        "date": "March 14, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
         "imgTitle": "Mirabell Palace and Gardens",
-        "imgFile": "innsbruck-12",
+        "imgFile": "salzburg-2",
         "location": "Schloss Mirabell, Salzburg, Austria",
         "date": "March 14, 2016",
         "camera": "Panasonic Lumix DMC-GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
-
-
+      {
+        "imgTitle": "Salzburg Cathedral seen from above",
+        "imgFile": "salzburg-3",
+        "location": "Dom zu Salzburg, Salzburg, Austria",
+        "date": "March 14, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Mirabell Palace with Hohensalzburg Fortress in the distance",
+        "imgFile": "salzburg-5",
+        "location": "Schloss Mirabell, Salzburg, Austria",
+        "date": "March 14, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Petersfriedhof Cemetery in Salzburg",
+        "imgFile": "salzburg-6",
+        "location": "Petersfriedhof, Salzburg, Austria",
+        "date": "March 14, 2016",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Passing through Germany on the train from Innsbruck to Salzburg",
+        "imgFile": "train-2",
+        "location": "Übersee, Germany",
+        "date": "March 14, 2016",
+        "camera": "Apple iPhone 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Snowy mountain scenery on the train from Innsbruck to Munich",
+        "imgFile": "train-1",
+        "location": "Reith bei Seefeld, Austria",
+        "date": "March 16, 2016",
+        "camera": "Apple iPhone 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
       {
         "imgTitle": "My parents' house in Rum",
         "imgFile": "innsbruck-2",
@@ -113,6 +217,14 @@
         "date": "March 10, 2016",
         "camera": "Panasonic Lumix DMC-GF1",
         "lens": "Panasonic 7-14mm f/4.0",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "imgTitle": "Amanda and I with my parents, at Innsbruck Hbf before leaving",
+        "imgFile": "innsbruck-13",
+        "location": "Innsbruck Hauptbahnhof, Austria",
+        "date": "March 16, 2016",
+        "camera": "Apple iPhone 6",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       }
     ]
