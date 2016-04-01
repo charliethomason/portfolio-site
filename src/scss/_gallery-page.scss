@@ -31,6 +31,14 @@
         cursor:pointer;
         margin:auto;
         max-width:95%;
+        &:hover {
+          + h2 {
+            opacity:0;
+            @include mobile {
+              opacity:1;
+            }
+          }
+        }
       }
       h2 {
         @include sans;
@@ -46,6 +54,9 @@
         position:absolute;
         right:0;
         width:280px;
+        opacity:1;
+        -webkit-transition:opacity 0.3s ease-out;
+        transition:opacity 0.3s ease-out;
       }
       .this-number {
         display:inline-block;
