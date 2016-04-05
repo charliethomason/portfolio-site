@@ -249,6 +249,10 @@ charlie.galleryPage = function() {
       e.preventDefault();
       toggleLightbox(this);
     });
+    $('.img-inpage h2').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+    });
     $('.img-close').click(function(e) {
       e.preventDefault();
       e.stopPropagation();
