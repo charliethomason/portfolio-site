@@ -13,7 +13,7 @@
   <ul class="grid">
     {{#each works}}
       {{#if gallery}}
-        <li class="img-li">
+        <li class="img-li" data-year="{{year}}{{#if month}}-{{month}}{{/if}}">
           <a href="gallery-{{imgFile}}.html" class="galleryPage">
             <img src="img/{{../../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{gallery}}">
           </a>
