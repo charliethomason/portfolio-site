@@ -204,12 +204,12 @@
       &:nth-child(odd) {
         background:$slate;
       }
-    }
-  }
-  .lightbox-location-wrap {
-    display:none;
-    .lightbox-location {
-      outline:0 none;
+      &.lightbox-location-wrap {
+        display:none;
+        .lightbox-location {
+          outline:0 none;
+        }
+      }
     }
   }
   .lightbox-description {
