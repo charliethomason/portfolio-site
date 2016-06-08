@@ -25,20 +25,20 @@
 			assemble: {
 				options: {
 					flatten: true,
-					assets_css: 'css',
-					assets_js: 'js'
+					layout: 'src/layouts/layout.hbs',
+					partials: ['src/partials/**/*.hbs'],
+					data: [
+						'src/data/*.json'
+					]
 				},
-				prod: {
-					options: {
-						layout: 'src/layouts/layout.hbs',
-						partials: ['src/partials/**/*.hbs'],
-						data: [
-							'src/data/*.json'
-						]
-					},
-					files: {
-						'build/': ['src/pages/*.hbs']
-					}
+				primary: {
+					files: {'build/': ['src/pages/primary/*.hbs']}
+				},
+				art: {
+					files: {'build/art/': ['src/pages/art/*.hbs']}
+				},
+				photo: {
+					files: {'build/photo/': ['src/pages/photo/*.hbs']}
 				}
 			},
 			copy: {
@@ -82,7 +82,7 @@
 					tasks: ['copy:js_lib']
 				},
 				html: {
-					files: ['src/layouts/*.hbs', 'src/pages/*.hbs', 'src/partials/*.hbs', 'src/data/*.json'],
+					files: ['src/layouts/*.hbs', 'src/pages/**/*.hbs', 'src/partials/*.hbs', 'src/data/*.json'],
 					tasks: ['assemble']
 				},
 				img: {

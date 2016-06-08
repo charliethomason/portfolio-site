@@ -31,19 +31,19 @@ charlie.gallery = function() {
       monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
   function clickEvents() {
-    $('.galleryImg').click(function(e) {
-      e.preventDefault();
-      loadImageData(this,openLightbox);
-    });
-    $('.info').click(function(e) {
-      if ($(this).siblings('.galleryImg').length) {
-        var img = $(this).siblings('.galleryImg');
-        loadImageData(img,openLightbox);
-      } else if ($(this).siblings('.galleryPage').length) {
-        var page = $(this).siblings('.galleryPage').attr('href');
-        window.open(page,'_self');
-      }
-    });
+    // $('.galleryImg').click(function(e) {
+    //   e.preventDefault();
+    //   loadImageData(this,openLightbox);
+    // });
+    // $('.info').click(function(e) {
+    //   if ($(this).siblings('.galleryImg').length) {
+    //     var img = $(this).siblings('.galleryImg');
+    //     loadImageData(img,openLightbox);
+    //   } else if ($(this).siblings('.galleryPage').length) {
+    //     var page = $(this).siblings('.galleryPage').attr('href');
+    //     window.open(page,'_self');
+    //   }
+    // });
     $('.close-btn').click(function(e) {
       e.preventDefault();
       closeLightbox();

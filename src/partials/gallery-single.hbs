@@ -1,0 +1,36 @@
+{{#gallery-single}}
+<section class="gallery">
+
+  <div class="gallery-single">
+
+    {{#each works}}
+    <div class="single-content">
+
+      <div class="single-img">
+        <img src="/img/{{../folder}}/{{imgFile}}.jpg" alt="{{../../heading}}">
+      </div>
+
+      <div class="single-info">
+        <p class="single-description">{{description}}</p>
+        <ul class="single-meta">
+          <li class="single-year">{{month}} {{year}}</li>
+          {{#if location}}
+          <li class="single-location-wrap">
+            <a href="http://maps.google.com/maps?q={{location}}" class="single-location" target="_blank">{{location}}</a>
+          </li>
+          {{/if}}
+          <li class="single-medium">{{medium}}</li>
+        </ul>
+      </div>
+
+    </div>
+    {{/each}}
+
+    <div class="single-nav">
+      <a href="/{{folder}}.html">Return to {{capitalizeFirst folder}}</a>
+    </div>
+
+  </div>
+
+</section>
+{{/gallery-single}}
