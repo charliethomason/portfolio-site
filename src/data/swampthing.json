@@ -1,0 +1,16 @@
+{
+  "heading": "Swamp Thing",
+  "gallery-single": {
+    "folder": "art",
+    "works": [
+      {
+        "imgTitle": "Swamp Thing",
+        "imgFile": "swampthing",
+        "year": "2014",
+        "month":"10",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "Swamp Thing is easily one of the most powerful comic book characters — able to control all plant life on Earth and regenerate his body at will. When I painted this, I was going through a big comic book phase and reading all of Alan Moore's amazing Swamp Thing comics from the 1980s. This is based on Stephen Bissette's version of Swampy, who penciled the Alan Moore Swamp Thing comics."
+      }
+    ]
+  }
+}
