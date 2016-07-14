@@ -1,0 +1,15 @@
+{
+  "gallery-single": {
+    "folder": "art",
+    "works": [
+      {
+        "imgTitle": "Frank and the Cellar Door",
+        "imgFile": "frankcellardoor",
+        "year": "2012",
+        "month":"03",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "After seeing my \"Eternal Sunshine of Spotless Mind\" movie poster, a friend asked me to do a poster in the same style for the 2001 film \"Donne Darko.\" This portrait is of \"Frank\"—the imaginary bunny rabbit character in the movie—and a cellar door. In the film, Drew Barrymore's character tells Donnie how Mark Twain considered \"cellar door\" to be the most beautiful word combination in the English language. The number at the top in red is the number Donnie writes on his arm that is supposedly how long until the world will end. This is one of the paintings I did while working out of a temporary studio in downtown Columbus, OH in May 2012."
+      }
+    ]
+  }
+}
