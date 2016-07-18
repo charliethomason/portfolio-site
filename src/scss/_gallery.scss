@@ -77,7 +77,7 @@
     }
     .info {
       @include safeHide();
-      background-color:rgba(153,204,51,0.7);
+      background-color:$greenrgba;
       height:100%;
       text-align:center;
       width:100%;
