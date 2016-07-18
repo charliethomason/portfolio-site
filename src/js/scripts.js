@@ -56,10 +56,10 @@ charlie.gallery = function() {
     //   e.preventDefault();
     //   loadNextImg();
     // });
-    $('.sort-method a').click(function(e) {
-      e.preventDefault();
-      gallerySort(this);
-    });
+    // $('.sort-method a').click(function(e) {
+    //   e.preventDefault();
+    //   gallerySort(this);
+    // });
     // $('.lightbox-img').click(function(e) {
     //   e.preventDefault();
     //   fixedLightbox();
@@ -192,43 +192,43 @@ charlie.gallery = function() {
   //   loadImageData(img,openLightbox);
   // }
 
-  function gallerySort(link) {
-    if (!$(link).hasClass('active')) {
+  // function gallerySort(link) {
+  //   if (!$(link).hasClass('active')) {
 
-      var method = $(link).attr('id'),
-          $imgLi = $grid.children('li.img-li');
+  //     var method = $(link).attr('id'),
+  //         $imgLi = $grid.children('li.img-li');
 
-      $sort.find('.active').removeClass('active');
-      $(link).addClass('active');
+  //     $sort.find('.active').removeClass('active');
+  //     $(link).addClass('active');
 
-      $imgLi.sort(function(a,b) {
-        switch(method) {
-          case 'sort-title':
-            var an = $(a).find('.title').text();
-                bn = $(b).find('.title').text();
-            break;
-          case 'sort-newest':
-            var bn = a.getAttribute('data-year'),
-                an = b.getAttribute('data-year');
-            break;
-          case 'sort-oldest':
-            var an = a.getAttribute('data-year'),
-                bn = b.getAttribute('data-year');
-            break;
-        }
-        if (an > bn) {
-          return 1;
-        }
-        if (an < bn) {
-          return -1;
-        }
-        return 0;
-      });
+  //     $imgLi.sort(function(a,b) {
+  //       switch(method) {
+  //         case 'sort-title':
+  //           var an = $(a).find('.title').text();
+  //               bn = $(b).find('.title').text();
+  //           break;
+  //         case 'sort-newest':
+  //           var bn = a.getAttribute('data-year'),
+  //               an = b.getAttribute('data-year');
+  //           break;
+  //         case 'sort-oldest':
+  //           var an = a.getAttribute('data-year'),
+  //               bn = b.getAttribute('data-year');
+  //           break;
+  //       }
+  //       if (an > bn) {
+  //         return 1;
+  //       }
+  //       if (an < bn) {
+  //         return -1;
+  //       }
+  //       return 0;
+  //     });
 
-      $imgLi.detach().appendTo($grid);
+  //     $imgLi.detach().appendTo($grid);
 
-    }
-  }
+  //   }
+  // }
 
   // function fixedLightbox() {
   //   $('.lightbox-img').toggleClass('fixed-lightbox');
