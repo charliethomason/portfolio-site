@@ -1,0 +1,31 @@
+.page-nav {
+  @include clearfix;
+  li {
+    float:left;
+    list-style-type:none;
+    width:33.3333%;
+    a {
+      display:block;
+      position:relative;
+    }
+    img {
+      display:block;
+      max-width:100%;
+    }
+    span {
+      background:#fff;
+      bottom:0;
+      opacity:0.5;
+      position:absolute;
+      width:100%;
+    }
+    &.back {
+      a {
+        background:$darkgray;
+        color:#fff;
+        height:100%;
+        width:100%;
+      }
+    }
+  }
+}

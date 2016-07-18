@@ -1,0 +1,27 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "folder": "photos",
+    "works": [
+      {
+        "imgTitle": "Frozen Chicago Lakefront",
+        "imgFile": "frozenlakefront",
+        "year": "2016",
+        "month": "01",
+        "medium": "iPhone Photography",
+        "location": "Monroe Harbor, Chicago, IL",
+        "description": "For at least 4 months out of the year, this is what the Monroe Harbor area of Lake Michigan in Chicago looks like. In the summer, everything is blue and green and beautiful and full of boats and people and life, but in the winter it becomes a frozen tundra. Nevertheless, that doesn't stop us from going on long walks along the lakefront, all 12 months of the year. In the distance, you can see the Museum Campus and a faint glimmer of sunlight."
+      }
+    ]
+  },
+  "pagenav": {
+    "prev": {
+      "id": "printersrow",
+      "title": "Printer's Row Perspective"
+    },
+    "next": {
+      "id": "2015usgp-track",
+      "title": "Formula 1 U.S. Grand Prix: Standing on the Track"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "gallery-single": {
+    "folder": "art",
+    "works": [
+      {
+        "imgTitle": "Vincent Price in His Laboratory",
+        "imgFile": "vincentprice",
+        "year": "2006",
+        "month":"01",
+        "medium": "Ink on Paper",
+        "description": "It seems fitting that the best ink portrait I did during my undergraduate years (in my opinion) was of my favorite actor, Vincent Price. Of all the portraits I’ve ever painted, I still feel that this is the best likeness. I feel that the way I controlled the gray values and colors here is among my best. The background the portrait is original, but loosely based on Tim Burton’s “Edward Scissorhands” (Price’s last film). I sold this drawing to a college roommate of mine in 2007."
+      }
+    ]
+  }
+}

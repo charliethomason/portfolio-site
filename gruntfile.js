@@ -37,8 +37,8 @@
 				art: {
 					files: {'build/art/': ['src/pages/art/*.hbs']}
 				},
-				photo: {
-					files: {'build/photo/': ['src/pages/photo/*.hbs']}
+				photos: {
+					files: {'build/photos/': ['src/pages/photos/*.hbs']}
 				}
 			},
 			copy: {

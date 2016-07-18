@@ -1,0 +1,16 @@
+{
+  "gallery-single": {
+    "folder": "photos",
+    "works": [
+      {
+        "imgTitle": "Printer's Row Perspective",
+        "imgFile": "printersrow",
+        "year": "2016",
+        "month": "02",
+        "medium": "Digital Photography",
+        "location": "Printer's Row, Chicago, IL",
+        "description": "Amanda and I lived in Printer's Row from 2010 to 2012 (and she lived there 2 additional years before that, while in college). While we still live in the South Loop area, Printer's Row is the neighborhood we call home. The restaurant on the right, Hackney's, is where we go almost every Friday night and everyone knows us there. This photo was taken at the southern end of Dearborn Street, where it begins at Polk, looking north. It was taken with my Panasonic 7-14mm wide-angle lens, which allowed for a cool perspective with all the old buildings."
+      }
+    ]
+  }
+}

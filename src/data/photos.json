@@ -1,7 +1,7 @@
 {
   "page-name": "Photo Gallery",
   "gallery": {
-    "type": "photo",
+    "type": "photos",
     "works": [
       {
         "imgTitle": "Austria: Innsbruck, Salzburg, and Seefeld",

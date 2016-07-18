@@ -72,12 +72,6 @@
       &:nth-child(odd) {
         background:$slate;
       }
-      &.single-location-wrap {
-        display:none;
-        .single-location {
-          outline:0 none;
-        }
-      }
     }
   }
   .single-description {
