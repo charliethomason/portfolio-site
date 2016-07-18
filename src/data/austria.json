@@ -252,5 +252,16 @@
         "description": "This photo was taken at the Innsbruck Hauptbahnhof train station on our last day, right before Amanda and I left to head back to Munich. In many ways, the image sums up several aspects of our trip: beautiful snow-capped mountains, downtown Innsbruck with its colorful buildings, hundreds of bicycles everywhere, the new cabbie hat I bought, the train station we used to travel throughout the region, and just spending time with my parents. It was one of the most unique trips to Europe I've ever taken, and will never forget."
       }
     ]
+  },
+  "pagenav": {
+    "folder": "photos",
+    "prev": {
+      "id": "ei-bogueinletpier",
+      "title": "Emerald Isle, NC: Under the Bogue Inlet Pier"
+    },
+    "next": {
+      "id": "printersrow",
+      "title": "Printer's Row Perspective"
+    }
   }
 }
