@@ -27,6 +27,7 @@
 					flatten: true,
 					layout: 'src/layouts/layout.hbs',
 					partials: ['src/partials/**/*.hbs'],
+					helpers: ['helpers.js'],
 					data: [
 						'src/data/*.json'
 					]

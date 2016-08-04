@@ -1,0 +1,26 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Flying Over Chicago",
+        "imgFile": "flyingoverchicago",
+        "year": "2015",
+        "month": "09",
+        "medium": "iPhone Photography",
+        "location": "Chicago, IL",
+        "description": "This photo was taken out the window of a Southwest Airlines plane, as I returned to Chicago from a 4 day weekend in West Virginia. I love the bright, early evening haze that casts the city in a sortof glow. You can see several landmarks quite clearly in the photo, including my own apartment building. This is probably my favorite photo I've ever taken out an airplane window, and demonstrates the iPhone 6's amazing camera quality."
+      }
+    ]
+  },
+  "pagenav": {
+    "prev": {
+      "title":"Nascar at Chicagoland Speedway",
+      "id":"nascarchicago-start"
+    },
+    "next": {
+      "title":"Waterfall at Blackwater Falls State Park",
+      "id":"blackwaterfalls"
+    }
+  }
+}
