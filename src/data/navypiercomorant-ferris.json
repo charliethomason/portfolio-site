@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "title":"Montoya Penske IndyCar at Mid-Ohio",
-      "id":"montoyaindycar-midohio"
-    },
-    "next": {
-      "title":"Fort Macon, NC Self-Portrait",
-      "id":"fortmaconself"
-    }
+    "type": "photos",
+    "num": 10
   }
 }

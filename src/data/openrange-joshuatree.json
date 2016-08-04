@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Open Range: Joshua Tree",
+        "imgFile": "openrange-joshuatree",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography",
+        "location": "Joshua Tree National Park, CA",
+        "description": "For this chapter in my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>, my girlfriend Amanda and I were staying at the Ace Hotel & Swim Club in Palm Springs, CA and took a long drive out to Joshua Tree. It was my 27th birthday and, on the drive there, John Lennon's \"Imagine\" came on the radio. It was brutally hot in the middle of summer and there were many large insects everywhere, but it was one of the most amazing places I've ever been. The area is massive and filled with some of the most unique trees, cacti, and flora I've ever seen. I unfortunately only had my Panasonic G1 dSLR on me during this part of the trip, but I think capturing the landscape in its truest-to-life, most realistic colors helps illustrate the surreal atmosphere of this area between the Mojave and Colorado Deserts. I chose to highlight the above photograph with the \"No Trespassing\" sign as it illustrates the strange suggestion that, within a National Park, people can look but not touch."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "num": 17
+  }
+}

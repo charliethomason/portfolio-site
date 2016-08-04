@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "id": "austria",
-      "title": "Austria: Innsbruck, Salzburg, and Seefeld"
-    },
-    "next": {
-      "id": "frozenlakefront",
-      "title": "Frozen Chicago Lakefront"
-    }
+    "type": "photos",
+    "num": 1
   }
 }

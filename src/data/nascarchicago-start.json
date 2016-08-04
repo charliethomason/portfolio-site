@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "title":"Hyde Park Autumn Bike Ride",
-      "id":"hydeparkbikeride"
-    },
-    "next": {
-      "title":"Flying Over Chicago",
-      "id":"flyingoverchicago"
-    }
+    "type": "photos",
+    "num": 6
   }
 }

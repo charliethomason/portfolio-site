@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "title":"Waterfall at Blackwater Falls State Park",
-      "id":"blackwaterfalls"
-    },
-    "next": {
-      "title":"Navy Pier Cormorant and Old Ferris Wheel",
-      "id":"navypiercomorant-ferris"
-    }
+    "type": "photos",
+    "num": 9
   }
 }

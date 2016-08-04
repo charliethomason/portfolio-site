@@ -254,14 +254,7 @@
     ]
   },
   "pagenav": {
-    "folder": "photos",
-    "prev": {
-      "id": "ei-bogueinletpier",
-      "title": "Emerald Isle, NC: Under the Bogue Inlet Pier"
-    },
-    "next": {
-      "id": "printersrow",
-      "title": "Printer's Row Perspective"
-    }
+    "type": "photos",
+    "num": 0
   }
 }

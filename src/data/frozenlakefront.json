@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "id": "printersrow",
-      "title": "Printer's Row Perspective"
-    },
-    "next": {
-      "id": "2015usgp-track",
-      "title": "Formula 1 U.S. Grand Prix: Standing on the Track"
-    }
+    "type": "photos",
+    "num": 2
   }
 }

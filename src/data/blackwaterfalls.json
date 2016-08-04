@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "title":"Flying Over Chicago",
-      "id":"flyingoverchicago"
-    },
-    "next": {
-      "title":"Montoya Penske IndyCar at Mid-Ohio",
-      "id":"montoyaindycar-midohio"
-    }
+    "type": "photos",
+    "num": 8
   }
 }

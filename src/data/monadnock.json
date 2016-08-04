@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Monadnock Staircase",
+        "imgFile": "monadnock",
+        "year": "2012",
+        "month": "01",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Monadnock Building, Chicago, IL",
+        "description": "The Monadnock Building was built between 1891 and 1893 in the historic neighborhood of Printer’s Row. It is an incredibly large and heavy load-bearing masonry building, designed by both Burnham & Root and Holabird & Roche—2 of Chicago's most famous architectural firms. The grand staircases found throughout the building represent the first use of aluminum in building construction. This high-dynamic range (HDR) photograph was created with 5 photos at incremental exposure settings."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "num": 16
+  }
+}

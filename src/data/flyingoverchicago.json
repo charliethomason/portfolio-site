@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "title":"Nascar at Chicagoland Speedway",
-      "id":"nascarchicago-start"
-    },
-    "next": {
-      "title":"Waterfall at Blackwater Falls State Park",
-      "id":"blackwaterfalls"
-    }
+    "type": "photos",
+    "num": 7
   }
 }

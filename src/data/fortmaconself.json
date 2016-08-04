@@ -14,13 +14,7 @@
     ]
   },
   "pagenav": {
-    "prev": {
-      "title":"Navy Pier Cormorant and Old Ferris Wheel",
-      "id":"navypiercomorant-ferris"
-    },
-    "next": {
-      "title":"Emerald Isle, NC: Sunrise",
-      "id":"ei-sunrise"
-    }
+    "type": "photos",
+    "num": 11
   }
 }

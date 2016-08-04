@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Formula E Long Beach ePrix",
+        "imgFile": "formulae-longbeach",
+        "year": "2015",
+        "month": "04",
+        "medium": "iPhone Photography",
+        "location": "Long Beach, CA",
+        "description": "I grew up watching Formula 1 races with my Dad, and in April 2015 got to experience the first-ever season of Formula-E racing. My Dad and I spent a long weekend watching these all-electric open-wheel cars zip around the streets of Long Beach, California. While most forms of auto racing don't allow fans to get very close to the track, I was amazed at how close to the action we could get at the Formula-E race. The above photo was taken with my iPhone 6 on lap 1 of the ePrix, at a small, raised viewing stand near turn 3, at the corner of Pine Ave and Shoreline Dr. You can see, from left to right, Jarno Trulli for his Trulli team, Bruno Senna for the Mahindra team, Stéphane Sarrazin for the Venturi team, and Jérôme d'Ambrosio for the Dragon Racing team. The cars didn't make much noise, nor did they go super fast like F1, but the race was quite thrilling and we witnessed motorsport history."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "num": 13
+  }
+}
