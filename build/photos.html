@@ -55,13 +55,42 @@
 
 <h1>Photo Gallery</h1>
 
+<form id="gallery-filter">
+  <select class="filters">
+    <option value="all" selected="selected">All</option>
+    
+    <option value="auto">Auto Racing</option>
+    
+    <option value="chicago">Chicago</option>
+    
+    <option value="emeraldisle">Emerald Isle, NC</option>
+    
+    <option value="england">England</option>
+    
+    <option value="europe">Europe</option>
+    
+    <option value="film">Film</option>
+    
+    <option value="hdr">HDR</option>
+    
+    <option value="openrange">Open Range</option>
+    
+    <option value="america">U.S.A.</option>
+    
+    <option value="venice">Venice</option>
+    
+  </select>
+  <input type="submit" class="filter-update" value="Update">
+</form>
+
+
 <section class="gallery">
 
   
 
   <ul class="grid">
     
-      <li class="img-li" data-id="0" data-year="2016-03">
+      <li class="img-li" data-id="0" data-year="2016-03" data-filters="europe">
         <a href="photos/austria.html" title="Austria: Innsbruck, Salzburg, and Seefeld" class="galleryImg">
           <img src="img/photos/thumbs/austria-250.jpg" alt="Austria: Innsbruck, Salzburg, and Seefeld">
           <div class="info">
@@ -72,7 +101,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="1" data-year="2016-02">
+      <li class="img-li" data-id="1" data-year="2016-02" data-filters="chicago america">
         <a href="photos/printersrow.html" title="Printer&#x27;s Row Perspective" class="galleryImg">
           <img src="img/photos/thumbs/printersrow-250.jpg" alt="Printer&#x27;s Row Perspective">
           <div class="info">
@@ -83,7 +112,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="2" data-year="2016-01">
+      <li class="img-li" data-id="2" data-year="2016-01" data-filters="chicago america">
         <a href="photos/frozenlakefront.html" title="Frozen Chicago Lakefront" class="galleryImg">
           <img src="img/photos/thumbs/frozenlakefront-250.jpg" alt="Frozen Chicago Lakefront">
           <div class="info">
@@ -94,7 +123,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="3" data-year="2015-10">
+      <li class="img-li" data-id="3" data-year="2015-10" data-filters="auto america">
         <a href="photos/2015usgp-track.html" title="Formula 1 U.S. Grand Prix: Standing on the Track" class="galleryImg">
           <img src="img/photos/thumbs/2015usgp-track-250.jpg" alt="Formula 1 U.S. Grand Prix: Standing on the Track">
           <div class="info">
@@ -105,7 +134,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="4" data-year="2015-10">
+      <li class="img-li" data-id="4" data-year="2015-10" data-filters="auto america">
         <a href="photos/2015usgp-start.html" title="Formula 1 U.S. Grand Prix: Race Start" class="galleryImg">
           <img src="img/photos/thumbs/2015usgp-start-250.jpg" alt="Formula 1 U.S. Grand Prix: Race Start">
           <div class="info">
@@ -116,7 +145,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="5" data-year="2015-09">
+      <li class="img-li" data-id="5" data-year="2015-09" data-filters="chicago america">
         <a href="photos/hydeparkbikeride.html" title="Hyde Park Autumn Bike Ride" class="galleryImg">
           <img src="img/photos/thumbs/hydeparkbikeride-250.jpg" alt="Hyde Park Autumn Bike Ride">
           <div class="info">
@@ -127,7 +156,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="6" data-year="2015-09">
+      <li class="img-li" data-id="6" data-year="2015-09" data-filters="auto chicago america">
         <a href="photos/nascarchicago-start.html" title="Nascar at Chicagoland Speedway" class="galleryImg">
           <img src="img/photos/thumbs/nascarchicago-start-250.jpg" alt="Nascar at Chicagoland Speedway">
           <div class="info">
@@ -138,7 +167,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="7" data-year="2015-09">
+      <li class="img-li" data-id="7" data-year="2015-09" data-filters="chicago america">
         <a href="photos/flyingoverchicago.html" title="Flying Over Chicago" class="galleryImg">
           <img src="img/photos/thumbs/flyingoverchicago-250.jpg" alt="Flying Over Chicago">
           <div class="info">
@@ -149,7 +178,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="8" data-year="2015-09">
+      <li class="img-li" data-id="8" data-year="2015-09" data-filters="america">
         <a href="photos/blackwaterfalls.html" title="Waterfall at Blackwater Falls State Park" class="galleryImg">
           <img src="img/photos/thumbs/blackwaterfalls-250.jpg" alt="Waterfall at Blackwater Falls State Park">
           <div class="info">
@@ -160,7 +189,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="9" data-year="2015-08">
+      <li class="img-li" data-id="9" data-year="2015-08" data-filters="auto america">
         <a href="photos/montoyaindycar-midohio.html" title="Montoya Penske IndyCar at Mid-Ohio" class="galleryImg">
           <img src="img/photos/thumbs/montoyaindycar-midohio-250.jpg" alt="Montoya Penske IndyCar at Mid-Ohio">
           <div class="info">
@@ -171,7 +200,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="10" data-year="2015-07">
+      <li class="img-li" data-id="10" data-year="2015-07" data-filters="chicago america">
         <a href="photos/navypiercomorant-ferris.html" title="Navy Pier Cormorant and Old Ferris Wheel" class="galleryImg">
           <img src="img/photos/thumbs/navypiercomorant-ferris-250.jpg" alt="Navy Pier Cormorant and Old Ferris Wheel">
           <div class="info">
@@ -182,7 +211,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="11" data-year="2015-06">
+      <li class="img-li" data-id="11" data-year="2015-06" data-filters="emeraldisle america">
         <a href="photos/fortmaconself.html" title="Fort Macon, NC Self-Portrait" class="galleryImg">
           <img src="img/photos/thumbs/fortmaconself-250.jpg" alt="Fort Macon, NC Self-Portrait">
           <div class="info">
@@ -193,7 +222,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="12" data-year="2015-06">
+      <li class="img-li" data-id="12" data-year="2015-06" data-filters="emeraldisle america">
         <a href="photos/ei-sunrise.html" title="Emerald Isle, NC: Sunrise" class="galleryImg">
           <img src="img/photos/thumbs/ei-sunrise-250.jpg" alt="Emerald Isle, NC: Sunrise">
           <div class="info">
@@ -204,7 +233,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="13" data-year="2015-04">
+      <li class="img-li" data-id="13" data-year="2015-04" data-filters="auto america">
         <a href="photos/formulae-longbeach.html" title="Formula E Long Beach ePrix" class="galleryImg">
           <img src="img/photos/thumbs/formulae-longbeach-250.jpg" alt="Formula E Long Beach ePrix">
           <div class="info">
@@ -215,7 +244,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="14" data-year="2015-01">
+      <li class="img-li" data-id="14" data-year="2015-01" data-filters="america">
         <a href="photos/sundance-mainst.html" title="Sundance 2015: Evening on Main Street" class="galleryImg">
           <img src="img/photos/thumbs/sundance-mainst-250.jpg" alt="Sundance 2015: Evening on Main Street">
           <div class="info">
@@ -226,7 +255,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="15" data-year="2014-07">
+      <li class="img-li" data-id="15" data-year="2014-07" data-filters="america">
         <a href="photos/camdenlighthouse.html" title="Curtis Island Lighthouse from aboard Schooner Olad" class="galleryImg">
           <img src="img/photos/thumbs/camdenlighthouse-250.jpg" alt="Curtis Island Lighthouse from aboard Schooner Olad">
           <div class="info">
@@ -237,7 +266,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="16" data-year="2012-01">
+      <li class="img-li" data-id="16" data-year="2012-01" data-filters="chicago america hdr">
         <a href="photos/monadnock.html" title="Monadnock Staircase" class="galleryImg">
           <img src="img/photos/thumbs/monadnock-250.jpg" alt="Monadnock Staircase">
           <div class="info">
@@ -248,7 +277,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="17" data-year="2011-06">
+      <li class="img-li" data-id="17" data-year="2011-06" data-filters="openrange america">
         <a href="photos/openrange-joshuatree.html" title="Open Range: Joshua Tree" class="galleryImg">
           <img src="img/photos/thumbs/openrange-joshuatree-250.jpg" alt="Open Range: Joshua Tree">
           <div class="info">
@@ -259,7 +288,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="18" data-year="2011-06">
+      <li class="img-li" data-id="18" data-year="2011-06" data-filters="openrange america hdr">
         <a href="photos/openrange-grandcanyon.html" title="Open Range: Grand Canyon" class="galleryImg">
           <img src="img/photos/thumbs/openrange-grandcanyon-250.jpg" alt="Open Range: Grand Canyon">
           <div class="info">
@@ -270,7 +299,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="19" data-year="2011-06">
+      <li class="img-li" data-id="19" data-year="2011-06" data-filters="openrange america film">
         <a href="photos/openrange-ontheroad.html" title="Open Range: On The Road" class="galleryImg">
           <img src="img/photos/thumbs/openrange-ontheroad-250.jpg" alt="Open Range: On The Road">
           <div class="info">
@@ -281,7 +310,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="20" data-year="2011-06">
+      <li class="img-li" data-id="20" data-year="2011-06" data-filters="openrange america hdr">
         <a href="photos/openrange-navajomonument.html" title="Open Range: Navajo National Monument" class="galleryImg">
           <img src="img/photos/thumbs/openrange-navajomonument-250.jpg" alt="Open Range: Navajo National Monument">
           <div class="info">
@@ -292,7 +321,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="21" data-year="2011-06">
+      <li class="img-li" data-id="21" data-year="2011-06" data-filters="openrange america film">
         <a href="photos/openrange-skull.html" title="Open Range: Hidden Skull in Monument Valley" class="galleryImg">
           <img src="img/photos/thumbs/openrange-skull-250.jpg" alt="Open Range: Hidden Skull in Monument Valley">
           <div class="info">
@@ -303,7 +332,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="22" data-year="2011-06">
+      <li class="img-li" data-id="22" data-year="2011-06" data-filters="openrange america">
         <a href="photos/openrange-saddleback.html" title="Open Range: Saddleback Mesa (book cover)" class="galleryImg">
           <img src="img/photos/thumbs/openrange-saddleback-250.jpg" alt="Open Range: Saddleback Mesa (book cover)">
           <div class="info">
@@ -314,7 +343,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="23" data-year="2011-06">
+      <li class="img-li" data-id="23" data-year="2011-06" data-filters="openrange america">
         <a href="photos/openrange-leesferry.html" title="Open Range: Lee&#x27;s Ferry, Colorado River" class="galleryImg">
           <img src="img/photos/thumbs/openrange-leesferry-250.jpg" alt="Open Range: Lee&#x27;s Ferry, Colorado River">
           <div class="info">
@@ -325,7 +354,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="24" data-year="2011-06">
+      <li class="img-li" data-id="24" data-year="2011-06" data-filters="openrange america">
         <a href="photos/openrange-lakepowell.html" title="Open Range: Kayaking Lake Powell" class="galleryImg">
           <img src="img/photos/thumbs/openrange-lakepowell-250.jpg" alt="Open Range: Kayaking Lake Powell">
           <div class="info">
@@ -336,7 +365,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="25" data-year="2011-05">
+      <li class="img-li" data-id="25" data-year="2011-05" data-filters="chicago america hdr">
         <a href="photos/bloomingdale.html" title="Reframing Ruin: Bloomingdale Trail Twilight" class="galleryImg">
           <img src="img/photos/thumbs/bloomingdale-250.jpg" alt="Reframing Ruin: Bloomingdale Trail Twilight">
           <div class="info">
@@ -347,7 +376,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="26" data-year="2010-12">
+      <li class="img-li" data-id="26" data-year="2010-12" data-filters="chicago america hdr">
         <a href="photos/frozenpromontory.html" title="Frozen Bench at Promontory Point" class="galleryImg">
           <img src="img/photos/thumbs/frozenpromontory-250.jpg" alt="Frozen Bench at Promontory Point">
           <div class="info">
@@ -358,7 +387,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="27" data-year="2010-09">
+      <li class="img-li" data-id="27" data-year="2010-09" data-filters="venice europe">
         <a href="photos/nottevenezia.html" title="Notte a Venezia (Night in Venice)" class="galleryImg">
           <img src="img/photos/thumbs/nottevenezia-250.jpg" alt="Notte a Venezia (Night in Venice)">
           <div class="info">
@@ -369,7 +398,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="28" data-year="2010-09">
+      <li class="img-li" data-id="28" data-year="2010-09" data-filters="europe">
         <a href="photos/lugano.html" title="Lugano, Switzerland" class="galleryImg">
           <img src="img/photos/thumbs/lugano-250.jpg" alt="Lugano, Switzerland">
           <div class="info">
@@ -380,7 +409,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="29" data-year="2009-07">
+      <li class="img-li" data-id="29" data-year="2009-07" data-filters="america">
         <a href="photos/wahkeena.html" title="Wahkeena Falls, Oregon" class="galleryImg">
           <img src="img/photos/thumbs/wahkeena-250.jpg" alt="Wahkeena Falls, Oregon">
           <div class="info">
@@ -391,7 +420,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="30" data-year="2008-01">
+      <li class="img-li" data-id="30" data-year="2008-01" data-filters="england europe film">
         <a href="photos/england-bradfield.html" title="English Portfolio: High Bradfield" class="galleryImg">
           <img src="img/photos/thumbs/england-bradfield-250.jpg" alt="English Portfolio: High Bradfield">
           <div class="info">
@@ -402,7 +431,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="31" data-year="2008-01">
+      <li class="img-li" data-id="31" data-year="2008-01" data-filters="england europe film">
         <a href="photos/england-liverpool.html" title="English Portfolio: Liverpool" class="galleryImg">
           <img src="img/photos/thumbs/england-liverpool-250.jpg" alt="English Portfolio: Liverpool">
           <div class="info">
@@ -413,7 +442,7 @@
         </a>
       </li>
     
-      <li class="img-li" data-id="32" data-year="2007-07">
+      <li class="img-li" data-id="32" data-year="2007-07" data-filters="emeraldisle america film">
         <a href="photos/ei-bogueinletpier.html" title="Emerald Isle, NC: Under the Bogue Inlet Pier" class="galleryImg">
           <img src="img/photos/thumbs/ei-bogueinletpier-250.jpg" alt="Emerald Isle, NC: Under the Bogue Inlet Pier">
           <div class="info">
