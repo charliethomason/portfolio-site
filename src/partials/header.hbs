@@ -1,20 +1,20 @@
 {{#header}}
-<header id="header">
+<header id="header" role="banner">
 	<div class="headwrap">
 		<div class="logo">
-			<a href="index.html" role="banner">Charlie Thomason</a>
+			<a href="index.html">Charlie Thomason</a>
 		</div>
 
 		<nav id="main-nav" role="navigation">
 			<a href="#" id="hamburger"><span> </span>Menu</a>
-			<ul>
+			<ul role="menu">
 				{{#each links}}
 				<li{{#is ../../modified.class url}} class="active"{{/is}}>
-					<a href="/{{url}}.html">{{name}}</a>
+					<a href="/{{url}}.html" role="menuitem">{{name}}</a>
 				</li>
 				{{/each}}
-				<li><a href="http://charliethomason.tumblr.com">Blog</a></li>
-				<li{{#is ../modified.class "contact"}} class="active"{{/is}}><a href="/contact.html">Contact</a></li>
+				<li><a href="http://charliethomason.tumblr.com" role="menuitem">Blog</a></li>
+				<li{{#is ../modified.class "contact"}} class="active"{{/is}}><a href="/contact.html" role="menuitem">Contact</a></li>
 			</ul>
 		</nav>
 
