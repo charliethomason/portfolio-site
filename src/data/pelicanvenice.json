@@ -1,9 +1,9 @@
 {
-  "heading": "Amanda (Pelecanus Venezia)",
   "folder": "art",
   "gallery-single": {
     "works": [
       {
+        "imgTitle": "Amanda (Pelecanus Venezia)",
         "imgFile": "pelicanvenice",
         "year": "2016",
         "month":"January",
@@ -11,5 +11,9 @@
         "description": "My fiancé Amanda's favorite bird is a Brown Pelican, and her favorite place is Venice, Italy. So, in way, this is sort-of a portrait of her. I gave this to her as a (late) Christmas present in January 2016 and now hangs in our living room. Venice was one of the most challenging places I've ever painted — due to the colors, lighting, small details, and different building heights. Also, the Pelican is one of the most most challenging birds I've painted — due to its colors and strange body shape. This image could never happen in real life, because there are no Brown Pelicans in Italy (there are some other types of pelicans, but they're very rare). Also, this image will not appear in my forthcoming Chicago bird art book, because there are no pelicans in Chicago either."
       }
     ]
+  },
+  "pagenav": {
+    "type": "art",
+    "id": "pelicanvenice"
   }
 }
