@@ -12,7 +12,7 @@
 
   <ul class="grid">
     {{#each works}}
-      <li class="img-li" data-id="{{@index}}" data-year="{{year}}{{#if month}}-{{month}}{{/if}}">
+      <li class="img-li" data-id="{{@index}}" data-year="{{year}}{{#if month}}-{{month}}{{/if}}"{{#if filters}} data-filters="{{filters}}"{{/if}}>
         <a href="{{../type}}/{{imgFile}}.html" title="{{imgTitle}}" class="galleryImg">
           <img src="img/{{../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
           <div class="info">

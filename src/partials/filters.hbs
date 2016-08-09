@@ -1,0 +1,11 @@
+{{#filters}}
+<form id="gallery-filter">
+  <select class="filters">
+    <option value="all" selected="selected">All</option>
+    {{#each filter}}
+    <option value="{{val}}">{{name}}</option>
+    {{/each}}
+  </select>
+  <input type="submit" class="filter-update" value="Update">
+</form>
+{{/filters}}
