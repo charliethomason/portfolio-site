@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Lugano, Switzerland",
+        "imgFile": "lugano",
+        "year": "2010",
+        "month": "09",
+        "medium": "Digital Photography",
+        "location": "Lugano, Switzerland",
+        "description": "Description coming soon"
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "lugano"
+  }
+}

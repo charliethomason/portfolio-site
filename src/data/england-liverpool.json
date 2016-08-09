@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "English Portfolio: Liverpool",
+        "imgFile": "england-liverpool",
+        "year": "2008",
+        "month": "01",
+        "medium": "35mm Film Photography",
+        "location": "Liverpool, Merseyside, UK",
+        "description": "In early 2008, right after finishing my BFA degree, I took a trip to England with my Dad, to take 35mm film photos for a solo exhibition. I wanted to capture what I called \"the real England,\" rather than the touristy London I had seen a few years earlier. One essential part of this was, of course, to visit Liverpool—which is not only the home of my favorite band, the Beatles, but also a perfect example of working-class English culture. In the heart of the city is the Liverpool Anglican Cathedral, which is the longest cathedral in the world, and the fifth-largest overall. For the above photo, I wanted to show this epic cathedral silhouetted in the background, with an old cobblestone street and middle class buildings in the foreground. The photo was taken near sundown, which allowed for some wonderful hard shadows. When I returned from the trip, I developed my film and prints in the University of Kentucky darkroom and held a one-month exhibit of my best work, entitled \"The English Portfolio,\" at the Kentucky Theatre in Lexington."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "england-liverpool"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Frozen Bench at Promontory Point",
+        "imgFile": "frozenpromontory",
+        "year": "2010",
+        "month": "12",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Promontory Point, Chicago, IL",
+        "description": "This was the first HDR image I ever created. At the time, I was working for the University of Chicago and one freezing cold winter day I walked out to Promontory Point. I had been wanting to experiment with HDR and had seen it used with great results on photos of snow and ice. Since I first posted this image to Flickr, it has consistently been one of my most highly-viewed photos."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "frozenpromontory"
+  }
+}

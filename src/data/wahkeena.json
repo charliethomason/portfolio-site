@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Wahkeena Falls, Oregon",
+        "imgFile": "wahkeena",
+        "year": "2009",
+        "month": "07",
+        "medium": "Digital Photography",
+        "location": "Wahkeena Falls, Multnomah County, OR",
+        "description": "This is one of my favorite photos I've ever taken. In Summer 2008, Amanda and I were driving from Portland, OR to Multnomah Falls, but decided to stop along the way at Wahkeena Falls. We ended up liking it better than Multnomah; even though it's smaller, it's less touristy and has some great hiking trails. This rocky bridge that goes by the falls looks great against the greenery and cool, rushing water. This was the closest I could get without my camera getting wet, but is framed nicely and captures the peacefulness of the place."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "wahkeena"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "English Portfolio: High Bradfield",
+        "imgFile": "england-bradfield",
+        "year": "2008",
+        "month": "01",
+        "medium": "35mm Film Photography",
+        "location": "High Bradfield, South Yorkshire, UK",
+        "description": "In early 2008, right after finishing my BFA degree, I took a trip to England with my Dad, to take 35mm film photos for a solo exhibition. I wanted to capture what I called \"the real England,\" rather than the touristy London I had seen a few years earlier. One essential part of this was, of course, to visit the beautiful English countryside. So one day, we took a bus from Sheffield way out into the countryside of South Yorkshire, eventually arriving in the villages of High Bradfield and Low Bradfield (which are, as their names suggest, at the top and bottom of a hill, respectively). At that time, it was the most serene, lush, and peaceful place I had ever been (and this was in late winter). High Bradfield is home to the fifteenth century Church of St. Nicholas, where this photo was taken. The surrounding graveyard was full of headstones and grave markers that dated back to medieval times, and allowed for some fantastic photographs. When I returned from the trip, I developed my film and prints in the University of Kentucky darkroom and held a one-month exhibit of my best work, entitled \"The English Portfolio,\" at the Kentucky Theatre in Lexington."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "england-bradfield"
+  }
+}

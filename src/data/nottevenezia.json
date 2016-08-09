@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Notte a Venezia (Night in Venice)",
+        "imgFile": "nottevenezia",
+        "year": "2010",
+        "month": "09",
+        "medium": "Digital Photography",
+        "location": "Venice, Italy",
+        "description": "In September 2010, I went to Venice, Italy for the first time with Amanda and my parents. It was the most amazing place I had ever been, but took on a whole new life at night. Using my Panasonic DMC-G1, I took some long exposures on a late night walk through Venice. I love the way they captured the serene, yet slightly mysterious nature of Venice at night. The water appears so calm and the buildings, bridges, and boats seem to rise out of the shadows."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "nottevenezia"
+  }
+}
