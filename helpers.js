@@ -109,32 +109,40 @@ module.exports.pageNav = function(type,id) {
     "ei-bogueinletpier"
   ];
 
-  var prevTitle;
-  var prevId;
-  var nextTitle;
-  var nextId;
+  var num,
+      totalWorks,
+      prevNum,
+      nextNum,
+      prevTitle,
+      prevId,
+      nextTitle,
+      nextId;
 
   if (type == 'art') {
 
-    var totalWorks = artTitles.length - 1;
-    var prevNum = (id == 0) ? totalWorks : id - 1;
-    var nextNum = (id == totalWorks) ? 0 : id + 1;
+    num = (artIds.indexOf(id) > -1) ? artIds.indexOf(id) : 0;
 
-    var prevTitle = artTitles[prevNum];
-    var prevId = artIds[prevNum];
-    var nextTitle = artTitles[nextNum];
-    var nextId = artIds[nextNum];
+    totalWorks = artTitles.length - 1;
+    prevNum = (num == 0) ? totalWorks : num - 1;
+    nextNum = (num == totalWorks) ? 0 : num + 1;
+
+    prevTitle = artTitles[prevNum];
+    prevId = artIds[prevNum];
+    nextTitle = artTitles[nextNum];
+    nextId = artIds[nextNum];
 
   } else if (type == 'photos') {
 
-    var totalWorks = photoTitles.length - 1;
-    var prevNum = (id == 0) ? totalWorks : id - 1;
-    var nextNum = (id == totalWorks) ? 0 : id + 1;
+    num = (photoIds.indexOf(id) > -1) ? photoIds.indexOf(id) : 0;
 
-    var prevTitle = photoTitles[prevNum];
-    var prevId = photoIds[prevNum];
-    var nextTitle = photoTitles[nextNum];
-    var nextId = photoIds[nextNum];
+    totalWorks = photoTitles.length - 1;
+    prevNum = (num == 0) ? totalWorks : num - 1;
+    nextNum = (num == totalWorks) ? 0 : num + 1;
+
+    prevTitle = photoTitles[prevNum];
+    prevId = photoIds[prevNum];
+    nextTitle = photoTitles[nextNum];
+    nextId = photoIds[nextNum];
     
   }
 

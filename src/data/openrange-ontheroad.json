@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Open Range: On The Road",
+        "imgFile": "openrange-ontheroad",
+        "year": "2011",
+        "month": "06",
+        "medium": "Polaroid Film Photography",
+        "location": "Arizona",
+        "description": "Some of the most beautiful sights I saw while shooting my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a> were found not within a National Park but just along the side of the road as we traveled through the deserts of Arizona and Utah. For this reason, I decided to create a special chapter of random photos that wouldn't fit in any of the other chapters. I of course borrowed the chapter's name from the title of Jack Kerouac's most famous book. Some of these photos were taken out the car window while driving; others were taken by just pulling over to the side of the road. I also took several Polaroid photos using my Dad's old Polaroid Sun 600 and actual Polaroid film I saved from before they stopped producing it. The above Polaroid photo has some red dust on the outer edges, which is from when I opened the car door and several of the Polaroids blew out of the car and tried to escape into the desert. After finally catching all the Polaroids, I opted to keep the red sand on them, for added authenticity and artistic effect."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "openrange-ontheroad"
+  }
+}

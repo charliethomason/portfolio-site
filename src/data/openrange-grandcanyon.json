@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Open Range: Grand Canyon",
+        "imgFile": "openrange-grandcanyon",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Grand Canyon National Park, AZ",
+        "description": "The Grand Canyon chapter of my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a> was uniquely challenging for 3 reasons. First, it was never originally supposed to be a part of the book at all; we ended up stopping there spontaneously after we left Monument Valley. Second, it is perhaps one of the most-photographed and popular destinations in the world. And lastly, we didn't have as much to spend there as at the other spots in my book. Nevertheless, it's hard to take a bad photo of the Grand Canyon. This particular photo is a high-dynamic range image that I captured by wandering down a steep, narrow path near one of the main overlooks. I like to think I captured the timeless beauty of this American wonder."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "openrange-grandcanyon"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Open Range: Navajo National Monument",
+        "imgFile": "openrange-navajomonument",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography, HDR Imaging",
+        "location": "Navajo National Monument, Shonto, AZ",
+        "description": "This photo was featured in my book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. Although both the Navajo National Monument and Monument Valley are located in the Navajo Nation, these two places are quite different. The Navajo National Monument consists of 3 ancient Anasazi cliff dwellings from the 13th century, located within the Tsegi Canyon in northern Arizona. As opposed to the barren rocks and desert grass of Monument Valley, the Navajo National Monument is filled with a broad variety of trees, birds, and reptiles. I found that the wide range of values and high contrast produced by the high-dynamic range (HDR) process was perfect for bringing out the detail in these trees and ruins."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "openrange-navajomonument"
+  }
+}

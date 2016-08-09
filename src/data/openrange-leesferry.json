@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Open Range: Lee's Ferry, Colorado River",
+        "imgFile": "openrange-leesferry",
+        "year": "2011",
+        "month": "06",
+        "medium": "Digital Photography",
+        "location": "Lee's Ferry, Marble Canyon, AZ",
+        "description": "Description coming soon"
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "openrange-leesferry"
+  }
+}

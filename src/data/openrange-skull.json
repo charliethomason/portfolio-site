@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Open Range: Hidden Skull in Monument Valley",
+        "imgFile": "openrange-skull",
+        "year": "2011",
+        "month": "06",
+        "medium": "35mm Film Photography",
+        "location": "Monument Valley, AZ",
+        "description": "The time I spent in Monument Valley, on the Navajo Reservation, was the most rewarding part of my first photography book <a href=\"http://www.blurb.com/b/2868673-open-range\" target=\"_blank\"><em>Open Range: From Monument Valley to the Mojave Desert</em></a>. I had learned of this special place in my college film classes, as the setting for many of John Ford's films. I was overwhelmed by the beauty, peacefulness, quietness, and spiritual holiness of the place and tried to be respectful of the land and of the Navajo people while I was there. The above 35mm film photo shows a rock formation that someone later told me looks like a skull. I also love this particular image because it captures the interesting hard shadows created as the sun goes down over the Valley. Deserts can be very beautiful in the day, but also very dark and mysterious at night."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "openrange-skull"
+  }
+}

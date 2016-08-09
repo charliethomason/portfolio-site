@@ -1,6 +1,6 @@
 {{#pagenav}}
 <nav class="page-nav">
-  {{{pageNav type num}}}
-  <li class="back"><a href="../{{#if folder}}{{folder}}{{else}}{{../../folder}}{{/if}}.html"><img src="../img/pagenav-gray.jpg" alt=""><span>Return to {{#if folder}}{{capitalizeFirst folder}}{{else}}{{capitalizeFirst ../../folder}}{{/if}}</span></a></li>
+  {{{pageNav type id}}}
+  <li class="back"><a href="../{{#if type}}{{type}}{{else}}{{../../folder}}{{/if}}.html"><img src="../img/pagenav-gray.jpg" alt=""><span>Return to {{#if type}}{{capitalizeFirst type}}{{else}}{{capitalizeFirst ../../folder}}{{/if}}</span></a></li>
 </nav>
 {{/pagenav}}
