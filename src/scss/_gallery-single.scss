@@ -53,10 +53,11 @@
   }
   .single-meta {
     @include sans;
+    background:$eee;
     font-size:14px;
     line-height:18px;
-    border:1px solid $slate;
     float:right;
+    padding:0 10px;
     width:33.33%;
     @include mobile {
       float:none;
@@ -65,12 +66,15 @@
     }
     li {
       @include sans;
+      border-top:1px solid $litegray;
+      color:$darkgray;
       font-size:14px;
+      font-weight:bold;
       line-height:20px;
       display:block;
-      padding:5px;
-      &:nth-child(odd) {
-        background:$slate;
+      padding:10px 0;
+      &:first-child {
+        border-top:none;
       }
     }
   }

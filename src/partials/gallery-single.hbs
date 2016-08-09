@@ -13,13 +13,13 @@
       <div class="single-info">
         <p class="single-description">{{{description}}}</p>
         <ul class="single-meta">
+          <li class="single-medium">{{medium}}</li>
           <li class="single-year">{{monthNumber month}} {{year}}</li>
           {{#if location}}
           <li class="single-location-wrap">
             <a href="http://maps.google.com/maps?q={{location}}" class="single-location" target="_blank">{{location}}</a>
           </li>
           {{/if}}
-          <li class="single-medium">{{medium}}</li>
         </ul>
       </div>
 
