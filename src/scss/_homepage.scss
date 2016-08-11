@@ -1,10 +1,13 @@
 #content.index {
   background-color:$offwhite;
-  padding:0 0 10px;
+  padding:0;
   .homepage {
     padding:0 20px;
     position:relative;
-    top:-20px;
+    top:-30px;
+    @include mobile {
+      top:-20px;
+    }
   }
   .home-box {
     @include mid500;
