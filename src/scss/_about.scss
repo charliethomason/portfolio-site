@@ -1,20 +1,30 @@
+#content {
+  .about-wrap {
+    h1 {
+      margin-bottom:15px;
+      @include mobile {
+        margin-bottom:10px;
+      }
+    }
+  }
+}
 .about-wrap {
   @include mid500;
   padding:25px;
   @include mobile {
     padding:20px 10px;
   }
-  h1 {
-    margin-bottom:10px;
-    @include mobile {
-      margin-bottom:5px;
-    }
-  }
   p {
+    font-size:16px;
     line-height:24px;
     padding:10px 0;
     @include mobile {
       padding:5px 0;
+    }
+    &.intro {
+      @include sans;
+      font-weight:bold;
+      padding-top:0;
     }
   }
   h2 {

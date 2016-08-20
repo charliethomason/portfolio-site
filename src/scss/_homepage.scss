@@ -2,17 +2,9 @@
   background-color:$offwhite;
   padding:0;
   .homepage {
-    padding:0 20px;
-    position:relative;
-    top:-30px;
-    @include mobile {
-      top:-20px;
-    }
   }
   .home-box {
-    @include mid500;
     background-color:#fff;
-    border:1px solid $darkgray;
     h1 {
       background-color:$darkgray;
       color:#fff;

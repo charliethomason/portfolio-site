@@ -44,6 +44,20 @@ body {
 			}
 		}
 	}
+	.tagline {
+		@include sans;
+		color:#fff;
+		font-size:12px;
+		letter-spacing:0.2em;
+		padding:5px 0 20px;
+		text-align:center;
+		text-transform: uppercase;
+		@include mobile {
+			font-size:10px;
+			letter-spacing:0.15em;
+			padding-bottom:10px;
+		}
+	}
 }
 #main-nav {
 	padding:5px 0 0;
@@ -125,7 +139,7 @@ body {
 		ul {
 			background-color: #000;
 			overflow:hidden;
-			padding:5px 0;
+			padding:5px 0 20px;
 			position:absolute;
 			left:-9999px;
 			top:-9999px;
@@ -209,8 +223,8 @@ body {
 		margin-bottom:25px;
 		text-align:center;
 		@include mobile {
-			font-size:20px;
-			line-height:28px;
+			font-size:22px;
+			line-height:30px;
 			margin:0 10px 10px;
 		}
 	}
