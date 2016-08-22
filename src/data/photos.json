@@ -48,6 +48,14 @@
     "type": "photos",
     "works": [
       {
+        "imgTitle": "Venezia Honeymoon",
+        "imgFile": "venezia",
+        "year": "2016",
+        "month": "07",
+        "photo-count": "50",
+        "filters": "europe venice"
+      },
+      {
         "imgTitle": "Austria: Innsbruck, Salzburg, and Seefeld",
         "imgFile": "austria",
         "year": "2016",

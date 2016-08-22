@@ -1,0 +1,35 @@
+{
+  "date": "July 25-30, 2016",
+  "medium": "Digital Photography",
+  "folder": "gallery-venezia",
+  "gallery-page": {
+    "works": [
+      {
+        "imgTitle": "Amanda and I arrive in Venice, first selfie",
+        "imgFile": "venezia-01",
+        "location": "Ponte degli Scalzi, Venice, Italy",
+        "camera": "Apple iPhone 6",
+        "description": "Our honeymoon adventure begins. Here we are crying on the Ponte degli Scalzi bridge right after we arrived in Venice and had been traveling for almost 24 hours."
+      },
+      {
+        "imgTitle": "Ca' San Giorgio, our hotel",
+        "imgFile": "venezia-02",
+        "location": "Ca' San Giorgio, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "description": "The bed and breakfast where we stayed in Venice."
+      },
+      {
+        "imgTitle": "2016 vs 2010 Comparison: Cannaregio Campaniello",
+        "imgFile": "venezia-35",
+        "location": "Cannaregio, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1 (top) and Panasonic Lumix DMC-G1 (bottom)",
+        "description": "Coming soon"
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "venezia"
+  }
+}

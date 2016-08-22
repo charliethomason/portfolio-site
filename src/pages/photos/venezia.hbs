@@ -1,0 +1,26 @@
+---
+modified:
+  title: "Venezia Honeymoon"
+  class: photos
+---
+{{> header}}
+
+<div class="gallery-page-head">
+  <h1>{{modified.title}}</h1>
+  <div class="photo-count">50 photos</div>
+  <div class="gallery-date">July 25-30, 2016</div>
+</div>
+<div class="gallery-nav">
+  <a href="/photos.html">&laquo; Return to Photos</a>
+  <a href="#" class="trigger-lightbox">View in Lightbox</a>
+</div>
+
+{{#venezia}}
+
+{{> gallery-page}}
+{{> pagenav}}
+
+{{/venezia}}
+
+
+{{> footer}}
