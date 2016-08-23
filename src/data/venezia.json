@@ -26,12 +26,13 @@
         "imgFile": "venezia-03",
         "location": "Rio del Megio, Venice, Italy",
         "camera": "Panasonic Lumix DMC-GF1 (left) and Panasonic Lumix DMC-G1 (right)",
-        "date": "Monday, July 25, 2016 (left) and Friday, September 10, 2010 (right)"
+        "date": "Monday, July 25, 2016 (left) and Friday, September 10, 2010 (right)",
+        "description": "One of my goals for our visit to Venice was to recreate some of the photos I had taken on our previous visit in 2010. The challenge in doing this is that Venice can be hard to navigate, so finding some of these locations again was quite hard. Luckily, the architecture of Venice hasn't changed much in the last few centuries so it was a fun challenge. In fact, the image quality of my photos has changed quite a bit more than the subject matter itself. The canal in these 2 photos is located just around the corner from our hotel, so it was one of the first things I recognized upon our return."
       },
       {
         "imgTitle": "First meal: Riva Del Vin, along the Grand Canal",  
         "imgFile": "venezia-04",
-        "location": "Riva Del Vin, Venice, Italy",
+        "location": "Riva Del Vin, San Polo, 746, Venice, Italy",
         "camera": "Panasonic Lumix DMC-GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
@@ -65,7 +66,7 @@
         "description": "Coming soon"
       },
       {
-        "imgTitle": "Doge's Palace corner angle",
+        "imgTitle": "Palazzo Ducale corner angle",
         "imgFile": "venezia-08",
         "location": "Palazzo Ducale, Venice, Italy",
         "camera": "Panasonic Lumix DMC-GF1",
@@ -92,83 +93,106 @@
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Pigeons on a lamppost in the Piazzetta San Marco",
         "imgFile": "venezia-11",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Apple iPhone 6",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Sunset glow along the Grand Canal",
         "imgFile": "venezia-12",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Traghetto di Riva del Vin, Venice, Italy",
+        "camera": "Apple iPhone 6",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Beautiful morning walk to the Rialto Fish Market",
         "imgFile": "venezia-13",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Hotel L'Orologio Venezia, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Inside the Fish Market",
         "imgFile": "venezia-14",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Rialto Market, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "The Giants' Staircase in Palazzo Ducale Courtyard",
         "imgFile": "venezia-15",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Sala del Collegio in Palazzo Ducale",
         "imgFile": "venezia-16",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
-        "imgFile": "venezia-17",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "",
+        "imgTitle": "Amanda with 'Il Paradiso' in the Great Council Chamber of Palazzo Ducale",
         "imgFile": "venezia-18",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "San Giorgio Maggiore seen from Great Council Chamber of Palazzo Ducale",
         "imgFile": "venezia-19",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Apple iPhone 6",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Amanda overlooking Palazzo Ducale Courtyard",
         "imgFile": "venezia-20",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Apple iPhone 6",
+        "date": "Tuesday, July 26",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "View of the Bacino di San Marco from Palazzo Ducale window",
+        "imgFile": "venezia-17",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "View of San Giorgio Maggiore from inside Bridge of Sighs",
+        "imgFile": "venezia-23",
+        "location": "Ponte dei Sospiri, Venice, Italy",
+        "camera": "Apple iPhone 6",
+        "date": "Tuesday, July 26",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "View of Bridge of Sighs from Riva degli Schiavoni",
+        "imgFile": "venezia-45",
+        "location": "Ponte dei Sospiri, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
@@ -182,14 +206,6 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-22",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "",
-        "imgFile": "venezia-23",
         "location": "Venice, Italy",
         "camera": "",
         "lens": "",
@@ -357,14 +373,6 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-44",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "",
-        "imgFile": "venezia-45",
         "location": "Venice, Italy",
         "camera": "",
         "lens": "",
