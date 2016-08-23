@@ -1,9 +1,18 @@
 .gallery-page {
   .img-section {
-    margin-bottom:25px;
   }
   .img-info {
     @include clearfix;
+    padding:10px 0 25px;
+    &.no-description {
+      padding:0;
+      .img-meta {
+        float:none;
+        margin:0 auto;
+        max-width:550px;
+        width:100%;
+      }
+    }
   }
   .img-inpage {
     border-top:1px solid #000;
@@ -119,7 +128,7 @@
     background:#000;
     color:#fff;
     font-size:18px;
-    margin:0 0 10px;
+    margin:0;
     padding:10px 25px;
     text-align:center;
   }

@@ -13,10 +13,12 @@
         <button class="img-next">Next</button>
       </div>
     </div>
-    <div class="img-info">
+    <div class="img-info{{#unless description}} no-description{{/unless}}">
+      {{#if description}}
       <div class="img-desc">
         <p>{{{description}}}</p>
       </div>
+      {{/if}}
       <ul class="img-meta">
         {{#if location}}<li><strong>Location:</strong> <a href="http://maps.google.com/maps?q={{location}}" target="_blank">{{location}}</a></li>{{/if}}
         {{#if date}}<li><strong>Date Taken:</strong> {{date}}</li>{{/if}}
