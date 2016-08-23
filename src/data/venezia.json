@@ -5,11 +5,12 @@
   "gallery-page": {
     "works": [
       {
-        "imgTitle": "Amanda and I arrive in Venice, first selfie",
+        "imgTitle": "First selfie upon arrival",
         "imgFile": "venezia-01",
         "location": "Ponte degli Scalzi, Venice, Italy",
         "camera": "Apple iPhone 6",
-        "description": "Our honeymoon adventure begins. Here we are crying on the Ponte degli Scalzi bridge right after we arrived in Venice and had been traveling for almost 24 hours."
+        "date": "Monday, July 25",
+        "description": "Amanda and I arrived at Santa Lucia train station in Venice at 14:10 CEST on Monday, July 25. We exited the train station and walked over the Ponte degli Scalzi bridge, where we took this photo. We knew we would cry 2 times on our honeymoon: right after we arrived in Venice, and right before we left. It had been 6 years since we were last in Venice, and we had forgotten how unbelievably beautiful it is."
       },
       {
         "imgTitle": "Ca' San Giorgio, our hotel",
@@ -17,70 +18,78 @@
         "location": "Ca' San Giorgio, Venice, Italy",
         "camera": "Panasonic Lumix DMC-GF1",
         "lens": "Panasonic 7-14mm f/4.0",
-        "description": "The bed and breakfast where we stayed in Venice."
+        "date": "Monday, July 25",
+        "description": "For our honeymoon in Venice, we decided to stay at the same place we had stayed in 2010: the lovely <a href=\"http://casangiorgio.com\" target=\"_blank\">Ca' San Giorgio</a> bed and breakfast. Located in the Santa Croce sestiere, right by the Fontago dei Turchi, this family-owned lodging is very special and unique. We stayed in the room on the very top floor, which features an \"<em>altana</em>,\" or roof-top deck. The people who run Ca' San Giorgio were so helpful and friendly, and made our trip so much more special."
       },
       {
-        "imgTitle": "",
+        "imgTitle": "2016 vs 2010 Comparison: Rio del Megio",
         "imgFile": "venezia-03",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Rio del Megio, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1 (left) and Panasonic Lumix DMC-G1 (right)",
+        "date": "Monday, July 25, 2016 (left) and Friday, September 10, 2010 (right)",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "First meal: Riva Del Vin, along the Grand Canal",  
         "imgFile": "venezia-04",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Riva Del Vin, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Gondola near the Rialto Bridge",
         "imgFile": "venezia-05",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Rialto Bridge, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Gondola passing under Ponte dei Baretteri",
         "imgFile": "venezia-06",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Ponte dei Baretteri, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Basilica San Marco corner angle",
         "imgFile": "venezia-07",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Basilica San Marco, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Doge's Palace corner angle",
         "imgFile": "venezia-08",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "San Giorgio Maggiore seen from the Piazzetta San Marco",
         "imgFile": "venezia-09",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Palazzo Ducale, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Santa Maria della Salute",
         "imgFile": "venezia-10",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Santa Maria della Salute, Venice, Italy",
+        "camera": "Panasonic Lumix DMC-GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
         "description": "Coming soon"
       },
       {
