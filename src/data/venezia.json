@@ -7,33 +7,42 @@
       {
         "imgTitle": "First selfie upon arrival",
         "imgFile": "venezia-01",
-        "location": "Ponte degli Scalzi, Venice, Italy",
+        "location": "Ponte degli Scalzi, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Monday, July 25",
-        "description": "Amanda and I arrived at Santa Lucia train station in Venice at 14:10 CEST on Monday, July 25. We exited the train station and walked over the Ponte degli Scalzi bridge, where we took this photo. We knew we would cry 2 times on our honeymoon: right after we arrived in Venice, and right before we left. It had been 6 years since we were last in Venice, and we had forgotten how unbelievably beautiful it is."
+        "description": "Amanda and I arrived at Santa Lucia train station in Venezia at 14:10 CEST on Monday, July 25. We exited the train station and walked over the Ponte degli Scalzi bridge, where we took this photo. We knew we would cry 2 times on our honeymoon: right after we arrived in Venice, and right before we left. It had been 6 years since we were last in Venice, and we had forgotten how unbelievably beautiful it is."
       },
       {
         "imgTitle": "Ca' San Giorgio, our hotel",
         "imgFile": "venezia-02",
-        "location": "Ca' San Giorgio, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Ca' San Giorgio, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "For our honeymoon in Venice, we decided to stay at the same place we had stayed in 2010: the lovely <a href=\"http://casangiorgio.com\" target=\"_blank\">Ca' San Giorgio</a> bed and breakfast. Located in the Santa Croce sestiere, right by the Fontago dei Turchi, this family-owned lodging is very special and unique. We stayed in the room on the very top floor, which features an \"<em>altana</em>,\" or roof-top deck. The people who run Ca' San Giorgio were so helpful and friendly, and made our trip so much more special."
       },
       {
+        "imgTitle": "Our private altana at Ca' San Giorgio",
+        "imgFile": "venezia-25",
+        "location": "Ca' San Giorgio, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
+        "description": "This is the private rooftop deck, or \"<em>altana</em>,\" that was part of our room at Ca' San Giorgio. Ours was the only room that had one and it came to epitomize the relaxation part of our vacation. We ended every day on the altana drinking wine and staring up at the stars. At night the only sounds you heard were an occasional boat passing by on the nearby Grand Canal. Surrounded by terracotta roofs, it was so peaceful, private, and perfect."
+      },
+      {
         "imgTitle": "2016 vs 2010 Comparison: Rio del Megio",
         "imgFile": "venezia-03",
-        "location": "Rio del Megio, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1 (left) and Panasonic Lumix DMC-G1 (right)",
+        "location": "Rio del Megio, Venezia",
+        "camera": "Panasonic Lumix GF1 (left) and Panasonic Lumix G1 (right)",
         "date": "Monday, July 25, 2016 (left) and Friday, September 10, 2010 (right)",
         "description": "One of my goals for our visit to Venice was to recreate some of the photos I had taken on our previous visit in 2010. The challenge in doing this is that Venice can be hard to navigate, so finding some of these locations again was quite hard. Luckily, the architecture of Venice hasn't changed much in the last few centuries so it was a fun challenge. In fact, the image quality of my photos has changed quite a bit more than the subject matter itself. The canal in these 2 photos is located just around the corner from our hotel, so it was one of the first things I recognized upon our return."
       },
       {
         "imgTitle": "First meal: Riva Del Vin, along the Grand Canal",  
         "imgFile": "venezia-04",
-        "location": "Riva Del Vin, San Polo, 746, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Riva Del Vin, San Polo, 746, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -41,8 +50,8 @@
       {
         "imgTitle": "Gondola near the Rialto Bridge",
         "imgFile": "venezia-05",
-        "location": "Rialto Bridge, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Rialto Bridge, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -50,8 +59,8 @@
       {
         "imgTitle": "Gondola passing under Ponte dei Baretteri",
         "imgFile": "venezia-06",
-        "location": "Ponte dei Baretteri, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Ponte dei Baretteri, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -59,8 +68,8 @@
       {
         "imgTitle": "Basilica San Marco corner angle",
         "imgFile": "venezia-07",
-        "location": "Basilica San Marco, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Basilica San Marco, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -68,8 +77,8 @@
       {
         "imgTitle": "Palazzo Ducale corner angle",
         "imgFile": "venezia-08",
-        "location": "Palazzo Ducale, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Palazzo Ducale, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -77,8 +86,8 @@
       {
         "imgTitle": "San Giorgio Maggiore seen from the Piazzetta San Marco",
         "imgFile": "venezia-09",
-        "location": "Palazzo Ducale, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Palazzo Ducale, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -86,8 +95,8 @@
       {
         "imgTitle": "Santa Maria della Salute",
         "imgFile": "venezia-10",
-        "location": "Santa Maria della Salute, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Santa Maria della Salute, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -95,7 +104,7 @@
       {
         "imgTitle": "Pigeons on a lamppost in the Piazzetta San Marco",
         "imgFile": "venezia-11",
-        "location": "Palazzo Ducale, Venice, Italy",
+        "location": "Palazzo Ducale, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -103,7 +112,7 @@
       {
         "imgTitle": "Sunset glow along the Grand Canal",
         "imgFile": "venezia-12",
-        "location": "Traghetto di Riva del Vin, Venice, Italy",
+        "location": "Traghetto di Riva del Vin, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Monday, July 25",
         "description": "Coming soon"
@@ -111,8 +120,8 @@
       {
         "imgTitle": "Beautiful morning walk to the Rialto Fish Market",
         "imgFile": "venezia-13",
-        "location": "Hotel L'Orologio Venezia, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Hotel L'Orologio Venezia, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -120,8 +129,8 @@
       {
         "imgTitle": "Inside the Fish Market",
         "imgFile": "venezia-14",
-        "location": "Rialto Market, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Rialto Market, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -129,8 +138,8 @@
       {
         "imgTitle": "The Giants' Staircase in Palazzo Ducale Courtyard",
         "imgFile": "venezia-15",
-        "location": "Palazzo Ducale, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Palazzo Ducale, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -138,8 +147,8 @@
       {
         "imgTitle": "Sala del Collegio in Palazzo Ducale",
         "imgFile": "venezia-16",
-        "location": "Palazzo Ducale, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Palazzo Ducale, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -147,8 +156,8 @@
       {
         "imgTitle": "Amanda with 'Il Paradiso' in the Great Council Chamber of Palazzo Ducale",
         "imgFile": "venezia-18",
-        "location": "Palazzo Ducale, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Palazzo Ducale, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -156,7 +165,7 @@
       {
         "imgTitle": "San Giorgio Maggiore seen from Great Council Chamber of Palazzo Ducale",
         "imgFile": "venezia-19",
-        "location": "Palazzo Ducale, Venice, Italy",
+        "location": "Palazzo Ducale, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -164,7 +173,7 @@
       {
         "imgTitle": "Amanda overlooking Palazzo Ducale Courtyard",
         "imgFile": "venezia-20",
-        "location": "Palazzo Ducale, Venice, Italy",
+        "location": "Palazzo Ducale, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -172,8 +181,8 @@
       {
         "imgTitle": "View of the Bacino di San Marco from Palazzo Ducale window",
         "imgFile": "venezia-17",
-        "location": "Palazzo Ducale, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Palazzo Ducale, Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -181,7 +190,7 @@
       {
         "imgTitle": "View of San Giorgio Maggiore from inside Bridge of Sighs",
         "imgFile": "venezia-23",
-        "location": "Ponte dei Sospiri, Venice, Italy",
+        "location": "Ponte dei Sospiri, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
@@ -189,151 +198,149 @@
       {
         "imgTitle": "View of Bridge of Sighs from Riva degli Schiavoni",
         "imgFile": "venezia-45",
-        "location": "Ponte dei Sospiri, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1",
+        "location": "Ponte dei Sospiri, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "Arsenale di Venezia",
+        "imgFile": "venezia-21",
+        "location": "Arsenale di Venezia",
+        "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
-        "imgFile": "venezia-21",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "",
+        "imgTitle": "Rio dei Greci",
         "imgFile": "venezia-22",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Fondamenta San Lorenzo, 5030, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Selfie near bridge with flowers",
         "imgFile": "venezia-24",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Sestiere San Marco, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
-        "imgFile": "venezia-25",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "",
+        "imgTitle": "Enjoying a lovely, peaceful gondola ride",
         "imgFile": "venezia-26",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Sestiere Santa Croce, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Basilica di Santa Maria Gloriosa dei Frari",
         "imgFile": "venezia-27",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Santa Maria Gloriosa dei Frari, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Wednesday, July 27",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Tomb of Titian in the Frari",
         "imgFile": "venezia-28",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Santa Maria Gloriosa dei Frari, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Wednesday, July 27",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Northwest view from Ponte dell'Accademia",
         "imgFile": "venezia-29",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Ponte dell'Accademia, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
-        "imgFile": "venezia-30",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "",
+        "imgTitle": "East view passing under Ponte dell'Accademia",
         "imgFile": "venezia-31",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Ponte dell'Accademia, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
-        "imgFile": "venezia-32",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "",
+        "imgTitle": "Selfie on Ponte dell'Accademia",
         "imgFile": "venezia-33",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Ponte dell'Accademia, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "The beach on the island of the Lido",
+        "imgFile": "venezia-30",
+        "location": "Lido di Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "Gondola with accordion player seen from Vaporetto in early evening",
+        "imgFile": "venezia-32",
+        "location": "Rialto Bridge, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "Long Exposure: Late night walk through Cannaregio",
         "imgFile": "venezia-34",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Ponte delle Guglie, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Wednesday, July 27",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "2016 vs 2010 Comparison: Cannaregio Campaniello",
+        "imgTitle": "2016 vs 2010 Long Exposure Comparison: Campiello Augusto Picutti",
         "imgFile": "venezia-35",
-        "location": "Cannaregio, Venice, Italy",
-        "camera": "Panasonic Lumix DMC-GF1 (top) and Panasonic Lumix DMC-G1 (bottom)",
+        "location": "Calle Colonna, 1696, Venezia",
+        "camera": "Panasonic Lumix GF1 (top) and Panasonic Lumix G1 (bottom)",
+        "date": "Wednesday, July 27, 2016 (top) and Friday, September 10, 2010 (bottom)",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "2016 vs 2010 Long Exposure Comparison: Hotel Antico Doge",
         "imgFile": "venezia-36",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Calle Bianco Leon, 5644, Venezia",
+        "camera": "Panasonic Lumix GF1 (top) and Panasonic Lumix G1 (bottom)",
+        "date": "Wednesday, July 27, 2016 (top) and Friday, September 10, 2010 (bottom)",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "2016 vs 2010 Long Exposure Comparison: Ponte degli Scalzi",
         "imgFile": "venezia-37",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Ponte degli Scalzi, Venezia",
+        "camera": "Panasonic Lumix GF1 (top) and Panasonic Lumix G1 (bottom)",
+        "date": "Wednesday, July 27, 2016 (top) and Friday, September 10, 2010 (bottom)",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "View across the Grand Canal of Museo Wagner at night",
         "imgFile": "venezia-38",
-        "location": "Venice, Italy",
-        "camera": "",
-        "lens": "",
+        "location": "Traghetto di San Marcuola, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
         "description": "Coming soon"
       },
       {
         "imgTitle": "",
         "imgFile": "venezia-39",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -341,7 +348,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-40",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -349,7 +356,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-41",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -357,7 +364,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-42",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -365,7 +372,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-43",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -373,7 +380,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-44",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -381,7 +388,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-46",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -389,7 +396,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-47",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -397,7 +404,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-48",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -405,7 +412,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-49",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
@@ -413,7 +420,7 @@
       {
         "imgTitle": "",
         "imgFile": "venezia-50",
-        "location": "Venice, Italy",
+        "location": "Venezia",
         "camera": "",
         "lens": "",
         "description": "Coming soon"
