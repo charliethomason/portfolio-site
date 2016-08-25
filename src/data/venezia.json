@@ -66,6 +66,15 @@
         "description": "Coming soon"
       },
       {
+        "imgTitle": "Rio de San Polo Canal",
+        "imgFile": "venezia-51",
+        "location": "Da Fiore, San Polo, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Monday, July 25",
+        "description": "Coming soon"
+      },
+      {
         "imgTitle": "Basilica San Marco corner angle",
         "imgFile": "venezia-07",
         "location": "Basilica San Marco, Venezia",
@@ -157,8 +166,7 @@
         "imgTitle": "Amanda with 'Il Paradiso' in the Great Council Chamber of Palazzo Ducale",
         "imgFile": "venezia-18",
         "location": "Palazzo Ducale, Venezia",
-        "camera": "Panasonic Lumix GF1",
-        "lens": "Panasonic 7-14mm f/4.0",
+        "camera": "Apple iPhone 6",
         "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
@@ -202,6 +210,15 @@
         "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Monday, July 25",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "Rio del Mondo Novo Canal",
+        "imgFile": "venezia-53",
+        "location": "Calle del Mondo Novo, 5851, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
         "description": "Coming soon"
       },
       {
@@ -257,6 +274,15 @@
         "description": "Coming soon"
       },
       {
+        "imgTitle": "Ponte dei Pugni Fruit Market Boat",
+        "imgFile": "venezia-54",
+        "location": "Ponte dei Pugni, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Wednesday, July 27",
+        "description": "Coming soon"
+      },
+      {
         "imgTitle": "Northwest view from Ponte dell'Accademia",
         "imgFile": "venezia-29",
         "location": "Ponte dell'Accademia, Venezia",
@@ -281,9 +307,25 @@
         "description": "Coming soon"
       },
       {
+        "imgTitle": "Walking up Granviale Santa Maria Elisabetta on the Lido",
+        "imgFile": "venezia-58",
+        "location": "Granviale Santa Maria Elisabetta, Lido, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
+        "description": "Coming soon"
+      },
+      {
         "imgTitle": "The beach on the island of the Lido",
         "imgFile": "venezia-30",
         "location": "Lido di Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, July 27",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "San Marco seen from Vaporetto",
+        "imgFile": "venezia-57",
+        "location": "Palazzo Ducale, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Wednesday, July 27",
         "description": "Coming soon"
@@ -306,7 +348,7 @@
         "description": "Coming soon"
       },
       {
-        "imgTitle": "2016 vs 2010 Long Exposure Comparison: Campiello Augusto Picutti",
+        "imgTitle": "2016 vs 2010 Long Exposure Comparison: Campiello Agusto Picutti",
         "imgFile": "venezia-35",
         "location": "Calle Colonna, 1696, Venezia",
         "camera": "Panasonic Lumix GF1 (top) and Panasonic Lumix G1 (bottom)",
@@ -346,6 +388,15 @@
         "description": "Coming soon"
       },
       {
+        "imgTitle": "",
+        "imgFile": "venezia-55",
+        "location": "Ca' Rezzonico, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Thursday, July 28",
+        "description": "Coming soon"
+      },
+      {
         "imgTitle": "Charlie having a drink at Osteria da Toni",
         "imgFile": "venezia-40",
         "location": "Osteria da Toni, Venezia",
@@ -379,6 +430,15 @@
         "description": "Coming soon"
       },
       {
+        "imgTitle": "Vineyard in Mazzorbo",
+        "imgFile": "venezia-56",
+        "location": "Mazzorbo, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Thursday, July 28",
+        "description": "Coming soon"
+      },
+      {
         "imgTitle": "Old Venetian Violinist",
         "imgFile": "venezia-44",
         "location": "Campo dei Gesuiti, Venezia",
@@ -387,43 +447,68 @@
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "2016 vs 2010 Comparison: Chiesa di San Geremia Portrait",
         "imgFile": "venezia-46",
-        "location": "Venezia",
-        "camera": "",
-        "lens": "",
+        "location": "Chiesa di San Geremia, Venezia",
+        "camera": "Apple iPhone 6 (top) and Panasonic Lumix G1 (bottom)",
+        "date": "Friday, July 29, 2016 (top) and Friday, September 10, 2010 (bottom)",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "2016 vs 2010 Comparison: Amanda bridge portrait",
         "imgFile": "venezia-47",
-        "location": "Venezia",
-        "camera": "",
-        "lens": "",
+        "location": "Calle del Tintor, 2110, Venezia",
+        "camera": "Apple iPhone 6 (top) and Panasonic Lumix G1 (bottom)",
+        "date": "Friday, July 29, 2016 (top) and Friday, September 10, 2010 (bottom)",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Rialto Bridge and Hotel Rialto",
         "imgFile": "venezia-48",
-        "location": "Venezia",
-        "camera": "",
-        "lens": "",
+        "location": "Rialto Bridge, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, July 29",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Wide angle view of Piazza San Marco",
+        "imgFile": "venezia-52",
+        "location": "Piazza San Marco, Venezia",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Tuesday, July 26",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "Piazza San Marco Panorama",
+        "imgFile": "venezia-59",
+        "location": "Basilica San Marco, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, July 29",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "Charlie on the Loggia dei Cavalli of Basilica San Marco",
+        "imgFile": "venezia-60",
+        "location": "Basilica San Marco, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, July 29",
+        "description": "Coming soon"
+      },
+      {
+        "imgTitle": "Portrait on the Loggia dei Cavalli of Basilica San Marco",
         "imgFile": "venezia-49",
-        "location": "Venezia",
-        "camera": "",
-        "lens": "",
+        "location": "Basilica San Marco, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, July 29",
         "description": "Coming soon"
       },
       {
-        "imgTitle": "",
+        "imgTitle": "Last selfie before leaving",
         "imgFile": "venezia-50",
-        "location": "Venezia",
-        "camera": "",
-        "lens": "",
+        "location": "Ponte degli Scalzi, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Saturday, July 30",
         "description": "Coming soon"
       }
     ]

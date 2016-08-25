@@ -31,6 +31,10 @@
         "val": "hdr"
       },
       {
+        "name": "Long Exposure",
+        "val": "longexp"
+      },
+      {
         "name": "Open Range",
         "val": "openrange"
       },
@@ -53,7 +57,7 @@
         "year": "2016",
         "month": "07",
         "photo-count": "50",
-        "filters": "europe venice"
+        "filters": "europe venice longexp"
       },
       {
         "imgTitle": "Austria: Innsbruck, Salzburg, and Seefeld",
@@ -208,7 +212,7 @@
         "imgFile": "openrange-saddleback",
         "year": "2011",
         "month": "06",
-        "filters": "openrange america"
+        "filters": "openrange america longexp"
       },
       {
         "imgTitle": "Open Range: Lee's Ferry, Colorado River",
@@ -243,7 +247,7 @@
         "imgFile": "nottevenezia",
         "year": "2010",
         "month": "09",
-        "filters": "venice europe"
+        "filters": "venice europe longexp"
       },
       {
         "imgTitle": "Lugano, Switzerland",
