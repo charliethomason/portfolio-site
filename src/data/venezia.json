@@ -228,7 +228,7 @@
         "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
-        "description": "The Arsenale is a major tourist attraction in Venice that is often and easily overlooked. It is, however, arguably just as important as the Rialto Bridge and St. Mark's Basilica. If the Rialto represents the Venetian Republic's economy, and St. Mark's represents its religious traditions, then the Arsenale represents an equally vital part of its history: the building of warships and maritime trading ships. The present structure was built in 1104, though there's evidence that ships were built in this area as early as the 8th century. At one time, it spanned 110 acres (about 15% of Venice) and was the largest industrial complex in Europe until the Industrial Revolution. Although Henry Ford is often credited with inventing the modern assembly line, the process was arguably in practice for hundreds of years through the Venetian Republic's mass-production of ships. This photo depicts the entrance and Porta Magna. You can also see a kayaker going by near the entrance."
+        "description": "The Arsenale is a major tourist attraction in Venice that is often and easily overlooked. It is, however, arguably just as important as the Rialto Bridge and St. Mark's Basilica. If the Rialto represents the Venetian Republic's economy, and St. Mark's represents its religious traditions, then the Arsenale represents an equally vital part of its history: the building of warships and maritime trading ships. The present structure was built in 1104, though there's evidence that ships were built in this area as early as the 8th century. At one time, it spanned 110 acres (about 15% of Venice) and was <strong><em>the largest industrial complex in Europe until the Industrial Revolution</em></strong>. Although Henry Ford is often credited with inventing the modern assembly line, the process was arguably in practice for hundreds of years through the Venetian Republic's mass-production of ships. This photo depicts the entrance and Porta Magna. You can also see a kayaker going by near the entrance."
       },
       {
         "imgTitle": "Rio dei Greci",
@@ -237,23 +237,31 @@
         "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Tuesday, July 26",
-        "description": "Coming soon"
+        "description": "In the Castello sestiere is the Chiesa di San Giorgio dei Greci, a church that, from the 16th through 19th centuries, was the cultural and religious center for the Greek community in Venice. In this photo, you can see the belltower on the left just past the bridge. Alongside it runs the Rio dei Greci canal. This area of Castello became known as the Greek area, where the Scuola dei Greci confraternity thrived, until the fall of the Venetian Republic."
       },
       {
         "imgTitle": "Selfie near bridge with flowers",
         "imgFile": "venezia-24",
-        "location": "Sestiere San Marco, Venezia",
+        "location": "Corte delle Ancore, San Marco, 895, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Tuesday, July 26",
-        "description": "Coming soon"
+        "description": "Amanda and I took this selfie on a bridge over the Rio de la Procuratie, which runs just north of Piazza San Marco. In fact, right after you cross this bridge, you are basically entering St. Mark's Square. The bridge with the flowers behind us is a private bridge owned by a nearby lace shop. There are many different paths that lead into St. Mark's Square, but we found this one to be less congested. The bridge we are standing on is also a \"love locks\" bridge, which are common throughout Venice and all of Europe."
       },
       {
         "imgTitle": "Enjoying a lovely, peaceful gondola ride",
         "imgFile": "venezia-26",
-        "location": "Sestiere Santa Croce, Venezia",
+        "location": "Rio di San Boldo, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Tuesday, July 26",
-        "description": "Coming soon"
+        "description": "Our first gondola ride of the trip was like a dream, and easily my favorite of the 3 total Venetian gondola rides I've taken in my life. The gondolier actually had his young son with him and told us that the gondolier tradition has been passed down from father to son in their family for generations. He took us from Campo Santa Maria Mater Domini out onto the Grand Canal, then back down the Rio del Megio, which connects to the Rio del Boldo. Both of these run very close to Ca' San Giorgio, our hotel, in the peaceful Santa Croce sestiere."
+      },
+      {
+        "imgTitle": "Portrait with our gondolier",
+        "imgFile": "venezia-60",
+        "location": "Sestier Santa Croce, 2176, Venezia",
+        "camera": "Apple iPhone 6",
+        "date": "Tuesday, July 26",
+        "description": "Here we are with our gondolier at the end of our gondola ride. His son took this photo of us (their idea actually, not mine). You're really not supposed to tip gondoliers, but I gave him an extra €2 \"for your boy,\" which he seemed to appreciate. He was truly a seasoned expert in the gondolier tradition, and a very polite and pleasant gentleman. He would sing and whistle as we slowly glided through the very quiet canals, and would make a sortof \"<em>oi oi oi</em>\" call before turning a blind corner. I am not exaggerating when I say that this particular gondola ride was one of the best experiences of my whole life."
       },
       {
         "imgTitle": "Basilica di Santa Maria Gloriosa dei Frari",
@@ -262,7 +270,7 @@
         "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Wednesday, July 27",
-        "description": "Coming soon"
+        "description": "This Basilica, colloquially known as \"The Frari,\" is in some ways even more impressive than St. Mark's. It was built in the 14th century in the San Polo sestiere, and is the final resting place of many famous Venetians, including: 4 Doges, the great 17th century composer Claudio Monteverdi, the great neoclassical sculptor Antonio Canova, and, last but not least, the famous 16th century Venetian painter Tiziano Vecelli, better known as Titian. While the exterior of the church is a fairly simple plain brick in the Italian Gothic style, the interior is overwhelmingly beautiful."
       },
       {
         "imgTitle": "Tomb of Titian in the Frari",
@@ -271,7 +279,7 @@
         "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Wednesday, July 27",
-        "description": "Coming soon"
+        "description": "Thousands of people died when a plague ravaged Venice in 1576, and the government had a law that the bodies must be dumped onto an island or into the sea. However, they made one exception to this law when the plague took the life of the great Venetian painter, Titian, who was interred in this great tomb in the Frari. Titian's birthdate is unknown, but when he died he was somewhere between his late eighties and 100 years old. In the top middle of the tomb you can see an engraving of Titian's most famous work, \"The Assumption of the Virgin,\" which still hangs in the high altar of the Frari."
       },
       {
         "imgTitle": "Ponte dei Pugni Fruit Market Boat",
@@ -482,14 +490,6 @@
       {
         "imgTitle": "Piazza San Marco Panorama",
         "imgFile": "venezia-59",
-        "location": "Basilica San Marco, Venezia",
-        "camera": "Apple iPhone 6",
-        "date": "Friday, July 29",
-        "description": "Coming soon"
-      },
-      {
-        "imgTitle": "Charlie on the Loggia dei Cavalli of Basilica San Marco",
-        "imgFile": "venezia-60",
         "location": "Basilica San Marco, Venezia",
         "camera": "Apple iPhone 6",
         "date": "Friday, July 29",
