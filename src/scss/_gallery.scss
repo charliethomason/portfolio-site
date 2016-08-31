@@ -90,6 +90,7 @@
     line-height:1;
     padding:0 15px;
     vertical-align: top;
+    -webkit-appearance:none;
     &:hover, &:focus {
       background-color:$green;
       color:$darkgray;
