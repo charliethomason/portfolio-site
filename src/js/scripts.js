@@ -38,8 +38,41 @@ charlie.gallery = function() {
     });
   }
 
+  function galleryView() {
+    if (storageSupport() === true && sessionStorage.getItem('gallery-view')) {
+      var viewType = sessionStorage.getItem('gallery-view');
+      $('.gallery-wrap').removeClass('list grid').addClass(viewType);
+      $('input[name="view"][value="'+viewType+'"]').prop('checked',true);
+    }
+    $('input[name="view"]').change(function() {
+      if (this.value == 'grid') {
+        $('.gallery-wrap').removeClass('list').addClass('grid');
+        if (storageSupport() === true) {
+          sessionStorage.setItem('gallery-view','grid');
+        }
+      } else if (this.value == 'list') {
+        $('.gallery-wrap').removeClass('grid').addClass('list');
+        if (storageSupport() === true) {
+          sessionStorage.setItem('gallery-view','list');
+        }
+      }
+    });
+  }
+
+  function storageSupport() {
+    var test = 'test';
+    try {
+      sessionStorage.setItem(test,test);
+      sessionStorage.removeItem(test);
+      return true;
+    } catch(e) {
+      return false;
+    }
+  }
+
   function init() {
     filters();
+    galleryView();
   }
   init();
 

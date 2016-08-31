@@ -56,6 +56,10 @@
 
 <h1>Art Gallery</h1>
 
+<div class="gallery-view">
+  <input type="radio" id="view-grid" name="view" value="grid" checked="checked"><label for="view-grid">View as Grid</label>
+  <input type="radio" id="view-list" name="view" value="list"><label for="view-list">View as List</label>
+</div>
 <form id="gallery-filter">
   <label for="filters">Filter by category</label>
   <select class="filters" id="filters">
@@ -86,9 +90,7 @@
 
 <section class="gallery">
 
-  
-
-  <ul class="grid">
+  <ul class="gallery-wrap grid">
     
       <li class="img-li" data-id="0" data-year="2016-01" data-filters="birds travel ink watercolor">
         <a href="art/pelicanvenice.html" title="Amanda (Pelecanus Venezia)" class="galleryImg">
