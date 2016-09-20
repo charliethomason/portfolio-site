@@ -68,12 +68,6 @@ body {
 			display:inline-block;
 			margin-left: 2px;
 			vertical-align: middle;
-			&:first-child {
-				margin-left:0;
-				a {
-					padding-left:0;
-				}
-			}
 			a {
 				@include oswald;
 				color:$offwhite;
