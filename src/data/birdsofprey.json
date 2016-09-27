@@ -1,0 +1,49 @@
+{
+  "bird-gallery": {
+    "works": [
+      {
+        "bird": "Peregrine Falcon",
+        "imgFile": "peregrinefalcon",
+        "latin": "Falco peregrinus",
+        "location": "Old St. Patrick's Church, West Loop",
+        "googleQuery": "Old St. Patrick's Church, Chicago",
+        "date": "February 2015",
+        "description": "The Peregrine Falcon is the official bird of the City of Chicago. They can be easily spotted flying around the Field Museum, sitting on light towers at beaches, and even nesting on high-rise balconies. Like many Chicagoans, Peregrines are bold, fearless, and very fast. In fact, they are the fastest animal on Earth, capable of diving speeds up to 240 mph. For these reasons, I chose to pair it with a location that holds enormous personal significance to me. My wife Amanda and I were married at Old St. Patrick's Church on July 23, 2016 and have been members there since 2011. It's one of the most amazing, positive, and supportive communities of people I've ever been a part of and, like the Peregrine Falcon, symbolizes many of Chicagoans' best qualities. So it goes without saying that this was one of the most important paintings I wanted to complete. I painted this with the intention of it being the project's cover image, and even considered naming the project \"The Painted Peregrine.\" It's also one of only two paintings that depicts the bird as a head and breast portrait, which give a more regal appearance it so deserves."
+      },
+      {
+        "bird": "American Kestrel (male)",
+        "imgFile": "kestrel",
+        "latin": "Falco sparverius",
+        "location": "Museum Campus with skyline",
+        "googleQuery": "Shedd Aquarium, Chicago",
+        "date": "August 2015",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "Northern Goshawk",
+        "latin": "Accipiter gentilis",
+        "location": "Northerly Island in Winter, Adler Planetarium",
+        "googleQuery": "12th Street Beach, 1200 S Linn White Dr, Chicago, IL 60605",
+        "date": "October 2015",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "Great Horned Owl",
+        "imgFile": "greathornedowl",
+        "latin": "Bubo virginianus",
+        "location": "Graceland Cemetery in Autumn, Potter & Bertha Plamer grave, Chicago",
+        "googleQuery": "Graceland Cemetery, Chicago",
+        "date": "November 2015",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "Cooper's Hawk",
+        "latin": "Accipiter cooperii",
+        "location": "Mendota Hills Wind Farm, near Paw Paw, IL",
+        "googleQuery": "Mendota Hills Wind Farm, Brooklyn Township, IL",
+        "date": "September 2016",
+        "description": "Description coming soon..."
+      }
+    ]
+  }
+}

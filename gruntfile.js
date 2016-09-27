@@ -40,6 +40,9 @@
 				},
 				photos: {
 					files: {'build/photos/': ['src/pages/photos/*.hbs']}
+				},
+				birds: {
+					files: {'build/birds/': ['src/pages/birds/*.hbs']}
 				}
 			},
 			copy: {

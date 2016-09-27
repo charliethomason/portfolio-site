@@ -1,0 +1,18 @@
+---
+modified:
+  title: "Birds of Prey"
+  subtitle: "Falcons, Hawks, and Owls"
+  class: birds
+---
+{{> header}}
+
+<div class="gallery-page-head">
+  <h1>{{modified.title}}</h1>
+  <div class="page-subtitle">{{modified.subtitle}}</div>
+</div>
+
+{{#birdsofprey}}
+{{> bird-gallery}}
+{{/birdsofprey}}
+
+{{> footer}}

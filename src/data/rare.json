@@ -1,0 +1,51 @@
+{
+  "bird-gallery": {
+    "works": [
+      {
+        "bird": "Passenger Pigeon",
+        "imgFile": "passengerpigeon",
+        "latin": "Ectopistes migratorius",
+        "location": "The Field Museum",
+        "googleQuery": "Field Museum, Chicago",
+        "date": "October 2014",
+        "description": "This was the first piece I completed after deciding to create and publish a collection of bird paintings. Being the only extinct species I've ever painted, these Passenger Pigeons were not only my first painting for the project but also one of the most difficult. The very last Passenger Pigeon died exactly 100 years before I did this painting, meaning there are no color photographs of them actually alive. Therefore, I had to rely on a variety of materials to achieve the proper coloring. My primary source was the specimens on display at Chicago's Field Museum, which are arranged exactly the same as how they're presented here. I also enjoyed reading Joel Greenberg's book, \"<em>A Feathered River Across the Sky: The Passenger Pigeon's Flight to Extinction</em>,\" which details how giant flocks of North America's most abundant bird would \"block out the sun for hours or even days.\" The last group of living Passenger Pigeons were kept by the University of Chicago's Professor Charles Otis Whitman, before eventually being sold to the Cincinnati Zoo. I hope my painting will, in some small way, help to carry on their legacy."
+      },
+      {
+        "bird": "Northern Flicker (male, yellow-shafted)",
+        "latin": "Colaptes auratus auratus",
+        "location": "Grant Park Rose Garden",
+        "googleQuery": "North Rose Garden, Chicago",
+        "date": "July 2015",
+        "description": "Flickers are a type of woodpecker, with the one in this painting being the \"yellow-shafted\" subspecies found in eastern North America. They are one of the few types of woodpeckers that migrates, and the only type that feeds off the ground. For this reason, their behavior is quite different than other woodpeckers, as they are commonly seen on or near the ground, among sparrows and blackbirds, rather than climbing up the trunks of trees. My most memorable sighting of one was in a medium-sized bush in Grant Park along Columbus Drive, just south of Congress Parkway. I became very excited and tried to get photos of it without scaring it away, while people walking nearby seemed to think I was crazy. For this painting, I decided to place the bird in the Grant Park Rose Garden, not far from my actual sighting, as it is a beautiful and fairly peaceful spot in the park."
+      },
+      {
+        "bird": "Pileated Woodpecker",
+        "imgFile": "pileatedwoodpecker",
+        "rotateClass": "portrait",
+        "latin": "Hylatomus pileatus",
+        "location": "Starved Rock State Park, Summer",
+        "googleQuery": "Starved Rock State Park, Oglesby, IL",
+        "date": "October-November 2015",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "Wild Turkey",
+        "imgFile": "turkey",
+        "rotateClass": "landscape",
+        "latin": "Meleagris gallopavo",
+        "location": "Starved Rock State Park, Autumn",
+        "googleQuery": "Starved Rock State Park, Oglesby, IL",
+        "date": "November 2015",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "Belted Kingfisher (female)",
+        "latin": "Megaceryle alcyon",
+        "location": "Halsted St. Bridge, Prairie Material Yard 32, St. John Cantius Church",
+        "googleQuery": "Prairie Material - Yard 32, Chicago",
+        "date": "January 2016",
+        "description": "Description coming soon..."
+      }
+    ]
+  }
+}

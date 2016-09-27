@@ -1,0 +1,38 @@
+{
+  "bird-gallery": {
+    "works": [
+      {
+        "bird": "Rock Pigeon",
+        "latin": "Columba livia",
+        "location": "Madison & Wabash CTA Station",
+        "googleQuery": "Madison and Wabash, Chicago",
+        "date": "February 2016",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "American Crow",
+        "latin": "Corvus brachyrhynchos",
+        "location": "Harper Memorial Library, University of Chicago, Midway Plaisance",
+        "googleQuery": "Harper Memorial Library, Chicago",
+        "date": "September 2016",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "Caspian Tern",
+        "latin": "Hydroprogne caspia",
+        "location": "Promontory Point",
+        "googleQuery": "Promontory Point, Chicago",
+        "date": "September 2016",
+        "description": "Description coming soon..."
+      },
+      {
+        "bird": "White-Throated Sparrow",
+        "latin": "Zonotrichia albicollis",
+        "location": "The Old Water Tower",
+        "googleQuery": "Historic Water Tower, Chicago",
+        "date": "September 2016",
+        "description": "Description coming soon..."
+      }
+    ]
+  }
+}

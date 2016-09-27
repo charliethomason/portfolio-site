@@ -1,0 +1,18 @@
+---
+modified:
+  title: "Most Common"
+  subtitle: "Pigeons, Crows, Seagulls, and Sparrows"
+  class: birds
+---
+{{> header}}
+
+<div class="gallery-page-head">
+  <h1>{{modified.title}}</h1>
+  <div class="page-subtitle">{{modified.subtitle}}</div>
+</div>
+
+{{#mostcommon}}
+{{> bird-gallery}}
+{{/mostcommon}}
+
+{{> footer}}

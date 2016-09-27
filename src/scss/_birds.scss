@@ -63,6 +63,13 @@
     }
   }
   #content {
+    padding:25px;
+    @include tablet {
+      padding:10px;
+    }
+    @include mobile {
+      padding:10px 0;
+    }
     h1 {
       margin-bottom:5px;
     }
