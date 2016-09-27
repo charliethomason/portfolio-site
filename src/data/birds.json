@@ -1,4 +1,32 @@
 {
   "page-name": "Birds of Chicagoland",
-  "page-subtitle": "Paintings by Charlie Thomason"
+  "page-subtitle": "Paintings by Charlie Thomason",
+  "type": "birds",
+  "categories": [
+    {
+      "category": "Birds of Prey",
+      "subtitle": "Falcons, Hawks, and Owls",
+      "slug": "birdsofprey"
+    },
+    {
+      "category": "Water Birds",
+      "subtitle": "Cormorants, Ducks, and Herons",
+      "slug": "waterbirds"
+    },
+    {
+      "category": "Songbirds",
+      "subtitle": "Colorful, Melodious, and Small",
+      "slug": "songbirds"
+    },
+    {
+      "category": "Most Common",
+      "subtitle": "Pigeons, Crows, Seagulls, and Sparrows",
+      "slug": "mostcommon"
+    },
+    {
+      "category": "Rare",
+      "subtitle": "Special and Elusive",
+      "slug": "rare"
+    }
+  ]
 }

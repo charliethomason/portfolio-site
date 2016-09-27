@@ -39,7 +39,7 @@ charlie.gallery = function() {
   }
 
   function galleryView() {
-    if (storageSupport() === true && sessionStorage.getItem('gallery-view')) {
+    if (storageSupport() === true && sessionStorage.getItem('gallery-view') && !$('body').hasClass('birds-wrap')) {
       var viewType = sessionStorage.getItem('gallery-view');
       $('.gallery-wrap').removeClass('list grid').addClass(viewType);
       $('input[name="view"][value="'+viewType+'"]').prop('checked',true);

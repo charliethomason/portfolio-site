@@ -1,0 +1,83 @@
+.birds-wrap {
+  background:#fff;
+  #header {
+    .headwrap {
+      padding-bottom:20px;
+    }
+    .logo {
+      a {
+        background-image:url('../img/ct-logo-gray.jpg');
+        background-size:300px 43px;
+        height:43px;
+        width:300px;
+        @include retina {
+          background-image:url('../img/ct-logo-gray-2x.jpg');
+        }
+      }
+    }
+    .tagline {
+      display:none;
+      color:$darkgray;
+    }
+  }
+  #hamburger {
+    color:$darkgray;
+    &:hover {
+      background-color:$birdBlue;
+      color:#fff;
+    }
+  }
+  #main-nav {
+    @include mobile {
+      padding:5px 0 0;
+    }
+    ul {
+      @include mobile {
+        background-color:#fff;
+        border-bottom:2px solid $birdBlue;
+      }
+      li {
+        a {
+          color:$medgray;
+          font-size:20px;
+          padding:0 5px;
+          @include mobile {
+            font-size:28px;
+            padding:5px;
+          }
+          &:hover,
+          &:focus {
+            color:$birdRed;
+          }
+        }
+        &.active {
+          a {
+            color:$birdBlue;
+            &:hover,
+            &:focus {
+              color:$birdRed;
+            }
+          }
+        }
+      }
+    }
+  }
+  #content {
+    h1 {
+      margin-bottom:5px;
+    }
+    .page-subtitle {
+      @include sans;
+      color:$darkgray;
+      font-size:12px;
+      letter-spacing:0.2em;
+      margin:0 0 20px;
+      text-align:center;
+      text-transform: uppercase;
+      @include mobile {
+        font-size:10px;
+        letter-spacing:0.15em;
+      }
+    }
+  }
+}
