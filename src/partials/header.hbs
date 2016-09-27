@@ -1,5 +1,5 @@
 {{#header}}
-<header id="header" role="banner">
+<header id="header" role="banner"{{#is ../modified.class 'birds'}} class="birds-wrap"{{/is}}>
 	<div class="headwrap">
 		<div class="logo">
 			<a href="index.html">Charlie Thomason</a>
@@ -21,7 +21,7 @@
 	</div>
 </header>
 
-<main id="main" role="main">
+<main id="main" role="main"{{#is ../modified.class 'birds'}} class="birds-wrap"{{/is}}>
 
 	<section id="content"{{#if ../modified.class}} class="{{../../modified.class}}"{{/if}}>
 {{/header}}
