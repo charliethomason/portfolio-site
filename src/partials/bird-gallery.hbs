@@ -9,40 +9,41 @@
   </div>
 
   <div class="gallery-view">
-    <input type="radio" id="view-owl" name="view" value="owl" checked="checked"><label for="view-owl">View as Slideshow</label>
+    <input type="radio" id="view-slideshow" name="view" value="slideshow" checked="checked"><label for="view-slideshow">View as Slideshow</label>
     <input type="radio" id="view-list" name="view" value="list"><label for="view-list">View as List</label>
   </div>
 
-  <div class="gallery-page owl-carousel">
+  <div class="gallery-page bird-slideshow">
 
   {{#each works}}
     <section class="img-section">
+
       <div class="img-inpage">
         <img src="/img/birds/{{imgFile}}.jpg" alt="{{imgTitle}}">
-        <h2>{{bird}}</h2>
-        <div class="latin">{{latin}}</div>
-        <div class="this-number">{{add @index 1}} / {{../works.length}}</div>
-        <div class="img-controls">
-          <button class="img-close">Close</button>
-          <button class="img-prev">Previous</button>
-          <button class="img-next">Next</button>
-        </div>
       </div>
-      <div class="img-info{{#unless description}} no-description{{/unless}}">
-        {{#if description}}
+
+      <div class="img-info">
         <div class="img-desc">
+          <h2>{{bird}}</h2>
+          <div class="latin">{{latin}}</div>
+          <div class="bird-meta">
+            {{#if location}}<span class="location">{{location}}</span>{{/if}}
+            <span class="date">{{date}}</span>
+          </div>
           <p>{{{description}}}</p>
+          <div class="bird-btns">
+            {{#if printUrl}}<a href="{{printUrl}}" target="_blank">Buy a Print</a>{{/if}}
+            <a href="#" target="_blank">Buy the Book</a>
+          </div>
         </div>
-        {{/if}}
-        <ul class="img-meta">
-          {{#if location}}<li><strong>Location:</strong> <a href="http://maps.google.com/maps?q={{googleQuery}}" target="_blank">{{location}}</a></li>{{/if}}
-          {{#if date}}<li><strong>Date:</strong> {{date}}</li>{{/if}}
-          {{#if printUrl}}<li><a href="{{printUrl}}" target="_blank">Buy a Print</a></li>{{/if}}
-        </ul>
       </div>
+
     </section>
   {{/each}}
 
   </div>
+
+  <button type="button" id="hide-slideshow">Close</button>
+
 </div>
 {{/bird-gallery}}

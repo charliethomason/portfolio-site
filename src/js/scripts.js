@@ -148,46 +148,101 @@ charlie.galleryPage = function() {
 
 charlie.birdGallery = function() {
   var $wrap = $('.gallery-page');
-  function owlCreate() {
-    $wrap.removeClass('bird-list')
-         .addClass('owl-carousel')
-         .owlCarousel({
-            items: 1,
-            loop: true,
-            nav: true
-         });
+  var $hider = $('#hide-slideshow');
+  function slideCreate() {
+    $hider.show();
+    $wrap.removeClass('bird-list').addClass('bird-slideshow');
+    $('.img-section').removeClass('section-active');
+    $('.img-section:first-child').addClass('section-active');
+    if (charlie.storageSupport() === true) {
+      sessionStorage.setItem('bird-gallery','slideshow');
+    }
   }
-  function owlDestroy() {
-    $wrap.trigger('destroy.owl.carousel')
-         .removeClass('owl-carousel')
-         .addClass('bird-list');
+  function slideDestroy() {
+    $hider.hide();
+    $('.img-section').removeClass('section-active');
+    $wrap.removeClass('bird-slideshow').addClass('bird-list');
+    if (charlie.storageSupport() === true) {
+      sessionStorage.setItem('bird-gallery','list');
+    }
   }
   function galleryView() {
     if (charlie.storageSupport() == true && sessionStorage.getItem('bird-gallery')) {
       var viewType = sessionStorage.getItem('bird-gallery');
       $('input[name="view"][value="'+viewType+'"]').prop('checked',true);
-      if (viewType == 'owl') {
-        owlCreate();
+      if (viewType == 'slideshow') {
+        slideCreate();
       } else if (viewType == 'list') {
-        owlDestroy();
+        slideDestroy();
+      }
+    } else {
+      if ($wrap.hasClass('bird-slideshow')) {
+        slideCreate();
       }
     }
     $('input[name="view"]').change(function() {
-      if (this.value == 'owl') {
-        owlCreate();
-        if (charlie.storageSupport() === true) {
-          sessionStorage.setItem('bird-gallery','owl');
-        }
+      if (this.value == 'slideshow') {
+        slideCreate();
       } else if (this.value == 'list') {
-        owlDestroy();
-        if (charlie.storageSupport() === true) {
-          sessionStorage.setItem('bird-gallery','list');
-        }
+        slideDestroy();
       }
     });
   }
+  function clickEvents() {
+    $('.img-inpage').click(function(e) {
+      if ($wrap.hasClass('bird-list')) {
+        e.preventDefault();
+        toggleLightbox(this);
+      }
+    });
+    $('.img-close').click(function(e) {
+      if ($wrap.hasClass('bird-list')) {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleLightbox($(this).parents('.img-section').find('.img-inpage'));
+      }
+    });
+    $('.img-info').click(function(e) {
+      if ($wrap.hasClass('bird-slideshow')) {
+        e.preventDefault();
+        e.stopPropagation();
+        $(this).toggleClass('show-info');
+      }
+    });
+    $hider.click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $('input[name="view"][value="list"]').prop('checked',true);
+      slideDestroy();
+    });
+    $('.img-section').on('swipeleft click', function(e) {
+      nextBird(this);
+    }).on('swiperight', function(e) {
+      prevBird(this);
+    });
+  }
+  function nextBird(bird) {
+    $(bird).removeClass('section-active');
+    if ($(bird).is(':last-child')) {
+      $('.img-section:first-child').addClass('section-active');
+    } else {
+      $(bird).next('.img-section').addClass('section-active');
+    }
+  }
+  function prevBird(bird) {
+    $(bird).removeClass('section-active');
+    if ($(bird).is(':first-child')) {
+      $('.img-section:last-child').addClass('section-active');
+    } else {
+      $(bird).prev('.img-section').addClass('section-active');
+    }
+  }
+  function toggleLightbox(target) {
+    $(target).toggleClass('fixed-lightbox');
+  }
   function init() {
     galleryView();
+    clickEvents();
   }
   init();
 }
