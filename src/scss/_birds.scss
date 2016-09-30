@@ -91,6 +91,15 @@
     .img-inpage {
       margin:0 auto;
     }
+    h2 {
+      background:transparent;
+      color:$darkgray;
+      padding:0;
+    }
+    .bird-meta {
+      @include sans;
+      text-align:center;
+    }
     &.bird-slideshow {
       background-color:#fff;
       height:100%;
@@ -111,7 +120,7 @@
       .img-inpage {
         border-top:none;
         height:100%;
-        padding-bottom:50px;
+        padding:50px 0;
         img {
           cursor:default;
           height:auto;
@@ -135,11 +144,6 @@
           margin:0 auto;
           max-width:500px;
           width:100%;
-        }
-        h2 {
-          background:transparent;
-          color:$darkgray;
-          padding:0;
         }
         &.show-info {
           height:100%;

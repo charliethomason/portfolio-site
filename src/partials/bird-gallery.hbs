@@ -9,11 +9,11 @@
   </div>
 
   <div class="gallery-view">
-    <input type="radio" id="view-slideshow" name="view" value="slideshow" checked="checked"><label for="view-slideshow">View as Slideshow</label>
-    <input type="radio" id="view-list" name="view" value="list"><label for="view-list">View as List</label>
+    <input type="radio" id="view-list" name="view" value="list" checked="checked"><label for="view-list">View as List</label>
+    <input type="radio" id="view-slideshow" name="view" value="slideshow"><label for="view-slideshow">View as Slideshow</label>
   </div>
 
-  <div class="gallery-page bird-slideshow">
+  <div class="gallery-page bird-list">
 
   {{#each works}}
     <section class="img-section">
@@ -25,11 +25,11 @@
       <div class="img-info">
         <div class="img-desc">
           <h2>{{bird}}</h2>
-          <div class="latin">{{latin}}</div>
           <div class="bird-meta">
             {{#if location}}<span class="location">{{location}}</span>{{/if}}
             <span class="date">{{date}}</span>
           </div>
+          <div class="latin">{{latin}}</div>
           <p>{{{description}}}</p>
           <div class="bird-btns">
             {{#if printUrl}}<a href="{{printUrl}}" target="_blank">Buy a Print</a>{{/if}}
