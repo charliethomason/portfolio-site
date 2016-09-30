@@ -152,19 +152,12 @@ charlie.birdGallery = function() {
   function slideCreate() {
     $hider.show();
     $wrap.removeClass('bird-list').addClass('bird-slideshow');
-    $('.img-section').removeClass('section-active');
+    $('.img-section').removeClass('section')
     $('.img-section:first-child').addClass('section-active');
-    if (charlie.storageSupport() === true) {
-      sessionStorage.setItem('bird-gallery','slideshow');
-    }
   }
   function slideDestroy() {
     $hider.hide();
-    $('.img-section').removeClass('section-active');
     $wrap.removeClass('bird-slideshow').addClass('bird-list');
-    if (charlie.storageSupport() === true) {
-      sessionStorage.setItem('bird-gallery','list');
-    }
   }
   function galleryView() {
     if (charlie.storageSupport() == true && sessionStorage.getItem('bird-gallery')) {
@@ -183,8 +176,14 @@ charlie.birdGallery = function() {
     $('input[name="view"]').change(function() {
       if (this.value == 'slideshow') {
         slideCreate();
+        if (charlie.storageSupport() === true) {
+          sessionStorage.setItem('bird-gallery','slideshow');
+        }
       } else if (this.value == 'list') {
         slideDestroy();
+        if (charlie.storageSupport() === true) {
+          sessionStorage.setItem('bird-gallery','list');
+        }
       }
     });
   }
@@ -213,6 +212,10 @@ charlie.birdGallery = function() {
       e.preventDefault();
       e.stopPropagation();
       $('input[name="view"][value="list"]').prop('checked',true);
+      if (charlie.storageSupport() === true) {
+        sessionStorage.setItem('bird-gallery','list');
+      }
+      $('.img-section').removeClass('section-active');
       slideDestroy();
     });
     $('.img-section').on('swipeleft click', function(e) {
