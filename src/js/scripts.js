@@ -39,7 +39,7 @@ charlie.gallery = function() {
   }
 
   function galleryView() {
-    if (storageSupport() === true && sessionStorage.getItem('gallery-view') && !$('body').hasClass('birds-wrap')) {
+    if (charlie.storageSupport() === true && sessionStorage.getItem('gallery-view')) {
       var viewType = sessionStorage.getItem('gallery-view');
       $('.gallery-wrap').removeClass('list grid').addClass(viewType);
       $('input[name="view"][value="'+viewType+'"]').prop('checked',true);
@@ -47,27 +47,16 @@ charlie.gallery = function() {
     $('input[name="view"]').change(function() {
       if (this.value == 'grid') {
         $('.gallery-wrap').removeClass('list').addClass('grid');
-        if (storageSupport() === true) {
+        if (charlie.storageSupport() === true) {
           sessionStorage.setItem('gallery-view','grid');
         }
       } else if (this.value == 'list') {
         $('.gallery-wrap').removeClass('grid').addClass('list');
-        if (storageSupport() === true) {
+        if (charlie.storageSupport() === true) {
           sessionStorage.setItem('gallery-view','list');
         }
       }
     });
-  }
-
-  function storageSupport() {
-    var test = 'test';
-    try {
-      sessionStorage.setItem(test,test);
-      sessionStorage.removeItem(test);
-      return true;
-    } catch(e) {
-      return false;
-    }
   }
 
   function init() {
@@ -157,12 +146,73 @@ charlie.galleryPage = function() {
   init();
 }
 
+charlie.birdGallery = function() {
+  var $wrap = $('.gallery-page');
+  function owlCreate() {
+    $wrap.removeClass('bird-list')
+         .addClass('owl-carousel')
+         .owlCarousel({
+            items: 1,
+            loop: true,
+            nav: true
+         });
+  }
+  function owlDestroy() {
+    $wrap.trigger('destroy.owl.carousel')
+         .removeClass('owl-carousel')
+         .addClass('bird-list');
+  }
+  function galleryView() {
+    if (charlie.storageSupport() == true && sessionStorage.getItem('bird-gallery')) {
+      var viewType = sessionStorage.getItem('bird-gallery');
+      $('input[name="view"][value="'+viewType+'"]').prop('checked',true);
+      if (viewType == 'owl') {
+        owlCreate();
+      } else if (viewType == 'list') {
+        owlDestroy();
+      }
+    }
+    $('input[name="view"]').change(function() {
+      if (this.value == 'owl') {
+        owlCreate();
+        if (charlie.storageSupport() === true) {
+          sessionStorage.setItem('bird-gallery','owl');
+        }
+      } else if (this.value == 'list') {
+        owlDestroy();
+        if (charlie.storageSupport() === true) {
+          sessionStorage.setItem('bird-gallery','list');
+        }
+      }
+    });
+  }
+  function init() {
+    galleryView();
+  }
+  init();
+}
+
+charlie.storageSupport = function() {
+  var test = 'test';
+  try {
+    sessionStorage.setItem(test,test);
+    sessionStorage.removeItem(test);
+    return true;
+  } catch(e) {
+    return false;
+  }
+}
+
 $(document).ready(function() {
   charlie.basics();
   if ($('.gallery').length) {
     charlie.gallery();
   }
   if ($('.gallery-page').length) {
-    charlie.galleryPage();
+    if ($('.birds-wrap').length) {
+      charlie.birdGallery();
+    } else {
+      charlie.galleryPage();
+    }
   }
 });

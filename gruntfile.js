@@ -61,6 +61,14 @@
 						src: ['**'],
 						dest: 'build/js'
 					}]
+				},
+				css_lib: {
+					files: [{
+						expand: true,
+						cwd: 'src/css/',
+						src: ['**'],
+						dest: 'build/css/'
+					}]
 				}
 			},
 			connect: {
