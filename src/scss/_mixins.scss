@@ -60,12 +60,17 @@ $birdRed: #c8102e;
 	}
 }
 @mixin tablet {
-	@media (max-width: 840px) {
+	@media screen and (max-width: 840px) {
 		@content;
 	}
 }
 @mixin mobile {
-	@media (max-width: 640px) {
+	@media screen and (max-width: 640px) {
+		@content;
+	}
+}
+@mixin under500 {
+	@media screen and (max-width: 500px) {
 		@content;
 	}
 }

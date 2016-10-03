@@ -148,20 +148,21 @@ charlie.galleryPage = function() {
 
 charlie.birdGallery = function() {
   var $wrap = $('.gallery-page');
-  var $hider = $('#hide-slideshow');
+  var $controls = $('.slide-controls');
   function slideCreate(bird) {
-    $hider.show();
+    $controls.show();
     $wrap.removeClass('bird-list').addClass('bird-slideshow');
-    $('.img-section').removeClass('section-active');
+    $('.img-section').removeClass('section-active').hide();
     if (bird) {
-      $(bird).parents('.img-section').addClass('section-active');
+      $(bird).parents('.img-section').addClass('section-active').show();
     } else {
-      $('.img-section:first-child').addClass('section-active');
+      $('.img-section:first-child').addClass('section-active').show();
     }
   }
   function slideDestroy() {
-    $hider.hide();
-    $('.img-section').removeClass('section-active');
+    $controls.hide();
+    $('.img-section').removeClass('section-active').hide();
+    $('.img-info').removeClass('show-info');
     $wrap.removeClass('bird-slideshow').addClass('bird-list');
   }
   function galleryView() {
@@ -186,12 +187,21 @@ charlie.birdGallery = function() {
         $(this).toggleClass('show-info');
       }
     });
-    $hider.click(function(e) {
+    $('#hide-slideshow').click(function(e) {
       e.preventDefault();
       e.stopPropagation();
       $('input[name="view"][value="list"]').prop('checked',true);
-      $('.img-section').removeClass('section-active');
       slideDestroy();
+    });
+    $('#prev-slideshow').click(function(e) {
+      e.preventDefault();
+      var currBird = $('.img-section.section-active');
+      prevBird(currBird);
+    });
+    $('#next-slideshow').click(function(e) {
+      e.preventDefault();
+      var currBird = $('.img-section.section-active');
+      nextBird(currBird);
     });
     $('.img-section').on('swipeleft', function(e) {
       nextBird(this);
@@ -200,19 +210,19 @@ charlie.birdGallery = function() {
     });
   }
   function nextBird(bird) {
-    $(bird).removeClass('section-active');
+    $(bird).removeClass('section-active').fadeOut('fast');
     if ($(bird).is(':last-child')) {
-      $('.img-section:first-child').addClass('section-active');
+      $('.img-section:first-child').addClass('section-active').fadeIn('fast');
     } else {
-      $(bird).next('.img-section').addClass('section-active');
+      $(bird).next('.img-section').addClass('section-active').fadeIn('fast');
     }
   }
   function prevBird(bird) {
-    $(bird).removeClass('section-active');
+    $(bird).removeClass('section-active').fadeOut('fast');
     if ($(bird).is(':first-child')) {
-      $('.img-section:last-child').addClass('section-active');
+      $('.img-section:last-child').addClass('section-active').fadeIn('fast');
     } else {
-      $(bird).prev('.img-section').addClass('section-active');
+      $(bird).prev('.img-section').addClass('section-active').fadeIn('fast');
     }
   }
   function init() {
