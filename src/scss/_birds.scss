@@ -89,6 +89,7 @@
   }
   .gallery-page {
     .img-inpage {
+      border-top:none;
       margin:0 auto;
     }
     h2 {
@@ -142,7 +143,6 @@
         display:block !important;
       }
       h2,
-      .bird-meta,
       .latin {
         padding: 0 0 5px;
       }
@@ -167,7 +167,6 @@
         width:100%;
       }
       .img-inpage {
-        border-top:none;
         height:100%;
         padding:0 0 60px;
         @include tablet {
@@ -224,10 +223,37 @@
             }
           }
           h2,
-          .bird-meta,
           .latin {
             color:$darkgray;
             padding: 0 0 5px;
+          }
+          .bird-meta {
+            color:$darkgray;
+            padding-bottom:0;
+          }
+        }
+      }
+    }
+    .bird-btns {
+      padding:20px 0;
+      text-align:center;
+      a {
+        @include sans;
+        background-color: $birdBlue;
+        color:#fff;
+        display:inline-block;
+        font-weight:bold;
+        padding:10px 20px;
+        &:hover,
+        &:focus {
+          background-color:$medgray;
+          text-decoration: none;
+        }
+        &:first-child {
+          margin-right:6px;
+          @include under500 {
+            margin-right:0;
+            margin-bottom:10px;
           }
         }
       }

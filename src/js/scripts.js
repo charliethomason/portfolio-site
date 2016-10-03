@@ -176,6 +176,7 @@ charlie.birdGallery = function() {
         e.preventDefault();
         e.stopPropagation();
         $(this).toggleClass('show-info');
+        $(this).scrollTop(0);
       }
     });
     $('#show-slideshow').click(function(e) {
