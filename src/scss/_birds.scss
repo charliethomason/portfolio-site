@@ -96,13 +96,31 @@
       color:$darkgray;
       padding:0;
     }
+    .img-desc {
+      float:none;
+      margin:0 auto;
+      max-width:500px;
+      padding:0;
+      width:100%;
+    }
     .bird-meta {
       @include sans;
       text-align:center;
+      .location, .date {
+        display:inline;
+        @include mobile {
+          display:block;
+        }
+      }
     }
     &.bird-list {
       section.img-section {
         display:block !important;
+      }
+      .img-desc {
+        @include mobile {
+          padding:0 20px;
+        }
       }
     }
     &.bird-slideshow {
@@ -142,11 +160,6 @@
         top:-50px;
         width:100%;
         .img-desc {
-          float:none;
-          margin:0 auto;
-          max-width:500px;
-          padding:0;
-          width:100%;
           @include under500 {
             padding:0 40px;
           }

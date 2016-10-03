@@ -165,15 +165,6 @@ charlie.birdGallery = function() {
     $('.img-info').removeClass('show-info');
     $wrap.removeClass('bird-slideshow').addClass('bird-list');
   }
-  function galleryView() {
-    $('input[name="view"]').change(function() {
-      if (this.value == 'slideshow') {
-        slideCreate();
-      } else if (this.value == 'list') {
-        slideDestroy();
-      }
-    });
-  }
   function clickEvents() {
     $('.img-inpage').click(function(e) {
       if ($wrap.hasClass('bird-list')) {
@@ -187,10 +178,13 @@ charlie.birdGallery = function() {
         $(this).toggleClass('show-info');
       }
     });
+    $('#show-slideshow').click(function(e) {
+      e.preventDefault();
+      slideCreate();
+    });
     $('#hide-slideshow').click(function(e) {
       e.preventDefault();
       e.stopPropagation();
-      $('input[name="view"][value="list"]').prop('checked',true);
       slideDestroy();
     });
     $('#prev-slideshow').click(function(e) {
@@ -226,7 +220,6 @@ charlie.birdGallery = function() {
     }
   }
   function init() {
-    galleryView();
     clickEvents();
   }
   init();
