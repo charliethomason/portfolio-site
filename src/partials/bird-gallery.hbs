@@ -22,10 +22,10 @@
         <div class="img-desc">
           <h2>{{bird}}</h2>
           <div class="bird-meta">
-            {{#if location}}<span class="location">{{location}}</span>{{/if}}
+            {{#if location}}<span class="location">{{location}}</span><span class="bull">&bull;</span>{{/if}}
             <span class="date">{{date}}</span>
           </div>
-          <div class="latin">{{latin}}</div>
+          <div class="latin">({{latin}})</div>
           <p>{{{description}}}</p>
           <div class="bird-btns">
             {{#if printUrl}}<a href="{{printUrl}}" target="_blank">Buy a Print</a>{{/if}}
