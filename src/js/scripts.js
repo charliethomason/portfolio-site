@@ -203,6 +203,9 @@ charlie.birdGallery = function() {
     }).on('swiperight', function(e) {
       prevBird(this);
     });
+    $('.bird-btns a').click(function(e) {
+      e.stopPropagation();
+    });
   }
   function nextBird(bird) {
     $(bird).removeClass('section-active').fadeOut('fast');
