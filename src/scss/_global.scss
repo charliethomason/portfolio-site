@@ -317,15 +317,3 @@ a {
     z-index:101;
   }
 }
-.mobile-only {
-	display:none;
-	@include mobile {
-		display:block;
-	}
-}
-.under500-only {
-	display:none;
-	@include under500 {
-		display:block;
-	}
-}

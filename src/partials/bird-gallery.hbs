@@ -2,9 +2,12 @@
 <div class="bird-gallery">
 
   <div class="gallery-intro">
-    <p>{{intro}}</p>
+    <p class="intro-text">{{intro}}</p>
+    <div class="intro-btns">
+      <a href="#" class="buy-book">Buy the Book</a>
+    </div>
     <div class="gallery-nav">
-      <a href="/birds.html">&laquo; Return to Birds</a>
+      <a href="/birds.html">&laquo; Categories</a>
       <a href="#" id="show-slideshow">View Fullscreen</a>
     </div>
   </div>
@@ -26,11 +29,12 @@
             <span class="date">{{date}}</span>
           </div>
           <div class="latin">({{latin}})</div>
-          <p>{{{description}}}</p>
+          <p class="description">{{{description}}}</p>
+          {{#if printUrl}}
           <div class="bird-btns">
-            {{#if printUrl}}<a href="{{printUrl}}" target="_blank">Buy a Print</a><br class="under500-only">{{/if}}
-            <a href="#" target="_blank">Buy the Book</a>
+            <a href="{{printUrl}}" target="_blank">Buy a Print</a>
           </div>
+          {{/if}}
         </div>
       </div>
 
@@ -40,9 +44,9 @@
   </div>
 
   <div class="slide-controls">
-    <button type="button" id="hide-slideshow">Close</button>
-    <button type="button" id="prev-slideshow">Previous Image</button>
-    <button type="button" id="next-slideshow">Next Image</button>
+    <button type="button" id="hide-slideshow" title="Close slideshow">Close</button>
+    <button type="button" id="prev-slideshow" title="Previous image">Previous Image</button>
+    <button type="button" id="next-slideshow" title="Next image">Next Image</button>
   </div>
 
 </div>
