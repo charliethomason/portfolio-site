@@ -87,6 +87,10 @@
       }
     }
   }
+  .bird-hero {
+    display:block;
+    max-width:100%;
+  }
   .gallery-intro {
     text-align:center;
     .intro-text {
@@ -129,6 +133,95 @@
           }
           + a {
             margin-left:6px;
+          }
+        }
+      }
+    }
+    &.main-birds-intro {
+      background-color:rgba(255,255,255,0.8);
+      margin:0 auto;
+      max-width:500px;
+      position:relative;
+      top:-65px;
+      .intro-text {
+        max-width:none;
+        padding:20px;
+        width:auto;
+        @include mobile {
+          padding:20px;
+        }
+      }
+      .intro-btns {
+        margin-bottom:0;
+      }
+    }
+  }
+  .gallery {
+    margin-top:-45px;
+    ul.gallery-wrap {
+      li.img-li {
+        background-color:transparent;
+        padding:0;
+        a {
+          background-color:$eee;
+          img {
+            height:auto;
+            max-width:100%;
+            margin:0;
+            width:50%;
+            @include under500 {
+              float:none;
+              width:100%;
+            }
+          }
+          &:hover, 
+          &:focus {
+            background-color:$birdBlue;
+            h2,
+            .subtitle {
+              color:#fff;
+            }
+          }
+        }
+        .info {
+          float:left;
+          padding:20px;
+          width:50%;
+          @include tablet {
+            padding:10px 20px;
+          }
+          @include mobile {
+            float:none;
+            width:auto;
+          }
+          h2 {
+            padding:0 0 5px;
+            @include mobile {
+              padding:0 0 3px;
+            }
+            @include under500 {
+              font-size:18px;
+              line-height: 24px;
+              padding:0 0 5px;
+            }
+          }
+          .subtitle {
+            @include sans;
+            color:$birdBlue;
+            font-size:12px;
+            letter-spacing:0.2em;
+            line-height:18px;
+            text-transform: uppercase;
+            @include mobile {
+              font-size:10px;
+              letter-spacing:0.15em;
+              line-height:14px;
+            }
+            @include under500 {
+              font-size:12px;
+              letter-spacing:0.2em;
+              line-height:18px;
+            }
           }
         }
       }

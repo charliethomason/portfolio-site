@@ -9,7 +9,8 @@ modified:
 <h1>{{page-name}}</h1>
 <div class="page-subtitle">{{page-subtitle}}</div>
 
-<div class="gallery-intro">
+<img src="img/birds/{{bird-hero}}.jpg" alt="{{bird-hero-alt}}" class="bird-hero">
+<div class="gallery-intro main-birds-intro">
   <p class="intro-text">{{intro}}</p>
   <div class="intro-btns">
     <a href="#" class="buy-book">Buy the Book</a>
@@ -22,7 +23,7 @@ modified:
   {{#each categories}}
     <li class="img-li">
       <a href="birds/{{slug}}.html" title="{{category}}" class="galleryImg">
-        {{#if imgFile}}<img src="img/{{../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">{{/if}}
+        <img src="img/birds/thumbs/{{slug}}.jpg" alt="{{imgTitle}}">
         <div class="info">
           <h2 class="title">{{category}}</h2>
           <p class="subtitle">{{subtitle}}</p>
