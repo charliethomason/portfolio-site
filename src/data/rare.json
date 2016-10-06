@@ -4,7 +4,7 @@
     "works": [
       {
         "bird": "Passenger Pigeon",
-        "imgFile": "passengerpigeon",
+        "imgFile": "passenger-pigeon",
         "latin": "Ectopistes migratorius",
         "location": "The Field Museum",
         "googleQuery": "Field Museum, Chicago",
@@ -22,7 +22,7 @@
       },
       {
         "bird": "Pileated Woodpecker",
-        "imgFile": "pileatedwoodpecker",
+        "imgFile": "pileated-woodpecker",
         "rotateClass": "portrait",
         "latin": "Hylatomus pileatus",
         "location": "Starved Rock State Park, Summer",
@@ -32,7 +32,7 @@
       },
       {
         "bird": "Wild Turkey",
-        "imgFile": "turkey",
+        "imgFile": "wild-turkey",
         "rotateClass": "landscape",
         "latin": "Meleagris gallopavo",
         "location": "Starved Rock State Park, Autumn",
@@ -42,6 +42,7 @@
       },
       {
         "bird": "Belted Kingfisher",
+        "imgFile": "belted-kingfisher",
         "latin": "Megaceryle alcyon",
         "location": "Halsted St. Bridge, Prairie Material Yard 32, St. John Cantius Church",
         "googleQuery": "Prairie Material - Yard 32, Chicago",

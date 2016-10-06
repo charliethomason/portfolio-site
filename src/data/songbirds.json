@@ -3,12 +3,14 @@
     "works": [
       {
         "bird": "Eastern Meadowlark",
+        "imgFile": "eastern-meadowlark",
         "latin": "Sturnella magna",
         "date": "November 2014",
         "description": "My parents lived in a rural area of Kentucky for about 12 years, and the 3 birds I remember the most from that time are the Eastern Meadowlark, American Kestrel, and Northern Cardinal. I fondly recall seeing little groups of Meadowlarks huddled together in the winter snow, still singing as sweetly as they did in the summer. They can be found year-round in both Kentucky and Chicago, with their bright yellow breast and beautiful song making them easily recognizable. Being the second painting completed for this project, it's unique in that I only applied the correct color to the yellow breast and throat. The rest of the bird would normally be brown, not gray, but I wanted the yellow to be accentuated as much as possible."
       },
       {
         "bird": "Blue Jay",
+        "imgFile": "blue-jay",
         "latin": "Cyanocitta cristata",
         "location": "Hackney's and Dearborn Station, Printer's Row",
         "googleQuery": "Dearborn and Polk, Chicago",
@@ -17,6 +19,7 @@
       },
       {
         "bird": "Northern Cardinals",
+        "imgFile": "cardinals",
         "latin": "Cardinalis cardinalis",
         "location": "Rock Island, IL",
         "googleQuery": "Rock Island, IL",
@@ -25,6 +28,7 @@
       },
       {
         "bird": "Red-Winged Blackbird",
+        "imgFile": "red-winged-blackbird",
         "latin": "Agelaius phoeniceus",
         "location": "Glessner House Museum, Prairie District",
         "googleQuery": "Glessner House Museum, Chicago",

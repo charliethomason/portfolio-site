@@ -3,6 +3,7 @@
     "works": [
       {
         "bird": "Great Blue Heron",
+        "imgFile": "great-blue-heron",
         "latin": "Ardea herodias",
         "location": "Humboldt Park Lagoon & Field House",
         "googleQuery": "Humboldt Park Refectory and Fieldhouse, Chicago",
@@ -11,6 +12,7 @@
       },
       {
         "bird": "Wood Duck",
+        "imgFile": "wood-duck",
         "latin": "Aix sponsa",
         "location": "Lincoln Park South Pond",
         "googleQuery": "Lincoln Park South Pond, Chicago",
@@ -35,6 +37,7 @@
       },
       {
         "bird": "Common Loon",
+        "imgFile": "common-loon",
         "latin": "Gavia immer",
         "location": "Jackson Park Lagoon, Museum of Science and Industry",
         "googleQuery": "Museum of Science and Industry, Chicago",

@@ -3,6 +3,7 @@
     "works": [
       {
         "bird": "Rock Pigeon",
+        "imgFile": "rock-pigeon",
         "latin": "Columba livia",
         "location": "Madison & Wabash CTA Station",
         "googleQuery": "Madison and Wabash, Chicago",
@@ -11,8 +12,9 @@
       },
       {
         "bird": "American Crow",
+        "imgFile": "american-crow",
         "latin": "Corvus brachyrhynchos",
-        "location": "Harper Memorial Library, University of Chicago, Midway Plaisance",
+        "location": "University of Chicago, Midway Plaisance",
         "googleQuery": "Harper Memorial Library, Chicago",
         "date": "September 2016",
         "description": "Description coming soon..."

@@ -3,7 +3,7 @@
     "works": [
       {
         "bird": "Peregrine Falcon",
-        "imgFile": "peregrinefalcon",
+        "imgFile": "peregrine-falcon",
         "latin": "Falco peregrinus",
         "location": "Old St. Patrick's Church, West Loop",
         "googleQuery": "Old St. Patrick's Church, Chicago",
@@ -12,7 +12,6 @@
       },
       {
         "bird": "American Kestrel",
-        "imgFile": "kestrel",
         "latin": "Falco sparverius",
         "location": "Museum Campus with skyline",
         "googleQuery": "Shedd Aquarium, Chicago",
@@ -21,6 +20,7 @@
       },
       {
         "bird": "Northern Goshawk",
+        "imgFile": "northern-goshawk",
         "latin": "Accipiter gentilis",
         "location": "Northerly Island in Winter, Adler Planetarium",
         "googleQuery": "12th Street Beach, 1200 S Linn White Dr, Chicago, IL 60605",
@@ -29,7 +29,6 @@
       },
       {
         "bird": "Great Horned Owl",
-        "imgFile": "greathornedowl",
         "latin": "Bubo virginianus",
         "location": "Graceland Cemetery in Autumn, Potter & Bertha Plamer grave, Chicago",
         "googleQuery": "Graceland Cemetery, Chicago",
@@ -38,6 +37,7 @@
       },
       {
         "bird": "Cooper's Hawk",
+        "imgFile": "coopers-hawk",
         "latin": "Accipiter cooperii",
         "location": "Mendota Hills Wind Farm, near Paw Paw, IL",
         "googleQuery": "Mendota Hills Wind Farm, Brooklyn Township, IL",
