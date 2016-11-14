@@ -6,10 +6,14 @@ modified:
 {{> header}}
 
 {{#birds}}
-<h1>{{page-name}}</h1>
-<div class="page-subtitle">{{page-subtitle}}</div>
+<div class="hero-wrap">
+  <div class="title-wrap">
+    <h1>Birds <span>of</span> Chicagoland</h1>
+    <div class="page-subtitle">Paintings by Charlie Thomason</div>
+  </div>
+  <img src="img/birds/{{bird-hero}}.jpg" alt="{{bird-hero-alt}}" class="bird-hero">
+</div>
 
-<img src="img/birds/{{bird-hero}}.jpg" alt="{{bird-hero-alt}}" class="bird-hero">
 <div class="gallery-intro main-birds-intro">
   <p class="intro-text">{{intro}}</p>
   <div class="intro-btns">
