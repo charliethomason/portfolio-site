@@ -21,6 +21,7 @@
       },
       {
         "bird": "Black Crowned Night Heron",
+        "imgFile": "black-crowned-night-heron",
         "latin": "Nycticorax nycticorax",
         "location": "Lincoln Park South Pond",
         "googleQuery": "Lincoln Park South Pond, Chicago",
@@ -29,6 +30,7 @@
       },
       {
         "bird": "Double-Crested Cormorant",
+        "imgFile": "double-crested-cormorant",
         "latin": "Phalacrocorax auritus",
         "location": "Monroe Harbor breakwater, Chicago Harbor Lighthouse",
         "googleQuery": "Chicago Harbor Lighthouse, Chicago",

@@ -21,6 +21,7 @@
       },
       {
         "bird": "Caspian Tern",
+        "imgFile": "caspian-tern",
         "latin": "Hydroprogne caspia",
         "location": "Promontory Point",
         "googleQuery": "Promontory Point, Chicago",
@@ -29,6 +30,7 @@
       },
       {
         "bird": "White-Throated Sparrow",
+        "imgFile": "white-throated-sparrow",
         "latin": "Zonotrichia albicollis",
         "location": "The Old Water Tower",
         "googleQuery": "Historic Water Tower, Chicago",

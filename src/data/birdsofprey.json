@@ -12,6 +12,7 @@
       },
       {
         "bird": "American Kestrel",
+        "imgFile": "american-kestrel",
         "latin": "Falco sparverius",
         "location": "Museum Campus with skyline",
         "googleQuery": "Shedd Aquarium, Chicago",
@@ -29,6 +30,7 @@
       },
       {
         "bird": "Great Horned Owl",
+        "imgFile": "great-horned-owl",
         "latin": "Bubo virginianus",
         "location": "Graceland Cemetery in Autumn, Potter & Bertha Plamer grave, Chicago",
         "googleQuery": "Graceland Cemetery, Chicago",

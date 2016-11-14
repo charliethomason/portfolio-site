@@ -37,6 +37,7 @@
       },
       {
         "bird": "Rose-Breasted Grosbeaks",
+        "imgFile": "rose-breasted-grosbeaks",
         "latin": "Pheucticus ludovicianus",
         "location": "Art Institute of Chicago, South Garden",
         "googleQuery": "South Garden, S Michigan Ave, Chicago",
