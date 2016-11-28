@@ -3,9 +3,7 @@ module.exports.pageNav = function(type,id) {
   var artTitles = [
     "Amanda (Pelecanus Venezia)",
     "Osprey & Kingfisher",
-    "Pileated Woodpecker",
     "Jim Clark Driving The Lotus 49",
-    "Eastern Meadowlark",
     "Swamp Thing",
     "Eastern Screech Owl",
     "Quanah Park, Last Chief of the Comanches",
@@ -23,9 +21,7 @@ module.exports.pageNav = function(type,id) {
   var artIds = [
      "pelicanvenice",
      "ospreykingfisher",
-     "pileatedwoodpecker",
      "jimclark",
-     "meadowlark",
      "swampthing",
      "screechowl",
      "quanahparker",
