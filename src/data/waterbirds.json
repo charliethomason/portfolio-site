@@ -18,28 +18,12 @@
         "description": "In my opinion, there is no more unique or iconic-looking duck than the Wood Duck. For this painting, I chose to render the background only in black-and-white, so that the diverse array of colors on the duck could be accentuated. There are greens, purples, reds, yellows, browns, and blues all within this bird—yet, when you find one in the wild, you'll likely only see a green head and brown body. It's easy to spot them in the North and South Ponds of Lincoln Park, usually hanging out with mallards and geese. Despite the subtle complexity of this duck's appearance, the background of this painting took far longer to complete, with so many small details and shades of gray. I have fond memories of walking around this pond in both summer and winter, seeing how these ducks adapt to Chicago's broad spectrum of weather conditions."
       },
       {
-        "bird": "Black-crowned Night Heron",
-        "imgFile": "black-crowned-night-heron",
-        "latin": "Nycticorax nycticorax",
-        "location": "Lincoln Park South Pond",
-        "date": "March 2015",
-        "description": "Although Black-crowned Night Herons are quite common in Lincoln Park, they are actually an endangered species. Most of them nest near the South Pond, where the Lincoln Park Zoo has been tracking their breeding numbers since 2007. While they are not part of the actual Zoo, the Illinois Wildlife Preservation Fund provides fencing each year to protect their main nesting area. If you ever see these fenced-in breeding areas, they can look a bit \"post-apocalyptic\" as the grass grows very tall and the Herons cover the park benches, trees, and walking paths. Black-crowned Night Herons are much smaller than their Great Blue Heron relatives, at about 2 feet tall and less than 2 pounds. They are a remarkable example of a rare and endangered species managing to survive in a bustling metropolis like Chicago."
-      },
-      {
         "bird": "Double-crested Cormorant",
         "imgFile": "double-crested-cormorant",
         "latin": "Phalacrocorax auritus",
         "location": "Monroe Harbor breakwater, Chicago Harbor Lighthouse",
         "date": "June 2015",
         "description": "The Double-crested Cormorant is possibly my favorite bird. After reading about them in Richard J. King's excellent book, <em>The Devil's Cormorant</em>, I gained enormous respect for them. I first discovered this book in Camden, Maine after seeing many cormorants along the waterfront there, drying out their wings after diving for food. While the Double-crested Cormorants can dive up to 25 feet underwater for up to 70 seconds, other cormorant species can dive as deep as 150 feet. These birds are viewed very differently across the world. Many in the U.S. sports fishing and fish farming industries view them as pests who hurt their business; in Japan and China they have been respected and trained for traditional \"cormorant fishing\" since the 10th century; and in Peru, Chile, and the Pacific Islands they have been the primary source of guano, once an economically valuable export. In Chicago, they can been seen in the late summer and autumn months, along the Lake Michigan breakwaters and near Navy Pier. They are peaceful birds who, unlike seagulls and geese, will only eat fish and generally avoid humans. This is the only painting in the book where I went back and re-painted a second version after being unhappy with the first—but then ended up using the first version anyway. I also gave the bird a white double-crest, although normally this is only seen during breeding season and is sometimes black instead of white."
-      },
-      {
-        "bird": "Common Loon",
-        "imgFile": "common-loon",
-        "latin": "Gavia immer",
-        "location": "Jackson Park Lagoon, Museum of Science & Industry",
-        "date": "October 2015",
-        "description": "One of the best places to view birds in Chicago is the Jackson Park lagoon, just behind the Museum of Science and Industry in Hyde Park. The area has remained mostly untouched ever since the 1893 World's Columbian Exposition—of which the Museum of Science and Industry is the only remaining building—and allows birds and wildlife to live peacefully. The Common Loon (which is not a duck, but a member of the divers family) is one of the most visually striking birds you'll find there. If you're lucky you can hear its unique call, which sounds like a yodel. They are only seen in Chicago during the summer, as they stay in the water 99% of the time and therefore migrate away when it freezes. As a black and white ink painting, the only colors missing here are the blue of the water, green of the Museum's roof, and red of the loon's eye. The plumage seen here is only displayed in summer, whereas in winter the loon's head is all gray."
       }
     ]
   }
