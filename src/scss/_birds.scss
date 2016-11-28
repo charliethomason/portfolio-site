@@ -86,55 +86,105 @@
         letter-spacing:0.15em;
       }
     }
-    .hero-wrap {
-      position:relative;
-      .title-wrap {
-        position:absolute;
-        top:20px;
-        width:100%;
-        @include mobile {
-          top:10px;
-        }
+  }
+  .bird-hero {
+    background-color:$birdLiteBlue;
+    margin-bottom:20px;
+    padding:20px;
+    position:relative;
+    .title-wrap {
+      background-color:#fff;
+      border:4px double #000;
+      max-width:800px;
+      margin:0 auto;
+    }
+    img {
+      border-top:1px solid #000;
+      display:block;
+      max-width:100%;
+    }
+    h1 {
+      font-family:'Lora', Georgia, "Times New Roman", Times, serif;
+      font-size:32px;
+      font-weight: bold;
+      letter-spacing:0.025em;
+      text-transform: uppercase;
+      @include mobile {
+        font-size:24px;
+      }
+      @include under400 {
+        font-size:18px;
+        margin:0;
+      }
+      span {
+        @include serif;
+        font-style:italic;
+        letter-spacing:normal;
+        padding:0 5px 0 3px;
+        text-transform: lowercase;
         @include under400 {
-          top:5px;
+          padding:0 3px 0 1px;
         }
       }
-      h1 {
-        font-family:'Lora', Georgia, "Times New Roman", Times, serif;
-        font-size:32px;
-        font-weight: bold;
-        letter-spacing:0.025em;
-        text-transform: uppercase;
-        text-shadow: 2px 2px 0 #fff;
-        @include mobile {
-          font-size:24px;
-          text-shadow: 1px 1px 0 #fff;
-        }
-        @include under400 {
-          font-size:18px;
-          margin:0;
-        }
-        span {
-          @include serif;
-          font-style:italic;
-          letter-spacing:normal;
-          padding:0 5px 0 3px;
-          text-transform: lowercase;
-          @include under400 {
-            padding:0 3px 0 1px;
-          }
-        }
+    }
+    .page-subtitle {
+      font-size:16px;
+      font-weight:bold;
+      letter-spacing:0.01em;
+      @include mobile {
+        font-size:14px;
       }
-      .page-subtitle {
+      @include under400 {
+        font-size:12px;
+      }
+    }
+    .bird-intro {
+      margin:20px auto 0;
+      max-width:500px;
+      padding:0;
+      width:100%;
+    }
+    .intro-text {
+      font-size:16px;
+      line-height:21px;
+    }
+    .intro-btns {
+      margin:20px 0 0;
+      text-align:center;
+      a {
+        @include sans;
+        background-color:$birdBlue;
+        color:#fff;
+        display:inline-block;
         font-size:16px;
         font-weight:bold;
-        letter-spacing:0.01em;
-        text-shadow: 1px 1px 0 #fff;
-        @include mobile {
-          font-size:14px;
+        line-height:1;
+        margin-left:10px;
+        padding:10px;
+        &:hover,
+        &:focus {
+          background-color:$medgray;
+          text-decoration: none;
         }
         @include under400 {
-          font-size:12px;
+          display:block;
+          margin-bottom:10px;
+          margin-left:0;
+          &:last-child {
+            margin-bottom:0;
+          }
+        }
+        &.buy-book {
+          background-color:$red;
+          margin-left:0;
+          &:hover,
+          &:focus {
+            background-color:$medgray;
+          }
+          @include under500 {
+            display:block;
+            margin-bottom:10px;
+          }
         }
       }
     }
@@ -143,83 +193,7 @@
     margin:0 auto;
     max-width:800px;
   }
-  .bird-hero {
-    display:block;
-    max-width:100%;
-  }
-  .gallery-intro {
-    text-align:center;
-    .intro-text {
-      font-size:16px;
-      line-height:22px;
-      margin:0 auto;
-      max-width:500px;
-      padding:0 0 20px;
-      text-align:left;
-      width:100%;
-      @include mobile {
-        padding:0 20px 20px;
-      }
-    }
-    .intro-btns,
-    .gallery-nav {
-      margin-bottom:20px;
-      a {
-        &:hover,
-        &:focus {
-          background-color:$birdRed;
-          color:#fff;
-          text-decoration: none;
-        }
-      }
-    }
-    .intro-btns {
-      a {
-        @include sans;
-        background-color:$medgray;
-        color:#fff;
-        display:inline-block;
-        font-weight:bold;
-        padding:10px 20px;
-        &.buy-book {
-          background-color:$birdBlue;
-          &:hover,
-          &:focus {
-            background-color:$birdRed;
-          }
-          + a {
-            margin-left:6px;
-          }
-        }
-      }
-    }
-    &.main-birds-intro {
-      background-color:rgba(255,255,255,0.8);
-      margin:0 auto;
-      max-width:500px;
-      position:relative;
-      top:-65px;
-      @include under500 {
-        top:-40px;
-      }
-      .intro-text {
-        max-width:none;
-        padding:20px;
-        width:auto;
-        @include under500 {
-          padding:15px;
-        }
-      }
-      .intro-btns {
-        margin-bottom:0;
-        @include under500 {
-          margin-bottom:20px;
-        }
-      }
-    }
-  }
   .gallery {
-    margin-top:-45px;
     ul.gallery-wrap {
       li.img-li {
         background-color:transparent;
