@@ -60,13 +60,13 @@
     }
   }
   #main {
-    @include tablet {
-      max-width:800px;
-      padding:0;
-    }
+    max-width:none;
+    width:auto;
   }
   #content {
+    max-width:none;
     padding:25px 0;
+    width:auto;
     @include tablet {
       padding:10px 0;
     }
@@ -138,6 +138,10 @@
         }
       }
     }
+  }
+  .bird-container {
+    margin:0 auto;
+    max-width:800px;
   }
   .bird-hero {
     display:block;

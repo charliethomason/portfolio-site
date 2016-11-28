@@ -6,13 +6,15 @@ modified:
 ---
 {{> header}}
 
-<div class="gallery-page-head">
-  <h1>{{modified.title}}</h1>
-  <div class="page-subtitle">{{modified.subtitle}}</div>
-</div>
+<div class="bird-container">
+  <div class="gallery-page-head">
+    <h1>{{modified.title}}</h1>
+    <div class="page-subtitle">{{modified.subtitle}}</div>
+  </div>
 
-{{#birdsofprey}}
-{{> bird-gallery}}
-{{/birdsofprey}}
+  {{#birdsofprey}}
+  {{> bird-gallery}}
+  {{/birdsofprey}}
+</div>
 
 {{> footer}}
