@@ -86,104 +86,123 @@
         letter-spacing:0.15em;
       }
     }
-  }
-  .bird-hero {
-    background-color:$birdLiteBlue;
-    margin-bottom:20px;
-    padding:20px;
-    position:relative;
-    .title-wrap {
-      background-color:#fff;
-      border:4px double #000;
-      max-width:800px;
-      margin:0 auto;
-    }
-    img {
-      border-top:1px solid #000;
-      display:block;
-      max-width:100%;
-    }
-    h1 {
-      font-family:'Lora', Georgia, "Times New Roman", Times, serif;
-      font-size:32px;
-      font-weight: bold;
-      letter-spacing:0.025em;
-      text-transform: uppercase;
-      @include mobile {
-        font-size:24px;
-      }
+    .bird-hero {
+      background-color:$birdLiteBlue;
+      margin-bottom:20px;
+      padding:20px;
+      position:relative;
       @include under400 {
-        font-size:18px;
-        margin:0;
+        padding:15px;
       }
-      span {
-        @include serif;
-        font-style:italic;
-        letter-spacing:normal;
-        padding:0 5px 0 3px;
-        text-transform: lowercase;
-        @include under400 {
-          padding:0 3px 0 1px;
-        }
+      .title-wrap {
+        background-color:#fff;
+        border:4px double #000;
+        max-width:800px;
+        margin:0 auto;
       }
-    }
-    .page-subtitle {
-      font-size:16px;
-      font-weight:bold;
-      letter-spacing:0.01em;
-      @include mobile {
-        font-size:14px;
+      img {
+        border-top:1px solid #000;
+        display:block;
+        max-width:100%;
       }
-      @include under400 {
-        font-size:12px;
-      }
-    }
-    .bird-intro {
-      margin:20px auto 0;
-      max-width:500px;
-      padding:0;
-      width:100%;
-    }
-    .intro-text {
-      font-size:16px;
-      line-height:21px;
-    }
-    .intro-btns {
-      margin:20px 0 0;
-      text-align:center;
-      a {
-        @include sans;
-        background-color:$birdBlue;
-        color:#fff;
-        display:inline-block;
-        font-size:16px;
-        font-weight:bold;
-        line-height:1;
-        margin-left:10px;
-        padding:10px;
-        &:hover,
-        &:focus {
-          background-color:$medgray;
-          text-decoration: none;
+      h1 {
+        @include garamond;
+        font-size:40px;
+        font-weight:normal;
+        letter-spacing:0.025em;
+        line-height:50px;
+        margin:10px 0 0;
+        text-transform: uppercase;
+        @include mobile {
+          font-size:28px;
+          letter-spacing:0.015em;
+          line-height:32px;
         }
         @include under400 {
-          display:block;
-          margin-bottom:10px;
-          margin-left:0;
-          &:last-child {
-            margin-bottom:0;
+          font-size:22px;
+          letter-spacing:normal;
+          line-height:28px;
+        }
+        span {
+          @include serif;
+          font-size:32px;
+          font-style:italic;
+          font-weight:bold;
+          letter-spacing:normal;
+          padding-right:5px;
+          text-transform: lowercase;
+          @include mobile {
+            font-size:24px;
+          }
+          @include under400 {
+            font-size:20px;
+            padding-right:3px;
           }
         }
-        &.buy-book {
-          background-color:$red;
-          margin-left:0;
+      }
+      .page-subtitle {
+        @include garamond;
+        font-size:24px;
+        letter-spacing: normal;
+        line-height:30px;
+        margin:0 0 20px;
+        text-transform: none;
+        @include mobile {
+          margin-bottom:15px;
+        }
+        @include under400 {
+          font-size:20px;
+          line-height:24px;
+          margin-bottom:12px;
+        }
+      }
+      .bird-intro {
+        margin:20px auto 0;
+        max-width:500px;
+        padding:0;
+        width:100%;
+      }
+      .intro-text {
+        font-size:16px;
+        line-height:21px;
+      }
+      .intro-btns {
+        margin:20px 0 0;
+        text-align:center;
+        a {
+          @include sans;
+          background-color:$birdBlue;
+          color:#fff;
+          display:inline-block;
+          font-size:16px;
+          font-weight:bold;
+          line-height:1;
+          margin-left:10px;
+          padding:10px;
           &:hover,
           &:focus {
             background-color:$medgray;
+            text-decoration: none;
           }
-          @include under500 {
+          @include under400 {
             display:block;
             margin-bottom:10px;
+            margin-left:0;
+            &:last-child {
+              margin-bottom:0;
+            }
+          }
+          &.buy-book {
+            background-color:$red;
+            margin-left:0;
+            &:hover,
+            &:focus {
+              background-color:$medgray;
+            }
+            @include under500 {
+              display:block;
+              margin-bottom:10px;
+            }
           }
         }
       }
