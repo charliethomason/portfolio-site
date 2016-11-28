@@ -311,30 +311,6 @@
       padding:0;
       width:100%;
     }
-    .bird-meta {
-      @include sans;
-      color:$medgray;
-      text-align:center;
-      @include tablet {
-        font-size:14px;
-        line-height:18px;
-      }
-      .bull {
-        font-size:30px;
-        line-height:22px;
-        padding:0 5px;
-        vertical-align: middle;
-        @include mobile {
-          display:none;
-        }
-      }
-      .location, .date {
-        display:inline;
-        @include mobile {
-          display:block;
-        }
-      }
-    }
     .latin {
       @include serif;
       color:$medgray;
@@ -343,6 +319,41 @@
       @include tablet {
         font-size:14px;
         line-height:18px;
+      }
+    }
+    .location {
+      font-weight:bold;
+      text-align:center;
+    }
+    .date {
+      text-align:center;
+    }
+    .description {
+      padding:0 0 20px;
+    }
+    .bird-btns {
+      padding:0 0 20px;
+      text-align:center;
+      a {
+        @include sans;
+        background-color: $birdBlue;
+        color:#fff;
+        display:inline-block;
+        font-weight:bold;
+        line-height:1;
+        padding:10px 20px;
+        &:hover,
+        &:focus {
+          background-color:$birdRed;
+          text-decoration: none;
+        }
+        &:first-child {
+          margin-right:6px;
+          @include under500 {
+            margin-right:0;
+            margin-bottom:10px;
+          }
+        }
       }
     }
     &.bird-list {
@@ -378,7 +389,7 @@
       }
       .img-inpage {
         height:100%;
-        padding:0 0 60px;
+        padding:0;
         @include tablet {
           padding-bottom:50px;
         }
@@ -394,86 +405,8 @@
           width:auto;
         }
       }
-      h2 {
-        padding-top:5px;
-
-      }
-      .bird-meta {
-        padding-bottom:10px;
-      }
       .img-info {
-        background-color:rgba(255,255,255,0.8);
-        cursor:pointer;
-        height:60px;
-        left:0;
-        margin:0 auto;
-        overflow:hidden;
-        padding:0;
-        position:relative;
-        top:-60px;
-        width:100%;
-        @include tablet {
-          height:50px;
-          top:-50px;
-        }
-        .img-desc {
-          @include mobile {
-            padding:0 40px;
-          }
-        }
-        &.show-info {
-          height:100%;
-          overflow:scroll;
-          position:absolute;
-          top:0;
-          z-index:102;
-          .img-desc {
-            padding:20px 0;
-            @include mobile {
-              padding:20px 40px;
-            }
-          }
-          h2 .expand {
-            background-position:0 -16px;
-          }
-          h2,
-          .latin {
-            color:$darkgray;
-            padding: 0 0 5px;
-          }
-          .bird-meta {
-            color:$darkgray;
-            padding-bottom:0;
-          }
-        }
-      }
-    }
-    .description {
-      padding:0 0 20px;
-    }
-    .bird-btns {
-      padding:0 0 20px;
-      text-align:center;
-      a {
-        @include sans;
-        background-color: $birdBlue;
-        color:#fff;
-        display:inline-block;
-        font-weight:bold;
-        line-height:1;
-        padding:10px 20px;
-        &:hover,
-        &:focus {
-          background-color:$birdRed;
-          text-decoration: none;
-        }
-        &:first-child {
-          margin-right:6px;
-          @include under500 {
-            margin-right:0;
-            margin-bottom:10px;
-          }
-        }
+        display:none;
       }
     }
   }

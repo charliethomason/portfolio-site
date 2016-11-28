@@ -162,21 +162,12 @@ charlie.birdGallery = function() {
   function slideDestroy() {
     $controls.hide();
     $('.img-section').removeClass('section-active').hide();
-    $('.img-info').removeClass('show-info');
     $wrap.removeClass('bird-slideshow').addClass('bird-list');
   }
   function clickEvents() {
     $('.img-inpage').click(function(e) {
       if ($wrap.hasClass('bird-list')) {
         slideCreate(this);
-      }
-    });
-    $('.img-info').click(function(e) {
-      if ($wrap.hasClass('bird-slideshow')) {
-        e.preventDefault();
-        e.stopPropagation();
-        $(this).toggleClass('show-info');
-        $(this).scrollTop(0);
       }
     });
     $('#show-slideshow').click(function(e) {
@@ -202,9 +193,6 @@ charlie.birdGallery = function() {
       nextBird(this);
     }).on('swiperight', function(e) {
       prevBird(this);
-    });
-    $('.bird-btns a').click(function(e) {
-      e.stopPropagation();
     });
   }
   function nextBird(bird) {
