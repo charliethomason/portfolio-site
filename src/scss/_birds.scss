@@ -61,15 +61,13 @@
   }
   #main {
     max-width:none;
+    padding:0;
     width:auto;
   }
   #content {
     max-width:none;
-    padding:25px 0;
+    padding:10px 0 0;
     width:auto;
-    @include tablet {
-      padding:10px 0;
-    }
     h1 {
       margin-bottom:5px;
     }
@@ -89,10 +87,10 @@
     .bird-hero {
       background-color:$birdLiteBlue;
       margin-bottom:20px;
-      padding:20px;
+      padding:20px 20px 0;
       position:relative;
       @include under400 {
-        padding:15px;
+        padding:15px 15px 0;
       }
       .title-wrap {
         background-color:#fff;
@@ -166,43 +164,58 @@
         font-size:16px;
         line-height:21px;
       }
-      .intro-btns {
-        margin:20px 0 0;
-        text-align:center;
-        a {
-          @include sans;
-          background-color:$birdBlue;
-          color:#fff;
-          display:inline-block;
-          font-size:16px;
-          font-weight:bold;
-          line-height:1;
-          margin-left:10px;
-          padding:10px;
+    }
+  }
+  .bird-btns {
+    padding:20px 0;
+    text-align:center;
+    a {
+      @include sans;
+      background-color:$birdBlue;
+      color:#fff;
+      display:inline-block;
+      font-size:16px;
+      font-weight:bold;
+      line-height:1;
+      margin-left:10px;
+      padding:10px;
+      &:hover,
+      &:focus {
+        background-color:$medgray;
+        text-decoration: none;
+      }
+      @include under400 {
+        background-color:transparent;
+        border-left:2px solid $medgray;
+        color:$birdBlue;
+        font-size:14px;
+        margin:0;
+        padding:5px 5px 5px 10px;
+        &:hover,
+        &:focus {
+          background-color:transparent;
+          color:$medgray;
+        }
+        &:last-child {
+          padding-right:0;
+        }
+      }
+      &.buy-book {
+        background-color:$red;
+        margin-left:0;
+        &:hover,
+        &:focus {
+          background-color:$medgray;
+        }
+        @include under400 {
+          background-color:transparent;
+          border-left:0;
+          color:$red;
+          padding-left:0;
           &:hover,
           &:focus {
-            background-color:$medgray;
-            text-decoration: none;
-          }
-          @include under400 {
-            display:block;
-            margin-bottom:10px;
-            margin-left:0;
-            &:last-child {
-              margin-bottom:0;
-            }
-          }
-          &.buy-book {
-            background-color:$red;
-            margin-left:0;
-            &:hover,
-            &:focus {
-              background-color:$medgray;
-            }
-            @include under500 {
-              display:block;
-              margin-bottom:10px;
-            }
+            background-color:transparent;
+            color:$medgray;
           }
         }
       }
@@ -211,6 +224,23 @@
   .bird-container {
     margin:0 auto;
     max-width:800px;
+    &.bird-text-page {
+      p {
+        font-size:16px;
+        line-height:24px;
+        margin:10px auto;
+        max-width:540px;
+        padding:0 20px;
+      }
+      img {
+        display:block;
+        margin:20px auto;
+        max-width:100%;
+      }
+      .bird-btns {
+        margin-bottom:20px;
+      }
+    }
   }
   .gallery {
     ul.gallery-wrap {
