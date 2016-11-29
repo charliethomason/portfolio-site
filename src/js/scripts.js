@@ -179,40 +179,20 @@ charlie.birdGallery = function() {
       e.stopPropagation();
       slideDestroy();
     });
-    $('#prev-slideshow').click(function(e) {
-      e.preventDefault();
-      var currBird = $('.img-section.section-active');
-      prevBird(currBird);
-    });
-    $('#next-slideshow').click(function(e) {
-      e.preventDefault();
-      var currBird = $('.img-section.section-active');
-      nextBird(currBird);
-    });
-    $('.img-section').on('swipeleft', function(e) {
-      nextBird(this);
-    }).on('swiperight', function(e) {
-      prevBird(this);
-    });
   }
-  function nextBird(bird) {
-    $(bird).removeClass('section-active').fadeOut('fast');
-    if ($(bird).is(':last-child')) {
-      $('.img-section:first-child').addClass('section-active').fadeIn('fast');
-    } else {
-      $(bird).next('.img-section').addClass('section-active').fadeIn('fast');
-    }
-  }
-  function prevBird(bird) {
-    $(bird).removeClass('section-active').fadeOut('fast');
-    if ($(bird).is(':first-child')) {
-      $('.img-section:last-child').addClass('section-active').fadeIn('fast');
-    } else {
-      $(bird).prev('.img-section').addClass('section-active').fadeIn('fast');
-    }
+  function keyboardNav() {
+    $(document).keydown(function(e) {
+      if ($wrap.hasClass('bird-slideshow')) {
+        if (e.keyCode == 27) {
+          e.preventDefault();
+          slideDestroy();
+        }
+      }
+    });
   }
   function init() {
     clickEvents();
+    keyboardNav();
   }
   init();
 }
