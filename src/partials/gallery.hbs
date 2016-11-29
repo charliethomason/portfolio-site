@@ -2,6 +2,18 @@
 <section class="gallery">
 
   <ul class="gallery-wrap grid">
+    {{#is type 'art'}}
+    <li class="img-li" data-filters="birds watercolor ink">
+      <a href="/birds.html">
+        <img src="img/art/thumbs/birds-250.jpg" alt="Birds of Chicagoland" class="galleryImg">
+        <div class="info">
+          <h2 class="title">Birds of Chicagoland</h2>
+          <p class="year">2014-2016</p>
+          <p class="count">15 paintings</p>
+        </div>
+      </a>
+    </li>
+    {{/is}}
     {{#each works}}
       <li class="img-li" data-id="{{@index}}" data-year="{{year}}{{#if month}}-{{month}}{{/if}}"{{#if filters}} data-filters="{{filters}}"{{/if}}>
         <a href="{{../type}}/{{imgFile}}.html" title="{{imgTitle}}" class="galleryImg">
