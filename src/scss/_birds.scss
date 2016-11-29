@@ -122,10 +122,10 @@
     .bird-hero {
       background-color:$birdLiteBlue;
       margin-bottom:20px;
-      padding:20px 20px 0;
+      padding:20px;
       position:relative;
       @include under400 {
-        padding:15px 15px 0;
+        padding:15px;
       }
       .title-wrap {
         background-color:#fff;
@@ -147,9 +147,13 @@
       .intro-text {
         font-size:16px;
         line-height:21px;
+        p {
+          margin:0 0 20px;
+        }
       }
     }
     .gallery-page-head {
+      padding:0 0 20px;
       h1 {
         &:after {
           border-top:1px solid #000;
@@ -161,9 +165,6 @@
             margin-top:5px;
           }
         }
-      }
-      .bird-btns {
-        padding:10px 0 40px;
       }
     }
   }
@@ -322,6 +323,9 @@
       border-top:none;
       margin:0 auto;
     }
+    .img-info {
+      padding:20px 0;
+    }
     .img-desc {
       float:none;
       padding:0;
@@ -369,8 +373,11 @@
       padding:0 0 20px;
     }
     .bird-btns {
-      padding:0 0 20px;
+      padding:0 0 40px;
       text-align:center;
+      @include under500 {
+        padding:0 0 20px;
+      }
       a {
         @include sans;
         background-color: $birdBlue;
@@ -383,13 +390,6 @@
         &:focus {
           background-color:$birdRed;
           text-decoration: none;
-        }
-        &:first-child {
-          margin-right:6px;
-          @include under500 {
-            margin-right:0;
-            margin-bottom:10px;
-          }
         }
       }
     }
