@@ -20,6 +20,11 @@
             <a href="http://maps.google.com/maps?q={{location}}" class="single-location" target="_blank">{{location}}</a>
           </li>
           {{/if}}
+          {{#if printUrl}}
+          <li class="single-print-url">
+            <a href="{{printUrl}}" target="_blank">Buy Print</a>
+          </li>
+          {{/if}}
         </ul>
       </div>
 
