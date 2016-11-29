@@ -69,19 +69,54 @@
     padding:10px 0 0;
     width:auto;
     h1 {
-      margin-bottom:5px;
-    }
-    .page-subtitle {
-      @include sans;
-      color:$darkgray;
-      font-size:12px;
-      letter-spacing:0.2em;
-      margin:0 0 20px;
-      text-align:center;
+      @include garamond;
+      font-size:40px;
+      font-weight:bold;
+      letter-spacing:0.025em;
+      line-height:1;
+      margin:20px 0 10px;
       text-transform: uppercase;
       @include mobile {
-        font-size:10px;
-        letter-spacing:0.15em;
+        font-size:28px;
+        letter-spacing:0.015em;
+        margin:15px 0 5px;
+      }
+      @include under400 {
+        font-size:22px;
+        letter-spacing:normal;
+      }
+      span {
+        @include serif;
+        font-size:32px;
+        font-style:italic;
+        font-weight:bold;
+        letter-spacing:normal;
+        padding-right:5px;
+        text-transform: lowercase;
+        @include mobile {
+          font-size:24px;
+        }
+        @include under400 {
+          font-size:20px;
+          padding-right:3px;
+        }
+      }
+    }
+    .page-subtitle {
+      @include garamond;
+      font-size:24px;
+      font-weight:bold;
+      letter-spacing: normal;
+      line-height:1;
+      margin:0 0 20px;
+      text-align:center;
+      text-transform: none;
+      @include mobile {
+        margin-bottom:15px;
+      }
+      @include under400 {
+        font-size:20px;
+        margin-bottom:12px;
       }
     }
     .bird-hero {
@@ -103,57 +138,6 @@
         display:block;
         max-width:100%;
       }
-      h1 {
-        @include garamond;
-        font-size:40px;
-        font-weight:normal;
-        letter-spacing:0.025em;
-        line-height:50px;
-        margin:10px 0 0;
-        text-transform: uppercase;
-        @include mobile {
-          font-size:28px;
-          letter-spacing:0.015em;
-          line-height:32px;
-        }
-        @include under400 {
-          font-size:22px;
-          letter-spacing:normal;
-          line-height:28px;
-        }
-        span {
-          @include serif;
-          font-size:32px;
-          font-style:italic;
-          font-weight:bold;
-          letter-spacing:normal;
-          padding-right:5px;
-          text-transform: lowercase;
-          @include mobile {
-            font-size:24px;
-          }
-          @include under400 {
-            font-size:20px;
-            padding-right:3px;
-          }
-        }
-      }
-      .page-subtitle {
-        @include garamond;
-        font-size:24px;
-        letter-spacing: normal;
-        line-height:30px;
-        margin:0 0 20px;
-        text-transform: none;
-        @include mobile {
-          margin-bottom:15px;
-        }
-        @include under400 {
-          font-size:20px;
-          line-height:24px;
-          margin-bottom:12px;
-        }
-      }
       .bird-intro {
         margin:20px auto 0;
         max-width:500px;
@@ -163,6 +147,23 @@
       .intro-text {
         font-size:16px;
         line-height:21px;
+      }
+    }
+    .gallery-page-head {
+      h1 {
+        &:after {
+          border-top:1px solid #000;
+          content:'';
+          display:block;
+          margin:10px auto 0;
+          width:30px;
+          @include mobile {
+            margin-top:5px;
+          }
+        }
+      }
+      .bird-btns {
+        padding:10px 0 40px;
       }
     }
   }
@@ -249,6 +250,7 @@
         padding:0;
         a {
           background-color:$eee;
+          color:$darkgray;
           padding:5px;
           img {
             height:auto;
@@ -263,50 +265,52 @@
           &:hover, 
           &:focus {
             background-color:$birdBlue;
+            text-decoration: none;
             h2,
             .subtitle {
               color:#fff;
+            }
+            h2:after {
+              border-top-color:#fff;
             }
           }
         }
         .info {
           float:left;
-          padding:20px;
+          padding:20px 20px 0;
+          text-align:center;
           width:50%;
-          @include tablet {
-            padding:10px 20px;
-          }
           @include mobile {
+            padding:10px 10px 0;
+          }
+          @include under500 {
             float:none;
+            padding:10px;
             width:auto;
           }
           h2 {
+            @include garamond;
+            font-size:24px;
+            font-weight:bold;
             padding:0 0 5px;
+            text-transform:uppercase;
             @include mobile {
-              padding:0 0 3px;
+              font-size:20px;
             }
-            @include under500 {
-              font-size:18px;
-              line-height: 24px;
-              padding:0 0 5px;
+            &:after {
+              border-top:1px solid #222;
+              content:'';
+              display:block;
+              margin:5px auto 0;
+              width:30px;
             }
           }
           .subtitle {
-            @include sans;
-            color:$birdBlue;
-            font-size:12px;
-            letter-spacing:0.2em;
-            line-height:18px;
-            text-transform: uppercase;
+            @include garamond;
+            font-size:20px;
+            font-weight:bold;
             @include mobile {
-              font-size:10px;
-              letter-spacing:0.15em;
-              line-height:14px;
-            }
-            @include under500 {
-              font-size:12px;
-              letter-spacing:0.2em;
-              line-height:18px;
+              font-size:16px;
             }
           }
         }
@@ -318,44 +322,50 @@
       border-top:none;
       margin:0 auto;
     }
-    h2 {
-      background:transparent;
-      color:$darkgray;
-      padding:0;
-      .expand {
-        background:url('../img/btn-expand.png') no-repeat scroll 0 0 transparent;
-        display:inline-block;
-        height:16px;
-        margin-left:5px;
-        width:16px;
-        vertical-align: middle;
-      }
-    }
     .img-desc {
       float:none;
-      margin:0 auto;
-      max-width:500px;
       padding:0;
-      width:100%;
+      width:auto;
+    }
+    h2 {
+      @include garamond;
+      background:transparent;
+      color:$darkgray;
+      font-size:32px;
+      font-weight:bold;
+      line-height:1;
+      padding:0 0 5px;
+      @include mobile {
+        font-size:24px;
+      }
     }
     .latin {
       @include serif;
       color:$medgray;
+      font-size:18px;
       font-style:italic;
+      line-height:1;
+      padding-bottom:15px;
       text-align:center;
-      @include tablet {
-        font-size:14px;
-        line-height:18px;
-      }
     }
     .location {
+      @include garamond;
+      font-size:18px;
       font-weight:bold;
+      line-height:22px;
       text-align:center;
     }
     .date {
+      @include garamond;
+      font-size:18px;
+      font-weight:normal;
+      line-height:1;
+      margin:0 0 15px;
       text-align:center;
     }
     .description {
+      margin:0 auto;
+      max-width:500px;
       padding:0 0 20px;
     }
     .bird-btns {
@@ -389,10 +399,6 @@
       }
       h2 .expand {
         display:none;
-      }
-      h2,
-      .latin {
-        padding: 0 0 5px;
       }
       .img-desc {
         @include mobile {
