@@ -60,8 +60,10 @@ charlie.gallery = function() {
   }
 
   function init() {
-    filters();
-    galleryView();
+    if (!$('body').hasClass('birds-wrap')) {
+      filters();
+      galleryView();
+    }
   }
   init();
 
