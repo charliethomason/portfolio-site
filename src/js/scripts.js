@@ -15,6 +15,13 @@ charlie.basics = function() {
 
 charlie.gallery = function() {
 
+  function clickEvents() {
+    $('.single-img').click(function(e) {
+      e.preventDefault();
+      $(this).toggleClass('fixed-lightbox');
+    });
+  }
+
   function filters() {
 
     $('#gallery-filter').submit(function(e) {
@@ -63,6 +70,7 @@ charlie.gallery = function() {
     if (!$('body').hasClass('birds-wrap')) {
       filters();
       galleryView();
+      clickEvents();
     }
   }
   init();
