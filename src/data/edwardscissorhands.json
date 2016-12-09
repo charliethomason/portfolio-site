@@ -1,0 +1,19 @@
+{
+  "folder": "art",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Edward Scissorhands",
+        "imgFile": "edwardscissorhands",
+        "year": "2014",
+        "month":"10",
+        "medium": "Ink on Paper",
+        "description": "There is a an art challenge that happens every October called \"Inktober,\" where artists around the world are challenged to do one work of art using ink every day of the month. Some people follow a pre-defined list of 31 different prompts, whereas others just draw whatever they want. In 2014, I decided to give it a try, but chose my own subject matter. I unfortunately didn't make it the whole month, but did manage to create this homage to one of my all-time favorite movies, Tim Burton's <em>Edward Scissorhands</em>. The scene depicted is from right after Vincent Price's \"Inventor\" character dies, and Edward his scissorhands over the former's face, not quite understanding what has happened. This work may serve as a good compliment to my <a href=\"vincentprice.html\">portrait of Vincent Price</a> from 8 years earlier, which was inspired by the same film."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "art",
+    "id": "edwardscissorhands"
+  }
+}
