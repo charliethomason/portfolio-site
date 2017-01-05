@@ -14,6 +14,9 @@
 					<a href="/{{url}}.html" role="menuitem">{{name}}</a>
 				</li>
 				{{/each}}
+				<li{{#is ../modified.class 'webdev'}} class="active"{{/is}}>
+					<a href="/webdev/" role="menuitem">Dev</a>
+				</li>
 				<li{{#is ../modified.class 'birds'}} class="active"{{/is}}>
 					<a href="/birds/" role="menuitem" class="birds-menuitem">Birds</a>
 				</li>

@@ -1,0 +1,60 @@
+{
+  "page-name": "Web Development Portfolio",
+  "gallery": {
+    "type": "webdev",
+    "works": [
+      {
+        "imgTitle": "customA11ySelect.js",
+        "subtitle": "Fully-accessible, custom JavaScript select menu plugin",
+        "imgFile": "customselect",
+        "year": "2016",
+        "tags": [
+          {"tagname":"accessible"},
+          {"tagname":"mobile"},
+          {"tagname":"ie10"}
+        ]
+      },
+      {
+        "imgTitle": "Interactive JS Quiz",
+        "subtitle": "Multi-step quiz widget with interactive controls and real scoring",
+        "imgFile": "quiz",
+        "year": "2016",
+        "tags": [
+          {"tagname":"accessible"},
+          {"tagname":"mobile"},
+          {"tagname":"ie9"}
+        ]
+      },
+      {
+        "imgTitle": "Flexbox Superhero Nav",
+        "subtitle": "Main navigation built with flexbox styling, superhero promo, and parallax scroll",
+        "imgFile": "flexboxnav",
+        "year": "2016",
+        "tags": [
+          {"tagname":"accessible"},
+          {"tagname":"ie10"}
+        ]
+      },
+      {
+        "imgTitle": "Parallax Promo Page with Video",
+        "subtitle": "Single-page product promo with parallax scrolling and YouTube API integration",
+        "imgFile": "parallaxpromo",
+        "year": "2015",
+        "tags": [
+          {"tagname":"mobile"},
+          {"tagname":"ie10"}
+        ]
+      },
+      {
+        "imgTitle": "Account Management Prototype",
+        "subtitle": "Multi-page prototype for retirement account dashboard with interactive data layouts",
+        "imgFile": "accountmanage",
+        "year": "2014",
+        "tags": [
+          {"tagname":"mobile"},
+          {"tagname":"ie9"}
+        ]
+      }
+    ]
+  }
+}
