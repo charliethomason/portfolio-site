@@ -77,7 +77,7 @@
 					files: [{
 						expand: true,
 						cwd: 'src/pages/webdev/work/',
-						src: ['**'],
+						src: ['**/*'],
 						dest: 'build/webdev/work'
 					}]
 				}
