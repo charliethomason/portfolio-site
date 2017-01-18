@@ -68,7 +68,7 @@ charlie.gallery = function() {
   }
 
   function init() {
-    if (!$('body').hasClass('birds-wrap') && !$('#content').hasClass('webdev')) {
+    if (!$('body').hasClass('birds-wrap') && !$('#content').hasClass('code')) {
       filters();
       galleryView();
       clickEvents();

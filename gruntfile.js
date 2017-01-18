@@ -44,8 +44,8 @@
 				birds: {
 					files: {'build/birds/': ['src/pages/birds/*.hbs']}
 				},
-				webdev: {
-					files: {'build/webdev/' : ['src/pages/webdev/*.hbs']}
+				code: {
+					files: {'build/code/' : ['src/pages/code/*.hbs']}
 				}
 			},
 			copy: {
@@ -73,12 +73,12 @@
 						dest: 'build/css/'
 					}]
 				},
-				webdev_work: {
+				code_work: {
 					files: [{
 						expand: true,
-						cwd: 'src/pages/webdev/work/',
+						cwd: 'src/pages/code/work/',
 						src: ['**/*'],
-						dest: 'build/webdev/work'
+						dest: 'build/code/work'
 					}]
 				}
 			},

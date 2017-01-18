@@ -1,7 +1,7 @@
 {
   "page-name": "Web Development Portfolio",
   "gallery": {
-    "type": "webdev",
+    "type": "code",
     "works": [
       {
         "imgTitle": "customA11ySelect.js",

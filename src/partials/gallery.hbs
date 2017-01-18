@@ -1,7 +1,7 @@
 {{#gallery}}
 <section class="gallery">
 
-  <ul class="gallery-wrap {{#is type 'webdev'}}list{{else}}grid{{/is}}">
+  <ul class="gallery-wrap {{#is type 'code'}}list{{else}}grid{{/is}}">
     {{#is type 'art'}}
     <li class="img-li" data-filters="birds watercolor ink">
       <a href="/birds/">
@@ -16,7 +16,7 @@
     {{/is}}
     {{#each works}}
       <li class="img-li" data-id="{{@index}}" data-year="{{year}}{{#if month}}-{{month}}{{/if}}"{{#if filters}} data-filters="{{filters}}"{{/if}}>
-        <a href="{{#is ../type 'webdev'}}work/{{imgFile}}/{{else}}{{../../type}}/{{imgFile}}.html{{/is}}" title="{{imgTitle}}" class="galleryImg">
+        <a href="{{#is ../type 'code'}}work/{{imgFile}}/{{else}}{{../../type}}/{{imgFile}}.html{{/is}}" title="{{imgTitle}}" class="galleryImg">
           <img src="img/{{../type}}/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
           <div class="info">
             <h2 class="title">{{imgTitle}}</h2>
