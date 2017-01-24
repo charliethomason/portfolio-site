@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Interactive 'Traveler Type' JS Quiz - Charlie Thomason</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, user-scalable=0"/>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Oswald" type="text/css"/>
+        <link rel="stylesheet" href="mcs/clientlib-all.css" type="text/css"><!-- ORIGINAL PROJECT GLOBAL CSS -->
+        <link rel="stylesheet" href="mcs/nouislider.min.css" type="text/css"><!-- noUiSlider PLUGIN CSS -->
+        <script type="text/javascript" src="mcs/clientlib-dependencies.js"></script><!-- ORIGINAL PROJECT GLOBAL JS DEPENDENCIES -->
+
+        <link rel="stylesheet" href="mcs/quiz.css" type="text/css"><!-- QUIZ COMPONENT CSS - WRITTEN BY CHARLIE THOMASON -->
+        <link rel="stylesheet" href="../code-global.css" type="text/css"><!-- CHARLIETHOMASON.COM CODE SAMPLE CSS -->
+
+    </head>
+
+    <body class="content-full-width-body no-padding-body">
+        <div id="main-content" class="content-template content-full-width-page no-padding-page">
+            <div class="content-full">
+
+                <header id="charlie-code-header" role="banner">
+                    <div class="headwrap">
+                        <div class="logo">
+                            <a href="http://charliethomason.com/index.html">Charlie Thomason</a>
+                        </div>
+                        <nav id="charlie-main-nav" role="navigation">
+                            <a href="#" id="charlie-hamburger"><span> </span>Menu</a>
+                            <ul role="menu">
+                                <li><a href="http://charliethomason.com/index.html" role="menuitem">Home</a></li>
+                                <li><a href="http://charliethomason.com/about.html" role="menuitem">About</a></li>
+                                <li><a href="http://charliethomason.com/art.html" role="menuitem">Art</a></li>
+                                <li><a href="http://charliethomason.com/photos.html" role="menuitem">Photos</a></li>
+                                <li><a href="http://charliethomason.com/birds/" role="menuitem" class="birds-menuitem">Birds</a></li>
+                                <li class="active"><a href="http://charliethomason.com/code/" role="menuitem">Code</a></li>
+                                <li><a href="http://charliethomason.tumblr.com" role="menuitem">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+
+
+
+<div class="quiz">
+    
+    <div class="quiz-wrapper">
+
+        
+        <div class="quiz-banner">
+            <h4>What kind of investor are you?</h4>
+            <a href="#" class="btn-primary take-quiz-btn">TAKE OUR QUIZ</a>
+        </div>
+
+        
+        <div class="quiz-question-section">
+
+            <div class="quiz-question-heading" tabindex="-1">Answer some simple questions to help learn what kind of investor you are.</div>
+            <button type="button" class="quiz-restart">Restart</button>
+            <button type="button" class="quiz-close">Close</button>
+            <div class="quiz-step-number" tabindex="-1">
+                <span class="sr-only">Question </span>
+                <span class="quiz-step-counter">1</span> of 7
+            </div>
+
+
+            <div class="quiz-question multiple-choice-question">
+                
+                <div class="quiz-question-label">An important thing to me when investing is:</div>
+                
+                <div class="quiz-card-select-outer">
+                    <div class="quiz-card-select">
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="0">
+                            <div class="quiz-card-head">
+                                <h5>No <br />Loss</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Don’t want to lose money, even if there are lower or no gains.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="500">
+                            <div class="quiz-card-head">
+                                <h5>Current <br />Income</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Want income now. Ok with a little up and down in investment, but not too much.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="1000">
+                            <div class="quiz-card-head">
+                                <h5>Income and <br />Growth</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Want some potential for growth. Ok with short-term volatility.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="1500">
+                            <div class="quiz-card-head">
+                                <h5>Moderate <br />Growth</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Don’t need money soon. Looking for growth, so some volatility is ok.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="2000">
+                            <div class="quiz-card-head">
+                                <h5>Long-term <br />Growth</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Looking for maximum growth in the long run, but expect volatility.</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="quiz-question multiple-choice-image-question">
+                
+                <div class="quiz-question-label">Last year, you invested $10,000. Given the potential gain or loss in any 1 year, which of the outcomes are you most comfortable with?</div>
+                
+                <div class="quiz-graph-wrap">
+                    <img src="mcs/clientlib-site/img/quiz-graph-5-mobile.png" class="visible-sm"> <!-- mobile version -->
+                    <img src="mcs/clientlib-site/img/quiz-graph-5-desktop.png" class="hidden-sm"> <!-- desktop/tablet version -->
+                    
+                    
+                        <button type="button" class="quiz-graph-option quiz-graph-unselected" id="quiz-graph-1" role="radio" aria-checked="false" data-val="0">
+                            <span class="sr-only">4 percent</span>
+                        </button>
+                        <span class="quiz-graph-check"></span>
+                    
+                        <button type="button" class="quiz-graph-option quiz-graph-unselected" id="quiz-graph-2" role="radio" aria-checked="false" data-val="500">
+                            <span class="sr-only">6 percent</span>
+                        </button>
+                        <span class="quiz-graph-check"></span>
+                    
+                        <button type="button" class="quiz-graph-option quiz-graph-unselected" id="quiz-graph-3" role="radio" aria-checked="false" data-val="1000">
+                            <span class="sr-only">10 percent</span>
+                        </button>
+                        <span class="quiz-graph-check"></span>
+                    
+                        <button type="button" class="quiz-graph-option quiz-graph-unselected" id="quiz-graph-4" role="radio" aria-checked="false" data-val="1500">
+                            <span class="sr-only">20 percent</span>
+                        </button>
+                        <span class="quiz-graph-check"></span>
+                    
+                        <button type="button" class="quiz-graph-option quiz-graph-unselected" id="quiz-graph-5" role="radio" aria-checked="false" data-val="2000">
+                            <span class="sr-only">40 percent</span>
+                        </button>
+                        <span class="quiz-graph-check"></span>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="quiz-question multiple-choice-question">
+                
+                <div class="quiz-question-label">If the market crashes like it did in 2008 and your account balance drops by 30% in three months, would you...</div>
+                
+                <div class="quiz-card-select-outer">
+                    <div class="quiz-card-select">
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="0">
+                            <div class="quiz-card-head">
+                                <h5>Sell <br />It All</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Give up on investing for now.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="500">
+                            <div class="quiz-card-head">
+                                <h5>Take Out <br />Most Money</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Keep a little in the markets but put most somewhere safe.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="1000">
+                            <div class="quiz-card-head">
+                                <h5>Sell <br />Some</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Sell some part of it but keep most in the market.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="1500">
+                            <div class="quiz-card-head">
+                                <h5>Do <br />Nothing</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Keep investments where they are.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="2000">
+                            <div class="quiz-card-head">
+                                <h5>Buy <br />More</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>It&#39;s an opportunity. Buy more and anticipate future gains.</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="quiz-question multiple-choice-question">
+                
+                <div class="quiz-question-label">Investments with high potential returns are usually more risky. Are you okay with your investment dropping in value during market volatility?</div>
+                
+                <div class="quiz-card-select-outer">
+                    <div class="quiz-card-select">
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="0">
+                            <div class="quiz-card-head">
+                                <h5>No</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Always play it safe. Minimize losses.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="375">
+                            <div class="quiz-card-head">
+                                <h5>Only a <br />Little</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Able to accept infrequent and modest losses.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="750">
+                            <div class="quiz-card-head">
+                                <h5>For a <br />While</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Can handle six months of losses, but then would take action.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="1125">
+                            <div class="quiz-card-head">
+                                <h5>Yes, for <br />a Year</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>For a chance of higher returns, could accept losses for a year.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="1500">
+                            <div class="quiz-card-head">
+                                <h5>Definitely</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Accepting higher risk is part of long-term investment strategy.</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+
+                
+            <div class="quiz-question two-slider-question">
+                
+                <div class="two-slider-section">
+                    <div class="quiz-slider-section">
+                        <div class="quiz-question-label quiz-question-label-default">I won't need my money for <span class="year-counter"></span> years.</div>
+                        
+                        <div class="quiz-slider-wrap">
+                            <div class="quiz-slider" data-min="0" data-max="25" data-start="3" data-ranges="20,10,5,1" data-values="1000,750,500,250">
+                            </div>
+                            <span class="quiz-slide-start">0</span>
+                            <span class="quiz-slide-end">25+</span>
+                        </div>
+                    </div>
+                
+                    <div class="quiz-slider-section">
+                        <div class="quiz-question-label quiz-question-label-default">Then, I plan to withdraw it over the course of <span class="year-counter"></span> years.</div>
+                        <div class="quiz-question-label quiz-question-label-alt">Then, I plan to take all of my investment as a lump-sum.</div>
+                        <div class="quiz-slider-wrap">
+                            <div class="quiz-slider" data-min="0" data-max="15" data-start="10" data-ranges="10,7,4,0" data-values="500,375,250,125">
+                            </div>
+                            <span class="quiz-slide-start">0</span>
+                            <span class="quiz-slide-end">15+</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quiz-question-disclaimer">
+                    <p>Drag the slider left or right to adjust the number of years.</p>
+                </div>
+                
+            </div>
+
+
+            <div class="quiz-question conditional-slider-question">
+                
+                <div class="conditional-slider-check-section">
+                    <div class="quiz-question-label">Do you anticipate withdrawing 20% or more of your money at one time?</div>
+
+                    <input type="radio" id="conditional-slide-1-yes" class="quiz-checkbox conditional-slider-check" name="conditional-slide-1" value="yes">
+                    <label for="conditional-slide-1-yes" class="first-label">Yes</label>
+                    <input type="radio" id="conditional-slide-1-no" class="quiz-checkbox conditional-slider-check" name="conditional-slide-1" value="500">
+                    <label for="conditional-slide-1-no">No</label>
+
+                    <div class="quiz-slider-section">
+                        <div class="quiz-question-label">I'll probably withdraw 20% or more of my money in <span class="year-counter"></span> years.</div>
+                        <div class="quiz-slider-wrap">
+                            <div id="quiz-slider-3" class="quiz-slider" data-min="0" data-max="15" data-start="4" data-ranges="10,5,2" data-values="375,250,125">
+                            </div>
+                            <span class="quiz-slide-start">0</span>
+                            <span class="quiz-slide-end">15+</span>
+                        </div>
+                        <div class="quiz-question-disclaimer">
+                            <p>Drag the slider left or right to adjust the number of years.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="quiz-question multiple-choice-question">
+                
+                <div class="quiz-question-label">If you lost your household’s income, how long could you pay your bills with your non-retirement savings?</div>
+                
+                <div class="quiz-card-select-outer">
+                    <div class="quiz-card-select">
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="0">
+                            <div class="quiz-card-head">
+                                <h5>Not Long <br />At All</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Less than one month.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="125">
+                            <div class="quiz-card-head">
+                                <h5>About a <br />Month</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>One month.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="250">
+                            <div class="quiz-card-head">
+                                <h5>A Few <br />Months</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Two to three months.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="375">
+                            <div class="quiz-card-head">
+                                <h5>Less Than <br />Half a Year</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Four to six months.</p>
+                            </div>
+                        </button>
+                    
+                        <button type="button" class="quiz-card" aria-checked="false" role="radio" data-val="500">
+                            <div class="quiz-card-head">
+                                <h5>More Than <br />Half a Year</h5>
+                                <span class="quiz-card-check"></span>
+                            </div>
+                            <div class="quiz-card-desc">
+                                <p>Six months or more.</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div class="question-nav no-prev-question">
+                <button type="button" class="question-back-btn">BACK</button>
+                <button type="button" class="btn-primary question-next-btn" disabled="disabled">NEXT</button>
+            </div>
+
+            <div class="quiz-results-page">
+                
+                <div class="quiz-results" data-val="0" data-category="Conservative">
+                    <div class="quiz-results-head">
+                        <!-- <div class="highlight-graph"><img src="#" alt=""></div> -->
+                        <h2>Conservative Investor</h2>
+                        <div class="results-desc">
+                            <p>Conservative investors want as little to do with risk as possible. Lower returns are ok because their first priority is to not lose money. Money may be needed soon, so investing conservatively may be a wise option. While our Asset Allocation funds may not match your risk tolerance, please view our other mutual funds to find one that may better align with a conservative risk tolerance.<a href="https://www.thriventfunds.com/mutual-funds.html"> View All Mutual Funds</a></p>
+                        </div>
+                    </div>
+                </div><div class="quiz-results" data-val="2000" data-category="Moderately Conservative">
+                    <div class="quiz-results-head">
+                        <!-- <div class="highlight-graph"><img src="#" alt=""></div> -->
+                        <h2>Moderately Conservative Investor</h2>
+                        <div class="results-desc">
+                            <p>Moderately conservative investors want to invest, but without taking large risks. Their priority is to not lose their investment, so lower returns are ok. Money may be needed soon, so investing somewhat conservatively may be a good option. They’re more moderate than a conservative investor.</p>
+                        </div>
+                    </div>
+                </div><div class="quiz-results" data-val="4000" data-category="Moderate">
+                    <div class="quiz-results-head">
+                        <!-- <div class="highlight-graph"><img src="#" alt=""></div> -->
+                        <h2>Moderate Investor</h2>
+                        <div class="results-desc">
+                            <p>Moderates take a balanced approach to investing. Short-term ups and downs are alright if it nets a higher return, but they are uncomfortable if the volatility lasts too long. Money will be needed, but not any time soon.</p>
+                        </div>
+                    </div>
+                </div><div class="quiz-results" data-val="6000" data-category="Moderately Aggressive">
+                    <div class="quiz-results-head">
+                        <!-- <div class="highlight-graph"><img src="#" alt=""></div> -->
+                        <h2>Moderately Aggressive Investor</h2>
+                        <div class="results-desc">
+                            <p>Moderately aggressive investors want to be rewarded for taking risks. While not the most aggressive investor, they do tend to think that if they just hang in there, investments will pay off. Money may not be needed for a while, so they can ride out ups and downs.</p>
+                        </div>
+                    </div>
+                </div><div class="quiz-results" data-val="8000" data-category="Aggressive">
+                    <div class="quiz-results-head">
+                        <!-- <div class="highlight-graph"><img src="#" alt=""></div> -->
+                        <h2>Aggressive Investor</h2>
+                        <div class="results-desc">
+                            <p>When investing, the goal for aggressive investors is to maximize returns. Underperforming investments aren’t scary because they’re optimistic the markets will rebound over the long-term. After all, taking bigger risks is part of the process. Time is on their side and money may not be needed for quite a while.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+        <script type="text/javascript" src="shared/clientlib-site.js"></script><!-- ORIGINAL PROJECT SHARED JS -->
+        <script type="text/javascript" src="mcs/clientlib-site.js"></script><!-- ORIGINAL PROJECT COMPONENT JS -->
+        <script type="text/javascript" src="mcs/nouislider.min.js"></script><!-- noUiSlider PLUGIN JS -->
+
+        <script type="text/javascript" src="mcs/quiz.js"></script><!-- QUIZ COMPONENT JS - WRITTEN BY CHARLIE THOMASON -->
+        <script type="text/javascript" src="../code-global.js"></script><!-- CHARLIETHOMASON.COM CODE SAMPLE JS -->
+
+    </body>
+</html>

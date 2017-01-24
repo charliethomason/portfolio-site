@@ -4,7 +4,7 @@
     "type": "code",
     "works": [
       {
-        "imgTitle": "customA11ySelect.js",
+        "imgTitle": "Custom Select Dropdown Plugin - customA11ySelect.js",
         "subtitle": "Fully-accessible, custom JavaScript select menu plugin",
         "imgFile": "customselect",
         "year": "2016",
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "imgTitle": "Interactive JS Quiz",
+        "imgTitle": "Interactive 'Traveler Type' JS Quiz",
         "subtitle": "Multi-step quiz widget with interactive controls and real scoring",
         "imgFile": "quiz",
         "year": "2016",
