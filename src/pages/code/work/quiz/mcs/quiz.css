@@ -91,7 +91,7 @@
   font-family: 'Vito W00 Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #009865;
+  color: #006699;
   font-size: 11px;
   letter-spacing: 0.1em;
   outline: 0 none;
@@ -129,7 +129,7 @@
   font-style: normal;
   background: url(clientlib-site/img/btn-back.png) no-repeat scroll 0 0 transparent;
   border: none;
-  color: #009865;
+  color: #006699;
   display: inline-block;
   font-size: 15px;
   height: 51px;
@@ -142,7 +142,7 @@
   width: 140px;
 }
 .quiz .question-back-btn:hover, .quiz .question-back-btn:focus {
-  color: #32CB98;
+  color: #0099cc;
   text-decoration: none;
 }
 .quiz .question-nav.no-prev-question .question-back-btn {
@@ -365,7 +365,7 @@
   line-height: 18px;
 }
 .quiz-question .quiz-card-select .quiz-card.quiz-card-selected .quiz-card-head {
-  background-color: #32CB98;
+  background-color: #0099cc;
 }
 .quiz-question .quiz-card-select .quiz-card.quiz-card-selected .quiz-card-check {
   display: block;
@@ -431,7 +431,7 @@
   top: -15px;
 }
 .quiz-question .noUi-target.quiz-slider .noUi-handle {
-  background: #009865;
+  background: #006699;
   border: none;
   border-radius: 50px;
   height: 18px;
@@ -451,12 +451,12 @@
   background: none transparent;
   border: none;
   border-radius: 0;
-  color: #009865;
+  color: #006699;
   font-size: 16px;
   padding-bottom: 0;
 }
 .quiz-question .quiz-question-label .year-counter {
-  color: #009865;
+  color: #006699;
   display: inline-block;
   text-align: center;
   width: 28px;
