@@ -6,8 +6,31 @@ modified:
 {{> header}}
 
 {{#code}}
-<h1>{{page-name}}</h1>
-{{> gallery}}
+<h1 class="code-heading">{{page-name}}</h1>
+<p class="code-intro">{{intro}}</p>
+<section class="gallery">
+  <ul class="gallery-wrap list">
+    {{#each works}}
+    <li class="img-li">
+      <a href="work/{{slug}}/" title="{{project}}" class="galleryImg">
+        <img src="img/code/{{slug}}.jpg" alt="screenshot of {{subtitle}}">
+      </a>
+      <div class="info">
+          <a href="work/{{slug}}/" class="code-title">
+            <h2 class="title">{{project}}</h2>
+            <h3 class="subtitle">{{subtitle}}</h3>
+          </a>
+          <p class="description">{{description}}</p>
+          <p class="year">{{year}}</p>
+      </div>
+      <div class="code-btns">
+        <a href="work/{{slug}}/" class="code-btn">View Demo</a>
+        <a href="{{github}}" target="_blank" class="code-btn">View Code</a>
+      </div>
+    </li>
+    {{/each}}
+  </ul>
+</section>
 {{/code}}
 
 {{> footer}}

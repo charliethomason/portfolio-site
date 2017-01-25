@@ -1,60 +1,41 @@
 {
   "page-name": "Web Development Portfolio",
-  "gallery": {
-    "type": "code",
-    "works": [
-      {
-        "imgTitle": "Custom Select Dropdown Plugin - customA11ySelect.js",
-        "subtitle": "Fully-accessible, custom JavaScript select menu plugin",
-        "imgFile": "customselect",
-        "year": "2016",
-        "tags": [
-          {"tagname":"accessible"},
-          {"tagname":"mobile"},
-          {"tagname":"ie10"}
-        ]
-      },
-      {
-        "imgTitle": "Interactive 'Traveler Type' JS Quiz",
-        "subtitle": "Multi-step quiz widget with interactive controls and real scoring",
-        "imgFile": "quiz",
-        "year": "2016",
-        "tags": [
-          {"tagname":"accessible"},
-          {"tagname":"mobile"},
-          {"tagname":"ie9"}
-        ]
-      },
-      {
-        "imgTitle": "Flexbox Superhero Nav",
-        "subtitle": "Main navigation built with flexbox styling, superhero promo, and parallax scroll",
-        "imgFile": "flexboxnav",
-        "year": "2016",
-        "tags": [
-          {"tagname":"accessible"},
-          {"tagname":"ie10"}
-        ]
-      },
-      {
-        "imgTitle": "Parallax Promo Page with Video",
-        "subtitle": "Single-page product promo with parallax scrolling and YouTube API integration",
-        "imgFile": "parallaxpromo",
-        "year": "2015",
-        "tags": [
-          {"tagname":"mobile"},
-          {"tagname":"ie10"}
-        ]
-      },
-      {
-        "imgTitle": "Account Management Prototype",
-        "subtitle": "Multi-page prototype for retirement account dashboard with interactive data layouts",
-        "imgFile": "accountmanage",
-        "year": "2014",
-        "tags": [
-          {"tagname":"mobile"},
-          {"tagname":"ie9"}
-        ]
-      }
-    ]
-  }
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "works": [
+    {
+      "slug": "quiz",
+      "project": "Traveler Type",
+      "subtitle": "Interactive 7-Step JS Quiz",
+      "description": "Multi-step quiz widget with interactive controls and real scoring. Originally built as an Adobe AEM component for a financial client.",
+      "year": "2016"
+    },
+    {
+      "slug": "customselect",
+      "project": "customA11ySelect.js",
+      "subtitle": "Accessible Custom Select Dropdown JS Plugin",
+      "description": "Fully-accessible, custom JavaScript select menu plugin. Demo page shows different features and uses. Originally built for a retail brand.",
+      "year": "2016"
+    },
+    {
+      "slug": "flexboxnav",
+      "project": "Racetrack Header",
+      "subtitle": "Flexbox Main Navigation with Superhero Parallax Scroll",
+      "description": "Main navigation built with flexbox CSS and Bootstrap. Above the nav is a superhero promo with parallax scrolling. Originally built for a retail brand.",
+      "year": "2016"
+    },
+    {
+      "slug": "parallaxpromo",
+      "project": "New Car Promo",
+      "subtitle": "Parallax Promo Page with YouTube API Integration",
+      "description": "Single-page product promo with parallax scrolling and YouTube API integration. Originally built with Node, Harp, and Jade for an electronics brand's social media campaign.",
+      "year": "2015"
+    },
+    {
+      "slug": "accountmanage",
+      "project": "ABC Company Retirement Account",
+      "subtitle": "Multi-page Account Management Design Prototype",
+      "description": "Static data design prototype for retirement account management site. Originally built with Handlebars, Grunt, Assemble, and Sass for a financial client.",
+      "year": "2014"
+    }
+  ]
 }
