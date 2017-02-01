@@ -4,11 +4,39 @@
     <meta charset="utf-8">
     <title>customA11ySelect.js Demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald" type="text/css"/>
     <link href="demo.css" rel="stylesheet">
     <link href="customA11ySelect.css" rel="stylesheet">
+    <link rel="stylesheet" href="../code-global.css" type="text/css"><!-- CHARLIETHOMASON.COM CODE SAMPLE CSS -->
 </head>
 <body>
+
+    <header id="charlie-code-header" role="banner">
+        <div class="headwrap">
+            <div class="logo">
+                <a href="http://charliethomason.com/index.html">Charlie Thomason</a>
+            </div>
+            <nav id="charlie-main-nav" role="navigation">
+                <a href="#" id="charlie-hamburger"><span> </span>Menu</a>
+                <ul role="menu">
+                    <li><a href="http://charliethomason.com/index.html" role="menuitem">Home</a></li>
+                    <li><a href="http://charliethomason.com/about.html" role="menuitem">About</a></li>
+                    <li><a href="http://charliethomason.com/art.html" role="menuitem">Art</a></li>
+                    <li><a href="http://charliethomason.com/photos.html" role="menuitem">Photos</a></li>
+                    <li><a href="http://charliethomason.com/birds/" role="menuitem" class="birds-menuitem">Birds</a></li>
+                    <li class="active"><a href="http://charliethomason.com/code/" role="menuitem">Code</a></li>
+                    <li><a href="http://charliethomason.tumblr.com" role="menuitem">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
     <div class="wrapper">
+
         <h1>customA11ySelect.js Demo</h1>
         <div class="doc"><a href="https://github.com/charliethomason/customA11ySelect">Documentation</a></div>
 
@@ -39,6 +67,18 @@
 
     </div>
 
+
+
+
+
+    <footer id="charlie-code-footer" role="contentinfo">
+        <p>All content on this website is property of <a href="http://charliethomason.com">Charlie Thomason</a>, except where otherwise specified. Do not reuse without permission.</p>
+    </footer>
+
+
+
+        
+
     <script src="/js/jquery.min.js"></script>
     <script src="customA11ySelect.js"></script>
     <script>
@@ -46,5 +86,6 @@
             $('select').customA11ySelect();
         });
     </script>
+    <script type="text/javascript" src="../code-global.js"></script><!-- CHARLIETHOMASON.COM CODE SAMPLE JS -->
 </body>
 </html>

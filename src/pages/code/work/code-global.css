@@ -155,3 +155,27 @@
     display: block;
   }
 }
+#charlie-code-footer {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#666;
+  font-size:12px;
+  line-height:16px;
+  margin:20px auto;
+  text-align:center;
+  width:250px;
+}
+#charlie-code-footer p {
+  margin:0;
+  padding:0;
+}
+#charlie-code-footer a {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#222;
+  font-weight:normal;
+  text-decoration:none;
+}
+#charlie-code-footer a:hover,
+#charlie-code-footer a:focus {
+  color:#222;
+  text-decoration:underline;
+}
