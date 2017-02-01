@@ -111,6 +111,10 @@
 				img: {
 					files: ['src/img/**/*'],
 					tasks: ['copy:img_build']
+				},
+				code_work: {
+					files: ['src/pages/code/work/**/*'],
+					tasks: ['copy:code_work']
 				}
 			}
 		});
