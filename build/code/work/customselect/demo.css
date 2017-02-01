@@ -105,7 +105,7 @@ pre {
 .wrapper .example {
   margin:0 auto;
   max-width:540px;
-  padding:0 20px;
+  padding:20px;
 }
 .wrapper h2 {
   font-size:18px;

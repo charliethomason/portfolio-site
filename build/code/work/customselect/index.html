@@ -11,79 +11,182 @@
 </head>
 <body>
 
-    <header id="charlie-code-header" role="banner">
-        <div class="headwrap">
-            <div class="logo">
-                <a href="http://charliethomason.com/index.html">Charlie Thomason</a>
-            </div>
-            <nav id="charlie-main-nav" role="navigation">
-                <a href="#" id="charlie-hamburger"><span> </span>Menu</a>
-                <ul role="menu">
-                    <li><a href="http://charliethomason.com/index.html" role="menuitem">Home</a></li>
-                    <li><a href="http://charliethomason.com/about.html" role="menuitem">About</a></li>
-                    <li><a href="http://charliethomason.com/art.html" role="menuitem">Art</a></li>
-                    <li><a href="http://charliethomason.com/photos.html" role="menuitem">Photos</a></li>
-                    <li><a href="http://charliethomason.com/birds/" role="menuitem" class="birds-menuitem">Birds</a></li>
-                    <li class="active"><a href="http://charliethomason.com/code/" role="menuitem">Code</a></li>
-                    <li><a href="http://charliethomason.tumblr.com" role="menuitem">Blog</a></li>
-                </ul>
-            </nav>
+<header id="charlie-code-header" role="banner">
+    <div class="headwrap">
+        <div class="logo">
+            <a href="http://charliethomason.com/index.html">Charlie Thomason</a>
         </div>
-    </header>
+        <nav id="charlie-main-nav" role="navigation">
+            <a href="#" id="charlie-hamburger"><span> </span>Menu</a>
+            <ul role="menu">
+                <li><a href="http://charliethomason.com/index.html" role="menuitem">Home</a></li>
+                <li><a href="http://charliethomason.com/about.html" role="menuitem">About</a></li>
+                <li><a href="http://charliethomason.com/art.html" role="menuitem">Art</a></li>
+                <li><a href="http://charliethomason.com/photos.html" role="menuitem">Photos</a></li>
+                <li><a href="http://charliethomason.com/birds/" role="menuitem" class="birds-menuitem">Birds</a></li>
+                <li class="active"><a href="http://charliethomason.com/code/" role="menuitem">Code</a></li>
+                <li><a href="http://charliethomason.tumblr.com" role="menuitem">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 
 
 
 
-    <div class="wrapper">
+<div class="wrapper">
 
-        <h1>customA11ySelect.js Demo</h1>
-        <div class="doc"><a href="https://github.com/charliethomason/customA11ySelect">Documentation</a></div>
+    <h1>customA11ySelect.js Demo</h1>
+    <div class="doc"><a href="https://github.com/charliethomason/customA11ySelect">Documentation</a></div>
 
-        <div class="example">
-            <h2>Example 1</h2>
-            <p>Normal &lt;select&gt; element</p>
-            <label for="example-1">Example 1:</label>
-            <select id="example-1">
-                <option value="" selected="selected">Select Size</option>
-                <option value="XS">XS</option>
-                <option value="S">S</option>
-                <option value="M">M</option>
-                <option value="L">L</option>
-                <option value="XL">XL</option>
-            </select>
-            <label>Code:</label>
-<pre>&lt;label for=&quot;example-1&quot;&gt;Example 1:&lt;/label&gt;
-&lt;select id=&quot;example-1&quot;&gt;
-  &lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Select Size&lt;/option&gt;
-  &lt;option value=&quot;XS&quot;&gt;XS&lt;/option&gt;
-  &lt;option value=&quot;S&quot;&gt;S&lt;/option&gt;
-  &lt;option value=&quot;M&quot;&gt;M&lt;/option&gt;
-  &lt;option value=&quot;L&quot;&gt;L&lt;/option&gt;
-  &lt;option value=&quot;XL&quot;&gt;XL&lt;/option&gt;
+    <div class="example">
+        <p>In 2016, a project I was working on for a major retail brand needed a customizable select dropdown. It needed to be fully accessible, have all the browser functionality of a normal form &lt;select&gt; dropdown, be capable of triggering any mobile web browser's native form &lt;select&gt; dropdown interface, allow multi-line text and images, look the same across all browsers, and provide a way for other functions to inject additional &lt;option&gt;s into the dropdown without a page refresh. I studied several existing plugins that already did this, including <a href="https://jqueryui.com/selectmenu/" target="_blank">jQuery UI's Selectmenu</a>, Greg Franko's <a href="http://gregfranko.com/jquery.selectBoxIt.js/" target="_blank">SelectBoxIt</a>, and Bootstrap's <a href="http://getbootstrap.com/css/#selects" target="_blank">Selects</a>, and created my own inspired by the best aspects of all of them &mdash; yet simpler, more customizable, more accessible, and with some additional features.</p>
+        <h2>Example 1</h2>
+        <p>Normal &lt;select&gt; element with 10 options. Pass an ID or class name to the .customA11ySelect() function, or just use 'select' to enable the plugin for all &lt;select&gt; elements. While focused on the input, try hitting a letter on your keyboard to search for options. For example, hitting the 's' key will navigate through all options that start with 's', or typing 'mc' will go to 'McLaren' instead of 'Mercedes'. You can also use the arrow and tabs key to navigate through options, the spacebar and enter keys to select an option, and the escape key to close the dropdown when it's open (just like a normal &lt;select&gt; input).</p>
+        <label for="f1-team">Formula 1 Teams:</label>
+        <select id="f1-team">
+            <option value="ferrari" selected="selected">Scuderia Ferrari</option>
+            <option value="mercedes">Mercedes-AMG Petronas</option>
+            <option value="mclaren">McLaren Honda</option>
+            <option value="redbull">Red Bull Racing</option>
+            <option value="tororosso">Scuderia Toro Rosso</option>
+            <option value="renault">Renault Sport</option>
+            <option value="williams">Williams Martini Racing</option>
+            <option value="forceindia">Sahara Force India</option>
+            <option value="haas">Haas</option>
+            <option value="sauber">Sauber</option>
+        </select>
+        <label>Code:</label>
+<pre>&lt;label for="f1-team"&gt;Formula 1 Teams:&lt;/label&gt;
+&lt;select id="f1-team"&gt;
+  &lt;option value="ferrari" selected="selected"&gt;Scuderia Ferrari&lt;/option&gt;
+  &lt;option value="mercedes"&gt;Mercedes-AMG Petronas&lt;/option&gt;
+  &lt;option value="mclaren"&gt;McLaren Honda&lt;/option&gt;
+  &lt;option value="redbull"&gt;Red Bull Racing&lt;/option&gt;
+  &lt;option value="tororosso"&gt;Scuderia Toro Rosso&lt;/option&gt;
+  &lt;option value="renault"&gt;Renault Sport&lt;/option&gt;
+  &lt;option value="williams"&gt;Williams Martini Racing&lt;/option&gt;
+  &lt;option value="forceindia"&gt;Sahara Force India&lt;/option&gt;
+  &lt;option value="haas"&gt;Haas&lt;/option&gt;
+  &lt;option value="sauber"&gt;Sauber&lt;/option&gt;
 &lt;/select&gt;
-</pre>
-        </div>
 
+&lt;script&gt;
+  $(document).ready(function() {
+    $('#f1-team').customA11ySelect();
+  });
+&lt;/script&gt;
+</pre>
+    </div>
+
+    <div class="example">
+        <h2>Example 2</h2>
+        <p>Users can set a custom overflow height for the dropdown area (i.e.: the height of the dropdown that is visible as you scroll), by providing an 'overlay' parameter to the JS function. By default, if the dropdown has more than 5 options, the dropdown's overflow height is 235px; if there are 5 or less options, it shrinks to the necessary height of those options. In the example below, a height of 400 is used to show more options at once.</p>
+        <label for="f1-drivers">Formula 1 Drivers:</label>
+        <select id="f1-drivers">
+            <option value="rai" selected="selected">Kimi Räikkönen</option>
+            <option value="vet">Sebastian Vettel</option>
+            <option value="ham">Lewis Hamilton</option>
+            <option value="bot">Valtteri Bottas</option>
+            <option value="ric">Daniel Ricciardo</option>
+            <option value="ver">Max Verstappen</option>
+            <option value="per">Sergio Perez</option>
+            <option value="oco">Esteban Ocon</option>
+            <option value="gro">Romain Grosjean</option>
+            <option value="mag">Kevin Magnussen</option>
+            <option value="van">Stoffel Vandoorne</option>
+            <option value="alo">Fernando Alonso</option>
+            <option value="hul">Nico Hülkenberg</option>
+            <option value="pal">Jolyon Palmer</option>
+            <option value="eri">Marcus Ericsson</option>
+            <option value="weh">Pascal Wehrlein</option>
+            <option value="kvy">Daniil Kvyat</option>
+            <option value="sai">Carlos Sainz Jr.</option>
+            <option value="mas">Felipe Massa</option>
+            <option value="str">Lance Stroll</option>
+        </select>
+        <label>Code:</label>
+<pre>&lt;label for="f1-drivers">Formula 1 Drivers:&lt;/label>
+&lt;select id="f1-drivers">
+    &lt;option value="rai" selected="selected">Kimi Räikkönen&lt;/option>
+    &lt;option value="vet">Sebastian Vettel&lt;/option>
+    &lt;option value="ham">Lewis Hamilton&lt;/option>
+    &lt;option value="bot">Valtteri Bottas&lt;/option>
+    &lt;option value="ric">Daniel Ricciardo&lt;/option>
+    &lt;option value="ver">Max Verstappen&lt;/option>
+    &lt;option value="per">Sergio Perez&lt;/option>
+    &lt;option value="oco">Esteban Ocon&lt;/option>
+    &lt;option value="gro">Romain Grosjean&lt;/option>
+    &lt;option value="mag">Kevin Magnussen&lt;/option>
+    &lt;option value="van">Stoffel Vandoorne&lt;/option>
+    &lt;option value="alo">Fernando Alonso&lt;/option>
+    &lt;option value="hul">Nico Hülkenberg&lt;/option>
+    &lt;option value="pal">Jolyon Palmer&lt;/option>
+    &lt;option value="eri">Marcus Ericsson&lt;/option>
+    &lt;option value="weh">Pascal Wehrlein&lt;/option>
+    &lt;option value="kvy">Daniil Kvyat&lt;/option>
+    &lt;option value="sai">Carlos Sainz Jr.&lt;/option>
+    &lt;option value="mas">Felipe Massa&lt;/option>
+    &lt;option value="str">Lance Stroll&lt;/option>
+&lt;/select>
+
+&lt;script>
+    $(document).ready(function() {
+        $('#f1-drivers').customA11ySelect({overlay:400});
+    });
+&lt;/script>
+</pre>
     </div>
 
 
+    <div class="example">
+        <h2>Example 3</h2>
+        <p>Users can insert images into dropdown options by providing the image's relative path in a data-iconurl attribute on its respective &lt;option&gt; element (NOTE: images are only shown when the dropdown is open).</p>
+        <label for="f1-engines">Formula 1 Engine Manufacturers:</label>
+        <select id="f1-engines">
+            <option value="ferrari" data-iconurl="img/IT.gif" selected="selected">Ferrari</option>
+            <option value="mercedes" data-iconurl="img/DE.gif">Mercedes</option>
+            <option value="renault" data-iconurl="img/GB.gif">Renault</option>
+            <option value="honda" data-iconurl="img/JP.gif">Honda</option>
+        </select>
+        <label>Code:</label>
+<pre>&lt;label for="f1-engines">Formula 1 Engine Manufacturers:&lt;/label>
+&lt;select id="f1-engines">
+  &lt;option value="ferrari" data-iconurl="img/IT.gif" selected="selected">Ferrari&lt;/option>
+  &lt;option value="mercedes" data-iconurl="img/DE.gif">Mercedes&lt;/option>
+  &lt;option value="renault" data-iconurl="img/GB.gif">Renault&lt;/option>
+  &lt;option value="honda" data-iconurl="img/JP.gif">Honda&lt;/option>
+&lt;/select>
+
+&lt;script&gt;
+  $(document).ready(function() {
+    $('#f1-engines').customA11ySelect();
+  });
+&lt;/script&gt;
+</pre>
+    </div>
+
+</div>
 
 
 
-    <footer id="charlie-code-footer" role="contentinfo">
-        <p>All content on this website is property of <a href="http://charliethomason.com">Charlie Thomason</a>, except where otherwise specified. Do not reuse without permission.</p>
-    </footer>
+
+
+<footer id="charlie-code-footer" role="contentinfo">
+    <p>All content on this website is property of <a href="http://charliethomason.com">Charlie Thomason</a>, except where otherwise specified. Do not reuse without permission.</p>
+</footer>
 
 
 
-        
+
 
     <script src="/js/jquery.min.js"></script>
     <script src="customA11ySelect.js"></script>
     <script>
         $(document).ready(function() {
-            $('select').customA11ySelect();
+            $('#f1-team, #f1-engines').customA11ySelect();
+            $('#f1-drivers').customA11ySelect({overlay:400});
         });
     </script>
     <script type="text/javascript" src="../code-global.js"></script><!-- CHARLIETHOMASON.COM CODE SAMPLE JS -->
