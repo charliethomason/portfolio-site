@@ -142,14 +142,32 @@
 
     <div class="example">
         <h2>Example 3</h2>
-        <p>Users can insert images into dropdown options by providing the image's relative path in a data-iconurl attribute on its respective &lt;option&gt; element (NOTE: images are only shown when the dropdown is open).</p>
-        <label for="f1-engines">Formula 1 Engine Manufacturers:</label>
-        <select id="f1-engines">
-            <option value="ferrari" data-iconurl="img/IT.gif" selected="selected">Ferrari</option>
-            <option value="mercedes" data-iconurl="img/DE.gif">Mercedes</option>
-            <option value="renault" data-iconurl="img/GB.gif">Renault</option>
-            <option value="honda" data-iconurl="img/JP.gif">Honda</option>
-        </select>
+        <p>Users can insert images into dropdown options by providing the image's relative path in a data-iconurl attribute on its respective &lt;option&gt; element (NOTE: images are only shown when the dropdown is open). This example also shows how the dropdown supports multi-line option text and text overflow with an ellipsis.</p>
+        <div class="select-halfwidth">
+            <label for="f1-circuits">Formula 1 Grand Prix Circuits:</label>
+            <select id="f1-circuits">
+                <option value="" data-iconurl="img/AU.gif" selected="selected">Australian Grand Prix - Albert Park Circuit</option>
+                <option value="" data-iconurl="img/CN.gif">Chinese Grand Prix - Shanghai International Circuit</option>
+                <option value="" data-iconurl="img/BH.gif">Bahrain Grand Prix - Bahrain International Circuit</option>
+                <option value="" data-iconurl="img/RU.gif">Russian Grand Prix - Sochi Autodrom</option>
+                <option value="" data-iconurl="img/ES.gif">Spanish Grand Prix - Circuit de Catalunya</option>
+                <option value="" data-iconurl="img/MC.gif">Monaco Grand Prix - Circuit de Monaco</option>
+                <option value="" data-iconurl="img/CA.gif">Canadian Grand Prix - Circuit Gilles Villeneuve</option>
+                <option value="" data-iconurl="img/AZ.gif">Azerbaijan Grand Prix - Baku City Circuit</option>
+                <option value="" data-iconurl="img/AT.gif">Austrian Grand Prix - Red Bull Ring</option>
+                <option value="" data-iconurl="img/GB.gif">British Grand Prix - Silverstone Circuit</option>
+                <option value="" data-iconurl="img/HU.gif">Hungarian Grand Prix - Hungaroring</option>
+                <option value="" data-iconurl="img/BE.gif">Belgian Grand Prix - Circuit de Spa Francorchamps</option>
+                <option value="" data-iconurl="img/IT.gif">Italian Grand Prix - Autodromo Nazionale di Monza</option>
+                <option value="" data-iconurl="img/SG.gif">Singapore Grand Prix - Marina Bay Street Circuit</option>
+                <option value="" data-iconurl="img/MY.gif">Malaysian Grand Prix - Sepang International Circuit</option>
+                <option value="" data-iconurl="img/JP.gif">Japanese Grand Prix - Suzuka Circuit</option>
+                <option value="" data-iconurl="img/US.gif">United States Grand Prix - Circuit of the Americas</option>
+                <option value="" data-iconurl="img/MX.gif">Mexican Grand Prix - Autodromo Hermanos Rodriguez</option>
+                <option value="" data-iconurl="img/BR.gif">Brazilian Grand Prix - Autodromo de Interlagos</option>
+                <option value="" data-iconurl="img/AE.gif">Abu Dhabi Grand Prix - Yas Marina Circuit</option>
+            </select>
+        </div>
         <label>Code:</label>
 <pre>&lt;label for="f1-engines">Formula 1 Engine Manufacturers:&lt;/label>
 &lt;select id="f1-engines">
@@ -166,6 +184,7 @@
 &lt;/script&gt;
 </pre>
     </div>
+
 
 </div>
 
@@ -185,7 +204,7 @@
     <script src="customA11ySelect.js"></script>
     <script>
         $(document).ready(function() {
-            $('#f1-team, #f1-engines').customA11ySelect();
+            $('#f1-team, #f1-circuits').customA11ySelect();
             $('#f1-drivers').customA11ySelect({overlay:400});
         });
     </script>

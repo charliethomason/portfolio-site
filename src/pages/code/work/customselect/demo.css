@@ -123,3 +123,6 @@ pre {
   font-weight:bold;
   margin:0 0 5px;
 }
+.example .select-halfwidth {
+  max-width:240px;
+}
