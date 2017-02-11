@@ -21,19 +21,19 @@ app.factory('ergastAPIservice', function($http) {
 	ergastAPI.getTeams = function() {
 		return $http({
 			method: 'JSONP',
-			url: 'http://ergast.com/api/f1/2014/constructorStandings.json?callback=JSON_CALLBACK'
+			url: 'http://ergast.com/api/f1/2016/constructorStandings.json?callback=JSON_CALLBACK'
 		});
 	}
 	ergastAPI.getTeamDetails = function(id) {
 		return $http({
 			method: 'JSONP',
-			url: 'http://ergast.com/api/f1/2014/constructors/' + id + '/constructorStandings.json?callback=JSON_CALLBACK'
+			url: 'http://ergast.com/api/f1/2016/constructors/' + id + '/constructorStandings.json?callback=JSON_CALLBACK'
 		});
 	}
 	ergastAPI.getTeamDrivers = function(id) {
 		return $http({
 			method: 'JSONP',
-			url: 'http://ergast.com/api/f1/2014/constructors/' + id + '/drivers.json?callback=JSON_CALLBACK'
+			url: 'http://ergast.com/api/f1/2016/constructors/' + id + '/drivers.json?callback=JSON_CALLBACK'
 		});
 	}
 	return ergastAPI;
