@@ -127,6 +127,7 @@
   line-height: 1;
   outline: none;
   padding: 10px 0;
+  text-decoration: none;
   text-transform: uppercase;
 }
 #charlie-hamburger:hover, #charlie-hamburger:focus {

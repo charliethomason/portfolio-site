@@ -247,9 +247,11 @@
   }
   .img-li {
     @include clearfix;
+    cursor:default;
   }
   a:after {
     clear:none;
+    display:none;
   }
   .galleryImg {
     float:left;
@@ -283,6 +285,9 @@
   .description {
     display:block;
     line-height:1.2;
+    a {
+      display:inline;
+    }
   }
   .code-btns {
     clear:left;

@@ -3,6 +3,13 @@
   "intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   "works": [
     {
+      "slug": "angularf1",
+      "project": "F1 Driver Database",
+      "subtitle": "AngularJS v.2 App with Ajax Data",
+      "description": "Multi-page Angular app that retrives Formula 1 racing data from the <a href=\"http://ergast.com/mrd\" target=\"_blank\">Ergast Developer API</a>. Also, see the <a href=\"work/angularf1-v1/\">Angular v1.3 version</a>.",
+      "year": "2017"
+    },
+    {
       "slug": "quiz",
       "project": "Traveler Type",
       "subtitle": "Interactive 7-Step JS Quiz",

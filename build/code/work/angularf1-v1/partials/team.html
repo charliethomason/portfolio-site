@@ -1,0 +1,44 @@
+<section>
+	<a href="./#/teams">&laquo; Back to Constructors list</a>
+	<div>
+		<div>
+			<img ng-show="team" src="img/flags/{{team.Constructor.nationality}}.png">
+			{{team.Constructor.name}}
+		</div>
+		<div>
+			Country: {{team.Constructor.nationality}} <br>
+			<a href="{{team.Constructor.url}}" target="_blank">Biography</a>
+		</div>
+		<div>
+			<h3>Drivers</h3>
+			<ul ng-repeat="driver in driversList">
+				<li><a href="./#/drivers/{{driver.driverId}}">{{driver.givenName}}&nbsp;{{driver.familyName}}</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="3">2014 Results</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Position</td>
+					<td>{{team.position}}</td>
+				</tr>
+				<tr>
+					<td>Points</td>
+					<td>{{team.points}}</td>
+				</tr>
+				<tr>
+					<td>Wins</td>
+					<td>{{team.wins}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</section>
+<img src="img/loading.gif" id="loading-gif" alt="loading, please wait">

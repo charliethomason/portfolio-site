@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>F1 Stats App</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Oswald" type="text/css"/>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="../code-global.css" type="text/css"><!-- CHARLIETHOMASON.COM CODE SAMPLE CSS -->
+	</head>
+
+	<body ng-app="F1StatsApp">
+
+<header id="charlie-code-header" role="banner">
+    <div class="headwrap">
+        <div class="logo">
+            <a href="http://charliethomason.com/index.html">Charlie Thomason</a>
+        </div>
+        <nav id="charlie-main-nav" role="navigation">
+            <a href="#" id="charlie-hamburger"><span> </span>Menu</a>
+            <ul role="menu">
+                <li><a href="http://charliethomason.com/index.html" role="menuitem">Home</a></li>
+                <li><a href="http://charliethomason.com/about.html" role="menuitem">About</a></li>
+                <li><a href="http://charliethomason.com/art.html" role="menuitem">Art</a></li>
+                <li><a href="http://charliethomason.com/photos.html" role="menuitem">Photos</a></li>
+                <li><a href="http://charliethomason.com/birds/" role="menuitem" class="birds-menuitem">Birds</a></li>
+                <li class="active"><a href="http://charliethomason.com/code/" role="menuitem">Code</a></li>
+                <li><a href="http://charliethomason.tumblr.com" role="menuitem">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+		
+		<ng-view></ng-view>
+
+<footer id="charlie-code-footer" role="contentinfo">
+    <p>All content on this website is property of <a href="http://charliethomason.com">Charlie Thomason</a>, except where otherwise specified. Do not reuse without permission.</p>
+</footer>
+
+		<script src="lib/angular.min.js"></script>
+		<script src="lib/angular-route.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/services.js"></script>
+		<script src="js/controllers.js"></script>
+		<script type="text/javascript" src="../code-global.js"></script><!-- CHARLIETHOMASON.COM CODE SAMPLE JS -->
+	</body>
+</html>

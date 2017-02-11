@@ -1,0 +1,28 @@
+<a href="#/teams">Constructors list</a>
+<input type="text" ng-model="nameFilter" placeholder="Search">
+
+<select ng-model="year" ng-change="change(year)">
+	<option ng-selected="{{year == 2012}}">2012</option>
+	<option ng-selected="{{year == 2013}}">2013</option>
+	<option ng-selected="{{year == 2014}}">2014</option>
+</select>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="4">Drivers Championship Standings</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="driver in driversList | filter: searchFilter">
+			<td>{{$index + 1}}</td>
+			<td>
+				<img src="img/flags/{{driver.Driver.nationality}}.png" alt="flag of {{driver.Driver.nationality}}">
+				<a href="#/drivers/{{driver.Driver.driverId}}">{{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}</a>
+			</td>
+			<td><a href="#/teams/{{driver.Constructors[0].constructorId}}">{{driver.Constructors[0].name}}</a></td>
+			<td>{{driver.points}}</td>
+		</tr>
+	</tbody>
+</table>
+<img src="img/loading.gif" id="loading-gif" alt="loading, please wait">

@@ -1,0 +1,43 @@
+<section>
+	<a href="./#/drivers">&laquo; Back to drivers list</a>
+	<div>
+		<div>
+			<img ng-show="driver" src="img/drivers/{{driver.Driver.driverId}}.jpg">
+			<img ng-show="driver" src="img/flags/{{driver.Driver.nationality}}.png">
+			{{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
+		</div>
+		<div>
+			Country: {{driver.Driver.nationality}}   <br>
+			Team: <a href="./#/teams/{{driver.Constructors[0].constructorId}}">{{driver.Constructors[0].name}}</a><br>
+			Birth: {{driver.Driver.dateOfBirth}}<br>
+			<a href="{{driver.Driver.url}}" target="_blank">Biography</a>
+		</div>
+	</div>
+
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="5">2014 Results</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Round</td>
+					<td>Grand Prix</td>
+					<td>Team</td> 
+					<td>Grid</td> 
+					<td>Race</td>
+				</tr>
+				<tr ng-repeat="race in races">
+					<td>{{race.round}}</td>
+					<td><img  src="img/flags/{{race.Circuit.Location.country}}.png" />{{race.raceName}}</td>
+					<td>{{race.Results[0].Constructor.name}}</td>
+					<td>{{race.Results[0].grid}}</td>
+					<td>{{race.Results[0].position}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</section>
