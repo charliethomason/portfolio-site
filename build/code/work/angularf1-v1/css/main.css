@@ -95,3 +95,8 @@ strong {
 .app-wrap .view-switch:focus {
   color:#666;
 }
+.app-wrap h1.driver-name {
+  font-size:1.2em;
+  font-weight:bold;
+  margin:0 0 10px;
+}

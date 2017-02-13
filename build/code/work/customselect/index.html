@@ -38,12 +38,12 @@
 <div class="wrapper">
 
     <h1>customA11ySelect.js Demo</h1>
-    <div class="doc"><a href="https://github.com/charliethomason/customA11ySelect">Documentation</a></div>
+    <div class="doc"><a href="https://github.com/charliethomason/customA11ySelect">Github Page</a></div>
 
     <div class="example">
-        <p>In 2016, a project I was working on for a major retail brand needed a customizable select dropdown. It needed to be fully accessible, have all the browser functionality of a normal form &lt;select&gt; dropdown, be capable of triggering any mobile web browser's native form &lt;select&gt; dropdown interface, allow multi-line text and images, look the same across all browsers, and provide a way for other functions to inject additional &lt;option&gt;s into the dropdown without a page refresh. I studied several existing plugins that already did this, including <a href="https://jqueryui.com/selectmenu/" target="_blank">jQuery UI's Selectmenu</a>, Greg Franko's <a href="http://gregfranko.com/jquery.selectBoxIt.js/" target="_blank">SelectBoxIt</a>, and Bootstrap's <a href="http://getbootstrap.com/css/#selects" target="_blank">Selects</a>, and created my own inspired by the best aspects of all of them &mdash; yet simpler, more customizable, more accessible, and with some additional features.</p>
+        <p>In 2016, a project I was working on for a major retail brand needed a customizable select dropdown. It needed to be fully accessible, have all the browser functionality of a normal form <code>&lt;select&gt;</code> dropdown, be capable of triggering any mobile web browser's native form <code>&lt;select&gt;</code> dropdown interface, allow multi-line text and images, look the same across all browsers, and provide a way for other functions to inject additional <code>&lt;option&gt;</code>s into the dropdown without a page refresh. I studied several existing plugins that already did this, including <a href="https://jqueryui.com/selectmenu/" target="_blank">jQuery UI's Selectmenu</a>, Greg Franko's <a href="http://gregfranko.com/jquery.selectBoxIt.js/" target="_blank">SelectBoxIt</a>, and Bootstrap's <a href="http://getbootstrap.com/css/#selects" target="_blank">Selects</a>, and created my own inspired by the best aspects of all of them &mdash; yet simpler, more customizable, more accessible, and with some additional features.</p>
         <h2>Example 1</h2>
-        <p>Normal &lt;select&gt; element with 10 options. Pass an ID or class name to the .customA11ySelect() function, or just use 'select' to enable the plugin for all &lt;select&gt; elements. While focused on the input, try hitting a letter on your keyboard to search for options. For example, hitting the 's' key will navigate through all options that start with 's', or typing 'mc' will go to 'McLaren' instead of 'Mercedes'. You can also use the arrow and tabs key to navigate through options, the spacebar and enter keys to select an option, and the escape key to close the dropdown when it's open (just like a normal &lt;select&gt; input).</p>
+        <p>Normal <code>&lt;select&gt;</code> element with 10 options. Pass an ID or class name to the <code>.customA11ySelect()</code> function, or just use <code>select</code> to enable the plugin for all <code>&lt;select&gt;</code> elements. While focused on the input, try hitting a letter on your keyboard to search for options. For example, hitting the 's' key will navigate through all options that start with 's', or typing 'mc' will go to 'McLaren' instead of 'Mercedes'. You can also use the arrow and tabs key to navigate through options, the spacebar and enter keys to select an option, and the escape key to close the dropdown when it's open (just like a normal <code>&lt;select&gt;</code> input).</p>
         <label for="f1-team">Formula 1 Teams:</label>
         <select id="f1-team">
             <option value="ferrari" selected="selected">Scuderia Ferrari</option>
@@ -82,7 +82,7 @@
 
     <div class="example">
         <h2>Example 2</h2>
-        <p>Users can set a custom overflow height for the dropdown area (i.e.: the height of the dropdown that is visible as you scroll), by providing an 'overlay' parameter to the JS function. By default, if the dropdown has more than 5 options, the dropdown's overflow height is 235px; if there are 5 or less options, it shrinks to the necessary height of those options. In the example below, a height of 400 is used to show more options at once.</p>
+        <p>Users can set a custom overflow height for the dropdown area (i.e.: the height of the dropdown that is visible as you scroll), by providing an <code>overlay</code> parameter to the JS function. By default, if the dropdown has more than 5 options, the dropdown's overflow height is 235px; if there are 5 or less options, it shrinks to the necessary height of those options. In the example below, a height of 400 is used to show more options at once.</p>
         <label for="f1-drivers">Formula 1 Drivers:</label>
         <select id="f1-drivers">
             <option value="rai" selected="selected">Kimi Räikkönen</option>
@@ -142,44 +142,193 @@
 
     <div class="example">
         <h2>Example 3</h2>
-        <p>Users can insert images into dropdown options by providing the image's relative path in a data-iconurl attribute on its respective &lt;option&gt; element (NOTE: images are only shown when the dropdown is open). This example also shows how the dropdown supports multi-line option text and text overflow with an ellipsis.</p>
+        <p>Users can insert images into dropdown options by providing the image's relative path in a <code>data-iconurl</code> attribute on its respective <code>&lt;option&gt;</code> element (NOTE: images are only shown when the dropdown is open). This example also shows how the dropdown supports multi-line option text and text overflow with an ellipsis.</p>
         <div class="select-halfwidth">
             <label for="f1-circuits">Formula 1 Grand Prix Circuits:</label>
             <select id="f1-circuits">
-                <option value="" data-iconurl="img/AU.gif" selected="selected">Australian Grand Prix - Albert Park Circuit</option>
-                <option value="" data-iconurl="img/CN.gif">Chinese Grand Prix - Shanghai International Circuit</option>
-                <option value="" data-iconurl="img/BH.gif">Bahrain Grand Prix - Bahrain International Circuit</option>
-                <option value="" data-iconurl="img/RU.gif">Russian Grand Prix - Sochi Autodrom</option>
-                <option value="" data-iconurl="img/ES.gif">Spanish Grand Prix - Circuit de Catalunya</option>
-                <option value="" data-iconurl="img/MC.gif">Monaco Grand Prix - Circuit de Monaco</option>
-                <option value="" data-iconurl="img/CA.gif">Canadian Grand Prix - Circuit Gilles Villeneuve</option>
-                <option value="" data-iconurl="img/AZ.gif">Azerbaijan Grand Prix - Baku City Circuit</option>
-                <option value="" data-iconurl="img/AT.gif">Austrian Grand Prix - Red Bull Ring</option>
-                <option value="" data-iconurl="img/GB.gif">British Grand Prix - Silverstone Circuit</option>
-                <option value="" data-iconurl="img/HU.gif">Hungarian Grand Prix - Hungaroring</option>
-                <option value="" data-iconurl="img/BE.gif">Belgian Grand Prix - Circuit de Spa Francorchamps</option>
-                <option value="" data-iconurl="img/IT.gif">Italian Grand Prix - Autodromo Nazionale di Monza</option>
-                <option value="" data-iconurl="img/SG.gif">Singapore Grand Prix - Marina Bay Street Circuit</option>
-                <option value="" data-iconurl="img/MY.gif">Malaysian Grand Prix - Sepang International Circuit</option>
-                <option value="" data-iconurl="img/JP.gif">Japanese Grand Prix - Suzuka Circuit</option>
-                <option value="" data-iconurl="img/US.gif">United States Grand Prix - Circuit of the Americas</option>
-                <option value="" data-iconurl="img/MX.gif">Mexican Grand Prix - Autodromo Hermanos Rodriguez</option>
-                <option value="" data-iconurl="img/BR.gif">Brazilian Grand Prix - Autodromo de Interlagos</option>
-                <option value="" data-iconurl="img/AE.gif">Abu Dhabi Grand Prix - Yas Marina Circuit</option>
+                <option value="au" data-iconurl="img/AU.gif" selected="selected">Australian Grand Prix - Albert Park Circuit</option>
+                <option value="cn" data-iconurl="img/CN.gif">Chinese Grand Prix - Shanghai International Circuit</option>
+                <option value="bh" data-iconurl="img/BH.gif">Bahrain Grand Prix - Bahrain International Circuit</option>
+                <option value="ru" data-iconurl="img/RU.gif">Russian Grand Prix - Sochi Autodrom</option>
+                <option value="es" data-iconurl="img/ES.gif">Spanish Grand Prix - Circuit de Catalunya</option>
+                <option value="mc" data-iconurl="img/MC.gif">Monaco Grand Prix - Circuit de Monaco</option>
+                <option value="ca" data-iconurl="img/CA.gif">Canadian Grand Prix - Circuit Gilles Villeneuve</option>
+                <option value="az" data-iconurl="img/AZ.gif">Azerbaijan Grand Prix - Baku City Circuit</option>
+                <option value="at" data-iconurl="img/AT.gif">Austrian Grand Prix - Red Bull Ring</option>
+                <option value="gb" data-iconurl="img/GB.gif">British Grand Prix - Silverstone Circuit</option>
+                <option value="hu" data-iconurl="img/HU.gif">Hungarian Grand Prix - Hungaroring</option>
+                <option value="be" data-iconurl="img/BE.gif">Belgian Grand Prix - Circuit de Spa Francorchamps</option>
+                <option value="it" data-iconurl="img/IT.gif">Italian Grand Prix - Autodromo Nazionale di Monza</option>
+                <option value="sg" data-iconurl="img/SG.gif">Singapore Grand Prix - Marina Bay Street Circuit</option>
+                <option value="my" data-iconurl="img/MY.gif">Malaysian Grand Prix - Sepang International Circuit</option>
+                <option value="jp" data-iconurl="img/JP.gif">Japanese Grand Prix - Suzuka Circuit</option>
+                <option value="us" data-iconurl="img/US.gif">United States Grand Prix - Circuit of the Americas</option>
+                <option value="mx" data-iconurl="img/MX.gif">Mexican Grand Prix - Autodromo Hermanos Rodriguez</option>
+                <option value="br" data-iconurl="img/BR.gif">Brazilian Grand Prix - Autodromo de Interlagos</option>
+                <option value="ae" data-iconurl="img/AE.gif">Abu Dhabi Grand Prix - Yas Marina Circuit</option>
             </select>
         </div>
         <label>Code:</label>
-<pre>&lt;label for="f1-engines">Formula 1 Engine Manufacturers:&lt;/label>
-&lt;select id="f1-engines">
-  &lt;option value="ferrari" data-iconurl="img/IT.gif" selected="selected">Ferrari&lt;/option>
-  &lt;option value="mercedes" data-iconurl="img/DE.gif">Mercedes&lt;/option>
-  &lt;option value="renault" data-iconurl="img/GB.gif">Renault&lt;/option>
-  &lt;option value="honda" data-iconurl="img/JP.gif">Honda&lt;/option>
-&lt;/select>
+<pre>
+&lt;div class="select-halfwidth">
+    &lt;label for="f1-circuits">Formula 1 Grand Prix Circuits:&lt;/label>
+    &lt;select id="f1-circuits">
+        &lt;option value="au" data-iconurl="img/AU.gif" selected="selected">Australian Grand Prix - Albert Park Circuit&lt;/option>
+        &lt;option value="cn" data-iconurl="img/CN.gif">Chinese Grand Prix - Shanghai International Circuit&lt;/option>
+        &lt;option value="bh" data-iconurl="img/BH.gif">Bahrain Grand Prix - Bahrain International Circuit&lt;/option>
+        &lt;option value="ru" data-iconurl="img/RU.gif">Russian Grand Prix - Sochi Autodrom&lt;/option>
+        &lt;option value="es" data-iconurl="img/ES.gif">Spanish Grand Prix - Circuit de Catalunya&lt;/option>
+        &lt;option value="mc" data-iconurl="img/MC.gif">Monaco Grand Prix - Circuit de Monaco&lt;/option>
+        &lt;option value="ca" data-iconurl="img/CA.gif">Canadian Grand Prix - Circuit Gilles Villeneuve&lt;/option>
+        &lt;option value="az" data-iconurl="img/AZ.gif">Azerbaijan Grand Prix - Baku City Circuit&lt;/option>
+        &lt;option value="at" data-iconurl="img/AT.gif">Austrian Grand Prix - Red Bull Ring&lt;/option>
+        &lt;option value="gb" data-iconurl="img/GB.gif">British Grand Prix - Silverstone Circuit&lt;/option>
+        &lt;option value="hu" data-iconurl="img/HU.gif">Hungarian Grand Prix - Hungaroring&lt;/option>
+        &lt;option value="be" data-iconurl="img/BE.gif">Belgian Grand Prix - Circuit de Spa Francorchamps&lt;/option>
+        &lt;option value="it" data-iconurl="img/IT.gif">Italian Grand Prix - Autodromo Nazionale di Monza&lt;/option>
+        &lt;option value="sg" data-iconurl="img/SG.gif">Singapore Grand Prix - Marina Bay Street Circuit&lt;/option>
+        &lt;option value="my" data-iconurl="img/MY.gif">Malaysian Grand Prix - Sepang International Circuit&lt;/option>
+        &lt;option value="jp" data-iconurl="img/JP.gif">Japanese Grand Prix - Suzuka Circuit&lt;/option>
+        &lt;option value="us" data-iconurl="img/US.gif">United States Grand Prix - Circuit of the Americas&lt;/option>
+        &lt;option value="mx" data-iconurl="img/MX.gif">Mexican Grand Prix - Autodromo Hermanos Rodriguez&lt;/option>
+        &lt;option value="br" data-iconurl="img/BR.gif">Brazilian Grand Prix - Autodromo de Interlagos&lt;/option>
+        &lt;option value="ae" data-iconurl="img/AE.gif">Abu Dhabi Grand Prix - Yas Marina Circuit&lt;/option>
+    &lt;/select>
+&lt;/div>
 
 &lt;script&gt;
   $(document).ready(function() {
-    $('#f1-engines').customA11ySelect();
+    $('#f1-circuits').customA11ySelect();
+  });
+&lt;/script&gt;
+</pre>
+    </div>
+
+    <div class="example">
+        <h2>Example 4</h2>
+        <p>Programmers can allow additional options to be inserted into the dropdown, or even for the whole list of options to be rebuilt. In an event handler or callback function, you can call the <code>.customA11ySelect()</code> function again on the original <code>&lt;select&gt;</code> input you want to refresh with a parameter of 'refresh' (e.g.: <code>$('#my-select').customA11ySelect('refresh');</code>). In other words, programmers should add, remove, or change the options from the original (now-hidden) select dropdown, and then call .customA11ySelect('refresh') on that element to refresh the custom dropdown (don't try to modify the options directly on the custom dropdown). This functionality may be helpful if a user's selection from one select input determines what options are displayed for a second select input.</p>
+        <label for="f1-country">F1 Driver Home Countries</label>
+        <select id="f1-country">
+            <option value="all">All</option>
+            <option value="AU">Australia</option>
+            <option value="BE">Belgium</option>
+            <option value="BR">Brazil</option>
+            <option value="CA">Canada</option>
+            <option value="DK">Denmark</option>
+            <option value="FI">Finland</option>
+            <option value="FR">France</option>
+            <option value="DE">Germany</option>
+            <option value="GB">Great Britain</option>
+            <option value="MX">Mexico</option>
+            <option value="NL">Netherlands</option>
+            <option value="RU">Russia</option>
+            <option value="ES">Spain</option>
+            <option value="SE">Sweden</option>
+        </select>
+        <label for="f1-country-drivers">Drivers From That Country</label>
+        <select id="f1-country-drivers">
+            <option value="rai" selected="selected">Kimi Räikkönen</option>
+            <option value="vet">Sebastian Vettel</option>
+            <option value="ham">Lewis Hamilton</option>
+            <option value="bot">Valtteri Bottas</option>
+            <option value="ric">Daniel Ricciardo</option>
+            <option value="ver">Max Verstappen</option>
+            <option value="per">Sergio Perez</option>
+            <option value="oco">Esteban Ocon</option>
+            <option value="gro">Romain Grosjean</option>
+            <option value="mag">Kevin Magnussen</option>
+            <option value="van">Stoffel Vandoorne</option>
+            <option value="alo">Fernando Alonso</option>
+            <option value="hul">Nico Hülkenberg</option>
+            <option value="pal">Jolyon Palmer</option>
+            <option value="eri">Marcus Ericsson</option>
+            <option value="weh">Pascal Wehrlein</option>
+            <option value="kvy">Daniil Kvyat</option>
+            <option value="sai">Carlos Sainz Jr.</option>
+            <option value="mas">Felipe Massa</option>
+            <option value="str">Lance Stroll</option>
+        </select>
+        <label for="f1-driver-option">Or, Manually Add An Option</label>
+        <button type="button" id="f1-driver-add" class="example-button">Add</button>
+        <div class="input-wrap">
+            <input type="text" id="f1-driver-option" placeholder="Type any name">
+        </div><br>
+        <label>Code:</label>
+<pre>&lt;label for="f1-country">F1 Driver Home Country&lt;/label> 
+&lt;select id="f1-country">
+    &lt;option value="all">All&lt;/option>
+    &lt;option value="AU">Australia&lt;/option>
+    &lt;option value="BE">Belgium&lt;/option>
+    &lt;option value="BR">Brazil&lt;/option>
+    &lt;option value="CA">Canada&lt;/option>
+    &lt;option value="DK">Denmark&lt;/option>
+    &lt;option value="FI">Finland&lt;/option>
+    &lt;option value="FR">France&lt;/option>
+    &lt;option value="DE">Germany&lt;/option>
+    &lt;option value="GB">Great Britain&lt;/option>
+    &lt;option value="MX">Mexico&lt;/option>
+    &lt;option value="NL">Netherlands&lt;/option>
+    &lt;option value="RU">Russia&lt;/option>
+    &lt;option value="ES">Spain&lt;/option>
+    &lt;option value="SE">Sweden&lt;/option>
+&lt;/select>
+&lt;label for="f1-country-drivers">Drivers From That Country&lt;/label>
+&lt;select id="f1-country-drivers">
+    &lt;option value="rai" selected="selected">Kimi Räikkönen&lt;/option>
+    &lt;option value="vet">Sebastian Vettel&lt;/option>
+    &lt;option value="ham">Lewis Hamilton&lt;/option>
+    &lt;option value="bot">Valtteri Bottas&lt;/option>
+    &lt;option value="ric">Daniel Ricciardo&lt;/option>
+    &lt;option value="ver">Max Verstappen&lt;/option>
+    &lt;option value="per">Sergio Perez&lt;/option>
+    &lt;option value="oco">Esteban Ocon&lt;/option>
+    &lt;option value="gro">Romain Grosjean&lt;/option>
+    &lt;option value="mag">Kevin Magnussen&lt;/option>
+    &lt;option value="van">Stoffel Vandoorne&lt;/option>
+    &lt;option value="alo">Fernando Alonso&lt;/option>
+    &lt;option value="hul">Nico Hülkenberg&lt;/option>
+    &lt;option value="pal">Jolyon Palmer&lt;/option>
+    &lt;option value="eri">Marcus Ericsson&lt;/option>
+    &lt;option value="weh">Pascal Wehrlein&lt;/option>
+    &lt;option value="kvy">Daniil Kvyat&lt;/option>
+    &lt;option value="sai">Carlos Sainz Jr.&lt;/option>
+    &lt;option value="mas">Felipe Massa&lt;/option>
+    &lt;option value="str">Lance Stroll&lt;/option>
+&lt;/select>
+&lt;label for="f1-driver-option">Or, Manually Add An Option&lt;/label>
+&lt;button type="button" id="f1-driver-add" class="example-button">Add&lt;/button>
+&lt;div class="input-wrap">
+    &lt;input type="text" id="f1-driver-option" placeholder="Type any name">
+&lt;/div>
+
+&lt;script&gt;
+  $(document).ready(function() {
+    $('#f1-country').change(function(event) {
+        var country = this.value,
+            driverOptions = '',
+            f1drivers = [
+                // an array of objects 
+                // each with a 'name', 'val', and 'country'
+                // (see source code for this page)
+            ];
+        for(i=0; i&lt;f1drivers.length; i++) {
+            if (country === f1drivers[i].country || 
+                country === 'all') {
+                driverOptions += '&lt;option value="'+f1drivers[i].val+'">'+f1drivers[i].name+'&lt;/option>';
+            }
+        }
+        $('#f1-country-drivers').html(driverOptions).customA11ySelect('refresh');
+    });
+
+    $('#f1-driver-add').click(function(event){
+        event.preventDefault();
+        var driverName = $('#f1-driver-option').val();
+        if (driverName !== undefined &amp;&amp; driverName !== '') {
+            var driverVal = driverName.replace(' ','-'),
+                theOption = '&lt;option value="'+driverVal+'" selected="selected">'+driverName+'&lt;/option>';
+            $('#f1-country-drivers').append(theOption).customA11ySelect('refresh');
+        }
+    });
   });
 &lt;/script&gt;
 </pre>
@@ -204,8 +353,129 @@
     <script src="customA11ySelect.js"></script>
     <script>
         $(document).ready(function() {
-            $('#f1-team, #f1-circuits').customA11ySelect();
+            $('#f1-team, #f1-circuits, #f1-country, #f1-country-drivers').customA11ySelect();
             $('#f1-drivers').customA11ySelect({overlay:400});
+            var f1drivers = [
+                {
+                    "name":"Kimi Räikkönen",
+                    "val":"rai",
+                    "country":"FI"
+                },
+                {
+                    "name":"Sebastian Vettel",
+                    "val":"vet",
+                    "country":"DE"
+                },
+                {
+                    "name":"Lewis Hamilton",
+                    "val":"ham",
+                    "country":"GB"
+                },
+                {
+                    "name":"Valtteri Bottas",
+                    "val":"bot",
+                    "country":"FI"
+                },
+                {
+                    "name":"Daniel Ricciardo",
+                    "val":"ric",
+                    "country":"AU"
+                },
+                {
+                    "name":"Max Verstappen",
+                    "val":"ver",
+                    "country":"NL"
+                },
+                {
+                    "name":"Sergio Perez",
+                    "val":"per",
+                    "country":"MX"
+                },
+                {
+                    "name":"Esteban Ocon",
+                    "val":"oco",
+                    "country":"FR"
+                },
+                {
+                    "name":"Romain Grosjean",
+                    "val":"gro",
+                    "country":"FR"
+                },
+                {
+                    "name":"Kevin Magnussen",
+                    "val":"mag",
+                    "country":"DK"
+                },
+                {
+                    "name":"Stoffel Vandoorne",
+                    "val":"van",
+                    "country":"BE"
+                },
+                {
+                    "name":"Fernando Alonso",
+                    "val":"alo",
+                    "country":"ES"
+                },
+                {
+                    "name":"Nico Hülkenberg",
+                    "val":"hul",
+                    "country":"DE"
+                },
+                {
+                    "name":"Jolyon Palmer",
+                    "val":"pal",
+                    "country":"GB"
+                },
+                {
+                    "name":"Marcus Ericsson",
+                    "val":"eri",
+                    "country":"SE"
+                },
+                {
+                    "name":"Pascal Wehrlein",
+                    "val":"weh",
+                    "country":"DE"
+                },
+                {
+                    "name":"Daniil Kvyat",
+                    "val":"kvy",
+                    "country":"RU"
+                },
+                {
+                    "name":"Carlos Sainz Jr",
+                    "val":"sai",
+                    "country":"ES"
+                },
+                {
+                    "name":"Felipe Massa",
+                    "val":"mas",
+                    "country":"BR"
+                },
+                {
+                    "name":"Lance Stroll",
+                    "val":"str",
+                    "country":"CA"
+                }
+            ];
+            $('#f1-country').change(function(event) {
+                var country = this.value,
+                    driverOptions = '';
+                for(i=0; i<f1drivers.length; i++) {
+                    if (country === f1drivers[i].country || country === 'all') {
+                        driverOptions += '<option value="'+f1drivers[i].val+'">'+f1drivers[i].name+'</option>';
+                    }
+                }
+                $('#f1-country-drivers').html(driverOptions).customA11ySelect('refresh');
+            });
+            $('#f1-driver-add').click(function(event){
+                event.preventDefault();
+                var driverName = $('#f1-driver-option').val();
+                if (driverName !== undefined && driverName !== '') {
+                    var driverVal = driverName.replace(' ','-'),
+                        theOption = '<option value="'+driverVal+'" selected="selected">'+driverName+'</option>';
+                    $('#f1-country-drivers').append(theOption).customA11ySelect('refresh');
+                }
+            });
         });
     </script>
     <script type="text/javascript" src="../code-global.js"></script><!-- CHARLIETHOMASON.COM CODE SAMPLE JS -->

@@ -86,6 +86,15 @@ pre {
   white-space: -moz-pre-wrap; 
   white-space: -o-pre-wrap; 
 }
+code {
+  background: #eee;
+  border: 1px solid #ccc;
+  color: #333;
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size:13px;
+  line-height:1;
+  padding:1px 3px;
+}
 .wrapper {
   background:#fff;
   font-family:Helvetica, Arial, sans-serif;
@@ -125,4 +134,36 @@ pre {
 }
 .example .select-halfwidth {
   max-width:240px;
+}
+.example .input-wrap {
+  overflow:hidden;
+}
+.example input[type="text"] {
+  border:1px solid #ccc;
+  border-radius:0;
+  display:block;
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:14px;
+  line-height:1;
+  padding:10px 15px;
+  width:100%;
+}
+.example .example-button {
+  background:#666;
+  border:none;
+  border-radius:0;
+  color:#fff;
+  cursor:pointer;
+  display:inline-block;
+  float:right;
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  line-height:1;
+  margin-left:10px;
+  padding:12px 15px;
+}
+.example .example-button:hover,
+.example .example-button:focus {
+  background-color:#f00;
 }

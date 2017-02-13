@@ -24,6 +24,9 @@ app.controller('driverController', function($scope, $routeParams, $rootScope, er
 	$scope.id = $routeParams.id;
 	$scope.races = [];
 	$scope.driver = null;
+	if(!$rootScope.year) {
+		$rootScope.year = '2014';
+	}
 	ergastAPIservice.getDriverDetails($scope.id, $rootScope.year).success(function(response) {
 		$scope.driver = response.MRData.StandingsTable.StandingsLists[0].DriverStandings[0];
 	});
