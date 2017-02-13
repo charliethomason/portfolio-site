@@ -1,5 +1,5 @@
 <section>
-	<a href="./#/drivers">&laquo; Back to drivers list</a>
+	<a href="./#/drivers" class="view-switch">&laquo; Back to drivers list</a>
 	<div>
 		<div>
 			<img ng-show="driver" src="img/drivers/{{driver.Driver.driverId}}.jpg">
@@ -7,10 +7,10 @@
 			{{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
 		</div>
 		<div>
-			Country: {{driver.Driver.nationality}}   <br>
-			Team: <a href="./#/teams/{{driver.Constructors[0].constructorId}}">{{driver.Constructors[0].name}}</a><br>
-			Birth: {{driver.Driver.dateOfBirth}}<br>
-			<a href="{{driver.Driver.url}}" target="_blank">Biography</a>
+			<strong>Country:</strong> {{driver.Driver.nationality}}   <br>
+			<strong>Team:</strong> <a href="./#/teams/{{driver.Constructors[0].constructorId}}" class="view-switch">{{driver.Constructors[0].name}}</a><br>
+			<strong>Birth:</strong> {{driver.Driver.dateOfBirth}}<br>
+			<a href="{{driver.Driver.url}}" target="_blank" class="view-switch">Biography</a>
 		</div>
 	</div>
 

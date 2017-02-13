@@ -2,7 +2,7 @@ app.controller('driversController', function($scope, $rootScope, ergastAPIservic
 	$scope.nameFilter = null;
 	$scope.driversList = [];
 	if(!$rootScope.year) {
-		$rootScope.year = '2016';
+		$rootScope.year = '2014';
 	}
 	$rootScope.year = $scope.year;
 	$scope.searchFilter = function(driver) {

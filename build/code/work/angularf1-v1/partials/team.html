@@ -1,16 +1,16 @@
 <section>
-	<a href="./#/teams">&laquo; Back to Constructors list</a>
+	<a href="./#/teams" class="view-switch">&laquo; Back to Constructors list</a>
 	<div>
 		<div>
 			<img ng-show="team" src="img/flags/{{team.Constructor.nationality}}.png">
 			{{team.Constructor.name}}
 		</div>
 		<div>
-			Country: {{team.Constructor.nationality}} <br>
-			<a href="{{team.Constructor.url}}" target="_blank">Biography</a>
+			<strong>Country</strong>: {{team.Constructor.nationality}} <br>
+			<a href="{{team.Constructor.url}}" target="_blank" class="view-switch">Biography</a>
 		</div>
 		<div>
-			<h3>Drivers</h3>
+			<h3><strong>Drivers</strong></h3>
 			<ul ng-repeat="driver in driversList">
 				<li><a href="./#/drivers/{{driver.driverId}}">{{driver.givenName}}&nbsp;{{driver.familyName}}</a></li>
 			</ul>
@@ -21,7 +21,7 @@
 		<table>
 			<thead>
 				<tr>
-					<th colspan="3">2016 Results</th>
+					<th colspan="3">2014 Results</th>
 				</tr>
 			</thead>
 			<tbody>
