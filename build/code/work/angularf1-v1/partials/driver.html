@@ -1,12 +1,12 @@
 <section>
-	<a href="./#/drivers" class="view-switch">&laquo; Back to drivers list</a>
-	<div>
-		<div>
+	<a href="./#/drivers" class="view-switch btn">&laquo; Back to drivers list</a>
+	<div class="row">
+		<div class="col">
 			<img ng-show="driver" src="img/drivers/{{driver.Driver.driverId}}.jpg">
+		</div>
+		<div class="col">
 			<img ng-show="driver" src="img/flags/{{driver.Driver.nationality}}.png">
 			<h1 class="driver-name">{{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}</h1>
-		</div>
-		<div>
 			<strong>Country:</strong> {{driver.Driver.nationality}}   <br>
 			<strong>Team:</strong> <a href="./#/teams/{{driver.Constructors[0].constructorId}}" class="view-switch">{{driver.Constructors[0].name}}</a><br>
 			<strong>Birth:</strong> {{driver.Driver.dateOfBirth}}<br>
@@ -23,11 +23,11 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>Round</td>
-					<td>Grand Prix</td>
-					<td>Team</td> 
-					<td>Grid</td> 
-					<td>Race</td>
+					<th>Round</th>
+					<th>Grand Prix</th>
+					<th>Team</th> 
+					<th>Grid</th> 
+					<th>Race</th>
 				</tr>
 				<tr ng-repeat="race in races">
 					<td>{{race.round}}</td>
@@ -38,6 +38,7 @@
 				</tr>
 			</tbody>
 		</table>
+		<img src="img/loading.gif" id="loading-gif" alt="loading, please wait">
 	</div>
 
 </section>

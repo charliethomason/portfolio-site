@@ -73,10 +73,16 @@ strong {
   margin:20px 0;
   width:100%;
 }
-.app-wrap table td {
+.app-wrap table th {
+  font-weight:bold;
+  padding:0 0 5px;
+}
+.app-wrap table tbody th,
+.app-wrap table tbody td {
   background:#f1f1f1;
   border:1px solid #fff;
   padding:5px;
+  text-align:left;
   vertical-align: middle;
 }
 .app-wrap table td img {
@@ -95,8 +101,44 @@ strong {
 .app-wrap .view-switch:focus {
   color:#666;
 }
+.app-wrap .view-switch.btn {
+  background-color:#666;
+  color:#fff;
+  display:inline-block;
+  font-size:14px;
+  font-weight:bold;
+  line-height:1;
+  margin:0 10px 10px 0;
+  padding:8px;
+  text-decoration: none;
+}
+.app-wrap .view-switch.btn:hover,
+.app-wrap .view-switch.btn:focus {
+  background-color:#f00;
+}
 .app-wrap h1.driver-name {
   font-size:1.2em;
   font-weight:bold;
   margin:0 0 10px;
+}
+.app-wrap .col {
+  display:inline-block;
+}
+.app-wrap .col:first-child {
+  margin-right:10px;
+}
+.app-wrap input[type="text"] {
+  background:none;
+  border:1px solid #aaa;
+  border-radius:0;
+  color:#222;
+  font-size:14px;
+  padding:5px;
+}
+.app-wrap select {
+  border:1px solid #aaa;
+  border-radius:0;
+  font-size:14px;
+  height:30px;
+  padding:5px;
 }
