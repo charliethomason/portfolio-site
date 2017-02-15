@@ -2,6 +2,9 @@
   padding:0 0 20px;
   width: 100%;
 }
+#charlie-code-header.charlie-fixed-version {
+  height:115px;
+}
 #charlie-code-header .headwrap {
   margin: 0 auto;
   padding: 15px 0 10px;
@@ -97,6 +100,7 @@
   #charlie-main-nav ul.shown {
     left: 0;
     top: 100%;
+    z-index:100;
   }
   #charlie-main-nav ul li {
     display: block;
@@ -164,6 +168,9 @@
   margin:20px auto;
   text-align:center;
   width:250px;
+}
+#charlie-code-footer.charlie-big-version {
+  margin:100px auto 400px;
 }
 #charlie-code-footer p {
   margin:0;

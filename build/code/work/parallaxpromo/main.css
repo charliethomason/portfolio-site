@@ -1,0 +1,1313 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+a,
+a:visited,
+a:focus,
+a:hover {
+    text-decoration: none
+}
+
+b,
+strong {
+    font-weight: bold
+}
+
+em,
+i {
+    font-style: italic
+}
+
+input {
+    -webkit-appearance: none
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px
+}
+
+#youtube-video {
+    position: relative;
+    width: 100%
+}
+
+#youtube-video .social-btns {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    width: 100%;
+    z-index: 2
+}
+
+@media all and (max-width:768px) {
+    #youtube-video .social-btns {
+        display: none
+    }
+}
+
+#youtube-video .social-btns ul {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: right
+}
+
+#youtube-video .social-btns ul li {
+    display: inline-block;
+    margin-left: 5px
+}
+
+#youtube-video .social-btns ul li:first-child {
+    margin-left: 0
+}
+
+#youtube-video .social-btns ul li a.social-btn {
+    background: url('img/social-btns.png') no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 31px;
+    outline: 0 none;
+    text-align: left;
+    text-indent: -9999px;
+    width: 31px
+}
+
+#youtube-video .social-btns ul li a.social-btn:hover {
+    background-position: -31px 0
+}
+
+#youtube-video .social-btns ul li a.social-btn.twitter {
+    background-position: 0 -31px
+}
+
+#youtube-video .social-btns ul li a.social-btn.twitter:hover {
+    background-position: -31px -31px
+}
+
+#youtube-video .social-btns ul li a.social-btn.gplus {
+    background-position: 0 -62px
+}
+
+#youtube-video .social-btns ul li a.social-btn.gplus:hover {
+    background-position: -31px -62px
+}
+
+#youtube-video .social-btns ul li a.social-btn.pinterest {
+    background-position: 0 -93px
+}
+
+#youtube-video .social-btns ul li a.social-btn.pinterest:hover {
+    background-position: -31px -93px
+}
+
+#youtube-video .poster {
+    background: url('img/trulli-youtube-poster.jpg') no-repeat scroll 50% 50% transparent;
+    background-size: cover;
+    cursor: default;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+@media all and (max-width:768px) {
+    #youtube-video .poster {
+        background-image: url('img/trulli-youtube-poster-mobile.jpg')
+    }
+}
+
+#youtube-video .poster .play-btn {
+    background: url('img/ajax-loader.gif') no-repeat scroll 0 0 transparent;
+    background-size: 64px 64px;
+    cursor: default;
+    display: block;
+    height: 64px;
+    left: 50%;
+    margin: -32px 0 0 -32px;
+    position: absolute;
+    top: 50%;
+    width: 64px
+}
+
+#youtube-video .poster.ready {
+    cursor: pointer
+}
+
+#youtube-video .poster.ready .play-btn {
+    background-image: url('img/youtube-play-btn.png');
+    background-size: auto auto;
+    cursor: pointer;
+    height: 74px;
+    margin: -37px 0 0 -52px;
+    width: 104px
+}
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-resolution:192dpi) {
+    #youtube-video .poster.ready .play-btn {
+        background-image: url('img/youtube-play-btn-2x.png');
+        background-size: 104px 74px
+    }
+}
+
+#youtube-video .endcard {
+    background: url('img/trulli-youtube-endcard.jpg') no-repeat scroll center center #fff;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+@media all and (max-width:768px) {
+    #youtube-video .endcard {
+        background-image: url('img/trulli-youtube-endcard-mobile.jpg')
+    }
+}
+
+#youtube-video .down-arrow {
+    background: url('img/down-arrow.png') no-repeat scroll 0 0 transparent;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 43px;
+    left: 50%;
+    margin-left: -43px;
+    position: absolute;
+    width: 86px
+}
+
+@media all and (max-width:960px) {
+    #youtube-video .down-arrow {
+        display: none
+    }
+}
+
+#youtube-video iframe#player {
+    height: 100%!important;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%!important;
+    z-index: 0
+}
+
+#youtube-video.mobile iframe {
+    display: block;
+    position: static
+}
+
+#gotcha {
+    width: 100%
+}
+
+#gotcha.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 100
+}
+
+@media all and (max-width:960px) {
+    #gotcha.fixed {
+        position: static
+    }
+    #gotcha.fixed .main .content .promo-text {}
+    #gotcha.fixed .main .content .coupon {
+        background-color: #243180;
+        display: block;
+        height: auto;
+        padding: 20px 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100
+    }
+}
+
+#gotcha .heading {
+    background: #fff;
+    height: 50px;
+    width: 100%
+}
+
+@media all and (max-width:960px) {
+    #gotcha .heading {
+        display: none
+    }
+}
+
+#gotcha .heading .content {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+    padding: 0 10px;
+    width: 100%
+}
+
+#gotcha .heading .content:before,
+#gotcha .heading .content:after {
+    content: "";
+    display: table
+}
+
+#gotcha .heading .content:after {
+    clear: both
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    #gotcha .heading .content {
+        padding: 0 20px
+    }
+}
+
+#gotcha .heading .content .gotcha-logo {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle
+}
+
+#gotcha .heading .content .gotcha-logo .gotcha-logo-img {
+    background: url('img/trulli-gotcha-logo.jpg') no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 30px;
+    width: 204px
+}
+
+#gotcha .heading .content .gotcha-byline {
+    color: #243180;
+    display: table-cell;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    vertical-align: middle
+}
+
+#gotcha .main {
+    background: #243180;
+    color: #fff;
+    height: 200px
+}
+
+@media all and (max-width:960px) {
+    #gotcha .main {
+        height: auto
+    }
+}
+
+#gotcha .main .content {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+    width: 100%
+}
+
+#gotcha .main .content:before,
+#gotcha .main .content:after {
+    content: "";
+    display: table
+}
+
+#gotcha .main .content:after {
+    clear: both
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    #gotcha .main .content {
+        padding: 0 20px
+    }
+}
+
+#gotcha .main .content .promo-text {
+    display: table-cell;
+    height: 100%;
+    padding: 0 20px 15px 0;
+    vertical-align: middle
+}
+
+@media all and (max-width:960px) {
+    #gotcha .main .content .promo-text {
+        display: block;
+        padding: 45px 0 20px;
+        text-align: center
+    }
+}
+
+@media all and (max-width:380px) {
+    #gotcha .main .content .promo-text {
+        padding: 45px 20px 20px
+    }
+}
+
+#gotcha .main .content .promo-text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0 0 10px
+}
+
+@media all and (max-width:960px) {
+    #gotcha .main .content .promo-text h1 {
+        font-size: 38px;
+        margin: 0 auto 25px;
+        max-width: 340px
+    }
+}
+
+#gotcha .main .content .promo-text p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    max-width: 700px
+}
+
+@media all and (max-width:960px) {
+    #gotcha .main .content .promo-text p {
+        margin: 0 auto;
+        max-width: 312px
+    }
+}
+
+#gotcha .main .content .coupon {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 300px
+}
+
+@media all and (max-width:960px) {
+    #gotcha .main .content .coupon {
+        display: block;
+        padding: 20px 10px 40px;
+        width: auto
+    }
+}
+
+#gotcha .main .content .coupon a.btn {
+    background: #fff;
+    border-radius: 5px;
+    color: #243180;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 400px
+}
+
+#gotcha .main .content .coupon a.btn strong {
+    font-weight: 800
+}
+
+@media all and (max-width:960px) {
+    #gotcha .main .content .coupon a.btn {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 13px 10px 15px;
+        max-width: 325px;
+        width: 100%
+    }
+}
+
+@media all and (max-width:350px) {
+    #gotcha .main .content .coupon a.btn {
+        max-width: 225px
+    }
+    #gotcha .main .content .coupon a.btn span {
+        display: block
+    }
+}
+
+#gotcha .main .content .coupon p {
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 15px
+}
+
+@media all and (max-width:960px) {
+    #gotcha .main .content .coupon p {
+        padding-bottom: 10px
+    }
+}
+
+.section {
+    display: table;
+    position: relative;
+    table-layout: fixed;
+    width: 100%
+}
+
+.section .section-img {
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: right 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+#section1-mobile {
+    display: none
+}
+
+@media all and (max-width:960px) {
+    #section1-mobile {
+        display: table
+    }
+}
+
+#section1-mobile .section-img {
+    background-image: url('img/trulli-01b-960.jpg');
+    background-position: 50% 0
+}
+
+@media all and (max-width:768px) {
+    #section1-mobile .section-img {
+        background-image: url('img/trulli-01b-730.jpg')
+    }
+}
+
+@media all and (max-width:510px) {
+    #section1-mobile .section-img {
+        background-image: url('img/trulli-01b-510.jpg')
+    }
+}
+
+#section1-mobile .content {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: table-cell;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%
+}
+
+#section1-mobile .content .selfiestick-logo {
+    margin: 0 auto
+}
+
+.selfiestick-logo {
+    background: url('img/trulli-selfiestick-logo.png');
+    display: block;
+    height: 90px;
+    width: 206px
+}
+
+#section2 {
+    height: 520px
+}
+
+#section2.fixed {
+    margin-top: 250px
+}
+
+@media all and (max-width:960px) {
+    #section2.fixed {
+        margin-top: 120px;
+        padding-top: 10px
+    }
+}
+
+@media all and (max-width:350px) {
+    #section2.fixed {
+        margin-top: 144px
+    }
+}
+
+@media all and (max-width:960px) {
+    #section2 {
+        height: 366px
+    }
+}
+
+#section2 .section-img {
+    background-image: url('img/trulli-01b-1280.jpg')
+}
+
+@media all and (min-width:1500px) {
+    #section2 .section-img {
+        background-image: url('img/trulli-01b-1600.jpg')
+    }
+}
+
+@media all and (max-width:960px) {
+    #section2 .section-img {
+        background-color: #272727;
+        background-image: none
+    }
+}
+
+#section2 .content {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    #section2 .content {
+        padding: 0 20px
+    }
+}
+
+#section2 .content .promo-text {
+    display: table-cell;
+    padding-top: 160px;
+    vertical-align: middle
+}
+
+@media all and (max-width:960px) {
+    #section2 .content .promo-text {
+        padding: 0 20px;
+        text-align: center
+    }
+}
+
+#section2 .content .promo-text h2 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 58px
+}
+
+@media all and (max-width:960px) {
+    #section2 .content .promo-text h2 {
+        font-size: 38px;
+        line-height: 38px;
+        margin: 0 auto;
+        max-width: 330px
+    }
+}
+
+#section2 .content .promo-text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    max-width: 570px;
+    margin-top: 5px
+}
+
+@media all and (max-width:960px) {
+    #section2 .content .promo-text p {
+        margin: 5px auto 0;
+        max-width: 330px
+    }
+}
+
+#section2 .content .selfiestick-logo {
+    position: absolute;
+    right: 0;
+    bottom: 25px
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    #section2 .content .selfiestick-logo {
+        right: 25px
+    }
+}
+
+@media all and (max-width:960px) {
+    #section2 .content .selfiestick-logo {
+        display: none
+    }
+}
+
+#section3 {
+    clear: both;
+    height: 520px
+}
+
+@media all and (min-width:1500px) {
+    #section3 {
+        height: 650px
+    }
+}
+
+@media all and (max-width:960px) {
+    #section3 {
+        display: block;
+        height: auto
+    }
+}
+
+#section3 .section-img {
+    background-image: url('img/trulli-03b-1280.jpg')
+}
+
+@media all and (min-width:1500px) {
+    #section3 .section-img {
+        background-image: url('img/trulli-03b-1600.jpg')
+    }
+}
+
+@media all and (max-width:960px) {
+    #section3 .section-img {
+        background-image: url('img/trulli-03b-960.jpg');
+        height: 375px;
+        position: static
+    }
+}
+
+@media all and (max-width:510px) {
+    #section3 .section-img {
+        background-image: url('img/trulli-03b-510.jpg');
+        height: 382px
+    }
+}
+
+#section3 .content {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    #section3 .content {
+        padding: 0 20px
+    }
+}
+
+@media all and (max-width:960px) {
+    #section3 .content {
+        background: #272727;
+        height: 442px;
+        padding: 40px 0
+    }
+}
+
+#section3 .content .promo-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow:1px 1px 1px #000;
+}
+
+@media all and (max-width:960px) {
+    #section3 .content .promo-text {
+        padding: 0 20px;
+        text-align: center
+    }
+}
+
+#section3 .content .promo-text h3 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 40px
+}
+
+#section3 .content .promo-text h3 span {
+    display: block
+}
+
+@media all and (max-width:960px) {
+    #section3 .content .promo-text h3 {
+        font-size: 38px;
+        line-height: 38px
+    }
+}
+
+#section3 .content .promo-text ul.sec3-list {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    list-style: disc;
+    margin: 15px 0 0 18px;
+    max-width: 425px
+}
+
+#section3 .content .promo-text ul.sec3-list li {
+    padding-top: 5px
+}
+
+#section3 .content .promo-text ul.sec3-list li:first-child {
+    padding-top: 0
+}
+
+@media all and (max-width:960px) {
+    #section3 .content .promo-text ul.sec3-list li {
+        padding-top: 15px
+    }
+    #section3 .content .promo-text ul.sec3-list li:first-child {
+        padding-top: 0
+    }
+}
+
+@media all and (max-width:960px) {
+    #section3 .content .promo-text ul.sec3-list {
+        list-style: none;
+        text-align: center;
+        max-width: 330px;
+        margin: 15px auto 0;
+        padding-left: 18px
+    }
+}
+
+#section3 .content .promo-text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 20px;
+    max-width: 390px
+}
+
+@media all and (max-width:960px) {
+    #section3 .content .promo-text p {
+        font-weight: 600;
+        margin: 20px auto 0;
+        max-width: 355px;
+        width: 100%
+    }
+}
+
+#section3 .content .promo-text a.btn {
+    background: #243180;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 55px;
+    padding: 18px 0;
+    text-align: center;
+    width: 175px
+}
+
+@media all and (max-width:960px) {
+    #section3 .content .promo-text a.btn {
+        display: none
+    }
+}
+
+.trullix-section {
+    background: #fff;
+    height: 440px;
+    width: 100%
+}
+
+.trullix-section#trullix2 {
+    background: #f6f5f5
+}
+
+@media all and (max-width:960px) {
+    .trullix-section#trullix3 {
+        padding-bottom: 20px
+    }
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    .trullix-section {
+        height: auto;
+        padding-bottom: 20px
+    }
+}
+
+@media all and (max-width:960px) {
+    .trullix-section {
+        height: auto;
+        padding-bottom: 60px;
+        text-align: center
+    }
+}
+
+.trullix-section .content {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto
+}
+
+.trullix-section .content:before,
+.trullix-section .content:after {
+    content: "";
+    display: table
+}
+
+.trullix-section .content:after {
+    clear: both
+}
+
+.trullix-section .content .phone-img {
+    float: left;
+    margin: -32px 55px 0 58px;
+    position: relative
+}
+
+.trullix-section .content .phone-img#phone-img2 {
+    float: right;
+    margin: -32px 63px 0 20px
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    .trullix-section .content .phone-img#phone-img2 {
+        margin: -32px 20px 0 0
+    }
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .phone-img#phone-img2 {
+        float: none;
+        margin: -32px auto 0
+    }
+}
+
+@media all and (min-width:961px) and (max-width:1050px) {
+    .trullix-section .content .phone-img {
+        margin: -32px 20px 0 40px
+    }
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .phone-img {
+        float: none;
+        margin: -32px auto 0
+    }
+}
+
+.trullix-section .content .phone-img .trullix-phone {
+    display: block;
+    position: relative;
+    z-index: 2
+}
+
+.trullix-section .content .phone-img #phone-trullix1 {
+    background: url('img/trulli-drivers.jpg') no-repeat scroll 0 0 transparent;
+    height: 435px;
+    width: 225px
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .phone-img #phone-trullix1 {
+        background: url('img/trulli-drivers-mobile.jpg') no-repeat scroll 0 0 transparent;
+        height: 370px;
+        margin: 0 auto;
+        width: 191px
+    }
+}
+
+.trullix-section .content .phone-img #phone-trullix2 {
+    background: url('img/trulli-races.jpg') no-repeat scroll 0 0 transparent;
+    height: 436px;
+    width: 225px
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .phone-img #phone-trullix2 {
+        background: url('img/trulli-races-mobile.jpg') no-repeat scroll 0 0 transparent;
+        height: 370px;
+        margin: 0 auto;
+        width: 191px
+    }
+}
+
+.trullix-section .content .phone-img .trullix-shadow {
+    background: url('img/trulli1-shadow.jpg') no-repeat scroll 0 0 transparent;
+    bottom: 20px;
+    display: block;
+    height: 38px;
+    left: -13px;
+    position: relative;
+    width: 254px;
+    z-index: 1
+}
+
+.trullix-section .content .phone-img .trullix-shadow.trullix2-shadow {
+    background-image: url('img/trulli2-shadow.jpg')
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .phone-img .trullix-shadow {
+        background-size: 230px 34px;
+        height: 34px;
+        left: 0;
+        margin: 0 auto;
+        width: 230px
+    }
+}
+
+.trullix-section .content .promo-text {
+    float: left;
+    margin: 65px 0 0;
+    max-width: 630px;
+    width: 100%
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text {
+        float: none;
+        margin: -5px auto 0;
+        max-width: 375px;
+        padding: 0 20px
+    }
+}
+
+.trullix-section .content .promo-text h3 {
+    font-size: 44px;
+    font-weight: bold
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text h3 {
+        font-size: 38px
+    }
+}
+
+.trullix-section .content .promo-text p {
+    color: #777676;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 20px
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text p {
+        font-size: 16px
+    }
+}
+
+.trullix-section .content .promo-text.trullix2-text {
+    margin: 90px 0 0 20%;
+    max-width: 600px
+}
+
+@media all and (min-width:961px) and (max-width:1280px) {
+    .trullix-section .content .promo-text.trullix2-text {
+        margin-left: 17%;
+        max-width: 590px
+    }
+}
+
+@media all and (min-width:961px) and (max-width:1050px) {
+    .trullix-section .content .promo-text.trullix2-text {
+        margin-left: 13%;
+        max-width: 545px
+    }
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text.trullix2-text {
+        margin: -5px auto 0;
+        max-width: 345px
+    }
+}
+
+.trullix-section .content .promo-text.trullix2-text p {
+    margin-right: 15px;
+    max-width: 580px
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text.trullix2-text p {
+        margin-right: 0;
+        max-width: none
+    }
+}
+
+.trullix-section .content .promo-text.trullix2-text .trullix-btns {
+    margin-right: 40px;
+    text-align: right
+}
+
+@media all and (min-width:961px) and (max-width:1050px) {
+    .trullix-section .content .promo-text.trullix3-text {
+        max-width: 590px
+    }
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text.trullix3-text {
+        max-width: 350px
+    }
+}
+
+.trullix-section .content .promo-text.trullix3-text p {
+    max-width: 565px
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text.trullix3-text p {
+        max-width: none
+    }
+}
+
+.trullix-section .content .promo-text.trullix3-text p span {
+    display: block;
+    font-weight: bold
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .promo-text.trullix3-text p span {
+        font-weight: 600;
+        display: inline
+    }
+}
+
+.trullix-section .content .trullix-btns {
+    margin-top: 40px
+}
+
+@media all and (max-width:960px) {
+    .trullix-section .content .trullix-btns {
+        display: none
+    }
+}
+
+.trullix-section .content .trullix-btn {
+    background: url('img/trulli-driver-btns.jpg') no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 59px;
+    margin-left: 20px;
+    width: 59px
+}
+
+.trullix-section .content .trullix-btn#trullix1-btn1 {
+    margin-left: 0
+}
+
+.trullix-section .content .trullix-btn#trullix1-btn2 {
+    background-position: 0 -59px
+}
+
+.trullix-section .content .trullix-btn#trullix1-btn3 {
+    background-position: 0 -118px
+}
+
+.trullix-section .content .trullix-btn#trullix1-btn4 {
+    background-position: 0 -177px
+}
+
+.trullix-section .content .trullix-btn#trullix1-btn5 {
+    background-position: 0 -236px
+}
+
+.trullix-section .content .trullix-btn#trullix2-btn1 {
+    background-image: url('img/trulli-race-btns.jpg');
+    background-position: 0 0;
+    margin-left: 0
+}
+
+.trullix-section .content .trullix-btn#trullix2-btn2 {
+    background-image: url('img/trulli-race-btns.jpg');
+    background-position: 0 -59px
+}
+
+.trullix-section .content .trullix-btn#trullix2-btn3 {
+    background-image: url('img/trulli-race-btns.jpg');
+    background-position: 0 -118px
+}
+
+.trullix-section .content .trullix-btn#trullix2-btn4 {
+    background-image: url('img/trulli-race-btns.jpg');
+    background-position: 0 -177px
+}
+
+@media all and (max-width:960px) {
+    body.nopromo #gotcha .main .content .promo-text {
+        padding: 45px 0
+    }
+}
+
+body.nopromo #gotcha .main .content .coupon {
+    display: none
+}
+
+@media all and (max-width:960px) {
+    body.nopromo #section2.fixed {
+        margin-top: 0;
+        padding-top: 0
+    }
+}
+
+body.nopromo .promo-disclaimer {
+    display: none
+}
+.trulli-portrait {
+    text-align:center;
+}
+.trulli-portrait img {
+    margin-top:-60px;
+    max-width:100%;
+}
+@media all and (max-width:960px) {
+    .trulli-portrait {
+        padding:0 10px;
+    }
+    .trulli-portrait img {
+        margin-top:-40px;
+    }
+}
+.trullix-section .content .promo-text.trullix3-text {
+    float:none;
+    margin:20px auto 0;
+}

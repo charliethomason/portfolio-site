@@ -7,7 +7,8 @@
       "project": "Traveler Type",
       "subtitle": "Interactive 7-Step JS Quiz",
       "description": "Multi-step quiz widget with interactive controls and real scoring. Originally built as an Adobe AEM component for a financial client.",
-      "year": "2016"
+      "year": "2016",
+      "github": "https://github.com/charliethomason/portfolio-site/tree/master/build/code/work/quiz"
     },
     {
       "slug": "customselect",
@@ -26,17 +27,19 @@
     },
     {
       "slug": "parallaxpromo",
-      "project": "New Car Promo",
+      "project": "Trulli Formula-E Promo",
       "subtitle": "Parallax Promo Page with YouTube API Integration",
       "description": "Single-page product promo with parallax scrolling and YouTube API integration. Originally built with Node, Harp, and Jade for an electronics brand's social media campaign.",
-      "year": "2015"
+      "year": "2015",
+      "github": "https://github.com/charliethomason/portfolio-site/tree/master/build/code/work/parallaxpromo"
     },
     {
       "slug": "accountmanage",
       "project": "ABC Company Retirement Account",
       "subtitle": "Multi-page Account Management Design Prototype",
       "description": "Static data design prototype for retirement account management site. Originally built with Handlebars, Grunt, Assemble, and Sass for a financial client.",
-      "year": "2014"
+      "year": "2014",
+      "github": "https://github.com/charliethomason/portfolio-site/tree/master/build/code/work/accountmanage"
     },
     {
       "slug": "angularf1-v1",
