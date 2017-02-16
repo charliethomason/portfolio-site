@@ -1,4 +1,3 @@
-/* RF start: global styles */
 html,
 body,
 div,
@@ -88,8 +87,8 @@ video {
   vertical-align: baseline;
 }
 body {
-  /* commonly-used font */
-  font-family: 'LatoWeb', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -104,9 +103,7 @@ h6 {
   text-transform: uppercase;
 }
 h1 {
-  /* TODO: Update when variable is ready. */
-  /* commonly-used font */
-  font-family: 'LoraRegular', serif;
+  font-family: 'Lora', Georgia, Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.0625em;
@@ -116,9 +113,7 @@ h1 {
   text-align: center;
 }
 h2 {
-  /* TODO: Update when variable is ready. */
-  /* commonly-used font */
-  font-family: 'LoraRegular', serif;
+  font-family: 'Lora', Georgia, Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.8125em;
@@ -134,19 +129,18 @@ p {
   margin-bottom: 10px;
 }
 strong {
-  /* commonly-used font */
-  font-family: 'LatoWebBold', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
 }
 strong em {
-  font-family: 'LatoWebBoldItalic', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Lato', Arial, sans-serif;
+  font-style: italic;
+  font-weight: 700;
 }
 em {
-  font-family: 'LatoWebItalic', sans-serif;
-  font-style: normal;
+  font-family: 'Lato', Arial, sans-serif;
+  font-style: italic;
   font-weight: normal;
 }
 @media screen and (min-width: 768px) {
@@ -242,7 +236,7 @@ li {
 }
 /* phone number links should be active link color (mainly for iOS devices) */
 a[href^="tel"] {
-  color: #D43584;
+  color: #00CC00;
 }
 .clearfix:after {
   content: " ";
@@ -299,13 +293,12 @@ a[href^="tel"] {
 /* Buttons */
 .button-primary {
   background: none;
-  border: 3px solid #D43584;
-  color: #D43584;
+  border: 3px solid #00CC00;
+  color: #00CC00;
   display: inline-block;
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   font-size: 0.75em;
   line-height: 1.3em;
   margin-bottom: 0.75em;
@@ -316,7 +309,7 @@ a[href^="tel"] {
   width: 100%;
 }
 .button-primary:hover {
-  background: #D43584;
+  background: #00CC00;
   color: #FFF;
   cursor: pointer;
   text-decoration: none;
@@ -334,14 +327,14 @@ a[href^="tel"] {
   color: #ccc;
 }
 .button-primary-inverse {
-  background: #D43584;
-  border: 3px solid #D43584;
+  background: #00CC00;
+  border: 3px solid #00CC00;
   color: white;
   display: inline-block;
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   font-size: 0.75em;
   line-height: 4.5em;
   padding: 0 40px;
@@ -351,23 +344,23 @@ a[href^="tel"] {
 }
 .button-primary-inverse:hover {
   background: #FFF;
-  color: #D43584;
+  color: #00CC00;
   cursor: pointer;
 }
 .button-primary-inverse[disabled]:hover {
-  background: #D43584;
+  background: #00CC00;
   color: white;
   cursor: default;
 }
 .button-secondary {
   background: none;
-  border: 3px solid #D43584;
-  color: #D43584;
+  border: 3px solid #00CC00;
+  color: #00CC00;
   display: inline-block;
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   font-size: 0.75em;
   line-height: 1.3em;
   margin-bottom: 0.75em;
@@ -380,7 +373,7 @@ a[href^="tel"] {
   color: #666;
 }
 .button-secondary:hover {
-  background: #D43584;
+  background: #00CC00;
   color: #FFF;
   cursor: pointer;
   text-decoration: none;
@@ -394,13 +387,13 @@ a[href^="tel"] {
 }
 .button-tertiary {
   background: none;
-  border: 3px solid #D43584;
-  color: #D43584;
+  border: 3px solid #00CC00;
+  color: #00CC00;
   display: inline-block;
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   font-size: 0.75em;
   line-height: 1.3em;
   margin-bottom: 0.75em;
@@ -409,12 +402,12 @@ a[href^="tel"] {
   text-align: center;
   text-transform: uppercase;
   width: 100%;
-  background: #D43584;
-  border-color: #D43584;
+  background: #00CC00;
+  border-color: #00CC00;
   color: #FFF;
 }
 .button-tertiary:hover {
-  background: #D43584;
+  background: #00CC00;
   color: #FFF;
   cursor: pointer;
   text-decoration: none;
@@ -429,13 +422,13 @@ a[href^="tel"] {
 @media screen and (max-width: 767px) {
   .mobile-button-primary {
     background: none;
-    border: 3px solid #D43584;
-    color: #D43584;
+    border: 3px solid #00CC00;
+    color: #00CC00;
     display: inline-block;
-    /* commonly-used font */
-    font-family: 'LatoWebHeavy', sans-serif;
+    
+    font-family: 'Lato', Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     font-size: 0.75em;
     line-height: 1.3em;
     margin-bottom: 0.75em;
@@ -446,7 +439,7 @@ a[href^="tel"] {
     width: 100%;
   }
   .mobile-button-primary:hover {
-    background: #D43584;
+    background: #00CC00;
     color: #FFF;
     cursor: pointer;
     text-decoration: none;
@@ -511,8 +504,8 @@ a[href^="tel"] {
   text-align: center;
 }
 .overlay-hero .pseudo-heading {
-  /* commonly-used font */
-  font-family: 'LoraRegular', serif;
+  
+  font-family: 'Lora', Georgia, Times, serif;
   font-style: normal;
   font-weight: normal;
   margin-top: 0;
@@ -557,8 +550,8 @@ a[href^="tel"] {
 .category-hero h1,
 .category-hero h2 {
   font-size: 2em;
-  font-family: 'LoraRegularItalic', serif;
-  font-style: normal;
+  font-family: 'Lora', Georgia, Times, serif;
+  font-style: italic;
   font-weight: normal;
   line-height: 1em;
   margin-bottom: 0;
@@ -575,8 +568,8 @@ a[href^="tel"] {
   }
   .category-hero p {
     display: block;
-    /* commonly-used font */
-    font-family: 'LatoWeb', sans-serif;
+    
+    font-family: 'Lato', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 0.9375em;
@@ -589,9 +582,9 @@ a[href^="tel"] {
     margin-bottom: 0.208333333em;
   }
   .category-hero p {
-    font-family: 'LatoWebLight', sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 1.3125em;
   }
 }
@@ -615,10 +608,10 @@ a[href^="tel"] {
   z-index: 1;
 }
 .navigation-container .top-bar {
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   background-color: #444;
   height: 50px;
   position: relative;
@@ -680,8 +673,8 @@ a[href^="tel"] {
   margin-right: 12px;
 }
 .navigation-container .top-bar li.promo-message {
-  /* commonly-used font */
-  font-family: 'LatoWeb', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #fff;
@@ -704,12 +697,12 @@ a[href^="tel"] {
   vertical-align: middle;
 }
 .navigation-container .top-bar li.promo-message .text-uppercase {
-  font-family: 'LatoWebBlack', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
 }
 .navigation-container .top-bar li.promo-message a {
-  color: #D43584;
+  color: #00CC00;
   display: inline;
   font-size: 12px;
   line-height: 1;
@@ -735,9 +728,8 @@ a[href^="tel"] {
   width: 92px;
   float: right;
 }
-.navigation-container .top-bar li.wishlist i {
-  font-size: 21px;
-  vertical-align: sub;
+.navigation-container .top-bar li.wishlist img {
+  vertical-align: middle;
 }
 .navigation-container .top-bar li.shopping-bag {
   float: right;
@@ -746,17 +738,17 @@ a[href^="tel"] {
   background-color: #555;
   padding: 0 20px;
 }
-.navigation-container .top-bar li.shopping-bag i {
-  font-size: 20px;
+.navigation-container .top-bar li.shopping-bag img {
   margin-right: 13px;
+  vertical-align: sub;
 }
 .navigation-container .top-bar li.shopping-bag.item-in-bag a {
-  background-color: #D43584;
+  background-color: #00CC00;
 }
 .navigation-container .top-bar li.shopping-bag .bag-label {
-  font-family: 'LatoWebBlack', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
 }
 .navigation-container .primary-bar {
   background-color: #fff;
@@ -798,10 +790,10 @@ a[href^="tel"] {
   line-height: 1;
 }
 .navigation-container .primary-bar .nav-items a.primary-menuitem {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   color: #333;
   display: block;
   font-size: 12px;
@@ -815,16 +807,28 @@ a[href^="tel"] {
   padding-right: 0;
   text-decoration: none;
 }
-.navigation-container .primary-bar .nav-items a.primary-menuitem.search-menuitem i {
-  font-size: 20px;
+.navigation-container .primary-bar .nav-items .icon-search {
+  background:url('../img/icons/icon-search.png') no-repeat scroll 0 0 transparent;
+  display:inline-block;
+  height: 24px;
+  width: 24px;
+}.navigation-container .primary-bar .nav-items .icon-search:before {
+  content:none;
+}
+.navigation-container .primary-bar .nav-items a.primary-menuitem.search-menuitem i.icon-search {
   margin-left: 12px;
 }
 .navigation-container .primary-bar .nav-items a.primary-menuitem.search-menuitem.search-active {
-  color: #D43584;
+  color: #00CC00;
 }
 .navigation-container .primary-bar .nav-items a.primary-menuitem:hover {
-  color: #D43584;
+  color: #00CC00;
 }
+.navigation-container .primary-bar .nav-items a.primary-menuitem.search-menuitem.search-active i.icon-search,
+.navigation-container .primary-bar .nav-items a.primary-menuitem.search-menuitem:hover i.icon-search {
+  background-position:left bottom;
+}
+
 .navigation-container .primary-bar .nav-items > div:first-child a.primary-menuitem {
   padding-left: 0;
 }
@@ -883,10 +887,10 @@ a[href^="tel"] {
   margin-top: 40px;
 }
 .navigation-container .menu-section h2 {
-  /* commonly-used font */
-  font-family: 'LoraBold', serif;
+  
+  font-family: 'Lora', Georgia, Times, serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   border-bottom: 1px solid #ccc;
   color: #333;
   font-size: 13px;
@@ -903,22 +907,22 @@ a[href^="tel"] {
   text-transform: none;
 }
 .navigation-container .menu-section li a {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   color: #333;
 }
 .navigation-container .menu-section li a:hover,
 .navigation-container .menu-section li a:focus {
-  color: #D43584;
+  color: #00CC00;
 }
 .navigation-container .menu-section > .row {
   margin: 0 -15px;
 }
 .navigation-container .menu-section.foundation-section {
-  /* commonly-used font */
-  font-family: 'LatoWeb', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -926,10 +930,10 @@ a[href^="tel"] {
   text-transform: none;
 }
 .navigation-container .menu-section.foundation-section h3 {
-  /* commonly-used font */
-  font-family: 'LatoWebBold', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   text-transform: none;
@@ -940,11 +944,11 @@ a[href^="tel"] {
   margin-bottom: 10px;
 }
 .navigation-container .menu-section.foundation-section a {
-  color: #D43584;
+  color: #00CC00;
 }
 .navigation-container .menu-section.blog-section {
-  /* commonly-used font */
-  font-family: 'LatoWeb', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -952,19 +956,19 @@ a[href^="tel"] {
   text-transform: none;
 }
 .navigation-container .menu-section.blog-section h3 {
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   font-size: 12px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 .navigation-container .menu-section.blog-section h4 {
-  /* commonly-used font */
-  font-family: 'LatoWebBold', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   text-transform: none;
@@ -975,7 +979,7 @@ a[href^="tel"] {
   margin-bottom: 10px;
 }
 .navigation-container .menu-section.blog-section a {
-  color: #D43584;
+  color: #00CC00;
 }
 .navigation-container .menu-section ul.social-links li {
   display: inline-block;
@@ -994,7 +998,7 @@ a[href^="tel"] {
   display: block !important;
 }
 .navigation-container.search-shown .primary-bar .nav-items a.primary-menuitem.search-menuitem {
-  color: #D43584;
+  color: #00CC00;
 }
 .navigation-container form.primary-search-form {
   max-width: 625px;
@@ -1012,10 +1016,10 @@ a[href^="tel"] {
   width: 549px;
 }
 .navigation-container form.primary-search-form input#primary-search {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   box-shadow: none;
   border: none;
   border-radius: 0;
@@ -1042,13 +1046,13 @@ a[href^="tel"] {
   color: #333;
 }
 .navigation-container form.primary-search-form .search-btn {
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   background: #fff;
-  border: 3px solid #D43584;
-  color: #D43584;
+  border: 3px solid #00CC00;
+  color: #00CC00;
   font-size: 16px;
   float: right;
   height: 60px;
@@ -1060,7 +1064,7 @@ a[href^="tel"] {
 }
 .navigation-container form.primary-search-form .search-btn:hover,
 .navigation-container form.primary-search-form .search-btn:focus {
-  background: #D43584;
+  background: #00CC00;
   color: #FFF;
 }
 .navigation-container ul.color-diamonds {
@@ -1099,10 +1103,10 @@ a[href^="tel"] {
   vertical-align: baseline;
 }
 .navigation-container ul.featured-list li {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   padding: 0 4.25% 10px 0;
   text-align: center;
 }
@@ -1111,10 +1115,10 @@ a[href^="tel"] {
   display: block;
 }
 .navigation-container ul.featured-list a p {
-  /* commonly-used font */
-  font-family: 'LatoWebBold', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 13px;
   padding-top: 30px;
 }
@@ -1179,10 +1183,10 @@ a[href^="tel"] {
   clear: both;
 }
 .mobile-nav ul.mobile-nav-categories a.mobile-parentcat {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   color: #333;
   display: block;
   float: left;
@@ -1191,11 +1195,11 @@ a[href^="tel"] {
   width: 80%;
 }
 .mobile-nav ul.mobile-nav-categories a.mobile-parentcat:hover {
-  color: #D43584;
+  color: #00CC00;
 }
 .mobile-nav ul.mobile-nav-categories .mobile-parentcat .icon,
 .mobile-nav ul.mobile-nav-categories .mobile-parentcat-trigger .icon {
-  color: #D43584;
+  color: #00CC00;
   float: right;
 }
 .mobile-nav ul.mobile-nav-categories .mobile-parentcat .icon-minus,
@@ -1224,10 +1228,10 @@ a[href^="tel"] {
   padding: 25px 35px 25px 65px;
 }
 .mobile-nav ul.mobile-nav-categories ul.mobile-subcat a {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   color: #333;
   display: block;
   padding: 15px 0;
@@ -1237,24 +1241,24 @@ a[href^="tel"] {
 }
 .mobile-nav ul.mobile-nav-categories ul.mobile-subcat a:hover,
 .mobile-nav ul.mobile-nav-categories ul.mobile-subcat a:focus {
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
 }
 .mobile-nav ul.mobile-nav-categories ul.mobile-subcat a:hover span,
 .mobile-nav ul.mobile-nav-categories ul.mobile-subcat a:focus span {
-  border-bottom-color: #D43584;
-  color: #D43584;
+  border-bottom-color: #00CC00;
+  color: #00CC00;
   padding-bottom: 3px;
 }
-.mobile-nav ul.mobile-nav-categories li.expanded .mobile-parentcat {
+.mobile-nav ul.mobile-nav-categories li.expanded .mobile-parentcat-trigger {
   border-bottom-color: transparent;
 }
-.mobile-nav ul.mobile-nav-categories li.expanded .mobile-parentcat .icon-plus {
+.mobile-nav ul.mobile-nav-categories li.expanded .mobile-parentcat-trigger .icon-plus {
   display: none;
 }
-.mobile-nav ul.mobile-nav-categories li.expanded .mobile-parentcat .icon-minus {
+.mobile-nav ul.mobile-nav-categories li.expanded .mobile-parentcat-trigger .icon-minus {
   display: inline;
 }
 .mobile-nav ul.mobile-nav-buttons {
@@ -1288,19 +1292,19 @@ a[href^="tel"] {
   padding-top: 24px;
 }
 .mobile-nav ul.mobile-nav-buttons li.item-in-bag a {
-  font-family: 'LatoWebBlack', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  color: #D43584;
+  font-weight: 900;
+  color: #00CC00;
 }
 .mobile-nav ul.mobile-nav-buttons li.item-in-bag span.bag-label {
   display: inline;
 }
 .mobile-nav ul.mobile-nav-buttons a {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   background: #eee;
   color: #333;
   display: block;
@@ -1309,7 +1313,7 @@ a[href^="tel"] {
   text-decoration: none;
 }
 .mobile-nav ul.mobile-nav-buttons a:hover {
-  color: #D43584;
+  color: #00CC00;
 }
 .mobile-nav ul.mobile-nav-buttons a > span {
   display: block;
@@ -1330,11 +1334,11 @@ a[href^="tel"] {
   text-align: center;
 }
 .mobile-nav .mobile-find-store a {
-  /* commonly-used font */
-  font-family: 'LatoWebHeavy', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  color: #D43584;
+  font-weight: 900;
+  color: #00CC00;
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
@@ -1367,10 +1371,10 @@ a[href^="tel"] {
   position: relative;
 }
 .mobile-search-form input.form-control {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   box-shadow: none;
   border: none;
   border-radius: 0;
@@ -1406,6 +1410,15 @@ a[href^="tel"] {
 .mobile-search-form button i {
   font-size: 23px;
 }
+.mobile-search-form button i.icon-search {
+  background: url('../img/icons/icon-search.png') no-repeat scroll 0 0 transparent;
+  display:inline-block;
+  height:24px;
+  width:24px;
+}
+.mobile-search-form button i.icon-search:before {
+  content:none;
+}
 .wrapper {
   -webkit-transition: 0.15s ease;
   -moz-transition: 0.15s ease;
@@ -1419,7 +1432,7 @@ a[href^="tel"] {
   transform: translate(50%, 0px);
 }
 .wrapper.active #toggle-nav {
-  color: #D43584;
+  color: #00CC00;
 }
 #main-content {
   left: 0;
@@ -1493,16 +1506,16 @@ a[href^="tel"] {
     padding-bottom: 5px;
   }
   .navigation-container .primary-bar .nav-items a.primary-menuitem.active {
-    color: #D43584;
+    color: #00CC00;
   }
   .navigation-container .primary-bar .nav-items a.primary-menuitem.active span {
-    border-bottom-color: #D43584;
+    border-bottom-color: #00CC00;
   }
   .navigation-container .primary-bar .nav-items .menu-wrap:hover a.primary-menuitem {
-    color: #D43584;
+    color: #00CC00;
   }
   .navigation-container .primary-bar .nav-items .menu-wrap:hover a.primary-menuitem span {
-    border-bottom-color: #D43584;
+    border-bottom-color: #00CC00;
   }
   .navigation-container .primary-bar .nav-items .menu-wrap:hover .menu-panel {
     /*display:block;*/
@@ -1578,10 +1591,6 @@ a[href^="tel"] {
   .navigation-container .primary-bar .nav-items .menu-panel {
     display: none;
   }
-  .navigation-container .primary-bar .nav-items .icon-search {
-    height: 23px;
-    width: 23px;
-  }
   .navigation-container .primary-bar .nav-items.left-menu,
   .navigation-container .primary-bar .nav-items.right-menu {
     display: none;
@@ -1594,10 +1603,10 @@ a[href^="tel"] {
     display: none;
   }
   .navigation-container .primary-bar .nav-items.right-menu-mobile .item-in-bag a {
-    font-family: 'LatoWebBlack', sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    color: #D43584;
+    font-weight: 900;
+    color: #00CC00;
   }
   .navigation-container .primary-bar .nav-items.right-menu-mobile .item-in-bag .bag-label {
     display: inline;
@@ -1714,10 +1723,10 @@ a[href^="tel"] {
   display: block;
 }
 .diamond-hover-flags a span {
-  /* commonly-used font */
-  font-family: 'LatoWebBold', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   background: #333;
   box-shadow: 0 0 0 1px #ccc;
   color: #fff;
@@ -1816,10 +1825,10 @@ a[href^="tel"] {
   width: auto;
 }
 .hero-cta .eyebrow {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   background-color: #666;
   color: #FFF;
   display: inline-block;
@@ -1835,8 +1844,8 @@ a[href^="tel"] {
 }
 .hero-cta h2,
 .hero-cta .promo-heading {
-  font-family: 'LoraRegularItalic', serif;
-  font-style: normal;
+  font-family: 'Lora', Georgia, Times, serif;
+  font-style: italic;
   font-weight: normal;
   color: #333;
   font-size: 32px;
@@ -1846,9 +1855,9 @@ a[href^="tel"] {
   text-transform: none;
 }
 .hero-cta .caption {
-  font-family: 'LatoWebLight', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 18px;
   line-height: 24px;
   margin: 0 0 15px;
@@ -2051,10 +2060,10 @@ a[href^="tel"] {
   padding-right: 0;
 }
 .hero-half .caption {
-  /* commonly-used font */
-  font-family: 'LatoWebMedium', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   margin: 0;
@@ -2070,7 +2079,7 @@ a[href^="tel"] {
   width: 50%;
 }
 .cta-ribbon {
-  background: #D43584;
+  background: #00CC00;
   color: #FFF;
   opacity: 0.8;
   padding: 10px 0;
@@ -2090,16 +2099,16 @@ a[href^="tel"] {
   padding-left: 30px;
 }
 .cta-ribbon .text-uppercase {
-  font-family: 'LatoWebBlack', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
 }
 /* Editorial section (with tooltips) */
 .hero-editorial .editorial-tooltip {
   position: absolute;
 }
 .hero-editorial .editorial-tooltip .tooltip-icon {
-  background: #D43584;
+  background: #00CC00;
   border-radius: 50px;
   color: #FFF;
   display: block;
@@ -2118,7 +2127,7 @@ a[href^="tel"] {
 }
 .hero-editorial .editorial-tooltip .tooltip-popup {
   background: #FFF;
-  border: 1px solid #D43584;
+  border: 1px solid #00CC00;
   bottom: 45px;
   display: none;
   height: 157px;
@@ -2137,7 +2146,7 @@ a[href^="tel"] {
 .hero-editorial .editorial-tooltip .tooltip-popup:after {
   border-left: 15px solid rgba(255, 255, 255, 0);
   border-right: 15px solid rgba(255, 255, 255, 0);
-  border-top: 15px solid #D43584;
+  border-top: 15px solid #00CC00;
   content: '';
   display: block;
   left: 50%;
@@ -2161,7 +2170,7 @@ a[href^="tel"] {
   border-left: none;
   border-bottom: 15px solid rgba(255, 255, 255, 0);
   border-top: 15px solid rgba(255, 255, 255, 0);
-  border-right: 15px solid #D43584;
+  border-right: 15px solid #00CC00;
   left: auto;
   right: 100%;
   top: 50%;
@@ -2183,7 +2192,7 @@ a[href^="tel"] {
 .hero-editorial .editorial-tooltip .tooltip-popup.tooltip-popup-left:after {
   border-bottom: 15px solid rgba(255, 255, 255, 0);
   border-top: 15px solid rgba(255, 255, 255, 0);
-  border-left: 15px solid #D43584;
+  border-left: 15px solid #00CC00;
   left: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2196,7 +2205,7 @@ a[href^="tel"] {
   top: 45px;
 }
 .hero-editorial .editorial-tooltip .tooltip-popup.tooltip-popup-bottom:after {
-  border-bottom: 15px solid #D43584;
+  border-bottom: 15px solid #00CC00;
   border-top: none;
   bottom: 100%;
   top: auto;
@@ -2213,20 +2222,20 @@ a[href^="tel"] {
   display: block;
 }
 .hero-editorial .editorial-tooltip .tooltip-popup .tooltip-name {
-  /* commonly-used font */
-  font-family: 'LatoWebBold', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
 }
 .hero-editorial .editorial-tooltip .tooltip-popup .tooltip-price {
   margin-bottom: 8px;
 }
 .hero-editorial .editorial-tooltip .tooltip-popup a {
-  /* commonly-used font */
-  font-family: 'LatoWebBold', sans-serif;
+  
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  color: #D43584;
+  font-weight: 700;
+  color: #00CC00;
 }
 .hero-video .play-button {
   display: inline-block;
@@ -2260,12 +2269,12 @@ a[href^="tel"] {
     color: #333;
   }
   .hero-cta.hero-half .button-primary {
-    border-color: #D43584;
-    color: #D43584;
+    border-color: #00CC00;
+    color: #00CC00;
     width: 100%;
   }
   .hero-cta.hero-half .button-primary:hover {
-    background-color: #D43584;
+    background-color: #00CC00;
     color: #FFF;
   }
   .hero-cta.hero-half .cta-overlay {
@@ -2315,12 +2324,12 @@ a[href^="tel"] {
     font-size: 16px;
   }
   .hero-cta .button-primary {
-    border-color: #D43584;
-    color: #D43584;
+    border-color: #00CC00;
+    color: #00CC00;
     width: 100%;
   }
   .hero-cta .button-primary:hover {
-    background-color: #D43584;
+    background-color: #00CC00;
     color: #FFF;
   }
   .hero-cta .cta-media {
@@ -2462,8 +2471,8 @@ a[href^="tel"] {
   transform: translateX(-50%);
 }
 .super-hero .super-hero-overlay h2 {
-  font-family: 'LoraRegularItalic', serif;
-  font-style: normal;
+  font-family: 'Lora', Georgia, Times, serif;
+  font-style: italic;
   font-weight: normal;
   font-size: 58px;
   line-height: 58px;
@@ -2471,9 +2480,9 @@ a[href^="tel"] {
   text-transform: none;
 }
 .super-hero .super-hero-overlay p {
-  font-family: 'LatoWebLight', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 18px;
   line-height: 24px;
   margin: 0 auto 5px;

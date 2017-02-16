@@ -1,6 +1,6 @@
 {
   "page-name": "Web Development Portfolio",
-  "intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "intro": "Here is a small sampling of the web development work I've done over the past few years. Due to the confidential nature of my client work, all names, logos, branding, fonts, and images have been changed. In many cases, the parts of the code I worked on have been extracted from their original pages and/or software framework for the purpose of hosting them here. Many of these projects were a collaborative effort with other developers, so in some cases I cannot claim 100% responsibility. If you have questions or concerns about any of the work found here, please <a href=\"/about.html#contact-charlie\">contact me</a>.",
   "works": [
     {
       "slug": "quiz",
@@ -23,7 +23,8 @@
       "project": "Racetrack Header",
       "subtitle": "Flexbox Main Navigation with Superhero Parallax Scroll",
       "description": "Main navigation built with flexbox CSS and Bootstrap. Above the nav is a superhero promo with parallax scrolling. Originally built for a retail brand.",
-      "year": "2016"
+      "year": "2016",
+      "github": "https://github.com/charliethomason/portfolio-site/tree/master/build/code/work/flexboxnav"
     },
     {
       "slug": "parallaxpromo",
@@ -37,7 +38,7 @@
       "slug": "accountmanage",
       "project": "ABC Company Retirement Account",
       "subtitle": "Multi-page Account Management Design Prototype",
-      "description": "Static data design prototype for retirement account management site. Originally built with Handlebars, Grunt, Assemble, and Sass for a financial client.",
+      "description": "Static data design prototype for a retirement account management site. Originally built with Handlebars, Grunt, Assemble, and Sass for a financial client.",
       "year": "2014",
       "github": "https://github.com/charliethomason/portfolio-site/tree/master/build/code/work/accountmanage"
     },

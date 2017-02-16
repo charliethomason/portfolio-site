@@ -1,6 +1,6 @@
-var vb = vb || {};
-vb.nav = vb.nav || {};
-vb.nav.primary = function() {
+var fs = fs || {};
+fs.nav = fs.nav || {};
+fs.nav.primary = function() {
 
   // Mobile Navigation functionality
   function mobileNav() {
@@ -161,7 +161,6 @@ vb.nav.primary = function() {
       // Close other open mega menus
       $('a.primary-menuitem').not($link).removeClass('active');
       $('.menu-panel').not($menu).removeClass('shown');
-      $('select').customSelectMenu.closeAllDropdowns();
     });
     // Focusing on the search icon toggle closes open mega menus
     $('.search-menuitem').on('focus',function(e) {
@@ -176,7 +175,6 @@ vb.nav.primary = function() {
     $('.menu-wrap').mouseenter(function() {
       clearTimeout($(this).data('exitTimeout')); // clear the exitTimeout
       $('a.primary-menuitem.active').removeClass('active'); // remove active class if any top-level menu links were focused
-      $('select').customSelectMenu.closeAllDropdowns(); // close any open custom select dropdowns
       // if no mega menus are visible yet
       if (!$('.menu-panel').hasClass('shown') && !$('.menu-panel').is(':visible')) {
         var menuWrap = $(this);
@@ -221,17 +219,17 @@ $(document).ready(function() {
     // remove class that enables hover effects if javascript is not loaded
     $('.primary-bar.noscript-nav').removeClass('noscript-nav');
     
-    vb.nav.primary();
+    fs.nav.primary();
 
     // If a Super Hero is present, initialize Super Hero-related JS
     if ($('.super-hero').length) {
-      vb.nav.superhero();
+      fs.nav.superhero();
     }
   }
 });
-var vb = vb || {};
-vb.nav = vb.nav || {};
-vb.nav.superhero = function() {
+var fs = fs || {};
+fs.nav = fs.nav || {};
+fs.nav.superhero = function() {
   function superheroInit() {
     superHeroStretch();
     superHeroResize();

@@ -1,4 +1,5 @@
 #charlie-code-header {
+  background: #fff;
   padding:0 0 20px;
   width: 100%;
 }
@@ -161,6 +162,7 @@
   }
 }
 #charlie-code-footer {
+  background:#fff;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#666;
   font-size:12px;
