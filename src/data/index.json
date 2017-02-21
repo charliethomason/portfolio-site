@@ -1,3 +1,24 @@
 {
-  
+  "featured-row": {
+    "items": [
+      {
+        "type": "Art",
+        "workTitle": "Birds of Chicagoland",
+        "url": "birds/",
+        "imgSrc": "art/thumbs/birds-250"
+      },
+      {
+        "type": "Photos",
+        "workTitle": "Venezia Honeymoon",
+        "url": "photos/venezia.html",
+        "imgSrc": "photos/thumbs/venezia-250"
+      },
+      {
+        "type": "Code",
+        "workTitle": "customA11ySelect.js",
+        "url": "code/work/customselect/",
+        "imgSrc": "code/customselect"
+      }
+    ]
+  }  
 }

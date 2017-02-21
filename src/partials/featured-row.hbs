@@ -1,0 +1,15 @@
+{{#featured-row}}
+<ul class="featured-row">
+  {{#each items}}
+  <li class="featured-block">
+    <a href="{{url}}">
+      <img src="img/{{imgSrc}}.jpg" alt="{{workTitle}}">
+      <div class="info">
+        <h2>Featured {{type}}</h2>
+        <p class="work-title">{{workTitle}}</p>
+      </div>
+    </a>
+  </li>
+  {{/each}}
+</ul>
+{{/featured-row}}
