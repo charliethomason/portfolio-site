@@ -39,6 +39,7 @@ module.exports.pageNav = function(type,id) {
      "vincentprice"
   ];
   var photoTitles = [
+    "San Diego, CA",
     "Venezia Honeymoon",
     "Austria: Innsbruck, Salzburg, and Seefeld",
     "Printer's Row Perspective",
@@ -74,6 +75,7 @@ module.exports.pageNav = function(type,id) {
     "Emerald Isle, NC: Under the Bogue Inlet Pier"
   ];
   var photoIds = [
+    "sandiego",
     "venezia",
     "austria",
     "printersrow",

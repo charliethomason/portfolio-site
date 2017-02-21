@@ -1,0 +1,22 @@
+{
+  "date": "Feb 3-8, 2017",
+  "medium": "Digital Photography",
+  "folder": "gallery-sandiego",
+  "gallery-page": {
+    "works": [
+      {
+        "imgTitle": "La Jolla Cove",
+        "imgFile": "sandiego-01",
+        "location": "La Jolla Cove, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "sandiego"
+  }
+}

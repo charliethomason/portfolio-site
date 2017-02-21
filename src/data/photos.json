@@ -7,6 +7,10 @@
         "val": "auto"
       },
       {
+        "name": "California",
+        "val": "california"
+      },
+      {
         "name": "Chicago",
         "val": "chicago"
       },
@@ -51,6 +55,14 @@
   "gallery": {
     "type": "photos",
     "works": [
+      {
+        "imgTitle": "San Diego, CA",
+        "imgFile": "sandiego",
+        "year": "2017",
+        "month": "02",
+        "photo-count": "25",
+        "filters": "california america"
+      },
       {
         "imgTitle": "Venezia Honeymoon",
         "imgFile": "venezia",
@@ -149,7 +161,7 @@
         "imgFile": "formulae-longbeach",
         "year": "2015",
         "month": "04",
-        "filters": "auto america"
+        "filters": "auto california america"
       },
       {
         "imgTitle": "Sundance 2015: Evening on Main Street",
@@ -177,7 +189,7 @@
         "imgFile": "openrange-joshuatree",
         "year": "2011",
         "month": "06",
-        "filters": "openrange america"
+        "filters": "openrange california america"
       },
       {
         "imgTitle": "Open Range: Grand Canyon",
