@@ -5,9 +5,224 @@
   "gallery-page": {
     "works": [
       {
-        "imgTitle": "La Jolla Cove",
+        "imgTitle": "Beautiful La Jolla, California",
         "imgFile": "sandiego-01",
+        "location": "Point Mencinger, La Jolla, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Tower23, our hotel in Pacific Beach",
+        "imgFile": "sandiego-02",
+        "location": "Tower23 Hotel, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Our balcony at Tower23",
+        "imgFile": "sandiego-19",
+        "location": "Tower23 Hotel, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "View of Crystal Pier from Tower23",
+        "imgFile": "sandiego-22",
+        "location": "Crystal Pier, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Baja Beach Cafe and Pacific Beach boardwalk",
+        "imgFile": "sandiego-21",
+        "location": "Baja Beach Cafe, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Selfie on Crystal Pier",
+        "imgFile": "sandiego-03",
+        "location": "Crystal Pier, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Sunset self-portrait at the end of Day One",
+        "imgFile": "sandiego-04",
+        "location": "Crystal Pier, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Watching the sunset from Tower23's roof deck",
+        "imgFile": "sandiego-05",
+        "location": "Tower23 Hotel, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Kono's Cafe, best brunch in Pacific Beach",
+        "imgFile": "sandiego-25",
+        "location": "Kono's Cafe, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Walking north toward Bird Rock",
+        "imgFile": "sandiego-06",
+        "location": "Capri By The Sea Hotel, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "My dream home",
+        "imgFile": "sandiego-07",
+        "location": "5803 Camino De La Costa, La Jolla, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Succulents near Windansea Beach",
+        "imgFile": "sandiego-08",
+        "location": "Windansea Beach, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Windansea Beach",
+        "imgFile": "sandiego-09",
+        "location": "Windansea Beach, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Bradt's Cormorant at La Jolla Cove",
+        "imgFile": "sandiego-10",
         "location": "La Jolla Cove, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Brown Pelican at La Jolla Cove",
+        "imgFile": "sandiego-23",
+        "location": "La Jolla Cove, San Diego, CA",
+        "camera": "Panasonic Lumix TZ5",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Water, stone, and light",
+        "imgFile": "sandiego-24",
+        "location": "La Jolla Cove, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Exploring the Desert Garden in Balboa Park",
+        "imgFile": "sandiego-12",
+        "location": "Desert Garden, Balboa Park, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Succulents in Balboa Park's Desert Garden",
+        "imgFile": "sandiego-13",
+        "location": "Desert Garden, Balboa Park, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Succulents in Balboa Park's Desert Garden",
+        "imgFile": "sandiego-11",
+        "location": "Desert Garden, Balboa Park, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Succulents in Balboa Park's Desert Garden",
+        "imgFile": "sandiego-14",
+        "location": "Desert Garden, Balboa Park, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Exploring the Gaslamp Quarter on Super Bowl Sunday",
+        "imgFile": "sandiego-15",
+        "location": "Gaslamp Quarter, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 5",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Back to La Jolla",
+        "imgFile": "sandiego-16",
+        "location": "Windansea Beach, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Rocky Point in La Jolla",
+        "imgFile": "sandiego-17",
+        "location": "Rocky Point, La Jolla, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Cormorants, Seals, and Sea Lions",
+        "imgFile": "sandiego-18",
+        "location": "Alligator Head Arch, La Jolla, San Diego, CA",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Friday, February 4",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Sunset on Pacific Beach",
+        "imgFile": "sandiego-20",
+        "location": "Crystal Pier, San Diego, CA",
         "camera": "Panasonic Lumix GF1",
         "lens": "Panasonic 7-14mm f/4.0",
         "date": "Friday, February 4",

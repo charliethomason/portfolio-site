@@ -39,7 +39,7 @@ module.exports.pageNav = function(type,id) {
      "vincentprice"
   ];
   var photoTitles = [
-    "San Diego, CA",
+    "San Diego: La Jolla, Pacific Beach, and succulents",
     "Venezia Honeymoon",
     "Austria: Innsbruck, Salzburg, and Seefeld",
     "Printer's Row Perspective",
