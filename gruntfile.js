@@ -87,7 +87,8 @@
             options: {
                 port: 9000,
                 base: 'build',
-                hostname: '*'
+                hostname: '*',
+                open: true
             }
         }
 			},
