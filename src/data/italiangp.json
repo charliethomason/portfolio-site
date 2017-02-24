@@ -1,0 +1,53 @@
+{
+  "date": "Sept 12, 2010",
+  "medium": "Digital Photography",
+  "folder": "gallery-italiangp",
+  "gallery-page": {
+    "works": [
+      {
+        "imgTitle": "Bruno Senna driving the HRT toward the Parabolica",
+        "imgFile": "senna-hrt",
+        "location": "Autodromo Nazionale di Monza, Monza, Italy",
+        "camera": "Panasonic Lumix G1",
+        "lens": "Panasonic 14-45mm f/3.5-5.6",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Fernando Alonso driving the Scuderia Ferrari",
+        "imgFile": "alonso-ferrari",
+        "location": "Autodromo Nazionale di Monza, Monza, Italy",
+        "camera": "Panasonic Lumix G1",
+        "lens": "Panasonic 14-45mm f/3.5-5.6",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Michael Schumacher driving the Mercedes AMG Petronas",
+        "imgFile": "schumacher-mercedes",
+        "location": "Autodromo Nazionale di Monza, Monza, Italy",
+        "camera": "Panasonic Lumix G1",
+        "lens": "Panasonic 14-45mm f/3.5-5.6",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Me walking the track following the race",
+        "imgFile": "italiangp-me",
+        "location": "Autodromo Nazionale di Monza, Monza, Italy",
+        "camera": "Panasonic Lumix G1",
+        "lens": "Panasonic 14-45mm f/3.5-5.6",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "Fans walking on track toward the Parabolica",
+        "imgFile": "italiangp-track",
+        "location": "Autodromo Nazionale di Monza, Monza, Italy",
+        "camera": "Panasonic Lumix G1",
+        "lens": "Panasonic 14-45mm f/3.5-5.6",
+        "description": "Coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "italiangp"
+  }
+}

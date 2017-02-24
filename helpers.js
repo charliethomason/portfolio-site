@@ -67,9 +67,11 @@ module.exports.pageNav = function(type,id) {
     "Open Range: Kayaking Lake Powell",
     "Reframing Ruin: Bloomingdale Trail Twilight",
     "Frozen Bench at Promontory Point",
+    "2010 Formula 1 Italian Grand Prix",
     "Notte a Venezia (Night in Venice)",
     "Lugano, Switzerland",
     "Wahkeena Falls, Oregon",
+    "South Yorkshire Countryside, England",
     "English Portfolio: High Bradfield",
     "English Portfolio: Liverpool",
     "Emerald Isle, NC: Under the Bogue Inlet Pier"
@@ -103,9 +105,11 @@ module.exports.pageNav = function(type,id) {
     "openrange-lakepowell",
     "bloomingdale",
     "frozenpromontory",
+    "italiangp",
     "nottevenezia",
     "lugano",
     "wahkeena",
+    "syorkshire",
     "england-bradfield",
     "england-liverpool",
     "ei-bogueinletpier"

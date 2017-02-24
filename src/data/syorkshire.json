@@ -1,0 +1,34 @@
+{
+  "date": "Feb 18, 2008",
+  "medium": "Digital Photography",
+  "folder": "gallery-syorkshire",
+  "gallery-page": {
+    "works": [
+      {
+        "imgTitle": "South Yorkshire",
+        "imgFile": "syorkshire-00",
+        "location": "High Bradfield, England",
+        "camera": "Panasonic Lumix DMC-FX01",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "South Yorkshire",
+        "imgFile": "syorkshire-01",
+        "location": "High Bradfield, England",
+        "camera": "Panasonic Lumix DMC-FX01",
+        "description": "Coming soon..."
+      },
+      {
+        "imgTitle": "South Yorkshire",
+        "imgFile": "syorkshire-02",
+        "location": "High Bradfield, England",
+        "camera": "Panasonic Lumix DMC-FX01",
+        "description": "Coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "syorkshire"
+  }
+}
