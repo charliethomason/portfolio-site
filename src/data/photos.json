@@ -1,6 +1,11 @@
 {
   "page-name": "Photo Gallery",
   "filters": {
+    "type": "Photos",
+    "tabs": [
+      { "tab": "Art" },
+      { "tab": "Photos" }
+    ],
     "filter": [
       {
         "name": "Auto Racing",

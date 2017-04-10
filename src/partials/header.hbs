@@ -9,11 +9,23 @@
 		<nav id="main-nav" role="navigation">
 			<a href="#" id="hamburger"><span> </span>Menu</a>
 			<ul role="menu">
-				{{#each links}}
-				<li{{#is ../../modified.class url}} class="active"{{/is}}>
-					<a href="/{{url}}.html" role="menuitem">{{name}}</a>
+				<li{{#is ../modified.class 'index'}} class="active"{{/is}}>
+					<a href="/index.html" role="menuitem">Home</a>
 				</li>
-				{{/each}}
+				<li{{#is ../modified.class 'about'}} class="active"{{/is}}>
+					<a href="/about.html" role="menuitem">About</a>
+				</li>
+				<li class="has-submenu{{#is ../modified.class 'art'}} active{{/is}}{{#is ../modified.class 'photos'}} active{{/is}}">
+					<a href="/art.html" role="menuitem">Gallery</a>
+					<ul>
+						<li{{#is ../modified.class 'art'}} class="active"{{/is}}>
+							<a href="/art.html" role="menuitem">Art</a>
+						</li>
+						<li{{#is ../modified.class 'photos'}} class="active"{{/is}}>
+							<a href="/photos.html" role="menuitem">Photos</a>
+						</li>
+					</ul>
+				</li>
 				<li{{#is ../modified.class 'birds'}} class="active"{{/is}}>
 					<a href="/birds/" role="menuitem" class="birds-menuitem">Birds</a>
 				</li>

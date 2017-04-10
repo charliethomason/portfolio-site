@@ -3,3 +3,10 @@
   line-height:40px;
   padding-right:0;
 }
+.gallery-tabs a {
+	border-top:1px solid #666;
+	top:1px;
+}
+.gallery-tabs a:first-child {
+	border-right:none;
+}

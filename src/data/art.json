@@ -1,6 +1,11 @@
 {
   "page-name": "Art Gallery",
   "filters": {
+    "type": "Art",
+    "tabs": [
+      { "tab": "Art" },
+      { "tab": "Photos" }
+    ],
     "filter": [
       {
         "name": "Birds",
