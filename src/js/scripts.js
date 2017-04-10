@@ -43,6 +43,7 @@ charlie.gallery = function() {
           }
         });
       });
+      $('#filters').trigger('change');
     }
   }
 
