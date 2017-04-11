@@ -97,10 +97,19 @@ body {
 				display:none;
 				left:0;
 				margin-top:5px;
-				padding:10px;
+				padding:5px 5px 10px;
 				position:absolute;
 				text-align:left;
 				top:100%;
+				white-space:nowrap;
+				li {
+					display:block;
+					margin-left:0;
+					a {
+						display:block;
+						padding:5px;
+					}
+				}
 			}
 			&.has-submenu {
 				position:relative;

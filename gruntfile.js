@@ -46,6 +46,9 @@
 				},
 				code: {
 					files: {'build/code/' : ['src/pages/code/*.hbs']}
+				},
+				etc: {
+					files: {'build/etc/' : ['src/pages/etc/*.hbs']}
 				}
 			},
 			copy: {
