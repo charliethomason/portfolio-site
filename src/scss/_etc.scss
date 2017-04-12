@@ -1,0 +1,89 @@
+#content.etc {
+  padding:25px;
+  @include mobile {
+    padding:20px 10px;
+  }
+  p {
+    font-size:16px;
+    line-height:24px;
+    padding:10px 0;
+    @include mobile {
+      padding:5px 0;
+    }
+    &.intro {
+      @include sans;
+      font-weight:bold;
+      margin:0 auto;
+      max-width:500px;
+      padding-top:0;
+    }
+  }
+  h2 {
+    @include oswald;
+    border-top:1px solid $litegray;
+    font-size:20px;
+    line-height:28px;
+    margin-top:30px;
+    padding:40px 0 10px;
+    text-align:center;
+    @include mobile {
+      font-size:18px;
+      line-height:24px;
+      margin-top:15px;
+      padding:20px 0 10px;
+    }
+  }
+}
+#racing-page {
+	ul {
+		@include clearfix;
+		padding:0 0 15px;
+		text-align:center;
+		li {
+			display:block;
+			float:left;
+			margin-left:2%;
+			width:32%;
+			vertical-align: top;
+			&:first-child {
+				margin-left:0;
+			}
+			img {
+				display:block;
+				max-width:100%;
+			}
+			span {
+				@include sans;
+				display:block;
+				margin-top:10px;
+			}
+		}
+		@include mobile {
+			padding:0 0 10px;
+		}
+		@include under500 {
+			li {
+				display:inline-block;
+				float:none;
+				padding:0;
+				width:47%;
+				&:first-child {
+					margin-bottom:15px;
+				}
+				span {
+					font-size:14px;
+					margin-top:5px;
+				}
+			}
+		}
+		@include under400 {
+			li {
+				margin:0 auto 10px;
+				width:auto;
+				&:first-child {
+					margin:0 auto 10px;
+				}
+			}
+		}
+	}
+}
