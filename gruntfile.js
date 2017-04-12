@@ -86,14 +86,14 @@
 				}
 			},
 			connect: {
-        server: {
-            options: {
-                port: 9000,
-                base: 'build',
-                hostname: '*',
-                open: true
-            }
-        }
+				server: {
+					options: {
+						port: 9000,
+						base: 'build',
+						hostname: '*',
+						open: true
+					}
+				}
 			},
 			watch: {
 				css: {
@@ -135,6 +135,14 @@
 			'assemble',
 			'uglify',
 			'copy',
+			'connect',
+			'watch'
+		]);
+
+		grunt.registerTask('quick', [
+			'sass',
+			'assemble',
+			'uglify',
 			'connect',
 			'watch'
 		]);
