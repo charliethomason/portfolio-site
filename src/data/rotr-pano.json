@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Rock on the Range 2017 Panorama",
+        "imgFile": "rotr-pano",
+        "year": "2017",
+        "month": "05",
+        "medium": "iPhone Panorama",
+        "location": "MAPFRE Stadium, Columbus, OH",
+        "description": "On the weekend of May 19-21, 2017, my best friend Kurt and I attended the Rock on the Range music festival in Columbus, OH. It was our second time attending, having previously been in 2013. The headlining bands were scheduled to be Metallica, Korn, and Soundgarden, but on the Wednesday before the festival Chris Cornell died tragically and in their place was held a musical tribute to him. This panorama was taken on Day 2, during a performance by one of my all-time favorite bands, The Offspring (who played right before Korn). By doing a panorama I was able to capture the sheer magnitude of the audience size (which was even bigger the next night for Metallica). My parents lived in Columbus for about 5 years, making it easy to attend the festival, but since they moved back to Kentucky in 2017 this will likely have been our last time at Rock on the Range. <a href=\"https://youtu.be/orde6pPVPwY\" target=\"_blank\">Click here</a> to see a video I edited of some of the performances we saw this same day."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "rotr-pano"
+  }
+}

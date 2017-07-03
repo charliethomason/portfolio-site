@@ -39,6 +39,9 @@ module.exports.pageNav = function(type,id) {
      "vincentprice"
   ];
   var photoTitles = [
+    "Emerald Isle, NC: Sunset",
+    "2017 Indy 500",
+    "Rock on the Range 2017 Panorama",
     "San Diego",
     "Venezia Honeymoon",
     "Austria: Innsbruck, Salzburg, and Seefeld",
@@ -77,6 +80,9 @@ module.exports.pageNav = function(type,id) {
     "Emerald Isle, NC: Under the Bogue Inlet Pier"
   ];
   var photoIds = [
+    "ei-sunset",
+    "2017indy500",
+    "rotr-pano",
     "sandiego",
     "venezia",
     "austria",

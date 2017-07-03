@@ -60,6 +60,27 @@
     "type": "photos",
     "works": [
       {
+        "imgTitle": "Emerald Isle, NC: Sunset",
+        "imgFile": "ei-sunset",
+        "year": "2017",
+        "month": "06",
+        "filters": "emeraldisle america"
+      },
+      {
+        "imgTitle": "2017 Indy 500",
+        "imgFile": "2017indy500",
+        "year": "2017",
+        "month": "05",
+        "filters": "auto america"
+      },
+      {
+        "imgTitle": "Rock on the Range 2017 Panorama",
+        "imgFile": "rotr-pano",
+        "year": "2017",
+        "month": "05",
+        "filters": "america"
+      },
+      {
         "imgTitle": "San Diego",
         "imgFile": "sandiego",
         "year": "2017",

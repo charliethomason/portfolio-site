@@ -1,0 +1,20 @@
+{
+  "folder": "photos",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Emerald Isle, NC: Sunset",
+        "imgFile": "ei-sunset",
+        "year": "2017",
+        "month": "06",
+        "medium": "iPhone Photography",
+        "location": "Emerald Isle, NC",
+        "description": "My mother's family almost always went to Emerald Isle, North Carolina for our big summer vacation. We were there 1990-1995, 1997-1999, 2004, and 2007. In 2013, we started going again &mdash; now just me, my wife (then girlfriend) Amanda, my parents, my cousin Jimmy, and his girlfriend Erica &mdash; and repeated this new tradition again in 2014, 2015, and 2017. This photo was taken during sunset near the Cameron Langston Bridge, which goes over the Bogue Sound and connects Emerald Isle to Cape Carteret. "
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "ei-sunset"
+  }
+}
