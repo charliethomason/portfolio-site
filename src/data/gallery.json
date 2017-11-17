@@ -1,0 +1,189 @@
+{
+  "page-name": "Gallery",
+  "filters": {
+    "filter": [
+      {
+        "name": "Art",
+        "val": "art"
+      },
+      {
+        "name": "Auto Racing",
+        "val": "auto"
+      },
+      {
+        "name": "History",
+        "val": "history"
+      },
+      {
+        "name": "Ink & Watercolors",
+        "val": "water"
+      },
+      {
+        "name": "Landscapes",
+        "val": "landscapes"
+      },
+      {
+        "name": "Movies",
+        "val": "movies"
+      },
+      {
+        "name": "Oil Painting",
+        "val": "oil"
+      },
+      {
+        "name": "Photos",
+        "val": "photos"
+      },
+      {
+        "name": "Portraits",
+        "val": "portraits"
+      },
+      {
+        "name": "Travel",
+        "val": "travel"
+      },
+      {
+        "name": "Undergrad Work",
+        "val": "undergrad"
+      }
+    ]
+  },
+  "gallery": {
+    "type": "art",
+    "works": [
+      {
+        "imgTitle": "Wood Brothers #21 (1963, 1976, 2017)",
+        "imgFile": "woodbrothers21",
+        "year": "2017",
+        "month":"01",
+        "filters": ""
+      },
+      {
+        "imgTitle": "Andretti vs Andretti at Long Beach (1986)",
+        "imgFile": "andrettilongbeach",
+        "year": "2017",
+        "month":"03",
+        "filters": ""
+      },
+      {
+        "imgTitle": "Amanda (Pelecanus Venezia)",
+        "imgFile": "pelicanvenice",
+        "year": "2016",
+        "month":"01",
+        "filters": "birds travel ink watercolor"
+      },
+      {
+        "imgTitle": "Jim Clark Driving The Lotus 49",
+        "imgFile": "jimclark",
+        "year": "2014",
+        "month":"12",
+        "filters": "history portraits ink watercolor"
+      },
+      {
+        "imgTitle": "Swamp Thing",
+        "imgFile": "swampthing",
+        "year": "2014",
+        "month":"10",
+        "filters": "portraits ink watercolor"
+      },
+      {
+        "imgTitle": "Edward Scissorhands",
+        "imgFile": "edwardscissorhands",
+        "year": "2014",
+        "month": "10",
+        "filters": "portraits ink movies"
+      },
+      {
+        "imgTitle": "Eastern Screech Owl",
+        "imgFile": "screechowl",
+        "year": "2014",
+        "month":"03",
+        "filters": "birds ink"
+      },
+      {
+        "imgTitle": "Quanah Park, Last Chief of the Comanches",
+        "imgFile": "quanahparker",
+        "year": "2012",
+        "month":"06",
+        "filters": "portraits history ink"
+      },
+      {
+        "imgTitle": "Earth vs the Flying Saucers",
+        "imgFile": "earthvsflyingsaucers",
+        "year": "2012",
+        "month": "05",
+        "filters": ""
+      },
+      {
+        "imgTitle": "Blue Jay in the Desert",
+        "imgFile": "bluejaydesert",
+        "year": "2012",
+        "month":"04",
+        "filters": "birds travel ink watercolor"
+      },
+      {
+        "imgTitle": "Frank and the Cellar Door",
+        "imgFile": "frankcellardoor",
+        "year": "2012",
+        "month":"03",
+        "filters": "movies ink watercolor"
+      },
+      {
+        "imgTitle": "Frederic Chopin",
+        "imgFile": "chopin",
+        "year": "2012",
+        "month":"02",
+        "filters": "portraits history ink watercolor"
+      },
+      {
+        "imgTitle": "Eternal Sunshine",
+        "imgFile": "eternalsunshine",
+        "year": "2012",
+        "month":"01",
+        "filters": "portraits movies ink watercolor ink watercolor"
+      },
+      {
+        "imgTitle": "French Quarter Motorcycle Guitarist",
+        "imgFile": "fqmg",
+        "year": "2011",
+        "month":"02",
+        "filters": "portraits travel oil"
+      },
+      {
+        "imgTitle": "The Melting Doge",
+        "imgFile": "meltingdoge",
+        "year": "2011",
+        "month":"01",
+        "filters": "portraits history travel oil"
+      },
+      {
+        "imgTitle": "The Murder of Mingo Jack, book cover",
+        "imgFile": "mingojack",
+        "year": "2010",
+        "month":"01",
+        "filters": "portraits history oil"
+      },
+      {
+        "imgTitle": "Corman and Poe",
+        "imgFile": "cormanandpoe",
+        "year": "2007",
+        "month":"02",
+        "filters": "portraits movies undergrad oil"
+      },
+      {
+        "imgTitle": "Nine to Five",
+        "imgFile": "ninetofive",
+        "year": "2007",
+        "month":"01",
+        "filters": "portraits undergrad oil"
+      },
+      {
+        "imgTitle": "Vincent Price in His Laboratory",
+        "imgFile": "vincentprice",
+        "year": "2006",
+        "month":"01",
+        "filters": "portraits movies undergrad ink"
+      }
+    ]
+  }
+}

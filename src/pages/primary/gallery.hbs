@@ -1,0 +1,27 @@
+---
+modified:
+  title: Gallery
+  class: gallery
+---
+{{> header}}
+
+{{#art}}
+<h1>{{page-name}}</h1>
+<h2>Albums</h2>
+<ul>
+	{{#each albums}}
+	<li>
+		<a href="/{{path}}.html">
+			<img src="{{thumb}}" alt="{{albumName}}">
+			<h3>{{albumName}}</h3>
+			<p class="type">{{type}}</p>
+			<p class="album-meta">{{count}} | {{year}}</p>
+		</a>
+	</li>
+	{{/each}}
+</ul>
+{{> filters}}
+{{> grid}}
+{{/art}}
+
+{{> footer}}

@@ -1,0 +1,16 @@
+{{#grid}}
+<section class="gallery-grid">
+	<ul>
+		{{#each works}}
+		<li data-filters="{{filters}}">
+			<a href="img/grid/{{imgFile}}.jpg"><img src="img/grid/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}"></a>
+         	<div class="info">
+        		<h2 class="title">{{imgTitle}}</h2>
+            	<p class="date">{{month}} {{year}}</p>
+            	<p class="medium">{{medium}}</p>
+          	</div>
+		</li>
+		{{/each}}
+	</ul>
+</section>
+{{/grid}}

@@ -32,19 +32,12 @@
 				<li>
 					<a href="/about.html" role="menuitem">About</a>
 				</li>
-				<li class="active">
-					<a href="/art.html" role="menuitem">Art</a>
-				</li>
 				<li>
-					<a href="/photos.html" role="menuitem">Photos</a>
-				</li>
-				<li>
-					<a href="/birds/" role="menuitem" class="birds-menuitem">Birds</a>
+					<a href="/gallery.html" role="menuitem">Gallery</a>
 				</li>
 				<li>
 					<a href="/code/" role="menuitem">Code</a>
 				</li>
-				<li><a href="http://charliethomason.tumblr.com" role="menuitem">Blog</a></li>
 			</ul>
 		</nav>
 
@@ -57,262 +50,40 @@
 
 
 
-<h1>Art Gallery</h1>
+<h1>Gallery</h1>
 
-<div class="gallery-view">
-  <input type="radio" id="view-grid" name="view" value="grid" checked="checked"><label for="view-grid">View as Grid</label>
-  <input type="radio" id="view-list" name="view" value="list"><label for="view-list">View as List</label>
-</div>
 <form id="gallery-filter">
   <label for="filters">Filter by category</label>
   <select class="filters" id="filters">
     <option value="all" selected="selected">All</option>
     
-    <option value="birds">Birds</option>
+    <option value="art">Art</option>
+    
+    <option value="auto">Auto Racing</option>
+    
+    <option value="chicago">Chicagoland</option>
     
     <option value="history">History</option>
     
-    <option value="ink">Ink</option>
+    <option value="water">Ink &amp; Watercolors</option>
     
-    <option value="movies">Movies &amp; TV</option>
+    <option value="landscapes">Landscapes</option>
     
-    <option value="oil">Oil Painting</option>
+    <option value="movies">Movies</option>
+    
+    <option value="oil">Oil Paintings</option>
+    
+    <option value="photos">Photos</option>
     
     <option value="portraits">Portraits</option>
     
     <option value="travel">Travel</option>
     
-    <option value="undergrad">Undergraduate Work</option>
-    
-    <option value="watercolor">Watercolors</option>
+    <option value="undergrad">Undergrad Work</option>
     
   </select>
 </form>
 
-
-<section class="gallery">
-
-  <ul class="gallery-wrap grid">
-    
-    <li class="img-li" data-filters="birds watercolor ink">
-      <a href="/birds/">
-        <img src="img/art/thumbs/birds-250.jpg" alt="Birds of Chicagoland" class="galleryImg">
-        <div class="info">
-          <h2 class="title">Birds of Chicagoland</h2>
-          <p class="year">2014-2016</p>
-          <p class="count">15 paintings</p>
-        </div>
-      </a>
-    </li>
-    
-    
-      <li class="img-li" data-id="0" data-year="2016-01" data-filters="birds travel ink watercolor">
-        <a href="art/pelicanvenice.html" title="Amanda (Pelecanus Venezia)" class="galleryImg">
-          <img src="img/art/thumbs/pelicanvenice-250.jpg" alt="Amanda (Pelecanus Venezia)">
-          <div class="info">
-            <h2 class="title">Amanda (Pelecanus Venezia)</h2>
-            
-            <p class="year">2016</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="1" data-year="2015-12" data-filters="birds ink watercolor">
-        <a href="art/ospreykingfisher.html" title="Osprey &amp; Kingfisher" class="galleryImg">
-          <img src="img/art/thumbs/ospreykingfisher-250.jpg" alt="Osprey &amp; Kingfisher">
-          <div class="info">
-            <h2 class="title">Osprey &amp; Kingfisher</h2>
-            
-            <p class="year">2015</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="2" data-year="2014-12" data-filters="history portraits ink watercolor">
-        <a href="art/jimclark.html" title="Jim Clark Driving The Lotus 49" class="galleryImg">
-          <img src="img/art/thumbs/jimclark-250.jpg" alt="Jim Clark Driving The Lotus 49">
-          <div class="info">
-            <h2 class="title">Jim Clark Driving The Lotus 49</h2>
-            
-            <p class="year">2014</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="3" data-year="2014-10" data-filters="portraits ink watercolor">
-        <a href="art/swampthing.html" title="Swamp Thing" class="galleryImg">
-          <img src="img/art/thumbs/swampthing-250.jpg" alt="Swamp Thing">
-          <div class="info">
-            <h2 class="title">Swamp Thing</h2>
-            
-            <p class="year">2014</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="4" data-year="2014-10" data-filters="portraits ink movies">
-        <a href="art/edwardscissorhands.html" title="Edward Scissorhands" class="galleryImg">
-          <img src="img/art/thumbs/edwardscissorhands-250.jpg" alt="Edward Scissorhands">
-          <div class="info">
-            <h2 class="title">Edward Scissorhands</h2>
-            
-            <p class="year">2014</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="5" data-year="2014-03" data-filters="birds ink">
-        <a href="art/screechowl.html" title="Eastern Screech Owl" class="galleryImg">
-          <img src="img/art/thumbs/screechowl-250.jpg" alt="Eastern Screech Owl">
-          <div class="info">
-            <h2 class="title">Eastern Screech Owl</h2>
-            
-            <p class="year">2014</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="6" data-year="2012-05" data-filters="portraits history ink">
-        <a href="art/quanahparker.html" title="Quanah Park, Last Chief of the Comanches" class="galleryImg">
-          <img src="img/art/thumbs/quanahparker-250.jpg" alt="Quanah Park, Last Chief of the Comanches">
-          <div class="info">
-            <h2 class="title">Quanah Park, Last Chief of the Comanches</h2>
-            
-            <p class="year">2012</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="7" data-year="2012-04" data-filters="birds travel ink watercolor">
-        <a href="art/bluejaydesert.html" title="Blue Jay in the Desert" class="galleryImg">
-          <img src="img/art/thumbs/bluejaydesert-250.jpg" alt="Blue Jay in the Desert">
-          <div class="info">
-            <h2 class="title">Blue Jay in the Desert</h2>
-            
-            <p class="year">2012</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="8" data-year="2012-03" data-filters="movies ink watercolor">
-        <a href="art/frankcellardoor.html" title="Frank and the Cellar Door" class="galleryImg">
-          <img src="img/art/thumbs/frankcellardoor-250.jpg" alt="Frank and the Cellar Door">
-          <div class="info">
-            <h2 class="title">Frank and the Cellar Door</h2>
-            
-            <p class="year">2012</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="9" data-year="2012-02" data-filters="portraits history ink watercolor">
-        <a href="art/chopin.html" title="Frederic Chopin" class="galleryImg">
-          <img src="img/art/thumbs/chopin-250.jpg" alt="Frederic Chopin">
-          <div class="info">
-            <h2 class="title">Frederic Chopin</h2>
-            
-            <p class="year">2012</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="10" data-year="2012-01" data-filters="portraits movies ink watercolor ink watercolor">
-        <a href="art/eternalsunshine.html" title="Eternal Sunshine" class="galleryImg">
-          <img src="img/art/thumbs/eternalsunshine-250.jpg" alt="Eternal Sunshine">
-          <div class="info">
-            <h2 class="title">Eternal Sunshine</h2>
-            
-            <p class="year">2012</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="11" data-year="2011-02" data-filters="portraits travel oil">
-        <a href="art/fqmg.html" title="French Quarter Motorcycle Guitarist" class="galleryImg">
-          <img src="img/art/thumbs/fqmg-250.jpg" alt="French Quarter Motorcycle Guitarist">
-          <div class="info">
-            <h2 class="title">French Quarter Motorcycle Guitarist</h2>
-            
-            <p class="year">2011</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="12" data-year="2011-01" data-filters="portraits history travel oil">
-        <a href="art/meltingdoge.html" title="The Melting Doge" class="galleryImg">
-          <img src="img/art/thumbs/meltingdoge-250.jpg" alt="The Melting Doge">
-          <div class="info">
-            <h2 class="title">The Melting Doge</h2>
-            
-            <p class="year">2011</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="13" data-year="2010-01" data-filters="portraits history oil">
-        <a href="art/mingojack.html" title="The Murder of Mingo Jack, book cover" class="galleryImg">
-          <img src="img/art/thumbs/mingojack-250.jpg" alt="The Murder of Mingo Jack, book cover">
-          <div class="info">
-            <h2 class="title">The Murder of Mingo Jack, book cover</h2>
-            
-            <p class="year">2010</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="14" data-year="2007-02" data-filters="portraits movies undergrad oil">
-        <a href="art/cormanandpoe.html" title="Corman and Poe" class="galleryImg">
-          <img src="img/art/thumbs/cormanandpoe-250.jpg" alt="Corman and Poe">
-          <div class="info">
-            <h2 class="title">Corman and Poe</h2>
-            
-            <p class="year">2007</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="15" data-year="2007-01" data-filters="portraits undergrad oil">
-        <a href="art/ninetofive.html" title="Nine to Five" class="galleryImg">
-          <img src="img/art/thumbs/ninetofive-250.jpg" alt="Nine to Five">
-          <div class="info">
-            <h2 class="title">Nine to Five</h2>
-            
-            <p class="year">2007</p>
-            
-          </div>
-        </a>
-      </li>
-    
-      <li class="img-li" data-id="16" data-year="2006-01" data-filters="portraits movies undergrad ink">
-        <a href="art/vincentprice.html" title="Vincent Price in His Laboratory" class="galleryImg">
-          <img src="img/art/thumbs/vincentprice-250.jpg" alt="Vincent Price in His Laboratory">
-          <div class="info">
-            <h2 class="title">Vincent Price in His Laboratory</h2>
-            
-            <p class="year">2006</p>
-            
-          </div>
-        </a>
-      </li>
-    
-  </ul>
-
-</section>
 
 
 

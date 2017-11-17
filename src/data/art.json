@@ -1,26 +1,92 @@
 {
-  "page-name": "Art Gallery",
+  "page-name": "Gallery",
+  "albums": [
+    {
+      "path": "birds/index",
+      "thumb": "",
+      "albumName": "Birds of Chicagoland",
+      "type": "Ink & Watercolors",
+      "count": "15",
+      "year": "2014-2016"
+    },
+    {
+      "path": "photos/venezia",
+      "thumb": "",
+      "albumName": "Venezia Honeymoon",
+      "type": "Digital Photography",
+      "count": "60",
+      "year": "2016"
+    },
+    {
+      "path": "photos/austria",
+      "thumb": "",
+      "albumName": "Austria: Innsbruck, Seefeld, and Salzburg",
+      "type": "Digital Photography",
+      "count": "25",
+      "year": "2016"
+    },
+    {
+      "path": "photos/sandiego",
+      "thumb": "",
+      "albumName": "San Diego",
+      "type": "Digital Photography",
+      "count": "25",
+      "year": "2017"
+    },
+    {
+      "path": "photos/openrange",
+      "thumb": "",
+      "albumName": "Open Range",
+      "type": "Film & Digital Photography",
+      "count": "?",
+      "year": "2011"
+    },
+    {
+      "path": "photos/englishportfolio",
+      "thumb": "",
+      "albumName": "English Portfolio",
+      "type": "Film & Digital Photography",
+      "count": "?",
+      "year": "2008"
+    }
+  ],
   "filters": {
     "filter": [
       {
-        "name": "Birds",
-        "val": "birds"
+        "name": "Art",
+        "val": "art"
+      },
+      {
+        "name": "Auto Racing",
+        "val": "auto"
+      },
+      {
+        "name": "Chicagoland",
+        "val": "chicago"
       },
       {
         "name": "History",
         "val": "history"
       },
       {
-        "name": "Ink",
-        "val": "ink"
+        "name": "Ink & Watercolors",
+        "val": "water"
       },
       {
-        "name": "Movies & TV",
+        "name": "Landscapes",
+        "val": "landscapes"
+      },
+      {
+        "name": "Movies",
         "val": "movies"
       },
       {
-        "name": "Oil Painting",
+        "name": "Oil Paintings",
         "val": "oil"
+      },
+      {
+        "name": "Photos",
+        "val": "photos"
       },
       {
         "name": "Portraits",
@@ -31,136 +97,277 @@
         "val": "travel"
       },
       {
-        "name": "Undergraduate Work",
+        "name": "Undergrad Work",
         "val": "undergrad"
-      },
-      {
-        "name": "Watercolors",
-        "val": "watercolor"
       }
     ]
   },
-  "gallery": {
+  "grid": {
     "type": "art",
     "works": [
+      {
+        "imgTitle": "Emerald Isle, NC: Sunset",
+        "imgFile": "ei-sunset",
+        "year": "2017",
+        "month": "June",
+        "filters": "photos landscapes travel"
+      },
+      {
+        "imgTitle": "2017 Indy 500",
+        "imgFile": "2017indy500",
+        "year": "2017",
+        "month": "May",
+        "filters": "photos auto chicagoland"
+      },
+      {
+        "imgTitle": "Wood Brothers #21 (1963, 1976, 2017)",
+        "imgFile": "woodbrothers21",
+        "year": "2017",
+        "month":"May",
+        "medium": "Ink & Watercolors",
+        "filters": "art auto history water"
+      },
+      {
+        "imgTitle": "Rock on the Range 2017 Panorama",
+        "imgFile": "rotr-pano",
+        "year": "2017",
+        "month": "May",
+        "filters": "photos travel"
+      },
+      {
+        "imgTitle": "Andretti vs Andretti at Long Beach (1986)",
+        "imgFile": "andrettilongbeach",
+        "year": "2017",
+        "month":"March",
+        "medium": "Ink & Watercolors",
+        "filters": "art auto history water"
+      },
       {
         "imgTitle": "Amanda (Pelecanus Venezia)",
         "imgFile": "pelicanvenice",
         "year": "2016",
-        "month":"01",
-        "filters": "birds travel ink watercolor"
+        "month":"December",
+        "medium": "Ink & Watercolors",
+        "filters": "art landscapes travel water"
       },
       {
-        "imgTitle": "Osprey & Kingfisher",
-        "imgFile": "ospreykingfisher",
+        "imgTitle": "Nascar at Chicagoland Speedway",
+        "imgFile": "nascarchicago-start",
         "year": "2015",
-        "month":"12",
-        "filters": "birds ink watercolor"
+        "month": "September",
+        "filters": "photos auto chicagoland landscapes"
+      },
+      {
+        "imgTitle": "Waterfall at Blackwater Falls State Park",
+        "imgFile": "blackwaterfalls",
+        "year": "2015",
+        "month": "September",
+        "filters": "photos landscapes travel"
+      },
+      {
+        "imgTitle": "Montoya Penske IndyCar at Mid-Ohio",
+        "imgFile": "montoyaindycar-midohio",
+        "year": "2015",
+        "month": "August",
+        "filters": "photos auto travel"
+      },
+      {
+        "imgTitle": "Emerald Isle, NC: Sunrise",
+        "imgFile": "ei-sunrise",
+        "year": "2015",
+        "month": "June",
+        "filters": "photos landscapes travel"
+      },
+      {
+        "imgTitle": "Formula E Long Beach ePrix",
+        "imgFile": "formulae-longbeach",
+        "year": "2015",
+        "month": "April",
+        "filters": "photos auto travel"
+      },
+      {
+        "imgTitle": "Sundance 2015: Evening on Main Street",
+        "imgFile": "sundance-mainst",
+        "year": "2015",
+        "month": "January",
+        "filters": "photos landscapes movies travel"
       },
       {
         "imgTitle": "Jim Clark Driving The Lotus 49",
         "imgFile": "jimclark",
         "year": "2014",
-        "month":"12",
-        "filters": "history portraits ink watercolor"
+        "month":"December",
+        "medium": "Ink & Watercolors",
+        "filters": "art auto history portraits water"
       },
       {
         "imgTitle": "Swamp Thing",
         "imgFile": "swampthing",
         "year": "2014",
-        "month":"10",
-        "filters": "portraits ink watercolor"
+        "month":"October",
+        "medium": "Ink & Watercolors",
+        "filters": "art movies portraits water"
       },
       {
         "imgTitle": "Edward Scissorhands",
         "imgFile": "edwardscissorhands",
         "year": "2014",
-        "month": "10",
-        "filters": "portraits ink movies"
+        "month": "October",
+        "medium": "Ink & Watercolors",
+        "filters": "art movies portraits water"
+      },
+      {
+        "imgTitle": "Camden Lighthouse from aboard Schooner Olad",
+        "imgFile": "camdenlighthouse",
+        "year": "2014",
+        "month": "July",
+        "filters": "photos landscapes travel"
       },
       {
         "imgTitle": "Eastern Screech Owl",
         "imgFile": "screechowl",
         "year": "2014",
-        "month":"03",
-        "filters": "birds ink"
+        "month":"March",
+        "medium": "Ink Brush",
+        "filters": "art portraits water"
       },
       {
         "imgTitle": "Quanah Park, Last Chief of the Comanches",
         "imgFile": "quanahparker",
         "year": "2012",
-        "month":"05",
-        "filters": "portraits history ink"
+        "month":"June",
+        "medium": "Ink Pen",
+        "filters": "art history portraits"
+      },
+      {
+        "imgTitle": "Earth vs the Flying Saucers",
+        "imgFile": "earthvsflyingsaucers",
+        "year": "2012",
+        "month": "May",
+        "medium": "Ink & Watercolors",
+        "filters": "art movies water"
       },
       {
         "imgTitle": "Blue Jay in the Desert",
         "imgFile": "bluejaydesert",
         "year": "2012",
-        "month":"04",
-        "filters": "birds travel ink watercolor"
+        "month":"May",
+        "medium": "Ink & Watercolors",
+        "filters": "art landscapes water"
       },
       {
         "imgTitle": "Frank and the Cellar Door",
         "imgFile": "frankcellardoor",
         "year": "2012",
-        "month":"03",
-        "filters": "movies ink watercolor"
+        "month":"May",
+        "medium": "Ink & Watercolors",
+        "filters": "art movies water"
       },
       {
         "imgTitle": "Frederic Chopin",
         "imgFile": "chopin",
         "year": "2012",
-        "month":"02",
-        "filters": "portraits history ink watercolor"
+        "month":"May",
+        "medium": "Ink & Watercolors",
+        "filters": "art history portraits water"
       },
       {
         "imgTitle": "Eternal Sunshine",
         "imgFile": "eternalsunshine",
         "year": "2012",
-        "month":"01",
-        "filters": "portraits movies ink watercolor ink watercolor"
+        "month":"May",
+        "medium": "Ink & Watercolors",
+        "filters": "art movies portraits water"
+      },
+      {
+        "imgTitle": "Reframing Ruin: Bloomingdale Trail Twilight",
+        "imgFile": "bloomingdale",
+        "year": "2011",
+        "month": "May",
+        "filters": "photos chicagoland landscapes"
       },
       {
         "imgTitle": "French Quarter Motorcycle Guitarist",
         "imgFile": "fqmg",
         "year": "2011",
-        "month":"02",
-        "filters": "portraits travel oil"
+        "month":"February",
+        "medium": "Oil on Paper",
+        "filters": "art portraits oil travel"
       },
       {
         "imgTitle": "The Melting Doge",
         "imgFile": "meltingdoge",
         "year": "2011",
-        "month":"01",
-        "filters": "portraits history travel oil"
+        "month":"January",
+        "medium": "Oil on Paper",
+        "filters": "art history oil portraits"
+      },
+      {
+        "imgTitle": "Frozen Bench at Promontory Point",
+        "imgFile": "frozenpromontory",
+        "year": "2010",
+        "month": "December",
+        "filters": "photos chicagoland landscapes"
+      },
+      {
+        "imgTitle": "Michael Schumacher at the Italian Grand Prix",
+        "imgFile": "schumi-italy",
+        "year": "2010",
+        "month": "September",
+        "filters": "photos auto travel"
+      },
+      {
+        "imgTitle": "Notte a Venezia (Night in Venice)",
+        "imgFile": "nottevenezia",
+        "year": "2010",
+        "month": "September",
+        "filters": "photos travel"
+      },
+      {
+        "imgTitle": "Lugano, Switzerland",
+        "imgFile": "lugano",
+        "year": "2010",
+        "month": "September",
+        "filters": "photos landscapes travel"
       },
       {
         "imgTitle": "The Murder of Mingo Jack, book cover",
         "imgFile": "mingojack",
         "year": "2010",
-        "month":"01",
-        "filters": "portraits history oil"
+        "month":"January",
+        "medium": "Oil on MDF Board",
+        "filters": "art history oil portraits"
+      },
+      {
+        "imgTitle": "Wahkeena Falls, Oregon",
+        "imgFile": "wahkeena",
+        "year": "2009",
+        "month": "July",
+        "filters": "photos landscapes travel"
       },
       {
         "imgTitle": "Corman and Poe",
         "imgFile": "cormanandpoe",
         "year": "2007",
-        "month":"02",
-        "filters": "portraits movies undergrad oil"
+        "month":"November",
+        "medium": "Oil on Canvas",
+        "filters": "art history movies oil portraits undergrad"
       },
       {
         "imgTitle": "Nine to Five",
         "imgFile": "ninetofive",
         "year": "2007",
-        "month":"01",
-        "filters": "portraits undergrad oil"
+        "month":"October",
+        "medium": "Oil and Mixed Media on MDF Board",
+        "filters": "art oil portraits undergrad"
       },
       {
         "imgTitle": "Vincent Price in His Laboratory",
         "imgFile": "vincentprice",
         "year": "2006",
-        "month":"01",
-        "filters": "portraits movies undergrad ink"
+        "month":"August",
+        "medium": "Ink & Watercolors",
+        "filters": "art movies portraits undergrad water"
       }
     ]
   }
