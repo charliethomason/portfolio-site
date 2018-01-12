@@ -107,7 +107,7 @@ body {
 			text-align:center;
 			width:100%;
 			z-index:2;
-			&.shown {
+			&[data-show="true"] {
 				left:0;
 				top:100%;
 			}
@@ -169,7 +169,7 @@ body {
 		padding:0;
 	}
 }
-#content {
+.content {
 	background:#fff;
 	width:100%;
 	h1 {

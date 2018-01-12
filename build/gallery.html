@@ -25,14 +25,17 @@
 
 		<nav id="main-nav" role="navigation">
 			<a href="#" id="hamburger"><span> </span>Menu</a>
-			<ul role="menu">
+			<ul role="menu" data-show="false">
 				<li>
 					<a href="/index.html" role="menuitem">Home</a>
 				</li>
 				<li>
 					<a href="/about.html" role="menuitem">About</a>
 				</li>
-				<li class="active">
+				<li  class="active"
+					
+					
+					>
 					<a href="/gallery.html" role="menuitem">Gallery</a>
 				</li>
 				<li>
@@ -46,65 +49,71 @@
 
 <main id="main" role="main">
 
-	<section id="content" class="gallery">
+	<section class="content" id="page-gallery">
 
 
 
 <h1>Gallery</h1>
-<h2>Albums</h2>
-<ul>
+<h2 class="album-header">Albums</h2>
+<ul class="album-grid">
 	
 	<li>
 		<a href="/birds/index.html">
-			<img src="" alt="Birds of Chicagoland">
-			<h3>Birds of Chicagoland</h3>
-			<p class="type">Ink &amp; Watercolors</p>
-			<p class="album-meta"> | 2014-2016</p>
+			<img src="img/grid/thumbs/birds-267.jpg" alt="Birds of Chicagoland">
+			<div class="info">
+				<h3 class="title">Birds of Chicagoland</h3>
+				<p class="album-meta"> 2014-2016 &bull; Ink &amp; Watercolors</p>
+			</div>
 		</a>
 	</li>
 	
 	<li>
 		<a href="/photos/venezia.html">
-			<img src="" alt="Venezia Honeymoon">
-			<h3>Venezia Honeymoon</h3>
-			<p class="type">Digital Photography</p>
-			<p class="album-meta"> | 2016</p>
+			<img src="img/grid/thumbs/venezia-267.jpg" alt="Venezia Honeymoon">
+			<div class="info">
+				<h3 class="title">Venezia Honeymoon</h3>
+				<p class="album-meta"> 2016 &bull; Digital Photography</p>
+			</div>
 		</a>
 	</li>
 	
 	<li>
 		<a href="/photos/austria.html">
-			<img src="" alt="Austria: Innsbruck, Seefeld, and Salzburg">
-			<h3>Austria: Innsbruck, Seefeld, and Salzburg</h3>
-			<p class="type">Digital Photography</p>
-			<p class="album-meta"> | 2016</p>
+			<img src="img/grid/thumbs/austria-267.jpg" alt="Austria: Innsbruck, Seefeld, and Salzburg">
+			<div class="info">
+				<h3 class="title">Austria: Innsbruck, Seefeld, and Salzburg</h3>
+				<p class="album-meta"> 2016 &bull; Digital Photography</p>
+			</div>
 		</a>
 	</li>
 	
 	<li>
 		<a href="/photos/sandiego.html">
-			<img src="" alt="San Diego">
-			<h3>San Diego</h3>
-			<p class="type">Digital Photography</p>
-			<p class="album-meta"> | 2017</p>
+			<img src="img/grid/thumbs/sandiego-267.jpg" alt="San Diego">
+			<div class="info">
+				<h3 class="title">San Diego</h3>
+				<p class="album-meta"> 2017 &bull; Digital Photography</p>
+			</div>
 		</a>
 	</li>
 	
 	<li>
 		<a href="/photos/openrange.html">
-			<img src="" alt="Open Range">
-			<h3>Open Range</h3>
-			<p class="type">Film &amp; Digital Photography</p>
-			<p class="album-meta"> | 2011</p>
+			<img src="img/grid/thumbs/openrange-267.jpg" alt="Open Range">
+			<div class="info">
+				<h3 class="title">Open Range</h3>
+				<p class="album-meta"> 2011 &bull; Film &amp; Digital Photography</p>
+			</div>
 		</a>
 	</li>
 	
 	<li>
 		<a href="/photos/englishportfolio.html">
-			<img src="" alt="English Portfolio">
-			<h3>English Portfolio</h3>
-			<p class="type">Film &amp; Digital Photography</p>
-			<p class="album-meta"> | 2008</p>
+			<img src="img/grid/thumbs/england-267.jpg" alt="English Portfolio">
+			<div class="info">
+				<h3 class="title">English Portfolio</h3>
+				<p class="album-meta"> 2008 &bull; Film &amp; Digital Photography</p>
+			</div>
 		</a>
 	</li>
 	
@@ -118,6 +127,8 @@
     <option value="art">Art</option>
     
     <option value="auto">Auto Racing</option>
+    
+    <option value="birds">Birds</option>
     
     <option value="chicago">Chicagoland</option>
     
@@ -146,319 +157,400 @@
 <section class="gallery-grid">
 	<ul>
 		
-		<li data-filters="photos landscapes travel">
-			<a href="img/grid/ei-sunset.jpg"><img src="img/grid/thumbs/ei-sunset-250.jpg" alt="Emerald Isle, NC: Sunset"></a>
-         	<div class="info">
-        		<h2 class="title">Emerald Isle, NC: Sunset</h2>
-            	<p class="date">June 2017</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos landscapes travel" data-lightbox="off">
+			<a href="/gallery/ei-sunset.html" class="grid-thumb">
+				<img src="img/grid/thumbs/ei-sunset-250.jpg" alt="Emerald Isle, NC: Sunset">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Emerald Isle, NC: Sunset</h2>
+	            	<p class="meta">June 2017 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos auto chicagoland">
-			<a href="img/grid/2017indy500.jpg"><img src="img/grid/thumbs/2017indy500-250.jpg" alt="2017 Indy 500"></a>
-         	<div class="info">
-        		<h2 class="title">2017 Indy 500</h2>
-            	<p class="date">May 2017</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos auto chicagoland" data-lightbox="off">
+			<a href="/gallery/2017indy500.html" class="grid-thumb">
+				<img src="img/grid/thumbs/2017indy500-250.jpg" alt="2017 Indy 500">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">2017 Indy 500</h2>
+	            	<p class="meta">May 2017 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art auto history water">
-			<a href="img/grid/woodbrothers21.jpg"><img src="img/grid/thumbs/woodbrothers21-250.jpg" alt="Wood Brothers #21 (1963, 1976, 2017)"></a>
-         	<div class="info">
-        		<h2 class="title">Wood Brothers #21 (1963, 1976, 2017)</h2>
-            	<p class="date">May 2017</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art auto history water" data-lightbox="off">
+			<a href="/gallery/woodbrothers21.html" class="grid-thumb">
+				<img src="img/grid/thumbs/woodbrothers21-250.jpg" alt="Wood Brothers #21 (1963, 1976, 2017)">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Wood Brothers #21 (1963, 1976, 2017)</h2>
+	            	<p class="meta">May 2017 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos travel">
-			<a href="img/grid/rotr-pano.jpg"><img src="img/grid/thumbs/rotr-pano-250.jpg" alt="Rock on the Range 2017 Panorama"></a>
-         	<div class="info">
-        		<h2 class="title">Rock on the Range 2017 Panorama</h2>
-            	<p class="date">May 2017</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos travel" data-lightbox="off">
+			<a href="/gallery/rotr-pano.html" class="grid-thumb">
+				<img src="img/grid/thumbs/rotr-pano-250.jpg" alt="Rock on the Range 2017 Panorama">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Rock on the Range 2017 Panorama</h2>
+	            	<p class="meta">May 2017 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art auto history water">
-			<a href="img/grid/andrettilongbeach.jpg"><img src="img/grid/thumbs/andrettilongbeach-250.jpg" alt="Andretti vs Andretti at Long Beach (1986)"></a>
-         	<div class="info">
-        		<h2 class="title">Andretti vs Andretti at Long Beach (1986)</h2>
-            	<p class="date">March 2017</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art auto history water" data-lightbox="off">
+			<a href="/gallery/andrettilongbeach.html" class="grid-thumb">
+				<img src="img/grid/thumbs/andrettilongbeach-250.jpg" alt="Andretti vs Andretti at Long Beach (1986)">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Andretti vs Andretti at Long Beach (1986)</h2>
+	            	<p class="meta">March 2017 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art landscapes travel water">
-			<a href="img/grid/pelicanvenice.jpg"><img src="img/grid/thumbs/pelicanvenice-250.jpg" alt="Amanda (Pelecanus Venezia)"></a>
-         	<div class="info">
-        		<h2 class="title">Amanda (Pelecanus Venezia)</h2>
-            	<p class="date">December 2016</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art birds landscapes travel water" data-lightbox="off">
+			<a href="/gallery/pelicanvenice.html" class="grid-thumb">
+				<img src="img/grid/thumbs/pelicanvenice-250.jpg" alt="Amanda (Pelecanus Venezia)">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Amanda (Pelecanus Venezia)</h2>
+	            	<p class="meta">December 2016 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos auto chicagoland landscapes">
-			<a href="img/grid/nascarchicago-start.jpg"><img src="img/grid/thumbs/nascarchicago-start-250.jpg" alt="Nascar at Chicagoland Speedway"></a>
-         	<div class="info">
-        		<h2 class="title">Nascar at Chicagoland Speedway</h2>
-            	<p class="date">September 2015</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="art birds landscapes water" data-lightbox="off">
+			<a href="/gallery/ospreykingfisher.html" class="grid-thumb">
+				<img src="img/grid/thumbs/ospreykingfisher-250.jpg" alt="Osprey &amp; Kingfisher">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Osprey &amp; Kingfisher</h2>
+	            	<p class="meta">December 2015 &bull; Ink &amp; Watercolor on Paper</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos landscapes travel">
-			<a href="img/grid/blackwaterfalls.jpg"><img src="img/grid/thumbs/blackwaterfalls-250.jpg" alt="Waterfall at Blackwater Falls State Park"></a>
-         	<div class="info">
-        		<h2 class="title">Waterfall at Blackwater Falls State Park</h2>
-            	<p class="date">September 2015</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos auto chicagoland landscapes" data-lightbox="off">
+			<a href="/gallery/nascarchicago-start.html" class="grid-thumb">
+				<img src="img/grid/thumbs/nascarchicago-start-250.jpg" alt="Nascar at Chicagoland Speedway">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Nascar at Chicagoland Speedway</h2>
+	            	<p class="meta">September 2015 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos auto travel">
-			<a href="img/grid/montoyaindycar-midohio.jpg"><img src="img/grid/thumbs/montoyaindycar-midohio-250.jpg" alt="Montoya Penske IndyCar at Mid-Ohio"></a>
-         	<div class="info">
-        		<h2 class="title">Montoya Penske IndyCar at Mid-Ohio</h2>
-            	<p class="date">August 2015</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos landscapes travel" data-lightbox="off">
+			<a href="/gallery/blackwaterfalls.html" class="grid-thumb">
+				<img src="img/grid/thumbs/blackwaterfalls-250.jpg" alt="Waterfall at Blackwater Falls State Park">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Waterfall at Blackwater Falls State Park</h2>
+	            	<p class="meta">September 2015 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos landscapes travel">
-			<a href="img/grid/ei-sunrise.jpg"><img src="img/grid/thumbs/ei-sunrise-250.jpg" alt="Emerald Isle, NC: Sunrise"></a>
-         	<div class="info">
-        		<h2 class="title">Emerald Isle, NC: Sunrise</h2>
-            	<p class="date">June 2015</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos auto travel" data-lightbox="off">
+			<a href="/gallery/montoyaindycar-midohio.html" class="grid-thumb">
+				<img src="img/grid/thumbs/montoyaindycar-midohio-250.jpg" alt="Montoya Penske IndyCar at Mid-Ohio">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Montoya Penske IndyCar at Mid-Ohio</h2>
+	            	<p class="meta">August 2015 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos auto travel">
-			<a href="img/grid/formulae-longbeach.jpg"><img src="img/grid/thumbs/formulae-longbeach-250.jpg" alt="Formula E Long Beach ePrix"></a>
-         	<div class="info">
-        		<h2 class="title">Formula E Long Beach ePrix</h2>
-            	<p class="date">April 2015</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos landscapes travel" data-lightbox="off">
+			<a href="/gallery/ei-sunrise.html" class="grid-thumb">
+				<img src="img/grid/thumbs/ei-sunrise-250.jpg" alt="Emerald Isle, NC: Sunrise">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Emerald Isle, NC: Sunrise</h2>
+	            	<p class="meta">June 2015 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos landscapes movies travel">
-			<a href="img/grid/sundance-mainst.jpg"><img src="img/grid/thumbs/sundance-mainst-250.jpg" alt="Sundance 2015: Evening on Main Street"></a>
-         	<div class="info">
-        		<h2 class="title">Sundance 2015: Evening on Main Street</h2>
-            	<p class="date">January 2015</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos auto travel" data-lightbox="off">
+			<a href="/gallery/formulae-longbeach.html" class="grid-thumb">
+				<img src="img/grid/thumbs/formulae-longbeach-250.jpg" alt="Formula E Long Beach ePrix">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Formula E Long Beach ePrix</h2>
+	            	<p class="meta">April 2015 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art auto history portraits water">
-			<a href="img/grid/jimclark.jpg"><img src="img/grid/thumbs/jimclark-250.jpg" alt="Jim Clark Driving The Lotus 49"></a>
-         	<div class="info">
-        		<h2 class="title">Jim Clark Driving The Lotus 49</h2>
-            	<p class="date">December 2014</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="photos landscapes movies travel" data-lightbox="off">
+			<a href="/gallery/sundance-mainst.html" class="grid-thumb">
+				<img src="img/grid/thumbs/sundance-mainst-250.jpg" alt="Sundance 2015: Evening on Main Street">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Sundance 2015: Evening on Main Street</h2>
+	            	<p class="meta">January 2015 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art movies portraits water">
-			<a href="img/grid/swampthing.jpg"><img src="img/grid/thumbs/swampthing-250.jpg" alt="Swamp Thing"></a>
-         	<div class="info">
-        		<h2 class="title">Swamp Thing</h2>
-            	<p class="date">October 2014</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art auto history portraits water" data-lightbox="off">
+			<a href="/gallery/jimclark.html" class="grid-thumb">
+				<img src="img/grid/thumbs/jimclark-250.jpg" alt="Jim Clark Driving The Lotus 49">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Jim Clark Driving The Lotus 49</h2>
+	            	<p class="meta">December 2014 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art movies portraits water">
-			<a href="img/grid/edwardscissorhands.jpg"><img src="img/grid/thumbs/edwardscissorhands-250.jpg" alt="Edward Scissorhands"></a>
-         	<div class="info">
-        		<h2 class="title">Edward Scissorhands</h2>
-            	<p class="date">October 2014</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art movies portraits water" data-lightbox="off">
+			<a href="/gallery/swampthing.html" class="grid-thumb">
+				<img src="img/grid/thumbs/swampthing-250.jpg" alt="Swamp Thing">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Swamp Thing</h2>
+	            	<p class="meta">October 2014 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos landscapes travel">
-			<a href="img/grid/camdenlighthouse.jpg"><img src="img/grid/thumbs/camdenlighthouse-250.jpg" alt="Camden Lighthouse from aboard Schooner Olad"></a>
-         	<div class="info">
-        		<h2 class="title">Camden Lighthouse from aboard Schooner Olad</h2>
-            	<p class="date">July 2014</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="art movies portraits water" data-lightbox="off">
+			<a href="/gallery/edwardscissorhands.html" class="grid-thumb">
+				<img src="img/grid/thumbs/edwardscissorhands-250.jpg" alt="Edward Scissorhands">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Edward Scissorhands</h2>
+	            	<p class="meta">October 2014 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art portraits water">
-			<a href="img/grid/screechowl.jpg"><img src="img/grid/thumbs/screechowl-250.jpg" alt="Eastern Screech Owl"></a>
-         	<div class="info">
-        		<h2 class="title">Eastern Screech Owl</h2>
-            	<p class="date">March 2014</p>
-            	<p class="medium">Ink Brush</p>
-          	</div>
+		<li data-filters="photos landscapes travel" data-lightbox="off">
+			<a href="/gallery/camdenlighthouse.html" class="grid-thumb">
+				<img src="img/grid/thumbs/camdenlighthouse-250.jpg" alt="Camden Lighthouse from aboard Schooner Olad">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Camden Lighthouse from aboard Schooner Olad</h2>
+	            	<p class="meta">July 2014 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art history portraits">
-			<a href="img/grid/quanahparker.jpg"><img src="img/grid/thumbs/quanahparker-250.jpg" alt="Quanah Park, Last Chief of the Comanches"></a>
-         	<div class="info">
-        		<h2 class="title">Quanah Park, Last Chief of the Comanches</h2>
-            	<p class="date">June 2012</p>
-            	<p class="medium">Ink Pen</p>
-          	</div>
+		<li data-filters="art birds portraits water" data-lightbox="off">
+			<a href="/gallery/screechowl.html" class="grid-thumb">
+				<img src="img/grid/thumbs/screechowl-250.jpg" alt="Eastern Screech Owl">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Eastern Screech Owl</h2>
+	            	<p class="meta">March 2014 &bull; Ink Brush</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art movies water">
-			<a href="img/grid/earthvsflyingsaucers.jpg"><img src="img/grid/thumbs/earthvsflyingsaucers-250.jpg" alt="Earth vs the Flying Saucers"></a>
-         	<div class="info">
-        		<h2 class="title">Earth vs the Flying Saucers</h2>
-            	<p class="date">May 2012</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art history portraits" data-lightbox="off">
+			<a href="/gallery/quanahparker.html" class="grid-thumb">
+				<img src="img/grid/thumbs/quanahparker-250.jpg" alt="Quanah Park, Last Chief of the Comanches">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Quanah Park, Last Chief of the Comanches</h2>
+	            	<p class="meta">June 2012 &bull; Ink Pen</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art landscapes water">
-			<a href="img/grid/bluejaydesert.jpg"><img src="img/grid/thumbs/bluejaydesert-250.jpg" alt="Blue Jay in the Desert"></a>
-         	<div class="info">
-        		<h2 class="title">Blue Jay in the Desert</h2>
-            	<p class="date">May 2012</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art movies water" data-lightbox="off">
+			<a href="/gallery/earthvsflyingsaucers.html" class="grid-thumb">
+				<img src="img/grid/thumbs/earthvsflyingsaucers-250.jpg" alt="Earth vs the Flying Saucers">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Earth vs the Flying Saucers</h2>
+	            	<p class="meta">May 2012 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art movies water">
-			<a href="img/grid/frankcellardoor.jpg"><img src="img/grid/thumbs/frankcellardoor-250.jpg" alt="Frank and the Cellar Door"></a>
-         	<div class="info">
-        		<h2 class="title">Frank and the Cellar Door</h2>
-            	<p class="date">May 2012</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art birds landscapes water" data-lightbox="off">
+			<a href="/gallery/bluejaydesert.html" class="grid-thumb">
+				<img src="img/grid/thumbs/bluejaydesert-250.jpg" alt="Blue Jay in the Desert">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Blue Jay in the Desert</h2>
+	            	<p class="meta">May 2012 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art history portraits water">
-			<a href="img/grid/chopin.jpg"><img src="img/grid/thumbs/chopin-250.jpg" alt="Frederic Chopin"></a>
-         	<div class="info">
-        		<h2 class="title">Frederic Chopin</h2>
-            	<p class="date">May 2012</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art movies water" data-lightbox="off">
+			<a href="/gallery/frankcellardoor.html" class="grid-thumb">
+				<img src="img/grid/thumbs/frankcellardoor-250.jpg" alt="Frank and the Cellar Door">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Frank and the Cellar Door</h2>
+	            	<p class="meta">May 2012 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art movies portraits water">
-			<a href="img/grid/eternalsunshine.jpg"><img src="img/grid/thumbs/eternalsunshine-250.jpg" alt="Eternal Sunshine"></a>
-         	<div class="info">
-        		<h2 class="title">Eternal Sunshine</h2>
-            	<p class="date">May 2012</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art history portraits water" data-lightbox="off">
+			<a href="/gallery/chopin.html" class="grid-thumb">
+				<img src="img/grid/thumbs/chopin-250.jpg" alt="Frederic Chopin">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Frederic Chopin</h2>
+	            	<p class="meta">May 2012 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos chicagoland landscapes">
-			<a href="img/grid/bloomingdale.jpg"><img src="img/grid/thumbs/bloomingdale-250.jpg" alt="Reframing Ruin: Bloomingdale Trail Twilight"></a>
-         	<div class="info">
-        		<h2 class="title">Reframing Ruin: Bloomingdale Trail Twilight</h2>
-            	<p class="date">May 2011</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="art movies portraits water" data-lightbox="off">
+			<a href="/gallery/eternalsunshine.html" class="grid-thumb">
+				<img src="img/grid/thumbs/eternalsunshine-250.jpg" alt="Eternal Sunshine">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Eternal Sunshine</h2>
+	            	<p class="meta">May 2012 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art portraits oil travel">
-			<a href="img/grid/fqmg.jpg"><img src="img/grid/thumbs/fqmg-250.jpg" alt="French Quarter Motorcycle Guitarist"></a>
-         	<div class="info">
-        		<h2 class="title">French Quarter Motorcycle Guitarist</h2>
-            	<p class="date">February 2011</p>
-            	<p class="medium">Oil on Paper</p>
-          	</div>
+		<li data-filters="photos chicagoland landscapes" data-lightbox="off">
+			<a href="/gallery/bloomingdale.html" class="grid-thumb">
+				<img src="img/grid/thumbs/bloomingdale-250.jpg" alt="Reframing Ruin: Bloomingdale Trail Twilight">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Reframing Ruin: Bloomingdale Trail Twilight</h2>
+	            	<p class="meta">May 2011 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art history oil portraits">
-			<a href="img/grid/meltingdoge.jpg"><img src="img/grid/thumbs/meltingdoge-250.jpg" alt="The Melting Doge"></a>
-         	<div class="info">
-        		<h2 class="title">The Melting Doge</h2>
-            	<p class="date">January 2011</p>
-            	<p class="medium">Oil on Paper</p>
-          	</div>
+		<li data-filters="art portraits oil travel" data-lightbox="off">
+			<a href="/gallery/fqmg.html" class="grid-thumb">
+				<img src="img/grid/thumbs/fqmg-250.jpg" alt="French Quarter Motorcycle Guitarist">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">French Quarter Motorcycle Guitarist</h2>
+	            	<p class="meta">February 2011 &bull; Oil on Paper</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos chicagoland landscapes">
-			<a href="img/grid/frozenpromontory.jpg"><img src="img/grid/thumbs/frozenpromontory-250.jpg" alt="Frozen Bench at Promontory Point"></a>
-         	<div class="info">
-        		<h2 class="title">Frozen Bench at Promontory Point</h2>
-            	<p class="date">December 2010</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="art history oil portraits" data-lightbox="off">
+			<a href="/gallery/meltingdoge.html" class="grid-thumb">
+				<img src="img/grid/thumbs/meltingdoge-250.jpg" alt="The Melting Doge">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">The Melting Doge</h2>
+	            	<p class="meta">January 2011 &bull; Oil on Paper</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos auto travel">
-			<a href="img/grid/schumi-italy.jpg"><img src="img/grid/thumbs/schumi-italy-250.jpg" alt="Michael Schumacher at the Italian Grand Prix"></a>
-         	<div class="info">
-        		<h2 class="title">Michael Schumacher at the Italian Grand Prix</h2>
-            	<p class="date">September 2010</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos chicagoland landscapes" data-lightbox="off">
+			<a href="/gallery/frozenpromontory.html" class="grid-thumb">
+				<img src="img/grid/thumbs/frozenpromontory-250.jpg" alt="Frozen Bench at Promontory Point">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Frozen Bench at Promontory Point</h2>
+	            	<p class="meta">December 2010 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos travel">
-			<a href="img/grid/nottevenezia.jpg"><img src="img/grid/thumbs/nottevenezia-250.jpg" alt="Notte a Venezia (Night in Venice)"></a>
-         	<div class="info">
-        		<h2 class="title">Notte a Venezia (Night in Venice)</h2>
-            	<p class="date">September 2010</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos auto travel" data-lightbox="off">
+			<a href="/gallery/schumi-italy.html" class="grid-thumb">
+				<img src="img/grid/thumbs/schumi-italy-250.jpg" alt="Michael Schumacher at the Italian Grand Prix">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Michael Schumacher at the Italian Grand Prix</h2>
+	            	<p class="meta">September 2010 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos landscapes travel">
-			<a href="img/grid/lugano.jpg"><img src="img/grid/thumbs/lugano-250.jpg" alt="Lugano, Switzerland"></a>
-         	<div class="info">
-        		<h2 class="title">Lugano, Switzerland</h2>
-            	<p class="date">September 2010</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="photos travel" data-lightbox="off">
+			<a href="/gallery/nottevenezia.html" class="grid-thumb">
+				<img src="img/grid/thumbs/nottevenezia-250.jpg" alt="Notte a Venezia (Night in Venice)">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Notte a Venezia (Night in Venice)</h2>
+	            	<p class="meta">September 2010 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art history oil portraits">
-			<a href="img/grid/mingojack.jpg"><img src="img/grid/thumbs/mingojack-250.jpg" alt="The Murder of Mingo Jack, book cover"></a>
-         	<div class="info">
-        		<h2 class="title">The Murder of Mingo Jack, book cover</h2>
-            	<p class="date">January 2010</p>
-            	<p class="medium">Oil on MDF Board</p>
-          	</div>
+		<li data-filters="photos landscapes travel" data-lightbox="off">
+			<a href="/gallery/lugano.html" class="grid-thumb">
+				<img src="img/grid/thumbs/lugano-250.jpg" alt="Lugano, Switzerland">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Lugano, Switzerland</h2>
+	            	<p class="meta">September 2010 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="photos landscapes travel">
-			<a href="img/grid/wahkeena.jpg"><img src="img/grid/thumbs/wahkeena-250.jpg" alt="Wahkeena Falls, Oregon"></a>
-         	<div class="info">
-        		<h2 class="title">Wahkeena Falls, Oregon</h2>
-            	<p class="date">July 2009</p>
-            	<p class="medium"></p>
-          	</div>
+		<li data-filters="art history oil portraits" data-lightbox="off">
+			<a href="/gallery/mingojack.html" class="grid-thumb">
+				<img src="img/grid/thumbs/mingojack-250.jpg" alt="The Murder of Mingo Jack, book cover">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">The Murder of Mingo Jack, book cover</h2>
+	            	<p class="meta">January 2010 &bull; Oil on MDF Board</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art history movies oil portraits undergrad">
-			<a href="img/grid/cormanandpoe.jpg"><img src="img/grid/thumbs/cormanandpoe-250.jpg" alt="Corman and Poe"></a>
-         	<div class="info">
-        		<h2 class="title">Corman and Poe</h2>
-            	<p class="date">November 2007</p>
-            	<p class="medium">Oil on Canvas</p>
-          	</div>
+		<li data-filters="photos landscapes travel" data-lightbox="off">
+			<a href="/gallery/wahkeena.html" class="grid-thumb">
+				<img src="img/grid/thumbs/wahkeena-250.jpg" alt="Wahkeena Falls, Oregon">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Wahkeena Falls, Oregon</h2>
+	            	<p class="meta">July 2009 &bull; </p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art oil portraits undergrad">
-			<a href="img/grid/ninetofive.jpg"><img src="img/grid/thumbs/ninetofive-250.jpg" alt="Nine to Five"></a>
-         	<div class="info">
-        		<h2 class="title">Nine to Five</h2>
-            	<p class="date">October 2007</p>
-            	<p class="medium">Oil and Mixed Media on MDF Board</p>
-          	</div>
+		<li data-filters="art history movies oil portraits undergrad" data-lightbox="off">
+			<a href="/gallery/cormanandpoe.html" class="grid-thumb">
+				<img src="img/grid/thumbs/cormanandpoe-250.jpg" alt="Corman and Poe">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Corman and Poe</h2>
+	            	<p class="meta">November 2007 &bull; Oil on Canvas</p>
+	          	</div>
+          	</a>
 		</li>
 		
-		<li data-filters="art movies portraits undergrad water">
-			<a href="img/grid/vincentprice.jpg"><img src="img/grid/thumbs/vincentprice-250.jpg" alt="Vincent Price in His Laboratory"></a>
-         	<div class="info">
-        		<h2 class="title">Vincent Price in His Laboratory</h2>
-            	<p class="date">August 2006</p>
-            	<p class="medium">Ink &amp; Watercolors</p>
-          	</div>
+		<li data-filters="art oil portraits undergrad" data-lightbox="off">
+			<a href="/gallery/ninetofive.html" class="grid-thumb">
+				<img src="img/grid/thumbs/ninetofive-250.jpg" alt="Nine to Five">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Nine to Five</h2>
+	            	<p class="meta">October 2007 &bull; Oil and Mixed Media on MDF Board</p>
+	          	</div>
+          	</a>
+		</li>
+		
+		<li data-filters="art movies portraits undergrad water" data-lightbox="off">
+			<a href="/gallery/vincentprice.html" class="grid-thumb">
+				<img src="img/grid/thumbs/vincentprice-250.jpg" alt="Vincent Price in His Laboratory">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">Vincent Price in His Laboratory</h2>
+	            	<p class="meta">August 2006 &bull; Ink &amp; Watercolors</p>
+	          	</div>
+          	</a>
 		</li>
 		
 	</ul>
@@ -478,7 +570,6 @@
 
 
 
-  <script src="/js/jquery.min.js"></script>
   <script src="/js/main.js"></script>
 
 </body>

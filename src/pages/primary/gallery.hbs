@@ -7,15 +7,16 @@ modified:
 
 {{#art}}
 <h1>{{page-name}}</h1>
-<h2>Albums</h2>
-<ul>
+<h2 class="album-header">Albums</h2>
+<ul class="album-grid">
 	{{#each albums}}
 	<li>
 		<a href="/{{path}}.html">
-			<img src="{{thumb}}" alt="{{albumName}}">
-			<h3>{{albumName}}</h3>
-			<p class="type">{{type}}</p>
-			<p class="album-meta">{{count}} | {{year}}</p>
+			<img src="img/grid/thumbs/{{thumb}}-267.jpg" alt="{{albumName}}">
+			<div class="info">
+				<h3 class="title">{{albumName}}</h3>
+				<p class="album-meta">{{count}} {{year}} &bull; {{type}}</p>
+			</div>
 		</a>
 	</li>
 	{{/each}}

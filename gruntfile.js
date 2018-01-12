@@ -18,7 +18,7 @@
 				},
 				build: {
 					files: {
-						'build/js/main.js': ['src/js/scripts.js']
+						'build/js/main.js': ['src/js/main.js']
 					}
 				}
 			},
@@ -35,11 +35,8 @@
 				primary: {
 					files: {'build/': ['src/pages/primary/*.hbs']}
 				},
-				art: {
-					files: {'build/art/': ['src/pages/art/*.hbs']}
-				},
-				photos: {
-					files: {'build/photos/': ['src/pages/photos/*.hbs']}
+				gallery: {
+					files: {'build/gallery/': ['src/pages/gallery/*.hbs']}
 				},
 				birds: {
 					files: {'build/birds/': ['src/pages/birds/*.hbs']}
@@ -98,7 +95,7 @@
 					tasks: ['sass']
 				},
 				js: {
-					files: ['src/js/scripts.js'],
+					files: ['src/js/main.js'],
 					tasks: ['uglify']
 				},
 				js_lib: {

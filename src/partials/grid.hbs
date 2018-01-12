@@ -2,13 +2,15 @@
 <section class="gallery-grid">
 	<ul>
 		{{#each works}}
-		<li data-filters="{{filters}}">
-			<a href="img/grid/{{imgFile}}.jpg"><img src="img/grid/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}"></a>
-         	<div class="info">
-        		<h2 class="title">{{imgTitle}}</h2>
-            	<p class="date">{{month}} {{year}}</p>
-            	<p class="medium">{{medium}}</p>
-          	</div>
+		<li data-filters="{{filters}}" data-lightbox="off">
+			<a href="/gallery/{{imgFile}}.html" class="grid-thumb">
+				<img src="img/grid/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}">
+				<button class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+	         	<div class="info">
+	        		<h2 class="title">{{imgTitle}}</h2>
+	            	<p class="meta">{{month}} {{year}} &bull; {{medium}}</p>
+	          	</div>
+          	</a>
 		</li>
 		{{/each}}
 	</ul>

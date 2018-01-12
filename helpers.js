@@ -1,165 +1,91 @@
-module.exports.pageNav = function(type,id) {
-
-  var artTitles = [
+module.exports.pageNav = function(id) {
+  var galleryTitles = [
+    "Emerald Isle, NC: Sunset",
+    "2017 Indy 500",
+    "Wood Brothers #21 (1963, 1976, 2017)",
+    "Rock on the Range 2017 Panorama",
+    "Andretti vs Andretti at Long Beach (1986)",
     "Amanda (Pelecanus Venezia)",
     "Osprey & Kingfisher",
+    "Nascar at Chicagoland Speedway",
+    "Waterfall at Blackwater Falls State Park",
+    "Montoya Penske IndyCar at Mid-Ohio",
+    "Emerald Isle, NC: Sunrise",
+    "Formula E Long Beach ePrix",
+    "Sundance 2015: Evening on Main Street",
     "Jim Clark Driving The Lotus 49",
     "Swamp Thing",
     "Edward Scissorhands",
+    "Camden Lighthouse from aboard Schooner Olad",
     "Eastern Screech Owl",
     "Quanah Park, Last Chief of the Comanches",
+    "Earth vs the Flying Saucers",
     "Blue Jay in the Desert",
     "Frank and the Cellar Door",
     "Frederic Chopin",
     "Eternal Sunshine",
+    "Reframing Ruin: Bloomingdale Trail Twilight",
     "French Quarter Motorcycle Guitarist",
     "The Melting Doge",
+    "Frozen Bench at Promontory Point",
+    "Michael Schumacher at the Italian Grand Prix",
+    "Notte a Venezia (Night in Venice)",
+    "Lugano, Switzerland",
     "The Murder of Mingo Jack, book cover",
+    "Wahkeena Falls, Oregon",
     "Corman and Poe",
     "Nine to Five",
     "Vincent Price in His Laboratory"
   ];
-  var artIds = [
-     "pelicanvenice",
-     "ospreykingfisher",
-     "jimclark",
-     "swampthing",
-     "edwardscissorhands",
-     "screechowl",
-     "quanahparker",
-     "bluejaydesert",
-     "frankcellardoor",
-     "chopin",
-     "eternalsunshine",
-     "fqmg",
-     "meltingdoge",
-     "mingojack",
-     "cormanandpoe",
-     "ninetofive",
-     "vincentprice"
-  ];
-  var photoTitles = [
-    "Emerald Isle, NC: Sunset",
-    "2017 Indy 500",
-    "Rock on the Range 2017 Panorama",
-    "San Diego",
-    "Venezia Honeymoon",
-    "Austria: Innsbruck, Salzburg, and Seefeld",
-    "Printer's Row Perspective",
-    "Frozen Chicago Lakefront",
-    "Formula 1 U.S. Grand Prix: Standing on the Track",
-    "Formula 1 U.S. Grand Prix: Race Start",
-    "Nascar at Chicagoland Speedway",
-    "Flying Over Chicago",
-    "Waterfall at Blackwater Falls State Park",
-    "Montoya Penske IndyCar at Mid-Ohio",
-    "Navy Pier Cormorant and Old Ferris Wheel",
-    "Fort Macon, NC Self-Portrait",
-    "Emerald Isle, NC: Sunrise",
-    "Formula E Long Beach ePrix",
-    "Sundance 2015: Evening on Main Street",
-    "Curtis Island Lighthouse from aboard Schooner Olad",
-    "Monadnock Staircase",
-    "Open Range: Joshua Tree",
-    "Open Range: Grand Canyon",
-    "Open Range: On The Road",
-    "Open Range: Navajo National Monument",
-    "Open Range: Hidden Skull in Monument Valley",
-    "Open Range: Saddleback Mesa (book cover)",
-    "Open Range: Lee's Ferry, Colorado River",
-    "Open Range: Kayaking Lake Powell",
-    "Reframing Ruin: Bloomingdale Trail Twilight",
-    "Frozen Bench at Promontory Point",
-    "2010 Formula 1 Italian Grand Prix",
-    "Notte a Venezia (Night in Venice)",
-    "Lugano, Switzerland",
-    "Wahkeena Falls, Oregon",
-    "South Yorkshire Countryside, England",
-    "English Portfolio: High Bradfield",
-    "English Portfolio: Liverpool",
-    "Emerald Isle, NC: Under the Bogue Inlet Pier"
-  ];
-  var photoIds = [
+  var galleryIds = [
     "ei-sunset",
     "2017indy500",
+    "woodbrothers21",
     "rotr-pano",
-    "sandiego",
-    "venezia",
-    "austria",
-    "printersrow",
-    "frozenlakefront",
-    "2015usgp-track",
-    "2015usgp-start",
+    "andrettilongbeach",
+    "pelicanvenice",
+    "ospreykingfisher",
     "nascarchicago-start",
-    "flyingoverchicago",
     "blackwaterfalls",
     "montoyaindycar-midohio",
-    "navypiercomorant-ferris",
-    "fortmaconself",
     "ei-sunrise",
     "formulae-longbeach",
     "sundance-mainst",
+    "jimclark",
+    "swampthing",
+    "edwardscissorhands",
     "camdenlighthouse",
-    "monadnock",
-    "openrange-joshuatree",
-    "openrange-grandcanyon",
-    "openrange-ontheroad",
-    "openrange-navajomonument",
-    "openrange-skull",
-    "openrange-saddleback",
-    "openrange-leesferry",
-    "openrange-lakepowell",
+    "screechowl",
+    "quanahparker",
+    "earthvsflyingsaucers",
+    "bluejaydesert",
+    "frankcellardoor",
+    "chopin",
+    "eternalsunshine",
     "bloomingdale",
+    "fqmg",
+    "meltingdoge",
     "frozenpromontory",
-    "italiangp",
+    "schumi-italy",
     "nottevenezia",
     "lugano",
+    "mingojack",
     "wahkeena",
-    "syorkshire",
-    "england-bradfield",
-    "england-liverpool",
-    "ei-bogueinletpier"
+    "cormanandpoe",
+    "ninetofive",
+    "vincentprice"
   ];
+  var num = (galleryIds.indexOf(id) > -1) ? galleryIds.indexOf(id) : 0,
+      totalWorks = galleryIds.length - 1,
+      prevNum = (num === 0) ? totalWorks : num - 1,
+      nextNum = (num === totalWorks) ? 0 : num + 1,
+      prevTitle = galleryTitles[prevNum],
+      prevId = galleryIds[prevNum],
+      nextTitle = galleryTitles[nextNum],
+      nextId = galleryIds[nextNum];
 
-  var num,
-      totalWorks,
-      prevNum,
-      nextNum,
-      prevTitle,
-      prevId,
-      nextTitle,
-      nextId;
-
-  if (type == 'art') {
-
-    num = (artIds.indexOf(id) > -1) ? artIds.indexOf(id) : 0;
-
-    totalWorks = artTitles.length - 1;
-    prevNum = (num == 0) ? totalWorks : num - 1;
-    nextNum = (num == totalWorks) ? 0 : num + 1;
-
-    prevTitle = artTitles[prevNum];
-    prevId = artIds[prevNum];
-    nextTitle = artTitles[nextNum];
-    nextId = artIds[nextNum];
-
-  } else if (type == 'photos') {
-
-    num = (photoIds.indexOf(id) > -1) ? photoIds.indexOf(id) : 0;
-
-    totalWorks = photoTitles.length - 1;
-    prevNum = (num == 0) ? totalWorks : num - 1;
-    nextNum = (num == totalWorks) ? 0 : num + 1;
-
-    prevTitle = photoTitles[prevNum];
-    prevId = photoIds[prevNum];
-    nextTitle = photoTitles[nextNum];
-    nextId = photoIds[nextNum];
-    
-  }
-
-  return '<li class="prev"><a href="'+prevId+'.html"><img src="../img/'+type+'/thumbs/'+prevId+'-250.jpg" alt="'+prevTitle+'"><span>'+prevTitle+'</span></a></li>'+
-         '<li class="next"><a href="'+nextId+'.html"><img src="../img/'+type+'/thumbs/'+nextId+'-250.jpg" alt="'+nextTitle+'"><span>'+nextTitle+'</span></a></li>';
+  return '<li class="prev"><a href="'+prevId+'.html"><img src="../img/grid/thumbs/'+prevId+'-250.jpg" alt="'+prevTitle+'"><span>'+prevTitle+'</span></a></li>'+
+         '<li class="next"><a href="'+nextId+'.html"><img src="../img/grid/thumbs/'+nextId+'-250.jpg" alt="'+nextTitle+'"><span>'+nextTitle+'</span></a></li>';
 };
 
 module.exports.monthNumber = function(month)  { 

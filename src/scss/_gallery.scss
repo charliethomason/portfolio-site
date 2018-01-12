@@ -1,6 +1,6 @@
-#content.art,
-#content.photos,
-#content.code {
+#page-art,
+#page-photos,
+#page-code {
   padding:25px;
   @include tablet {
     padding:10px;
@@ -193,7 +193,7 @@
     }
   }
 }
-#content.code {
+#page-code {
   .code-heading {
     margin-bottom:5px;
   }

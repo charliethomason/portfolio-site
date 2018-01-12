@@ -3,7 +3,7 @@
   "albums": [
     {
       "path": "birds/index",
-      "thumb": "",
+      "thumb": "birds",
       "albumName": "Birds of Chicagoland",
       "type": "Ink & Watercolors",
       "count": "15",
@@ -11,7 +11,7 @@
     },
     {
       "path": "photos/venezia",
-      "thumb": "",
+      "thumb": "venezia",
       "albumName": "Venezia Honeymoon",
       "type": "Digital Photography",
       "count": "60",
@@ -19,7 +19,7 @@
     },
     {
       "path": "photos/austria",
-      "thumb": "",
+      "thumb": "austria",
       "albumName": "Austria: Innsbruck, Seefeld, and Salzburg",
       "type": "Digital Photography",
       "count": "25",
@@ -27,7 +27,7 @@
     },
     {
       "path": "photos/sandiego",
-      "thumb": "",
+      "thumb": "sandiego",
       "albumName": "San Diego",
       "type": "Digital Photography",
       "count": "25",
@@ -35,7 +35,7 @@
     },
     {
       "path": "photos/openrange",
-      "thumb": "",
+      "thumb": "openrange",
       "albumName": "Open Range",
       "type": "Film & Digital Photography",
       "count": "?",
@@ -43,7 +43,7 @@
     },
     {
       "path": "photos/englishportfolio",
-      "thumb": "",
+      "thumb": "england",
       "albumName": "English Portfolio",
       "type": "Film & Digital Photography",
       "count": "?",
@@ -59,6 +59,10 @@
       {
         "name": "Auto Racing",
         "val": "auto"
+      },
+      {
+        "name": "Birds",
+        "val": "birds"
       },
       {
         "name": "Chicagoland",
@@ -148,7 +152,15 @@
         "year": "2016",
         "month":"December",
         "medium": "Ink & Watercolors",
-        "filters": "art landscapes travel water"
+        "filters": "art birds landscapes travel water"
+      },
+      {
+        "imgTitle": "Osprey & Kingfisher",
+        "imgFile": "ospreykingfisher",
+        "year": "2015",
+        "month":"December",
+        "medium": "Ink & Watercolor on Paper",
+        "filters": "art birds landscapes water"
       },
       {
         "imgTitle": "Nascar at Chicagoland Speedway",
@@ -229,7 +241,7 @@
         "year": "2014",
         "month":"March",
         "medium": "Ink Brush",
-        "filters": "art portraits water"
+        "filters": "art birds portraits water"
       },
       {
         "imgTitle": "Quanah Park, Last Chief of the Comanches",
@@ -253,7 +265,7 @@
         "year": "2012",
         "month":"May",
         "medium": "Ink & Watercolors",
-        "filters": "art landscapes water"
+        "filters": "art birds landscapes water"
       },
       {
         "imgTitle": "Frank and the Cellar Door",

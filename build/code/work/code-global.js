@@ -1,22 +1,25 @@
-var charlieBurger = document.getElementById('charlie-hamburger');
-var charlieNav = document.getElementById('charlie-main-nav').querySelector('ul');
-charlieBurger.addEventListener('click',function(e) {
-  e.preventDefault();
-  if (charlieNav.classList) {
-    charlieNav.classList.toggle('shown');
-  } else {
-    var classes = charlieNav.className.split(' ');
-    var existingIndex = -1;
-    for (var i = classes.length; i--;) {
-      if (classes[i] === 'shown') {
-        existingIndex = i;
+var charlie = charlie || {};
+charlie.init = function() {
+  function init() {
+    var charlieBurger = document.getElementById('charlie-hamburger');
+    var charlieNav = document.querySelector('#charlie-main-nav ul');
+    charlieBurger.addEventListener('click', function(e) {
+      e.preventDefault();
+      var shown = charlieNav.getAttribute('data-show');
+      if (shown === 'true') {
+        charlieNav.setAttribute('data-show', 'false');
+      } else {
+        charlieNav.setAttribute('data-show', 'true');
       }
-    }
-    if (existingIndex >= 0) {
-      classes.splice(existingIndex, 1);
-    } else {
-      classes.push('shown');
-    }
-    charlieNav.className = classes.join(' ');
+    });
   }
-});
+  init();
+}
+charlie.isReady = function() {
+  if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
+    charlie.init();
+  } else {
+    document.addEventListener('DOMContentLoaded', charlie.init);
+  }
+};
+charlie.isReady();

@@ -8,14 +8,17 @@
 
 		<nav id="main-nav" role="navigation">
 			<a href="#" id="hamburger"><span> </span>Menu</a>
-			<ul role="menu">
+			<ul role="menu" data-show="false">
 				<li{{#is ../modified.class 'index'}} class="active"{{/is}}>
 					<a href="/index.html" role="menuitem">Home</a>
 				</li>
 				<li{{#is ../modified.class 'about'}} class="active"{{/is}}{{#is ../modified.class 'etc'}} class="active"{{/is}}>
 					<a href="/about.html" role="menuitem">About</a>
 				</li>
-				<li{{#is ../modified.class 'gallery'}} class="active"{{/is}}>
+				<li {{#is ../modified.class 'gallery'}} class="active"{{/is}}
+					{{#is ../modified.class 'birds'}} class="active"{{/is}}
+					{{#is ../modified.class 'art'}} class="active"{{/is}}
+					{{#is ../modified.class 'photos'}} class="active"{{/is}}>
 					<a href="/gallery.html" role="menuitem">Gallery</a>
 				</li>
 				<li{{#is ../modified.class 'code'}} class="active"{{/is}}>
@@ -29,5 +32,5 @@
 
 <main id="main" role="main">
 
-	<section id="content"{{#if ../modified.class}} class="{{../../modified.class}}"{{/if}}>
+	<section class="content"{{#if ../modified.class}} id="page-{{../../modified.class}}"{{/if}}>
 {{/header}}
