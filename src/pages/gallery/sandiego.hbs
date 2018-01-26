@@ -1,0 +1,26 @@
+---
+modified:
+  title: "San Diego"
+  class: album
+---
+{{> header}}
+
+<div class="gallery-page-head">
+  <h1>{{modified.title}}</h1>
+  <div class="photo-count">25 photos</div>
+  <div class="gallery-date">Feb 3-8, 2017</div>
+</div>
+<div class="gallery-nav">
+  <a href="/photos.html">&laquo; Return to Gallery</a>
+  <a href="#" class="trigger-lightbox">View in Lightbox</a>
+</div>
+
+{{#sandiego}}
+
+{{> gallery-page}}
+{{> pagenav}}
+
+{{/sandiego}}
+
+
+{{> footer}}

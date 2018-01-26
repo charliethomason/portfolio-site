@@ -7,20 +7,6 @@ modified:
 
 {{#art}}
 <h1>{{page-name}}</h1>
-<h2 class="album-header">Albums</h2>
-<ul class="album-grid">
-	{{#each albums}}
-	<li>
-		<a href="/{{path}}.html">
-			<img src="img/grid/thumbs/{{thumb}}-267.jpg" alt="{{albumName}}">
-			<div class="info">
-				<h3 class="title">{{albumName}}</h3>
-				<p class="album-meta">{{count}} {{year}} &bull; {{type}}</p>
-			</div>
-		</a>
-	</li>
-	{{/each}}
-</ul>
 {{> filters}}
 {{> grid}}
 {{/art}}

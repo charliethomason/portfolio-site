@@ -1,57 +1,11 @@
 {
   "page-name": "Gallery",
-  "albums": [
-    {
-      "path": "birds/index",
-      "thumb": "birds",
-      "albumName": "Birds of Chicagoland",
-      "type": "Ink & Watercolors",
-      "count": "15",
-      "year": "2014-2016"
-    },
-    {
-      "path": "photos/venezia",
-      "thumb": "venezia",
-      "albumName": "Venezia Honeymoon",
-      "type": "Digital Photography",
-      "count": "60",
-      "year": "2016"
-    },
-    {
-      "path": "photos/austria",
-      "thumb": "austria",
-      "albumName": "Austria: Innsbruck, Seefeld, and Salzburg",
-      "type": "Digital Photography",
-      "count": "25",
-      "year": "2016"
-    },
-    {
-      "path": "photos/sandiego",
-      "thumb": "sandiego",
-      "albumName": "San Diego",
-      "type": "Digital Photography",
-      "count": "25",
-      "year": "2017"
-    },
-    {
-      "path": "photos/openrange",
-      "thumb": "openrange",
-      "albumName": "Open Range",
-      "type": "Film & Digital Photography",
-      "count": "?",
-      "year": "2011"
-    },
-    {
-      "path": "photos/englishportfolio",
-      "thumb": "england",
-      "albumName": "English Portfolio",
-      "type": "Film & Digital Photography",
-      "count": "?",
-      "year": "2008"
-    }
-  ],
   "filters": {
     "filter": [
+      {
+        "name": "Albums",
+        "val": "album"
+      },
       {
         "name": "Art",
         "val": "art"
@@ -107,13 +61,13 @@
     ]
   },
   "grid": {
-    "type": "art",
     "works": [
       {
         "imgTitle": "Emerald Isle, NC: Sunset",
         "imgFile": "ei-sunset",
         "year": "2017",
         "month": "June",
+        "medium": "Digital Photography",
         "filters": "photos landscapes travel"
       },
       {
@@ -121,10 +75,11 @@
         "imgFile": "2017indy500",
         "year": "2017",
         "month": "May",
+        "medium": "Digital Photography",
         "filters": "photos auto chicagoland"
       },
       {
-        "imgTitle": "Wood Brothers #21 (1963, 1976, 2017)",
+        "imgTitle": "Wood Brothers #21 History",
         "imgFile": "woodbrothers21",
         "year": "2017",
         "month":"May",
@@ -132,19 +87,40 @@
         "filters": "art auto history water"
       },
       {
-        "imgTitle": "Rock on the Range 2017 Panorama",
+        "imgTitle": "Rock on the Range Panorama",
         "imgFile": "rotr-pano",
         "year": "2017",
         "month": "May",
+        "medium": "Digital Photography",
         "filters": "photos travel"
       },
       {
-        "imgTitle": "Andretti vs Andretti at Long Beach (1986)",
+        "imgTitle": "Andretti vs Andretti at Long Beach",
         "imgFile": "andrettilongbeach",
         "year": "2017",
         "month":"March",
         "medium": "Ink & Watercolors",
         "filters": "art auto history water"
+      },
+      {
+        "imgTitle": "San Diego",
+        "imgFile": "sandiego",
+        "path": "gallery/sandiego",
+        "year": "2017",
+        "medium": "Digital Photography",
+        "filters": "photos travel landscapes birds album",
+        "imgCount": "25",
+        "gallery": true
+      },
+      {
+        "imgTitle": "Birds of Chicagoland",
+        "imgFile": "birds",
+        "path": "gallery/index",
+        "year": "2014-2016",
+        "medium": "Ink & Watercolors",
+        "filters": "art birds landscapes water album",
+        "imgCount": "15",
+        "gallery": true
       },
       {
         "imgTitle": "Amanda (Pelecanus Venezia)",
@@ -153,6 +129,26 @@
         "month":"December",
         "medium": "Ink & Watercolors",
         "filters": "art birds landscapes travel water"
+      },
+      {
+        "imgTitle": "Venezia Honeymoon",
+        "imgFile": "venezia",
+        "path": "gallery/venezia",
+        "year": "2016",
+        "medium": "Digital Photography",
+        "filters": "photos travel landscapes history album",
+        "imgCount": "60",
+        "gallery": true
+      },
+      {
+        "imgTitle": "Austria",
+        "imgFile": "austria",
+        "path": "gallery/austria",
+        "year": "2016",
+        "medium": "Digital Photography",
+        "filters": "photos travel landscapes history album",
+        "imgCount": "25",
+        "gallery": true
       },
       {
         "imgTitle": "Osprey & Kingfisher",
@@ -167,20 +163,23 @@
         "imgFile": "nascarchicago-start",
         "year": "2015",
         "month": "September",
+        "medium": "Digital Photography",
         "filters": "photos auto chicagoland landscapes"
       },
       {
-        "imgTitle": "Waterfall at Blackwater Falls State Park",
+        "imgTitle": "Blackwater Falls State Park",
         "imgFile": "blackwaterfalls",
         "year": "2015",
         "month": "September",
+        "medium": "Digital Photography",
         "filters": "photos landscapes travel"
       },
       {
-        "imgTitle": "Montoya Penske IndyCar at Mid-Ohio",
+        "imgTitle": "Penske IndyCar at Mid-Ohio",
         "imgFile": "montoyaindycar-midohio",
         "year": "2015",
         "month": "August",
+        "medium": "Digital Photography",
         "filters": "photos auto travel"
       },
       {
@@ -188,6 +187,7 @@
         "imgFile": "ei-sunrise",
         "year": "2015",
         "month": "June",
+        "medium": "Digital Photography",
         "filters": "photos landscapes travel"
       },
       {
@@ -195,17 +195,19 @@
         "imgFile": "formulae-longbeach",
         "year": "2015",
         "month": "April",
+        "medium": "Digital Photography",
         "filters": "photos auto travel"
       },
       {
-        "imgTitle": "Sundance 2015: Evening on Main Street",
+        "imgTitle": "Sundance 2015: Main Street",
         "imgFile": "sundance-mainst",
         "year": "2015",
         "month": "January",
+        "medium": "Digital Photography",
         "filters": "photos landscapes movies travel"
       },
       {
-        "imgTitle": "Jim Clark Driving The Lotus 49",
+        "imgTitle": "Jim Clark in the Lotus 49",
         "imgFile": "jimclark",
         "year": "2014",
         "month":"December",
@@ -229,10 +231,11 @@
         "filters": "art movies portraits water"
       },
       {
-        "imgTitle": "Camden Lighthouse from aboard Schooner Olad",
+        "imgTitle": "Camden Lighthouse",
         "imgFile": "camdenlighthouse",
         "year": "2014",
         "month": "July",
+        "medium": "Digital Photography",
         "filters": "photos landscapes travel"
       },
       {
@@ -244,7 +247,7 @@
         "filters": "art birds portraits water"
       },
       {
-        "imgTitle": "Quanah Park, Last Chief of the Comanches",
+        "imgTitle": "Quanah Park",
         "imgFile": "quanahparker",
         "year": "2012",
         "month":"June",
@@ -292,10 +295,21 @@
         "filters": "art movies portraits water"
       },
       {
-        "imgTitle": "Reframing Ruin: Bloomingdale Trail Twilight",
+        "imgTitle": "Open Range",
+        "imgFile": "openrange",
+        "path": "gallery/openrange",
+        "year": "2011",
+        "medium": "Film & Digital Photography",
+        "filters": "photos travel landscapes history album",
+        "imgCount": "?",
+        "gallery": true
+      },
+      {
+        "imgTitle": "Bloomingdale Trail Twilight",
         "imgFile": "bloomingdale",
         "year": "2011",
         "month": "May",
+        "medium": "Long-exposure Digital Photography",
         "filters": "photos chicagoland landscapes"
       },
       {
@@ -319,20 +333,23 @@
         "imgFile": "frozenpromontory",
         "year": "2010",
         "month": "December",
+        "medium": "HDR Digital Photography",
         "filters": "photos chicagoland landscapes"
       },
       {
-        "imgTitle": "Michael Schumacher at the Italian Grand Prix",
+        "imgTitle": "Schumacher at Italian GP",
         "imgFile": "schumi-italy",
         "year": "2010",
         "month": "September",
+        "medium": "Digital Photography",
         "filters": "photos auto travel"
       },
       {
-        "imgTitle": "Notte a Venezia (Night in Venice)",
+        "imgTitle": "Notte a Venezia",
         "imgFile": "nottevenezia",
         "year": "2010",
         "month": "September",
+        "medium": "Long-exposure Digital Photography",
         "filters": "photos travel"
       },
       {
@@ -340,10 +357,11 @@
         "imgFile": "lugano",
         "year": "2010",
         "month": "September",
+        "medium": "Digital Photography",
         "filters": "photos landscapes travel"
       },
       {
-        "imgTitle": "The Murder of Mingo Jack, book cover",
+        "imgTitle": "The Murder of Mingo Jack",
         "imgFile": "mingojack",
         "year": "2010",
         "month":"January",
@@ -355,7 +373,18 @@
         "imgFile": "wahkeena",
         "year": "2009",
         "month": "July",
+        "medium": "Digital Photography",
         "filters": "photos landscapes travel"
+      },
+      {
+        "imgTitle": "English Portfolio",
+        "imgFile": "england",
+        "path": "gallery/englishportfolio",
+        "year": "2008",
+        "medium": "Film & Digital Photography",
+        "filters": "photos travel landscapes history album",
+        "imgCount": "?",
+        "gallery": true
       },
       {
         "imgTitle": "Corman and Poe",
@@ -374,7 +403,7 @@
         "filters": "art oil portraits undergrad"
       },
       {
-        "imgTitle": "Vincent Price in His Laboratory",
+        "imgTitle": "Vincent Price",
         "imgFile": "vincentprice",
         "year": "2006",
         "month":"August",

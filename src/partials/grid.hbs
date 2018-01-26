@@ -2,13 +2,21 @@
 <section class="gallery-grid">
 	<ul>
 		{{#each works}}
-		<li data-filters="{{filters}}" data-lightbox="off">
+		<li data-filters="{{filters}}">
+			{{#if gallery}}
+			<a href="/{{path}}.html" class="grid-thumb">
+			{{else}}
 			<a href="/gallery/{{imgFile}}.html" class="grid-thumb">
+			{{/if}}
 				<img src="img/grid/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}" data-img="img/grid/{{imgFile}}.jpg">
+				{{#if gallery}}
+				<div class="album-tag">Album</div>
+				{{else}}
 				<button type="button" class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
+				{{/if}}
 	         	<div class="info">
 	        		<h2 class="title">{{imgTitle}}</h2>
-	            	<p class="meta">{{month}} {{year}} &bull; {{medium}}</p>
+	            	<p class="meta">{{#if gallery}}{{imgCount}} images{{else}}{{month}}{{/if}} {{year}} <br>{{medium}}</p>
 	          	</div>
           	</a>
 		</li>
@@ -19,7 +27,6 @@
 	<div class="lightbox-mask"></div>
 	<div class="lightbox-content">
 		<img src="" alt="">
-		<div class="lightbox-title"></div>
 		<button type="button" class="lightbox-close">Close</button>
 	</div>
 </div>
