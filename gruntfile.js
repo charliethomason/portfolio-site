@@ -54,22 +54,6 @@
 						dest: 'build/img/'
 					}]
 				},
-				js_lib: {
-					files: [{
-						expand: true,
-						cwd: 'src/js/lib/',
-						src: ['**'],
-						dest: 'build/js'
-					}]
-				},
-				css_lib: {
-					files: [{
-						expand: true,
-						cwd: 'src/css/',
-						src: ['**'],
-						dest: 'build/css/'
-					}]
-				},
 				code_work: {
 					files: [{
 						expand: true,
@@ -97,10 +81,6 @@
 				js: {
 					files: ['src/js/main.js'],
 					tasks: ['uglify']
-				},
-				js_lib: {
-					files: ['src/js/lib/*.js'],
-					tasks: ['copy:js_lib']
 				},
 				html: {
 					files: ['src/layouts/*.hbs', 'src/pages/**/*.hbs', 'src/partials/*.hbs', 'src/data/*.json'],

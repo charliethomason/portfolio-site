@@ -35,7 +35,7 @@
       margin:auto;
       max-width:100%;
     }
-    &.fixed-lightbox {
+    &[data-lightbox="true"] {
       margin:0;
       &:after {
         top:8px;
