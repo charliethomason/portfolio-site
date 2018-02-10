@@ -3,15 +3,15 @@
     "items": [
       {
         "type": "Art",
-        "workTitle": "Birds of Chicagoland",
-        "url": "birds/",
-        "imgSrc": "art/thumbs/birds-250"
+        "workTitle": "A Mexican Vaquero (Study)",
+        "url": "gallery/mexicanvaquero.html",
+        "imgSrc": "grid/thumbs/mexicanvaquero-250"
       },
       {
-        "type": "Photos",
-        "workTitle": "Emerald Isle, NC: Sunset",
-        "url": "gallery/ei-sunset.html",
-        "imgSrc": "photos/thumbs/ei-sunset-250"
+        "type": "Book",
+        "workTitle": "Birds of Chicagoland",
+        "url": "birds/",
+        "imgSrc": "grid/thumbs/birds-250"
       },
       {
         "type": "Code",

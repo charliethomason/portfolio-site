@@ -1,0 +1,18 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Wood Brothers #21 History",
+        "imgFile": "woodbrothers21",
+        "year": "2017",
+        "month": "05",
+        "medium": "Watercolor on Paper",
+        "description": "Description coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "id": "woodbrothers21"
+  }
+}

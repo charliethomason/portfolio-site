@@ -1,0 +1,18 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Andretti vs Andretti at Long Beach",
+        "imgFile": "andrettilongbeach",
+        "year": "2017",
+        "month": "03",
+        "medium": "Watercolor on Paper",
+        "description": "Description coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "id": "andrettilongbeach"
+  }
+}

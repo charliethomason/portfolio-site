@@ -1,0 +1,18 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Michael Schumacher at Monaco",
+        "imgFile": "schumi-monaco",
+        "year": "2017",
+        "month": "11",
+        "medium": "Watercolor on Paper",
+        "description": "Description coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "id": "schumi-monaco"
+  }
+}

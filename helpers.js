@@ -1,5 +1,7 @@
 module.exports.pageNav = function(id) {
   var galleryTitles = [
+    "A Mexican Vaquero (Study)",
+    "Schumacher at Monaco",
     "Emerald Isle, NC: Sunset",
     "2017 Indy 500",
     "Wood Brothers #21 (1963, 1976, 2017)",
@@ -9,6 +11,7 @@ module.exports.pageNav = function(id) {
     "Amanda (Pelecanus Venezia)",
     "Venezia Honeymoon",
     "Austria",
+    "Stormtrooper Generations",
     "Osprey & Kingfisher",
     "Nascar at Chicagoland Speedway",
     "Waterfall at Blackwater Falls State Park",
@@ -41,6 +44,8 @@ module.exports.pageNav = function(id) {
     "Vincent Price in His Laboratory"
   ];
   var galleryIds = [
+    "mexicanvaquero",
+    "schumi-monaco",
     "ei-sunset",
     "2017indy500",
     "woodbrothers21",
@@ -50,6 +55,7 @@ module.exports.pageNav = function(id) {
     "pelicanvenice",
     "venezia",
     "austria",
+    "stormtroopers",
     "ospreykingfisher",
     "nascarchicago-start",
     "blackwaterfalls",

@@ -1,0 +1,18 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Earth vs the Flying Saucers",
+        "imgFile": "earthvsflyingsaucers",
+        "year": "2012",
+        "month": "05",
+        "medium": "Ink & Watercolor on Paper",
+        "description": "Description coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "id": "earthvsflyingsaucers"
+  }
+}

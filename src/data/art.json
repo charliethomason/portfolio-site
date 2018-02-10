@@ -63,6 +63,22 @@
   "grid": {
     "works": [
       {
+        "imgTitle": "A Mexican Vaquero (Study)",
+        "imgFile": "mexicanvaquero",
+        "year": "2017",
+        "month": "December",
+        "medium": "Oil on Canvas",
+        "filters": "art portraits history oil"
+      },
+      {
+        "imgTitle": "Schumacher at Monaco",
+        "imgFile": "schumi-monaco",
+        "year": "2017",
+        "month": "November",
+        "medium": "Watercolor on Paper",
+        "filters": "art portraits auto history water"
+      },
+      {
         "imgTitle": "Emerald Isle, NC: Sunset",
         "imgFile": "ei-sunset",
         "year": "2017",
@@ -83,7 +99,7 @@
         "imgFile": "woodbrothers21",
         "year": "2017",
         "month":"May",
-        "medium": "Ink & Watercolors",
+        "medium": "Watercolor on Paper",
         "filters": "art auto history water"
       },
       {
@@ -99,7 +115,7 @@
         "imgFile": "andrettilongbeach",
         "year": "2017",
         "month":"March",
-        "medium": "Ink & Watercolors",
+        "medium": "Watercolor on Paper",
         "filters": "art auto history water"
       },
       {
@@ -117,7 +133,7 @@
         "imgFile": "birds",
         "path": "birds/index",
         "year": "2014-2016",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art birds landscapes water album",
         "imgCount": "15",
         "gallery": true
@@ -127,7 +143,7 @@
         "imgFile": "pelicanvenice",
         "year": "2016",
         "month":"December",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art birds landscapes travel water"
       },
       {
@@ -151,10 +167,18 @@
         "gallery": true
       },
       {
+        "imgTitle": "Stormtrooper Generations",
+        "imgFile": "stormtroopers",
+        "year": "2016",
+        "month": "January",
+        "medium": "Ink on Paper",
+        "filters": "art movies portraits"
+      },
+      {
         "imgTitle": "Osprey & Kingfisher",
         "imgFile": "ospreykingfisher",
         "year": "2015",
-        "month":"December",
+        "month": "December",
         "medium": "Ink & Watercolor on Paper",
         "filters": "art birds landscapes water"
       },
@@ -211,7 +235,7 @@
         "imgFile": "jimclark",
         "year": "2014",
         "month":"December",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art auto history portraits water"
       },
       {
@@ -219,7 +243,7 @@
         "imgFile": "swampthing",
         "year": "2014",
         "month":"October",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art movies portraits water"
       },
       {
@@ -227,7 +251,7 @@
         "imgFile": "edwardscissorhands",
         "year": "2014",
         "month": "October",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink on Paper",
         "filters": "art movies portraits water"
       },
       {
@@ -243,7 +267,7 @@
         "imgFile": "screechowl",
         "year": "2014",
         "month":"March",
-        "medium": "Ink Brush",
+        "medium": "Ink on Paper",
         "filters": "art birds portraits water"
       },
       {
@@ -251,7 +275,7 @@
         "imgFile": "quanahparker",
         "year": "2012",
         "month":"June",
-        "medium": "Ink Pen",
+        "medium": "Ink Pen on Paper",
         "filters": "art history portraits"
       },
       {
@@ -259,7 +283,7 @@
         "imgFile": "earthvsflyingsaucers",
         "year": "2012",
         "month": "May",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art movies water"
       },
       {
@@ -267,7 +291,7 @@
         "imgFile": "bluejaydesert",
         "year": "2012",
         "month":"May",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art birds landscapes water"
       },
       {
@@ -275,7 +299,7 @@
         "imgFile": "frankcellardoor",
         "year": "2012",
         "month":"May",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art movies water"
       },
       {
@@ -283,7 +307,7 @@
         "imgFile": "chopin",
         "year": "2012",
         "month":"May",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art history portraits water"
       },
       {
@@ -291,7 +315,7 @@
         "imgFile": "eternalsunshine",
         "year": "2012",
         "month":"May",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink & Watercolor on Paper",
         "filters": "art movies portraits water"
       },
       {
@@ -407,7 +431,7 @@
         "imgFile": "vincentprice",
         "year": "2006",
         "month":"August",
-        "medium": "Ink & Watercolors",
+        "medium": "Ink on Paper",
         "filters": "art movies portraits undergrad water"
       }
     ]
