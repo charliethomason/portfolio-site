@@ -325,7 +325,7 @@
         "year": "2011",
         "medium": "Film & Digital Photography",
         "filters": "photos travel landscapes history album",
-        "imgCount": "?",
+        "imgCount": "8",
         "gallery": true
       },
       {
@@ -402,12 +402,12 @@
       },
       {
         "imgTitle": "English Portfolio",
-        "imgFile": "england",
+        "imgFile": "englishportfolio",
         "path": "gallery/englishportfolio",
         "year": "2008",
         "medium": "Film & Digital Photography",
         "filters": "photos travel landscapes history album",
-        "imgCount": "?",
+        "imgCount": "5",
         "gallery": true
       },
       {

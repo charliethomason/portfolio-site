@@ -30,6 +30,7 @@ module.exports.pageNav = function(id) {
     "Frank and the Cellar Door",
     "Frederic Chopin",
     "Eternal Sunshine",
+    "Open Range",
     "Reframing Ruin: Bloomingdale Trail Twilight",
     "French Quarter Motorcycle Guitarist",
     "The Melting Doge",
@@ -39,6 +40,7 @@ module.exports.pageNav = function(id) {
     "Lugano, Switzerland",
     "The Murder of Mingo Jack, book cover",
     "Wahkeena Falls, Oregon",
+    "English Portfolio",
     "Corman and Poe",
     "Nine to Five",
     "Vincent Price in His Laboratory"
@@ -74,6 +76,7 @@ module.exports.pageNav = function(id) {
     "frankcellardoor",
     "chopin",
     "eternalsunshine",
+    "openrange",
     "bloomingdale",
     "fqmg",
     "meltingdoge",
@@ -83,6 +86,7 @@ module.exports.pageNav = function(id) {
     "lugano",
     "mingojack",
     "wahkeena",
+    "englishportfolio",
     "cormanandpoe",
     "ninetofive",
     "vincentprice"

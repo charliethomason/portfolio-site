@@ -1,0 +1,77 @@
+{
+  "date": "June, 2008",
+  "medium": "Film & Digital Photography",
+  "folder": "gallery-openrange",
+  "gallery-page": {
+    "works": [
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-grandcanyon",
+        "location": "",
+        "camera": "Panasonic Lumix GF1",
+        "lens": "Panasonic 7-14mm f/4.0",
+        "date": "Saturday, February 4",
+        "description": "Description coming soon..."
+      },
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-joshuatree",
+        "location": "",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, February 3",
+        "description": "Description coming soon..."
+      },
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-lakepowell",
+        "location": "",
+        "camera": "Apple iPhone 6",
+        "date": "Wednesday, February 8",
+        "description": "Description coming soon..."
+      },
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-leesferry",
+        "location": "",
+        "camera": "Apple iPhone 6",
+        "date": "Saturday, February 4",
+        "description": "Description coming soon..."
+      },
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-navajomonument",
+        "location": "",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, February 3",
+        "description": "Description coming soon..."
+      },
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-ontheroad",
+        "location": "",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, February 3",
+        "description": "Description coming soon..."
+      },
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-saddleback",
+        "location": "",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, February 3",
+        "description": "Description coming soon..."
+      },
+      {
+        "imgTitle": "Open Range",
+        "imgFile": "openrange-skull",
+        "location": "",
+        "camera": "Apple iPhone 6",
+        "date": "Friday, February 3",
+        "description": "Description coming soon..."
+      }
+    ]
+  },
+  "pagenav": {
+    "id": "openrange"
+  }
+}
