@@ -1,0 +1,20 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Michael Schumacher at Italian GP",
+        "imgFile": "schumi-italy",
+        "year": "2010",
+        "month": "09",
+        "medium": "Digital Photography",
+        "location": "Autodromo Nazionale di Monza, Monza, Italy",
+        "description": "In 2010, my parents and then-girlfriend (now wife) took a trip to Switzerland and Italy. While there, my Dad and I attended the 2010 Formula One Italian Grand Prix in Monza. We were seated right near the famous \"Curva Parabolica\", where we had a great view of the race. The race was eventually won by Scuderia Ferrari driver Fernando Alonso, which led to myself and all the Italian fans storming the track in celebration. The race was also the one opportunity I had to see my <a href=\"/gallery/schumi-monaco.html\">childhood favorite driver Michael Schumacher</a> as a driver for the Mercedes team, pictured here. It was also the last opportunity I had to attend a race with the older, louder car engines, before the hybrid era began."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "photos",
+    "id": "lugano"
+  }
+}

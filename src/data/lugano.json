@@ -1,5 +1,5 @@
 {
-  "folder": "photos",
+  "folder": "grid",
   "gallery-single": {
     "works": [
       {
@@ -9,7 +9,7 @@
         "month": "09",
         "medium": "Digital Photography",
         "location": "Lugano, Switzerland",
-        "description": "Description coming soon"
+        "description": "In 2010, my parents and then-girlfriend (now wife) took a trip to Switzerland and Italy. We had all been to the latter before but never the former, and found the southern city of Lugano to be absolutely beautiful. This has always been one of my favorite photos I've taken, and has been my desktop background many times. The photo was taken right near a train station, which explains the cables running through the middle of the frame. If you are ever visiting the city of Milan, Italy, it is only a 1 hour train ride north to Lugano and well worth a visit."
       }
     ]
   },
