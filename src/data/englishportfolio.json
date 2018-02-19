@@ -1,49 +1,78 @@
 {
-  "date": "Feb 15-21, 2008",
-  "medium": "Film & Digital Photography",
+  "date": "Feb 17-19, 2008",
+  "medium": "35mm & Polaroid Film Photography",
   "folder": "gallery-englishportfolio",
   "gallery-page": {
     "works": [
       {
-        "imgTitle": "English Portfolio",
-        "imgFile": "syorkshire-00",
-        "location": "",
-        "camera": "Panasonic Lumix GF1",
-        "lens": "Panasonic 7-14mm f/4.0",
-        "date": "Saturday, February 4",
-        "description": "Description coming soon..."
+        "imgTitle": "Liverpool Cathedral",
+        "imgFile": "liverpool-01",
+        "location": "Liverpool, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 17, 2008"
       },
       {
-        "imgTitle": "English Portfolio",
-        "imgFile": "syorkshire-01",
-        "location": "",
-        "camera": "Apple iPhone 6",
-        "date": "Friday, February 3",
-        "description": "Description coming soon..."
+        "imgTitle": "Liverpool Cathedral Polaroid",
+        "imgFile": "liverpool-02",
+        "location": "Liverpool, UK",
+        "camera": "Polaroid Sun 600",
+        "date": "February 17, 2008"
       },
       {
-        "imgTitle": "English Portfolio",
-        "imgFile": "syorkshire-02",
-        "location": "",
-        "camera": "Apple iPhone 6",
-        "date": "Wednesday, February 8",
-        "description": "Description coming soon..."
+        "imgTitle": "Liverpool 'Do Your Like Your Neighbours?'",
+        "imgFile": "liverpool-03",
+        "location": "Liverpool, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 17, 2008"
       },
       {
-        "imgTitle": "English Portfolio",
-        "imgFile": "england-bradfield",
-        "location": "",
-        "camera": "Apple iPhone 6",
-        "date": "Saturday, February 4",
-        "description": "Description coming soon..."
+        "imgTitle": "High Bradfield St. Nicholas Cemetery",
+        "imgFile": "bradfield-01",
+        "location": "High Bradfield, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 18, 2008"
       },
       {
-        "imgTitle": "English Portfolio",
-        "imgFile": "england-liverpool",
-        "location": "",
-        "camera": "Apple iPhone 6",
-        "date": "Friday, February 3",
-        "description": "Description coming soon..."
+        "imgTitle": "High Bradfield Church St. Nicholas",
+        "imgFile": "bradfield-02",
+        "location": "High Bradfield, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 18, 2008"
+      },
+      {
+        "imgTitle": "High Bradfield Hills",
+        "imgFile": "bradfield-03",
+        "location": "High Bradfield, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 18, 2008"
+      },
+      {
+        "imgTitle": "High Bradfield Hills Polaroid",
+        "imgFile": "bradfield-04",
+        "location": "High Bradfield, UK",
+        "camera": "Polaroid Sun 600",
+        "date": "February 18, 2008"
+      },
+      {
+        "imgTitle": "Birmingham Pigeons in a Fountain",
+        "imgFile": "birmingham-01",
+        "location": "Birmingham, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 19, 2008"
+      },
+      {
+        "imgTitle": "Birmingham's Electric Cinema",
+        "imgFile": "birmingham-02",
+        "location": "Birmingham, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 19, 2008"
+      },
+      {
+        "imgTitle": "Birmingham Old Turn Junction",
+        "imgFile": "birmingham-03",
+        "location": "Birmingham, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 19, 2008"
       }
     ]
   },

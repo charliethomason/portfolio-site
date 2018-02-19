@@ -231,4 +231,17 @@
     margin-bottom:20px;
     text-align:center;
   }
+  .album-intro {
+    @include mid500;
+    @include sans;
+    font-size:14px;
+    line-height:20px;
+    margin-bottom:20px;
+    text-align:center;
+    @include mobile {
+      font-size:12px;
+      line-height:16px;
+      padding:0 10px;
+    }
+  }
 }

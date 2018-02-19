@@ -98,7 +98,7 @@
     width: 100%;
     z-index: 1;
   }
-  #charlie-main-nav ul.shown {
+  #charlie-main-nav ul[data-show="true"] {
     left: 0;
     top: 100%;
     z-index:100;
